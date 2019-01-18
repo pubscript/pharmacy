@@ -1,0 +1,745 @@
+#+OPTIONS: org-inline-image-overlays:t org-image-actual-width:20 tex:t toc:t H:9
+#+STARTUP: latexpreview
+#+ATTR_HTML: :width 40px
+* fluids and electrolytes
+** normal electrolyte values
+*** Sodium
+136 mEq/L – 145 mEq/L
+*** Potassium
+3.5 mEq/L – 5 mEq/L
+*** Magnesium
+1.7 mg/dL – 2.3 mg/dL
+*** Calcium
+8.5 mg/dL – 10.5 mg/dL
+*** Phosphorus
+2.5 mg/dL – 4.5 mg/dL
+** crystalloids and colloids
+*** crystalloids
+- NS
+- LR
+**** distribution in fluid compartments
+**** risks
+**** benefits
+- less costly
+- fewer ADRs
+*** colloids
+- albumin
+- hydroxyethyl starch / hetastarch (HES)
+- dextran
+**** distribution in fluid compartments
+25% albumin: intravascular; 5000 mL
+**** risks
+**** benefits
+** fluid requirements
+*** maintenance
+- adults: 30-40 mL/kg
+- pediatrics: “4, 2, 1” rule
+  - 4 mL/kg/hr + 2 mL/kg/hr * (weight > 10kg) + 1 mL/kg/hr * max(0, weight - 20 kg)
+  - first 10 kg: 4 mL/kg/hr
+  - second 10 kg: 2 mL/kg/hr
+  - thereafter: 1 mL/kg/hr
+*** water deficit
+**** male
+\( 0.6 * \mathit{IBW} * \frac{sNa}{140} - 1 \)
+**** female
+\( 0.5 * \mathit{IBW} * \frac{sNa}{140} - 1 \)
+** hyponatremia
+*** treatment
+**** pharmacological
+- lithium
+- fludrocortisone
+- Tolvaptam (Samsca)
+- Conivaptan (Vaprisol)
+**** non-pharmacological
+** hypokalemia
+*** drug-induced
+transcellular shift:
+- insulin
+- β agonists
+- alkalosis, anything that causes
+enhanced renal excretion:
+- diuretics
+laxatives:
+- Sodium polystyrene sulfonate (Kayexalate)
+- Sodium zirconium cyclosilicate (Lokelma)
+- Patiromer (Veltassa)
+* shock
+** exam :ignore:
+*** pharmacology (Sharma)
+- [X] Define: shock state
+  - List various types of shock states
+  - Characteristics of shock and stages of shock
+- [X] Name various crystalloids and colloids used in the management of shock
+- [ ] List the differences in the side effect profiles of crystalloids and colloids
+- [ ] Explain pharmacological mechanisms related to various agents used in shock such as positive inotropes:  
+- [ ] adrenergic agents, dopamine, dobutamine and vasopressin
+- [ ] Major side effects associated with agents used in shock state
+** definition
+acute state characterized by inadequate perfusion of critical organs; can produce serious consequences including death
+*** types of shock
+- cardiogenic
+- hypovolemic
+- anaphylactic
+- septic
+- neurogenic
+*** stages of shock
+- initial
+- compensatory (warm)
+- progressive (cold)
+- refractory
+** treatment
+*** crystalloids :l:
+**** normal saline
+**** 5% dextrose water (D5W)
+**** Lactated Ringer’s solution
+*** colloids :l:
+**** albumin
+**** hydroxyethyl starch
+**** dextran
+*** side effects
+**** crystalloids
+- peripheral and pulmonary edema
+**** colloids
+- cardiac failure
+- edema
+* renal
+** exam :ignore:
+*** Wong
+**** phosphate management
+**** phosphate binding agents
+**** calciumemtic agent
+**** vitamin D maintains Ca homeostasis
+**** anemia related to erythrypoietin
+**** pharmacokinetic & pharmacodynamic change--general principle of changes in PK & PD changes w.r.t. pharmacotherapy
+**** exam 1
+***** dobutamine
+- beta agonist
+- positive ionotropic effect
+- pka A activity in heart
+  - phosphorylate L type calcium channel
+  - phosphorylate ryanodine receptor
+    - calcium release from SR
+    - ionotropic effect
+  - phosphorylate phospholamban (sp?)
+    - calcium cycling in the cell
+    - increases calcium usage as it's more effective
+*** Lisi
+**** objectives
+- [ ] Explain the multiple physiologic functions of the kidney
+- [ ] Understand the role of urinalysis (chemical and microscopic) in detecting and monitoring renal disease
+- [ ] Recognize methods to estimate and measure creatinine clearance and GFR in patients acute and chronic renal failure
+- [ ] Describe the role of qualitative testing, such as CT, ultrasonography, and biopsy on renal function evaluation
+- [X] Recommend appropriate screening for microalbuminuria and/or proteinuria and evaluate the results
+- [ ] Identify the signs and symptoms of kidney disease
+** chronic renal disease
+*** pathophysiology
+- anemia
+- calcium loss from bone
+  - high PTH
+  - decreased vitamin D synthesis
+- decreased renal elimination
+*** treatments :l:
+**** phosphate-binding agents
+***** MOA
+1. form insoluble phosphate compounds in GI tract
+2. excretes in feces
+**** vitamin D
+***** metabolism in organs
+****** calcitriol
+kidneys
+****** calcifediol
+liver
+****** cholecalciferol
+skin
+***** rank order of bioavailability
+calcitriol > calcifediol >>> cholecalciferol
+**** calcimimetics :l:
+***** cinaclet
+****** brand
+Sensipar
+****** adverse effects
+hypocalcemia
+****** interactions
+- CYP2D6
+  - flecainide
+  - thioridazine
+  - vinblastine
+  - tricyclic antidepressants; esp. amitriptyline
+- CYP3A4
+  - ketoconazole
+****** MOA
+1. binds to calcium-sensing receptor (CaSR)
+2. increases Ca-CaSR interaction
+3. reduce PTH secretion
+***** cinacalcet + low dose vitamin D
+**** EPO
+**** osmotic diuretics
+***** drugs :l:
+- mannitol
+- glycerin
+- isosorbide
+- urea
+***** site of action
+proximal convoluted tubule
+*** drug-disease interactions
+**** NSAIDs
+avoid NSAIDs in CKD
+**** LMWH
+- eGFT <30 mL/min lengthens t_1/2
+  - increases anticoagulant anti-10a
+  - increases risk of major bleeding
+- LMWH excreted by kidneys
+**** furosemide
+loop diuretics are effective in patients with residual renal function
+**** propranolol
+decreased clearance because chronic renal failure downregulates CYP450, which normally metabolizes propranolol
+*** terminology
+**** KDOQI
+Kidney Dialysis Outcomes and Quality Initiative
+**** KDIGO
+Kidney Disease Improving Global Outcomes
+**** kidney failure
+GFR <15 mL/min/1.73 m²
+** acute kidney injury
+*** non-pharmacologic therapy
+isotonic crystalloids
+- normal saline
+- LR
+*** KDIGO guidelines
+**** prevention
+- NAC
+- sodium bicarbonate
+These are also treatments:
+- vasopressors
+- isotonic saline
+**** treatment
+- isotonic saline
+- RRT
+- vasopressors
+*** acute intrinsic
+**** extrinsic toxins
+- aminoglycosides
+- amphotericin
+- IV contrast agents
+**** medications exacerbating :ignore:
+- penicillins
+- cephalosporins
+- ciprofloxacin
+- NSAIDs
+**** management
+***** medications
+- Prednisone 1 mg/kg/d x 1 wk
+** diabetes insipidus :l:
+*** central
+*** nephrogenic
+*** dipsogenic
+*** gestational
+** dialysis
+*** indications
+- Acid Base Abnormalities
+- Electrolyte imbalance
+- Intoxications
+- Fluid Overload
+- Uremia
+** chronic kidney disease
+*** lab tests
+**** early CKD
+- microalbuminuria
+- Mildly elevated serum creatinine and blood urea nitrogen
+**** late CKD
+- proteinuria, persistent
+- ↓ GFR
+- ↓ CrCl
+**** quantification of proteinuria
+***** 24 hour collection
+- microalbuminuria: 30-300 mg/day
+- clinical proteinuria/albuminuria ≥300 mg/day
+- normal: <300 mg/day protein
+***** albumin:creatinine; spot collection
+- microalbuminuria: 30-300 mcg/mg
+- clinical proteinuria/albuminuria: >300 mcg/mg
+- normal: <30 mcg/mg
+* acid base
+** anion gap
+*** formula
+Na - Cl - HCO₃
+*** elevated
+**** causes
+“MUDPILES” mnemonic:
+- Methanol Ingestion
+- Uremia
+- Diarrhea
+- Propylene Glycol
+- Isoniazid
+- Lactic Acidosis
+- Ethylene Glycol
+- Salicylates
+** alkalosis
+* respiratory
+** drug classes
+*** bronchodilators :l:
+**** sympathomimetics
+***** direct-acting
+****** MOA
+- β-agonists
+- α-agonists
+****** SAR
+******* w.r.t [[./phenethylamine.png]]
+- at R1 (amino): increase in R1 size increases β receptor selectivity
+- at R2 (α carbon):
+  - Ethyl group increases β receptor selectivity.
+  - Alkylation interferes with MAO metabolism; can still be metabolized by COMT
+******* catechol metabolism
+resorcinol and salicylic alcohol cannot be metabolized by COMT
+****** fundmanetal pharmacophore
+substituted β-phenylethylamine
+****** classes
+******* short acting β-2 agonists (SABAs)
+******** drugs
+********* albuterol
+********** brands
+*********** all :ignore:
+- Airolin
+- Airomir
+- Asmasal
+- Buventol
+- Evohaler
+- Inspiryl
+- Proventil
+- Salamol
+- Salbulin
+- Ventodisk
+- Ventolin
+*********** metered dose inhaler (MDI)
+- ProAir HFA
+- Proventil HFA
+- Ventolin HFA
+*********** dry powder inhaler (DPI)
+ProAir Respiclick
+********* levalbuterol
+********* pirbuterol
+********** brand
+Maxair
+********* Metaproterenol; Terbutaline
+********* Tornalate
+********* bambuterol
+********** brand
+Bambec
+********* fenoterol
+********** brand
+Berotec
+********* isoproterenol
+********** brand
+Isuprel
+********* levalbuterol
+********** brand
+Xopenex
+********* Levalbuterol
+********** brand
+Xopenex
+********* Metaproterenol
+********** brand
+- Alupent
+- Metaprel
+- ProMeta Maxair
+********* Pirbuterol
+********** brand
+Alupent, Metaprel, ProMeta
+********* Isoetherine
+********** brand
+Bronkosol, Bronkometer
+********* Terbutaline
+********** brands
+- Breathaire
+- Brethine
+- Bricanyl 
+********* Tornalate
+********** brand
+Bitolerol
+******** adverse effects
+- tachycardia
+- muscle tremors
+- dry mouth
+- urinary flow obstruction
+- increased intraocular pressure
+******** MOA
+- sympathomimetic
+- relaxes airway smooth muscles
+******* long acting beta agonists (LABAs) :l:
+******** drugs :l:
+********* salmeterol
+********* formoterol fumarate
+******** adverse effects
+- arrhythmias
+- hyperglycemia
+- hypokalemia
+******** MOA
+sympathomimetic
+******** black box warning
+LABA increases risk of asthma-related death
+***** indirect-acting
+****** releasers
+****** reuptake inhibitors
+***** intracellular target
+cAMP signaling
+**** antimuscarinic drugs
+***** SAR
+ionized N is required
+***** classes
+****** short acting inhaled muscarinic receptor antagonists (SAMAs)
+******* drugs :l:
+******** ipratropium bromide
+********* brand
+Atrovent
+******** oxitropium bromide
+******* adverse effects
+- tachycardia
+- muscle tremors
+****** long acting inhaled muscarinic receptor antagonists (LAMAs)
+******* drugs :l:
+******** tiotropium
+********* brand
+Spiriva
+******* adverse effects
+- arrhythmias
+- hyperglycemia
+- hypokalemia
+**** methyl xanthines
+***** structure
+[[./xanthine.png]]
+***** MOA
+- inhibits PDE4
+- cAMP isn’t broken down; cAMP causes bronchodilation
+***** drugs :l:
+****** theophylline
+******* brand
+Elixophyllin
+****** roflumilast
+******* brand
+Daliresp
+******* MOA
+- very potent; only 500 µg needed
+- PDE4 selective
+- safe on heart
+***** adverse effect
+- emesis/vomiting
+- can’t increase the dose because it will cause vomiting
+*** anti-inflammatory agents :l:
+**** glucocorticosteroids
+***** SAR
+****** cortisol
+******* structure
+[[./cortisol_numbered.png]]
+******* C-17 oxidation
+C-17 oxidation results in a shorter half life
+[[./cortisol_C-17_oxidase.png]]
+******* C-11
+[[./cortisol_numbered.png]]
+****** corticosteroids
+******* functional groups required for activity
+- -OH at C11 and C21
+- C=O at C3
+- C4=C5
+- -OH at C17
+******* prodrug
+- C=O at C11
+- ester at C21
+******* increase DOA
+- ester or ether at C17
+- make prodrug
+******* increases glucocorticoid activity, reduces mineralocorticoid activity
+- C1=C2
+- C16 substitution
+- C6 substitution
+******* increases both glucocorticoid and mineralocorticoid activity
+C9 fluoroidation
+***** drugs
+****** systemic :l:
+******* prednisone
+******* methylprednisone
+******* dexamethasone
+******* hydrocortisone
+****** inhaled :L:
+******* fluticasone propionate
+******** brands :l:
+********* Flovent HFA
+********** dose
+*********** low
+176 mcg
+*********** high
+>440 mcg
+********* Flovent Diskus
+********** dose
+*********** low
+200-300 mcg
+*********** high
+>500 mcg
+********* Arnuity Ellipta
+********** dose
+100-400 mcg (1-2 inh) QD
+******* triamcinolone acetonide
+******** brand
+Azmacort
+******* budenoside
+******** brand
+- Plumicort Flexhaler
+- Respules
+******* beclomethasone
+******** brand
+- QVAR
+- Beclovent
+- Vanceril
+******* flunisolide
+******** brand
+AeroBid
+******* mometasone
+******** brand
+Asmanex {HFA, Twisthaler}
+******* ciclesonide
+******** brand
+Alvesco
+***** MOA
+- inhibits synthesis of arachidonic acid
+- by inhibiting arachidonic acid, glucocorticoids inhibit expression of COX2 and in turn inhibits the synthesis of prostaglandins
+***** adverse effects
+hypokalemia
+**** Mast Cell Degranulation inhibitors
+***** drugs :l:
+****** cromolyn sodium
+****** nedocromil sodium
+**** Leukotrine Inhibitors
+***** classes :l:
+****** lipoxygenase inhibitors :l:
+******* Zileuton
+******** brand
+Zyflo
+****** leukotreine receptor inhibitors :l:
+******* monteleukast
+******** brand
+Singulair
+******* zafirlukast
+******** brand
+Accolate
+***** MOA
+reduces inflammatory response by…
+- inhibiting 5-lipoxygenase; prevents arachidonic acid → leukotrienes
+- antagonizing LTD4 receptors; blunted contraction of airway smooth muscle cells
+**** Anti-IgE monoclonal antibodies
+***** MOA
+relieves symptoms; Monoclonal antibody inhibits IgE interaction with mast cells and basophils
+[[./omalizumab_moa.png]]
+***** drugs
+****** omalizumab
+******* brand
+Xolair
+** COPD
+*** drug classes used
+- LAMA
+- LABA
+- SABA + SAMA
+- LAMBA + PDE4 inhibitor
+** asthma
+*** combination
+- FDA requires LABAs to be combined with corticosteroids
+- LABAs/corticosteroids are for prophylaxis of asthma, not acute asthma attacks
+** congestion
+*** short-acting decongestants
+α-adrenergic agonists delivered via a nasal spray
+**** drugs :l:
+***** phenylephrine
+***** oxymetazoline
+****** brand
+Afrin
+*** long-acting decongestants
+α-adrenergic agonists delivered systemically
+**** drugs
+***** pseudoephedrine
+** dry cough
+*** treatment plan
+- suppress with antitussives
+- treat with expectorants/mucolytics
+*** antitussives
+**** MOA
+depresses cough center in the medulla of the brain
+**** drugs :l:
+***** dextromethorphan
+****** brand
+- Benylin
+- Robitussin
+- Delsym
+***** codeine
+***** benzonatate
+****** brand
+Tessalon Perles
+*** expectorants/mucolytics
+**** drugs :l:
+***** acetylcysteine
+****** indication
+severe cases e.g. cystic fibrosis
+****** brand
+Mucomyst
+***** guaifenesin
+****** brand
+Robitussin
+** pulmonary arterial hypertension (PAH)
+*** epidemiology
+- females disproportionately affected 1.7:1
+- survival: 2.8 yrs without treatment
+- typically diagnosed 20-50 yo
+*** pathophysiology
+- mean pulmonary artery pressure (mPAP) of ≥25 mm Hg
+- left ventricular end diastolic pressure (LVEDP) ≤15 mm Hg
+*** WHO classification
+**** class 1
+- No symptoms
+- No limitation in ordinary physical activity
+- Median survival: 6 years
+***** recommended drug class
+CCB (after a positive vasoreactivity test)
+**** class 2
+- Mild symptoms
+- Slight limitation during ordinary activity
+- Comfortable at rest
+- Median survival: 6 years
+***** recommended drug class
+- Ambrisentan/bosentan/macitentan
+- Sildenafil/tadalafil
+- Riociguat
+**** class 3
+- Marked activity limitation due to symptoms at less-than-ordinary activity
+- Comfortable ONLY at rest
+- Median survival: 2.5 years
+***** recommended drug class
+- Bosentan/ambrisentan/macitentan
+- Sildenafil/tadalafil
+- Riociguat
+If rapid progression or poor prognosis:
+- IV epoprostenol
+- IV, SubQ, or inhaled treprostinil
+**** class 4
+- Symptoms with any activity, even at rest
+- Severe limitations
+- Median survival: 6 months
+***** recommended drug class
+- IV epoprostenol
+- IV or SubQ treprostinil
+Patients unable to receive parenteral prostanoid therapy: Inhaled iloprost/treprostinil
+*** diagnosis
+**** diagnostic gold standard
+/right heart catheterization/
+**** vasoreactivity testing
+***** short acting vasodilators:l:
+****** epoprostenol
+****** adenosine
+****** nitric oxide
+***** positive test criteria
+reduction in mPAP of [10, 40) mm Hg /without decreasing CO/
+
+Use CCBs for therapy if test is positive; do not use CCBs if negative.
+***** contraindications
+WHO FC IV symptoms
+*** risk factors
+- Drug/toxin induced
+  - Fenfluramine
+  - Amphetamines/Cocaine
+  - Chemo (etoposide, bleomycin)
+- Idiopathic vs. Familial
+- Connective tissue diseases: Portal HTN, and HIV
+- Pulmonary HTN of newborn
+- Pulmonary venoocclusive disease
+*** non-pharmacologic
+- avoid pregnancy
+- avoid high altitudes
+- avoid decongestants/vasoconstrictors
+- sodium restriction
+- aerobic exercise
+*** pharmacologic
+**** gated behind drug access programs
+- riociguat (Adempas)
+- endothelial receptor antagonists
+  - bosentan (Tracleer)
+  - ambrisentan (Letairis)
+  - macitentan (Opsumit)
+**** digoxin
+**** anticoagulation
+**** CCBs
+***** drugs
+- nifedipine
+- diltiazem
+- amlodipine
+***** contraindications
+- LVEF <40%—LV systolic dysfunction
+- negative vasoreactivity test
+**** nitric oxide pathway :l:
+***** sildenafil
+****** brand
+Reviato
+****** dose
+- 20-80 mg TID
+- doses are greater for PAH than in ED
+****** adverse effects
+vision changes
+***** tadalafil
+****** brand
+Adcirca
+****** dose
+- 20-40 mg QD
+- doses are greater for PAH than in ED
+***** riocigant
+****** brand
+Adempas
+****** indication
+chronic thromboembolic PH
+**** endothelin receptor antagonists
+- pregnancy category X
+- requires drug access program
+- hepatotoxic so measure LFTs
+***** drugs :l:
+****** bosentan
+******* brand
+Tracleer
+****** ambrisentan
+******* brand
+Letairis
+****** macitentan
+******* brand
+Opsumit
+***** monitoring parameters :ignore:
+LFTs
+***** adverse effects :ignore:
+potential serious liver injury
+***** drug access :ignore:
+requires restricted drug access program by pharmacy and prescriber because of its risks
+***** warning :ignore:
+- pregnancy category X; teratogenic
+- decreases efficacy of oral contraceptives
+**** prostacyclin pathway prostanoids
+***** drugs :l:
+****** epoprostenol
+******* brand
+- Flolan
+- Veletri
+******* ROA
+- IV
+- pump
+****** treprostinil
+******* brand
+- Remodulin
+- Tyvaso
+- Orenitram
+******* ROA
+- SC
+- IV
+- pump
+****** selexipag
+******* brand
+Uptravi
+******* ROA
+PO
+****** iloprost
+******* brand
+Ventavis
+******* ROA
+inhaled; I-neb adaptive aerosol device
+***** MOA
+relaxes smooth muscle by increasing intracellular cAMP

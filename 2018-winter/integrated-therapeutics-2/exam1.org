@@ -1,0 +1,442 @@
+* arrhythmia
+** pharmacotherapy
+*** drug interactions
+**** enzyme inducers
+- Carbamazepine 
+- Phenytoin 
+- Phenobarbital
+- Rifampin
+- St. John’s Wort
+**** enzyme inhibitors
+- Amiodarone 
+- Azithromycin/clarithromycin/erythromycin
+- Cimetidine
+- Diltiazem/verapamil 
+- Fluconazole/ketoconazole 
+- Fluoxetine/paroxetine 
+- Quinidine
+- Valproic acid
+*** anti-arrhytmic drugs
+**** Vaughan Williams classification
+***** 1
+****** CAST trial
+class 1 anti-arrhythmics are considered unacceptable in patients without life-threatening ventricular arrhythmias
+****** 1a :l:
+******* Disopyramide
+******* Quinidine
+******* Procainamide
+******** adverse effects
+fatal blood dyscrasias
+****** 1b :l:
+******* Lidocaine
+******* Mexiletine
+******** brand
+Mexitil
+****** 1c :l:
+******* Flecainide
+******** contraindications
+structural heart disease (CHD, HF, left ventricular hypertrophy, valvular heart disease)
+******* Propafenone
+******** brand
+Rythmol
+******** adverse effects
+- bitter metallic taste
+- risk of bronchospasm
+******** contraindications
+structural heart disease (CHD, HF, left ventricular hypertrophy, valvular heart disease)
+***** 2
+β-blockers
+***** 3
+****** common effect
+increases QT interval, which may lead to TdP
+****** drugs :l:
+******* Amiodarone
+******** brand
+Cordarone
+******** dose
+- IV: 300 mg over 60 min then 20 mg/kg over 24 hr
+- PO: 400 mg TID x5-7d until 10 g
+******** unique property
+long half life; 15-142 days
+******** drug interactions
+- Warfarin
+- Digoxin
+- Statins (max simvastatin dose 20 mg/day)
+- Phenytoin ↑ ≥ 50%
+- Lidocaine
+******** black box warning
+- Hepatotoxicity
+- Pulmonary toxicity
+******* Dofetilide
+******** brand
+Tikosyn
+******* Dronedarone
+******** brand
+Multaq
+******* Ibutilide
+******** brand
+Corvert
+******* Sotalol
+******** brand
+Betapace
+******** indication
+rhythm control, /not/ rate control
+***** 4 :l:
+****** Verapamil
+******* brands
+- Calan
+- Isoptin
+- Verelan
+****** Diltiazem
+******* brands
+- Cardizem
+- Dilacor
+- Tiazac
+**** not clasified in Vaughan Williams
+***** digoxin
+****** brand
+Lanoxin
+****** dosing
+- 0.5 mg IV
+- 125-250 mcg PO
+****** interactions
+******* increased by
+- amiodarone
+- quinidine
+- propafenone
+******* decreased by
+thyroid hormones
+****** toxicity
+visual disturbances—blue green halos
+***** adenosine
+****** brand
+Adenocard
+***** atropine
+*** bradyarrhytmia
+**** sinus bradycardia
+***** treatment
+atropine
+*** tachyarrhytmia
+**** supraventricular arrhytmias
+*** atrial fibrillation/atrial flutter (AF/AFL)
+**** drugs :l:
+***** Metoprolol (Lopressor®)
+***** Diltiazem
+****** brand
+Cardiazem
+***** Digoxin
+****** brands
+- Lanoxin
+- Digitek
+- Digox
+***** Amiodarone
+****** brands
+- Cordarone
+- Nexterone
+- Pacerone
+**** rate control
+- beta blockers
+- CCBs
+**** strategies for rythym control
+***** structural heart disease
+- amiodarone
+- dofetilide
+- dronedarone
+- sotalol
+***** no structural heart disease
+- amiodarone
+- dofetilide
+- dronedarone
+- sotalol
+- flecainide
+- propafenone
+**** thromboembolism
+***** CHA²DS²-VASc Score²
+- Congestive heart failure: 1 point
+- HTN: 1
+- age ≥75: 2
+- age 65-74: 1
+- diabetes: 1
+- prior stroke/TIA/TE: 2
+- vascular disease: 1
+- female: 1
+***** DOACs :l:
+****** dabigatran
+******* brand
+Pradaxa
+******* adverse effects
+- increased GI bleeding especially in elderly
+- dyspepsia
+******* dosing
+150 BID
+****** apixaban
+******* brand
+Eliquis
+******* adverse effects
+reduced GI bleeding
+******* dosing
+5 mg BID
+****** rivaroxaban
+******* brand
+Xarelto
+******* adverse effects
+increased GI bleeding
+******* dosing
+15-20 mg QD
+****** edoxaban
+******* brand
+Savaysa
+******* dosing
+60 mg QD
+*** supraventricular tachycardia
+**** acute
+- adenosine (class I)
+- IV diltiazem or verapamil (class IIa)
+- IV beta blocker (class IIa)
+**** maintenance
+- diltiazem or verapamil
+- beta blockers
+- digoxin
+*** ventricular arrhythmias
+**** ventricular tachycardia
+***** pharmacological
+amiodarone
+***** nonpharmacological
+- catheter ablation
+- implantable cardioverter-defibrilator (ICD)
+- safer and more effective than pharmacological
+**** TdP
+* heart failure
+** pharmacotherapy
+*** acute decompensated heart failure
+**** drugs
+***** diuretics
+****** thiazide :l:
+******* scope
+use as add on when not responding to loop diuretic
+******* metolazone
+******** dosing
+2.5-5 mg PO QD
+****** loop
+******* scope
+- most potent
+- effective at CrCl <30
+******* drugs :l:
+******** furosemide
+******** bumetanide
+******** torsemide
+***** vasopressin antagonists
+****** when to use
+Na <125 mmol/L
+****** drugs :l:
+******* Tolvaptan
+******** brand
+Samsca
+***** inotropes :l:
+****** dobutamine
+******* MOA
+- β1 agonist
+- increases cAMP
+- increases CO
+****** milrinone
+- mostly renally eliminated
+******* brand
+Primacor
+******* MOA
+- PDE inhibitor
+- inhibits cAMP breakdown
+- increases CO and decreases SVR
+***** vasodilators :l:
+****** nitroglycerin
+******* adverse effects
+- headache
+- tachyphylaxis
+****** nitroprusside
+****** nesiritide
+**** nonpharmacolologic
+- sodium restricted diet; <2 g/day
+- hyponatremia
+- fluid restriction
+- high sodium means brain could dry out
+- ultrafiltration
+* anemia
+** pharmacology
+*** definition
+insufficient healthy RBCs to carry adequate oxygen to the body’s tissues
+*** hematocrit
+percent of a sample of whole blood occupied by intact RBCs
+**** reference range
+***** men
+42-54%
+***** women
+38-46%
+*** hematopoeisis
+**** essential nutrients :l:
+***** iron
+***** folate
+***** vitamin B12
+****** storage
+humans store vitamin B12, so deficiency can take a long time to show up
+****** methyl-FH4 trapping
+caused by B12 deficiency
+**** erythropoietin
+***** role
+***** deficiency
+*** drugs & ADRs
+*** sickle cell anemia
+**** defects in RBCs
+**** drugs & ADRs
+*** iron deficiency anemia
+**** types :l:
+***** microcytic
+MCV <30
+***** hypochromic
+MCHC <30
+***** reduced plasma ferritin
+<12 µg/L
+**** drugs
+***** oral :l:
+****** Ferrous salts (sulfate, gluconate, fumarate)
+******* brands
+- Feosol
+- EzFe
+******* adverse effects
+- nausea
+- constipation
+- cramps
+- diarrhea
+- black stools
+******* interaction
+- vitamin C increases absorption
+- shouldn’t be taken with antacids, milk, or whole grain cereals which reduce iron absorption
+***** parenteral :l:
+****** iron dextran, Sodium ferric gluconate iron sucrose
+******* adverse effects
+- headache
+- fever
+- nausea and vomiting
+- anaphylaxis
+** pharmacotherapy
+*** morphology
+**** macrocytic
+***** megaloblastic
+- folate deficiency
+- B12 deficiency
+***** non-megaloblastic
+- Liver disease
+- EtOH
+- Endocrine
+- Hemolysis
+**** microcytic
+- iron deficiency
+- sickle cell anemia
+**** normocytic
+anemia of chronic disease (ACD)
+*** iron deficiency anemia
+**** causes
+- inadequate absorption
+- inadequate intake
+- excess blood loss
+- increased iron requirements
+  - pregnancy
+  - lactation
+  - infants
+  - rapid growth stages
+**** management
+***** iron replacement
+****** dose
+150-200 mg daily elemental iron in 2-3 divided doses (on an empty stomach) until H/H normalizes then continue 6 more months
+***** outcomes
+****** timetable
+- hemoglobin should increase within 2-3 weeks
+- 1-2 g/dL in first 2 weeks
+****** monitoring
+every 3-4 months for up to a year
+***** drug interactions
+****** iron decreases absorption
+- fluoroquinolones
+- Tetracycline and doxycycline 
+***** drugs
+****** intravenous
+******* dose
+1000 mg
+******* common side effects
+- flushing
+******* drugs
+******** iron detran
+********* usage
+must give test dose prior to administration because it has a black box warning for anaphylaxis
+********* brand
+Infed
+******** sodium ferric gluconate
+******** iron sucrose
+******** ferumoxytol
+******** ferric carboxymaltose
+*** macrocytic anemia
+**** vitamin B12 deficiency
+***** oral treatment
+cyanocobalamin 1000 mcg/day for life
+**** folic acid deficiency
+***** treatment
+- rule out vitamin B12 deficiency because B12 is required for absorption of folic acid
+- 0.4 - 1 mg PO daily
+**** drug interactions
+- methotrexate
+  - avoid if methotrexate is given for CA
+  - must give if methotrexate is given for RA
+- increases metabolism of phenytoin
+* fluid and electrolytes
+** Sodium
+*** reference range
+136 mEq/L – 145 mEq/L
+** Potassium
+*** reference range
+3.5 mEq/L– 5 mEq/L
+*** hypokalemia
+**** drug-induced
+***** transcellular shift
+- beta agonists
+- insulin
+- alkalosis
+***** enhanced renal excretion
+diuretics
+***** enhanced fecal elimination
+- Sodium polystyrene sulfonate (Kayexalate)
+- Sodium zirconium cyclosilicate (Lokelma)
+- Patiromer (Veltassa)
+**** clinical presentation
+- Muscle weakness
+- Cardiac arrhythmias
+- Rhabdomyolysis
+- Increased digoxin toxicity
+**** treatment
+***** IV
+****** KCl bolus
+20 mEq/50 mL central line over 1 hour
+*** hyperkalemia
+**** TODO causes
+***** via increasing K levels
+***** via redistribution into ECF
+**** signs and symptoms
+- abnormal cardiac conduction
+  - peaked, narrow T waves, wide QRS
+  - can progress to VF and asystole
+**** TODO treatment :l:
+***** calcium gluconate
+***** do not decrease potassium
+** Magnesium
+*** reference range
+1.7 mg/dL – 2.3 mg/dL
+*** hypomagnesemia
+**** clinical presentation
+- cardiovascular
+  - torsades de points
+  - arrhythmias
+- digoxin toxicity
+- neuromusuclar
+** Calcium
+*** reference range
+8.5 mg/dL – 10.5 mg/dL
+** Phosphorus
+*** reference range
+2.5 mg/dL – 4.5 mg/dL

@@ -1,0 +1,30 @@
+* renal
+** TODO Wong
+- [X] List the pathological changes associated with CKD such as anemia, higher PTH level, …… 
+- [X] Explain how phosphorus binding agents help CKD patients 
+- [X] Describe Vd metabolism in skin, liver and kidney; distinguish active Vd from less or inactive Vd 
+- [X] Explain how cinacalcet acts to reduce PTH secretion  
+- [X] Explain the pharmacological concerns of use NSAIDs in patients with chronic kidney diseases
+- [X] Use LMWH, furosemide, propranolol as examples to explain how kidney diseases affect drug therapy
+* respiratory
+** TODO Wong
+- [X] Describe the MOA of steroids in asthma and COPD and explain why it may cause hypokalemia 
+- [X] Describe the advantages of combination use of LABA with inhaled corticosteroids and the recent modification about the boxed warning about use the combination of asthma patients
+- [X] Describe the MOA and side effects of SABAs and LABAs
+- [ ] Compare the efficacy of LABAs, LAMAs and PDE inhibitors on asthma and COPD
+- [ ] Relate the bronchiole dilators (need to know the drug names) to their receptors or enzyme target
+- [X] Describe the major side effects of SAMA/SABA and LAMA/LABA
+- [ ] Describe the MOA of theophyllines and Roflumilast and compare their similarity and difference
+- [ ] Match the bronchodilators with their intracellular mechanisms (such as cAMP, IP3, Ca)
+- [X] Describe how to affect leukotriene pathway to treat asthma 
+- [X] Name the decongestants, antitussive drugs and mucolytics/expectorants and explain how they works to help COPD patients
+- [X] Compare the antiinflamatory action of corticorsteroids, PDE4 inhibitors and leukotriene pathway inhibitors 
+** Lisi
+*** pulmonary hypertension
+- [X] Explain key pathophysiologic and epidemiologic components of pulmonary arterial hypertension (PAH)
+- [X] Select patients at risk for PAH and generate an appropriate approach for diagnosis
+- [X] Differentiate disease severity based on World Health Organization Functional Classification
+- [ ] Compare the main receptor targets for treatment strategies for PAH
+- [X] Identify the non-pharmacologic treatments of PAH and their role in therapy
+- [X] Recognize which pharmacotherapy for PAH requires drug access programs and why
+- [ ] Design a therapeutic regimen based on overall risk: benefit considerations, including patient classification and prognostic factors

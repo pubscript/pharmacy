@@ -1,0 +1,28 @@
+#+OPTIONS: tex:t
+#+STARTUP: latexpreview
+#+LATEX_HEADER: \usepackage{amsmath}
+* formulas
+** ideal body weight (IBW)
+*** males
+\(50 kg + 2.3 kg * \text{inches over 5 feet}\)
+*** females
+\(45.5 kg + 2.3 kg * \text{inches over 5 feet}\)
+** adjusted body weight (ABW)
+\begin{equation}
+(\text{total body weight} - \text{ideal body weight})*0.4 + \text{ideal body weight}
+\end{equation}
+** Cockroft-Gault
+\begin{equation*}
+w = \begin{cases}
+\mathit{TBW} > 1.2*\mathit{IBW}  & (\mathit{TBW} - \mathit{IBW})*0.4 + \mathit{IBW}\\
+\text{otherwise}  &\mathit{IBW}
+\end{cases}
+\end{equation*}
+
+\begin{equation*}
+\mathit{CrCl}(\mathit{SCr}) = \begin{cases}
+\text{female}   & 0.85 * \frac{(140 - \mathit{age})*w}{\mathit{SCr}*72}\\
+\text{male}   & \frac{(140 - \mathit{age})*w}{\mathit{SCr}*72}
+\end{cases}
+\end{equation*}
+** 

@@ -1,0 +1,470 @@
+#+OPTIONS: org-inline-image-overlays:t org-image-actual-width:nil
+#+ATTR_HTML: :width 40px
+* antibacterial targets :l:
+** Cell Wall Biosynthesis
+*** Beta-lactam antibiotics
+**** Why do β-lactam antibiotics inhibit penicillin-binding proteins (transpeptidase)?
+(D-Ala)₂ looks a lot like penicillin, so PBP-Serine-OH reacts with penicillin instead of (D-Ala)₂ on the growing peptidoglycan polymer. β-lactam antibiotics irreversibly inhibit PBP.
+**** β-lactamase hydrolysis of penicillin
+β-lactamase-Ser-OH opens β-lactam ring at carbonyl
+**** resistance
+***** causes
+production of β-lactamase by bacteria
+***** mechanism
+β-lactamase hydrolyzes the β-lactam ring
+**** SAR
+***** overcoming resistance
+- add bulky functional groups to the acyclic amide to sterically inhibit β-lactamases
+- electron withdrawing group to acyclic amide
+***** acid stability
+- electron withdrawing group as substituent to acyclic amide
+- adding acid stability allows the drug to have good oral bioavailability
+***** both acid stability and β-lactamase resistance
+sterically bulky /and/ electron withdrawing group substituted on the acyclic amide
+**** classes :l:
+***** Penicillins
+****** types by structure :l:
+******* methicillin
+******* isoxazole
+******* ureidopenicillin
+******* acidic penicillin
+******* amino penicillin
+****** Penicillin G/V
+******* Pen G IV
+******** common use
+CNS manifestations of syphillis
+******** syphillis—causative agent
+Treponema pallidum
+******* Pen G IM PCNs
+******** common use
+major Strep infections
+******* Pen V PO
+- strep throat
+- some dental infections
+****** semi-synthetic penicillins :l:
+******* Naficillin
+******** indication
+nosocomial MSSA
+******* Methicillin
+******* Oxacillin
+stable toward acid and β-lactamase
+Bactocil
+******** brand
+******* Dicloxacillin
+stable toward acid and β-lactamase
+******** brand
+- Dycill
+- Pathocil
+******* Amoxicillin/Ampicillin
+******** coverage
+- Strep. pneumo. and Intermediate S. pneumo in higher dosage
+******** Ampicillin
+- DOC for listeria
+****** Acidic penicillins :l:
+******* Ticarcillin
+******** coverage
+- Pseudomonas
+- Gram-
+****** “isoxazole penicillins”
+- oxacillin
+- dicloxacillin
+****** Ureidopenicillins
+******* Piperacillin
+******** spectrum
+- Pseudomonas aeruginosa
+- Enterococcus
+****** Aminopenicillins
+******* ampicillin
+******** indication
+drug of choice for /Listeria/ infections
+******* amoxicillin
+******** prodrug
+form with unionized amino groups, which would be ionized at physiological pH
+****** MSSA
+sensitive staph aureus (MSSA); this is /not MRSA/
+******* practical uses
+bactericidal against staph
+****** questions
+******* PO only?
+- Penicillin V
+******* IV only?
+- Timentin
+- Zosyn
+****** physiochemical properties
+******* acid-base attacks
+acid-catalyzed ring opening of the strained Penam nucleus
+******* pH environment
+- Stable between 6-7.2
+- Do not place in highly acidic or basic environment
+****** combinations :l:
+******* Amoxicillin + Clavulanic acid
+******* Ticarcillin + Clavulanic Acid
+******* Ampicillin + Sulbactam
+******* Piperacillin + Tazobactam
+***** Cephalosporins
+****** general structure
+[[./cephalosporin_general_structure.png]]
+****** avoid with TPN or divalent metal ions
+Ceftrioxone (Rocephin)
+****** SAR
+******* free carboxylic acid at C2
+- must be present for antibacterial activity
+- prodrugs formed by making an ester with the carboxylic acid at C2
+******* 
+****** 1st generation
+******* Cefazolin
+******** brand
+Ancef
+******** ROA
+IV
+******** indication
+prophylaxis of Staphylococcus infection, esp. in surgery
+******** spectrum
+Gram-(+)
+******* Cephalexin
+******** brand
+Keflex
+******** ROA
+PO
+******** spectrum
+- Gram-(+)
+- modest activity against Gram-(-)
+******* Cefadroxil
+******** ROA
+PO
+******* Cephalothin
+******** ROA
+IV
+****** 2nd generation
+******* Cephamycins
+******** common structural feature
+7-methoxy group off the 3-cefem nucleus
+******** spectrum
+- certain anaerobic bacteria
+- Bacteroides fragilis
+******** drugs :l:
+********* cefoxitin
+********* cefotetan
+********* cefmetazole
+******* NON-cephamycins
+******** indications
+- COPD/bronchitis
+- H. influenzae
+******** drugs :l:
+********* cefaclor
+********** brand
+Raniclor
+********** ROA
+PO
+********* cefprozil
+********** brand
+Cefzil
+********** ROA
+PO
+********* cefonicid
+********* cefuroxime
+********* cefoxitin
+****** 3rd generation
+******* common structural feature
+2-amine-1,3-thiazole ring
+******* ROA
+parenteral
+******* drugs
+******** IV :l:
+********* Ceftriaxone 
+********** brand
+Rocephin
+********** DOC for
+Neisseria meningitis
+********** usage
+don’t administer within 24h of calcium products e.g. TPN
+********* Cefotaxime
+********** brand
+Claforan
+********* Ceftazidime
+********** brand
+- Fortaz
+- Tazicef
+********** coverage
+- potent inducer of β-lactamase, especially in Enterobacter
+- Pseudomonas
+- Gram-(-) rods
+******** “super hero gen”
+********* ceftazidime/avibactam
+********* ceftolozane/tazobactam
+******** PO :l:
+********* Cefixime
+********* Cefdinir
+********* Cefditore
+********* Cefixime
+********* Ceftibute
+********* Cefoperazone
+********* Ceftizoxime
+********** brand
+Cefizox
+****** 4th generation
+******* drugs
+******** Cefepime
+********* ROA
+Cefepime
+********* brand
+Maxipime
+****** 5th generation
+******* drugs :l:
+******** Ceftaroline
+********* brand
+- Teflaro
+- Fosamil
+********* ROA
+IV
+********* spectrum
+- MRSA
+- S. pneumoniae
+- K. pneumoniae
+- E. coli
+***** Carbapenems
+****** cilastin
+inhibits renal dehydropeptidase-1, which hydrolyzes the β-lactam ring of imipenem
+******* Primaxin
+Imipenem + Cilastin
+****** drugs :l:
+******* Imipenem
+******* Meropenem
+******* Doripenem
+******* Ertapenem
+******** brand
+Invanz
+****** indications
+- Basically covers everything (including anaerobes, atypicals, nasty GNRs, PA, etc).
+- Ertapenem (Invanz) barely covers anything
+****** non-indications
+- MRSA
+***** Carbacephems
+***** Monobactams
+****** drugs :l:
+******* Aztreonam
+******** ROA
+IV
+******** coverage
+- Gram-
+**** allergy
+***** structures that cause reactivity
+- β-lactam ring structure
+- S on the β-lactam ring
+- R1 group side chains
+**** structures
+***** [[./isoxazole_ring.png]]
+isoxazole ring
+***** [[./ampicillin.png]]
+ampicillin
+***** [[./cephalosporin_core_structure.png]]
+cephalosporin
+***** nuclei of each class
+****** [[./cefem_nucleus.png]]
+cefem nucleus
+****** [[./penam_nucleus.png]]
+penam nucleus
+****** [[./monobactam_nucleus.png]]
+monobactam nucleus
+*** Glycopeptide
+**** Vancomycin
+*** Glycolipopeptide
+**** Telavancin
+**** Oritavancin
+**** Dalbavancin
+*** Miscellaneous
+**** Cycloserine
+***** side effects
+CNS disturbances
+***** MOA
+- inhibits 2 key enzymes
+  - D-alanine racemase
+  - D-alanine synthase/ligase
+- blocks peptidoglycan cross linking of the myobacterial cell wall
+***** indication
+TB infections
+***** SAR
+rigid analog of D-alanine
+**** Isoniazid
+***** indication
+TB infections
+**** Ethionamide
+**** Ethambutol
+**** Teicoplanin
+*** Lipopeptides :l:
+**** Daptomycin
+***** MOA
+- lipophillic decanoyl side chain inserts into bacterial cell membrane
+- bactericidal
+***** indications
+**** Polymixins
+***** MOA
+- detergent-like effect
+- loss of cell membrane integrity
+- bactericidal
+***** indications
+- IV agent used to kill nasty infections
+- Gram(-) bacteria
+**** Bacitracin
+***** spectrum
+Gram(+)
+***** formulation
+- topical
+- only available in combinations
+  - with Polymyxin B (Polysporin™)
+  - with Polymyxin B and Neomycin (Neosporin®)
+**** Colistin
+** Cytoplasmic Membrane 
+** DNA Biosynthesis
+*** fluroquinolones
+**** MOA
+- inhibits topoisomerase II (DNA gyrase), which replicates, transcribes, and repairs bacterial DNA
+- inhibits topoisomerase IV, which partitions DNA during cell division
+- bactericidal
+- concentration-dependent
+**** structure
+[[./fluroroquinolone_keto_enol_structure.png]]
+**** SAR
+****** CNS side effects
+caused by a basic ring system substituent on C-7—pyrrolidine, piperazine, substituted piperazine, bicyclic ring system
+****** C-3
+must have a carboxylic acid at C-3
+****** N-1
+1,4-dihydroquinolone portion is essential because it freezes the drug in the correct keto-enol tautometer
+****** chelation
+- carboxylic acid at C-3
+- keto at C-4
+chelates divalent and trivalent cations; decreases oral bioavailability
+****** fluorine subsitutent
+******* at C-6
+- good activity against Gram(-) bacteria
+- broad spectrum activity
+******* at C-6 and C-8
+- improves drug absorption and half-life
+- increases drug-induced photosensitivity
+**** drugs :l:
+***** levofloxacin
+****** brand
+Levaquin
+****** spectrum
+- Gram(-)
+- atypicals
+- S. pneumoniae
+- sensitive Staph.
+***** gemifloxacin
+****** indications
+- very poor activity against Pseudomonas aeruginosa
+****** spectrum
+respiratory pathogens
+***** moxifloxacin
+****** brand
+Avelox
+****** indications
+- respiratory pathogens, including S. pneumoniae
+****** non-indicaations
+UTIs
+***** ciprofloxacin
+****** brand
+Cipro
+****** spectrum
+- enteric Gram(-) rods
+- doesn’t cover
+  - S. pneumoniae
+****** indications
+anthrax
+****** non-indications
+S. pneumoniae
+***** norfloxacin
+****** brand
+Noroxin
+****** indication
+UTIs only
+****** spectrum
+Gram(-)
+**** warnings
+ALL QUINOLONES SHOULD NOT BE CO-ADMINISTERED WITH TPN AND DIVALENT METAL IONS
+*** metronidzole
+*** nitrofurantoin
+** folate synthesis inhibitors
+*** dapsone
+*** trimethoprim/sulfamethoxazole
+** DNA-dependent RNA Polymerase
+** RNA inhibitors :l:
+*** rifamycins :l:
+**** rifampin
+**** rifabutin
+**** rifapentine
+** Protein Biosynthesis :l:
+*** tetracyclines :l:
+**** tetracycline
+**** doxyycline
+**** minocycline
+**** tigecycline
+**** ervacycline
+**** omadacycline
+*** macrolides :l:
+**** erythromycin
+**** clarithromycin
+**** azithromycin
+*** lincosamide :l:
+**** clindamycin
+*** oxazolidinones :l:
+**** linezolid
+**** tedizolid
+*** amingolycosides :l:
+**** plazomicin
+**** gentamicin
+**** tobramycin
+**** amikacin
+**** streptomycin
+** Tetrahydrofolic Acid
+* therapeutics
+** bactericidal drugs
+- Vancomycin
+- Fluoroquinolones
+- Penicillin
+- Aminoglycosides
+- Cephalosporins
+- Metronidazole
+** bacteriostatic drugs
+- Erythromycin
+- Clindamycin
+- Sulfamethoxazole
+- Trimethoprim
+- Tetracyclines
+- Chloramphenicol
+** lower respiratory infections
+*** community acquired pneumonia
+**** diagnostics :l:
+***** chest radiography (CXR)
+- most common
+- looks for
+  - infiltrate
+  - patchy consolidation
+***** pretreatment blood cultures
+test for etiology
+***** biomarkers
+- C-reactive protein (CRP)
+- procalcitonin (PCT)
+**** assessment
+***** CURB-65
+- confusion : 1 point
+- BUN ≥20 mg/dL : 1 point
+- RR ≥30 bpm : 1 point
+- SBP <90 mm Hg or DBP ≤60 mm Hg : 1 point
+- age ≥65 : 1 point
+**** treatment
+***** categories
+****** no antibiotic use in the past 3 months and previously healthy
+- macrolide
+- doxycycline
+****** risk factors for drug-resistant /S. pneumoniae/ or comorbidities
+- β-lactam + { macrolide, doxycyline }
+- respiratory quinolone monotherapy
+*** hospital acquired pneumonia
+**** goal trough of vancomycin
+15-20 mcg/mL
+* no coverage against strep pneumon
+Cipro
+* moxifloxacin
+not a drug for UTIs

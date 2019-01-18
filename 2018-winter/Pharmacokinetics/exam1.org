@@ -1,0 +1,36 @@
+* # of half lives to steady state
+5
+* factors affecting clearance
+- cardiac output
+- renal function
+* pharmacokinetic models
+** compartments
+*** central compartment
+**** properties
+- instantaneous drug distribution
+- highly perfused
+**** examples
+- system circulation
+- heart
+- liver
+- kidney
+*** peripheral or tissue compartment
+**** properties
+- slow drug distribution
+- less perfused
+**** examples
+other tissues or organs
+*** deep tissue compartmnet
+**** properties
+- slower drug distribtuion
+- poorly perfused
+**** examples
+- adipose tissue
+- bone
+* intravenous infusion
+** continuous IV infusion
+*** steady state
+infusion rate = elimination rate
+or
+rate of drug input = rate of drug output
+*** 
