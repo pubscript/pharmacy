@@ -6,6 +6,20 @@
 - [X] Explain how cinacalcet acts to reduce PTH secretion  
 - [X] Explain the pharmacological concerns of use NSAIDs in patients with chronic kidney diseases
 - [X] Use LMWH, furosemide, propranolol as examples to explain how kidney diseases affect drug therapy
+** Lisi
+- [ ] Explain the multiple physiologic functions of the kidney
+- [X] Understand the role of urinalysis (chemical and microscopic) in detecting and monitoring renal disease
+- [X] Recognize methods to estimate and measure creatinine clearance and GFR in patients acute and chronic renal failure
+- [X] Describe the role of qualitative testing, such as CT, ultrasonography, and biopsy on renal function evaluation
+- [ ] Recommend appropriate screening for microalbuminuria and/or proteinuria and evaluate the results
+- [ ] Identify the signs and symptoms of kidney disease
+- [ ] Recognize the Risk, Injury, Failure, Loss of Kidney Function, and End-Stage Renal Disease (RIFLE) and Acute Kidney Injury Network (AKIN) classification systems for AKI
+- [ ] Categorize acute kidney injury (AKI) as prerenal, intrinsic, or postrenal based upon patient history, physical examination, and laboratory values
+- [ ] List risk factors for AKI and formulate preventive strategies to decrease the risk of developing AKI in specific patient populations
+- [ ] Determine appropriate management plan based upon type of AKI
+- [ ] Identify indications for dialysis therapy
+- [ ] Explain the advantages and disadvantages of various dialysis modalities
+- [ ] Calculate the adjusted dosage regimen for a given renal-eliminated medication in a patient with AKI
 * respiratory
 ** TODO Wong
 - [X] Describe the MOA of steroids in asthma and COPD and explain why it may cause hypokalemia 
@@ -28,3 +42,25 @@
 - [X] Identify the non-pharmacologic treatments of PAH and their role in therapy
 - [X] Recognize which pharmacotherapy for PAH requires drug access programs and why
 - [ ] Design a therapeutic regimen based on overall risk: benefit considerations, including patient classification and prognostic factors
+* shock
+** Lisi
+- [X] Define “shock”, including diagnostic parameters
+- [X] Describe the three etiologies of shock and identify their common uses
+- [ ] Given objective/lab information, identify the failing organ(s)
+- [X] List the lab parameter that correlates to end-organ damage
+- [X] Describe hemodynamic parameters and what they correlate to ysiologically
+- [X] Given a hemodynamic change (CO, SVO2, CVP), identify shock iology
+- [ ] Describe the different types of fluids (crystalloid vs. colloid, hypotonic vs. isotonic)
+- [ ] Recommend appropriate fluid resuscitation, including fluid type and bolus dosing, given patient characteristics
+- [ ] Identify vasopressors, which receptors they agonize, and the physiological effect
+- [X] Describe the adverse effects of vasopressors, including extravasation management
+- [ ] Given patient characteristics, recommend the appropriate vasopressor(s)
+** Sharma
+- [X] Define: shock state
+  - List various types of shock states
+  - Characteristics of shock and stages of shock
+- [X] Name various crystalloids and colloids used in the management of shock
+- [X] List the differences in the side effect profiles of crystalloids and colloids
+- [X] Explain pharmacological mechanisms related to various agents used in shock such as positive inotropes:  
+  - [X] adrenergic agents, dopamine, dobutamine and vasopressin
+- [X] Major side effects associated with agents used in shock state

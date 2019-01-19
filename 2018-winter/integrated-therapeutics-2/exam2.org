@@ -65,17 +65,9 @@ laxatives:
 - Patiromer (Veltassa)
 * shock
 ** exam :ignore:
-*** pharmacology (Sharma)
-- [X] Define: shock state
-  - List various types of shock states
-  - Characteristics of shock and stages of shock
-- [X] Name various crystalloids and colloids used in the management of shock
-- [ ] List the differences in the side effect profiles of crystalloids and colloids
-- [ ] Explain pharmacological mechanisms related to various agents used in shock such as positive inotropes:  
-- [ ] adrenergic agents, dopamine, dobutamine and vasopressin
-- [ ] Major side effects associated with agents used in shock state
 ** definition
 acute state characterized by inadequate perfusion of critical organs; can produce serious consequences including death
+SBP ≤90 mm Hg + end organ damage
 *** types of shock
 - cardiogenic
 - hypovolemic
@@ -87,6 +79,53 @@ acute state characterized by inadequate perfusion of critical organs; can produc
 - compensatory (warm)
 - progressive (cold)
 - refractory
+*** MAP
+\begin{equation}
+\frac{2*\mathit{DBP} + \mathit{SBP}}{3}
+\end{equation}
+** causes
+- hypovolemia
+- cardiogenic
+- distributive
+** end organ damage :l:
+*** brain
+**** labs
+- abnormal CT scan
+- abnormal MRI
+- abnormal EEG
+*** heart
+**** labs
+- elevated troponins (reference: <0.6 ng/mL)
+- reduced ejection fraction on ECHO (<45%)
+- elevated BNP (reference: 0-99 pg/mL)
+- abnormal EKG—STEMI, NSTEMI
+*** kidneys
+**** labs
+- elevated SCr
+- elevated BUN
+*** liver
+**** labs
+- elevated LFTs
+- elevated INR
+** hemodynamic parameters
+*** CO
+- volume of blood pumped by the ventricle in 1 minute
+- CO = SV × HR
+*** Systemic Venous Oxygen Saturation (SVO2)
+measure of tissue oxygenation
+*** Central Venous Pressure (CVP)
+correlates to the amount of blood returning to the heart
+*** PCWP
+preload
+*** SVR
+afterload
+*** by shock etiology
+|              | CO          | CVP  | SVO2        |
+|--------------+-------------+------+-------------|
+| hypovolemia  | down        | down | down        |
+| cardiogenic  | down        | up   | down        |
+| distributive | slightly up | down | slightly up |
+*** 
 ** treatment
 *** crystalloids :l:
 **** normal saline
@@ -94,14 +133,44 @@ acute state characterized by inadequate perfusion of critical organs; can produc
 **** Lactated Ringer’s solution
 *** colloids :l:
 **** albumin
+***** adverse effects
+- leakage into intravascular and interstitial space
+- anaphylaxis
+- renal toxicity
+- hemolysis
 **** hydroxyethyl starch
 **** dextran
 *** side effects
 **** crystalloids
 - peripheral and pulmonary edema
+- for saline: hyperchloremic acidosis
+- for dextose: hyperglycemia
+- for LR/Plasmalyte: electrolyte abnormalitiees
 **** colloids
 - cardiac failure
 - edema
+- for HES: mortality or renal failure
+- anaphylaxis
+- bleeding
+*** fluid resuscitation
+isotonic crystalloids:
+- NS
+- LR
+20 mL/kg bolus
+*** pressors
+**** adverse effects
+extravasation; manage with phentolamine subQ, hot/cold compresses, or elevation of affected extremity
+**** first line agent
+norepinephrine
+**** non-first line agents
+***** dobutamine
+****** MOA
+- beta-{1, 2} > alpha-1 receptors
+- beta-2 receptor agonist on skeletal muscle
+- increases cardiac output
+***** vasopressin
+****** MOA
+activates aquaporins, reabsorbing water
 * renal
 ** exam :ignore:
 *** Wong
@@ -123,14 +192,6 @@ acute state characterized by inadequate perfusion of critical organs; can produc
   - phosphorylate phospholamban (sp?)
     - calcium cycling in the cell
     - increases calcium usage as it's more effective
-*** Lisi
-**** objectives
-- [ ] Explain the multiple physiologic functions of the kidney
-- [ ] Understand the role of urinalysis (chemical and microscopic) in detecting and monitoring renal disease
-- [ ] Recognize methods to estimate and measure creatinine clearance and GFR in patients acute and chronic renal failure
-- [ ] Describe the role of qualitative testing, such as CT, ultrasonography, and biopsy on renal function evaluation
-- [X] Recommend appropriate screening for microalbuminuria and/or proteinuria and evaluate the results
-- [ ] Identify the signs and symptoms of kidney disease
 ** chronic renal disease
 *** pathophysiology
 - anemia
@@ -216,6 +277,7 @@ These are also treatments:
 - isotonic saline
 - RRT
 - vasopressors
+*** RIFLE criteria
 *** acute intrinsic
 **** extrinsic toxins
 - aminoglycosides
@@ -226,9 +288,21 @@ These are also treatments:
 - cephalosporins
 - ciprofloxacin
 - NSAIDs
+**** diagnostic findings
+- urine osmolality similar to plasma osmolality
+- “dirty brown casts”
+- high Na excretion
 **** management
 ***** medications
 - Prednisone 1 mg/kg/d x 1 wk
+*** dialysis
+**** indications
+AEIOU:
+- Acid Base Abnormalities
+- Electrolyte imbalance
+- Intoxications
+- fluid Overload
+- Uremia
 ** diabetes insipidus :l:
 *** central
 *** nephrogenic
@@ -239,7 +313,7 @@ These are also treatments:
 - Acid Base Abnormalities
 - Electrolyte imbalance
 - Intoxications
-- Fluid Overload
+- fluid Overload
 - Uremia
 ** chronic kidney disease
 *** lab tests
@@ -259,6 +333,14 @@ These are also treatments:
 - microalbuminuria: 30-300 mcg/mg
 - clinical proteinuria/albuminuria: >300 mcg/mg
 - normal: <30 mcg/mg
+**** urinalysis
+***** normal pH
+4.5-7.8
+***** glucose
+- functioning kidney doesn’t lose glucose
+- normal BG >180 mg/dL
+***** protein/albumin
+marker of kidney damage
 * acid base
 ** anion gap
 *** formula
@@ -468,6 +550,7 @@ C9 fluoroidation
 176 mcg
 *********** high
 >440 mcg
+********* Advair
 ********* Flovent Diskus
 ********** dose
 *********** low
@@ -628,7 +711,7 @@ Patients unable to receive parenteral prostanoid therapy: Inhaled iloprost/trepr
 **** diagnostic gold standard
 /right heart catheterization/
 **** vasoreactivity testing
-***** short acting vasodilators:l:
+***** short acting vasodilators :l:
 ****** epoprostenol
 ****** adenosine
 ****** nitric oxide
