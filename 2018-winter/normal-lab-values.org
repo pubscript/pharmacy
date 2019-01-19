@@ -1,0 +1,23 @@
+* liver
+** LFTs
+*** AST
+11-47 IU/L
+*** ALT
+7-53 IU/L
+*** Alk Phos
+38-126
+* INR
+1.0s
+* gases
+** PaCO2
+35-45 mm Hg
+** PaO2
+80-100 mm Hg
+** SO2
+95%
+* pH
+7.35-7.45
+* Chem-7 / BMP
+** HCO3
+22-30 mEq/L
+
