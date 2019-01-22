@@ -1,0 +1,258 @@
+#+OPTIONS: toc:nil num:t
+* Subjective
+** Patient
+Hilda Alvarez (“patient”) is a 78 year old Dominican female.
+** Chief complaint
+- shortness of breath
+- cough
+- fever
+** History of present illness
+Patient is a 78 year old female was seen at the urgent care center on 1/18/19 secondary to persistent cough and intermittent wheezing. In the emergency room, the patient was felt to have a small left lower lobe pneumonia and was placed on Augmentin and Azithromycin for generalized body aches that began yesterday. The patient, at that time, had no shortness of breath and no chest pain. She presents today (1/21/19) to the emergency room department feeling quite fatigued, SOB, with recurrent myalgias over the course of the last few days since her visit to urgent care. She is now complaining of productive cough with increased sputum volume, subjective fevers.
+** Social history
+Former 5 PPD smoker for 30 years; quit 1 year ago
+** Family history
+- congestive heart failure
+- congestive heart disease
+** Allergies
+No known drug allergies
+* Objective
+** Past medical history
+- moderate COPD
+- paroxysmal atrial fibrillation
+- pulmonary function
+** Family history
+congenital heart disease and congestive heart failure
+** Immunization history
+Up to date per GRITS including influenza shot on December 23, 2018
+** Medications
+- Amoxicillin-pot clavulanate Orally 875-125 mg Dose: 1 tablet(s) 2 Times A Day (started on 1/18/19 for suspected pneumonia)
+- Azithromycin Orally 250 mg Dose: 1 tablet(s) Daily (started on 1/18/19 for suspected pneumonia)
+- Amiodarone Oral Dose: 100 mg Every day for atrial fibrillation
+- Venlafaxine Oral Dose: 75 mg Every morning for anxiety and depression
+- Coumadin Dose: 2.5 mg MWF and 1.25mg TTSS for anticoagulation
+- Albuterol 1 puff 4 times a day as needed. for cough, wheezing, and/or SOB
+- Salmeterol-Fluticasone DPI (Advair Diskus) 50/250 1 puff BID. for COPD
+** Vital signs
+Height: 5'2"
+Weight: 180 lbs
+
+| Time        | BP     | Pulse | PulseOx | Respiration |  Temp | Pain |
+|-------------+--------+-------+---------+-------------+-------+------|
+| 1/22 01:47  | 120/70 |    92 | 3L      |          38 | 101.8 |    0 |
+| 1/22 00:21  | 120/76 |    92 | 2L      |          36 | 102.0 |    0 |
+| 1/21 19:33  | 132/69 |    92 | 2L      |          34 | 102.1 |    5 |
+| 1/21 15:116 |        |    99 | 2L      |             |       |      |
+
+HEENT: PERRLA, yellow-green nasal discharge, nasal membranes mild erythema
+Neck/Lymph Nodes: Supple; no lymphadenopathy or thyromegaly
+Lungs/Thorax: dullness to percussion, increased tactile fremitus whisper
+pectoriloquy and egophony. Tachypneic, labored breathing; inspiratory crackles
+during lung expansion throughout right lung fields; decreased breath sounds in right
+middle and right lower lung fields
+CV: Audible S1 and S2; tachycardic with irregular rate and rhythm; no MRG
+Abd: NTND; positive bowel sounds
+Extremities: No CCE; 5/5 grip strength; 2+ pulses bilaterally
+Neuro: A&O x 3; CN II-XII intact
+** Labs
+*** Blood metabolic panel
+| Measurement  | Value       | Reference Range |
+|--------------+-------------+-----------------|
+| *BUN*        | 25  mg/dL    |            7-20 |
+| *glucose*    | 101  mg/dL   |           60-99 |
+| *creatinine* | 1.3  mg/dL   |             1.3 |
+| sodium       | 137  mmol/L  |         135-145 |
+| potassium    | 4.3  mmol/L  |         3.5-5.5 |
+| chloride     | 103  mmol/L  |          99-109 |
+| CO₂          | 25.5  mmol/L |       24.0-31.0 |
+| calcium      | 9.7  mg/dL   |        8.5-10.8 |
+| anion gap    | 9           |            3-11 |
+| magnesium    | 1.9  mg/dL   |         1.8-2.5 |
+| lactic acid  | 1.6         |         0.5-2.0 |
+*** CBCD
+| Measurement  |                   Value |     Range |
+|--------------+-------------------------+-----------|
+| *WBC*        |               20.5 K/uL |  4.5-11.0 |
+| *RBC*        |               3.91 M/uL |   4.2-5.4 |
+| *HEMOGLOBIN* |              11.9 gm/dL | 12.0-16.0 |
+| *HEMATOCRIT* |                   35.1% |     36-46 |
+| MCV          |                 89.7 fL |    80-100 |
+| MCH          |                 30.3 pg |     27-31 |
+| MCHC         |               33.8 g/dL | 31.0-37.0 |
+| RDW          |                   14.1% | 11.5-14.5 |
+| MPV          |                  7.5 fL |  7.4-10.4 |
+| NEUT         |                    60.0 |     15-75 |
+| LYMPH        |                    29.0 |     15-41 |
+| MONO         |                    9.0% |      0-15 |
+| EOS          |                    1.0% |     0-2.7 |
+| BASO         |                    1.0% |           |
+| *Bands*      |                   18% H |       0-8 |
+| PLATELET     |                  236000 |   150-440 |
+| PROTIME      | 20:01:00 on 21 Jan 2019 |           |
+| PROTIME      |                    10.8 |  9.4-12.5 |
+| INR          |                     2.4 |   2.5-3.5 |
+*** ABG
+| Measurement | Value    | Ref. Range |
+|-------------+----------+------------|
+| pH          | 7.23     |  7.35-7.45 |
+| PCO_2       | 61 mm Hg |            |
+| PCO_2       | 73 mm Hg |            |
+** Diagnostics
+Chest X-ray: Right middle and right lower lobe consolidative airspace disease, likely pneumonia. Left lung is clear. Heart size is normal.
+
+Sputum gram stain: >25 WBCs/hpf, <10 epithelial cells/hpf, many Gram (+) cocci in pairs.
+
+QTc: 490 ms
+
+DIAGNOSIS: Probable multilobar community acquired pneumonia.
+* Assessment
+** Prioritized problems list
+1. Community acquired pneumonia
+2. COPD
+3. Atrial fibrillation
+4. Anxiety and depression
+** Community acquired pneumonia (CAP)
+The patient has all the primary characteristic symptoms of CAP: SOB, cough, fever, chills, and pleuritic chest pain. Chest X-ray reveals likely pneumoniae in the right middle and right lower lung lobes. Lab results are indicative of CAP. Elevated WBC count suggests a septic state.
+
+The patient has multiple risk factors for drug-resistant /S. pneumoniae/ due to her comorbidities.
+- COPD
+- concomitant antibiotic therapy
+- age >65
+- atrial fibrillation
+
+Her CURB-65 severity score is 3 owing to (1) being over 65, (2) having BUN ≥20 mg/dL, and (3) having a respiratory rate ≥30/minute. This correlates to an 11% mortality risk for which guidelines recommend inpatient treatment with intensive care admission (Ebell 2006). According to the /BMJ/, high glucose levels as seen in the patient are predictive of mortality, which is another reason to admit the patient to ICU.
+
+Although serology and urine antigen testing are pending, it appears that the causative agent is /S. pneumoniae/, not /Pseudomonas/ since Gram-(+) cocci were present in sputum. Because the patient did not respond to dual macrolide and β-lactam antibiotic therapy, the patient likely has multi-drug resistant /S. pneumoniae/. Without lab results for definitive therapy, we can only start empiric therapy with broad spectrum antibiotics recommended by guidelines for CAP.
+
+The patient is at risk of Pseudomonal infection due to COPD and usage of fluticasone. Macrolides like azithromycin are recommended in this case (IDSA 2007 guidelines).
+
+Respiratory fluoroquinolones are recommended for inpatient treatment of CAP (strong recommendation, level 1 evidence). Fluoroquinolones have favorable PK and potency, have favorable potency, and can be conveniently administered orally in addition to IV.
+
+*Goals*:
+- Achieve clearance of CAP
+- Avoid mortality due to CAP
+** COPD
+She has a previous diagnosis of moderate COPD. In June 2018, her FEV1/FVC (forced expiratory volume : forced vital capacity) was 71%, meeting the criteria for moderate COPD. Her respiratory symptoms such as dyspnea overlap with those of CAP, so it is difficult to pinpoint any COPD-specific symptoms.
+
+*Goals*:
+- Relieve symptoms
+- Improve exercise tolerance and general health
+- Prevent exacerbations and hospitalizations
+- Reduce mortality
+** Atrial fibrillation
+The patient has a previous diagnosis of atrial fibrillation. Physical examination showed that she has signs of atrial fibrillation: tachycardia, abnormal rate and rhythm, audible S_1 and S_2, and QT prolongation.
+
+Amiodarone is also known to have a drug interaction with azithromycin, which contributes to the patient’s prolonged QT interval of 490 ms.
+
+The patient is taking amiodarone for atrial fibrillation, but amiodarone has a drug interaction with levofloxacin---enhancing the QT-prolonging effect of amiodarone.
+
+*Goals*: Prevent stroke and reduce mortality
+** Anxiety and depression
+The patient has a previous diagnosis of anxiety and depression. In review of systems, it is noted that the patient appeared somewhat anxious, in line with this diagnosis.
+
+*Goals*: Promote well-being
+* Plan
+** CAP
+*** Non-pharmacologic
+Oxygen via nasal cannula
+*** Pharmacologic
+- Initiate *Levofloxacin 750 mg* IV for inpatient treatment then switching to 750 mg PO for 7 days
+- Continue Azithromycin 250 mg PO QD
+- Discontinue Amoxicillin-Clavulanate 875mg-125 mg BID
+- Temporarily discontinue Amiodarone 100 mg PO QD because of drug interaction with levofloxacin
+*** Monitoring
+**** for efficacy
+- CBC with differential---normal CBC counts are indicative of efficacy
+- Temperature
+**** for safety
+- liver function tests
+- CBC with differential
+- s/s tendonitis
+*** Adverse effects
+- nausea
+- vomiting
+- diarrhea
+- headache
+*** Counseling
+- Immediately report symptoms of tendon swelling or tendonitis
+- Report symptoms of peripheral neuropathy such as tingling or numbness in extremities
+- Report symptoms of QT prolongation---tachycardia, convulsions, or intracranial pressure
+- Consult healthcare professional before using new drugs or OTC drugs/supplements because of numerous drug interactions with the quinolone antibiotic
+- CAP may take several weeks to resolve. Fever should resolve within 3 days, followed by cough, and finally clearance on chest X-ray after 2 or more weeks.
+*** Follow-up
+- Take new chest X-ray after 7 days.
+- Check new labs.
+- If symptoms aren’t resolved or pneumonia remains uncleared on in the chest X-ray, then extend pharmacologic therapy with follow-up every 3 weeks until radiographic clearance.
+** COPD
+*** Pharmacologic
+- Continue Albuterol 1 puff QID as needed
+- Continue Salmeterol-Fluticasone DPI 50/250 1 puff BID
+*** Adverse effects
+- nausea
+- oral candidiasis
+*** Monitoring
+**** for efficacy
+reduction in asthma symptoms
+**** for safety
+renal function; especially important in elderly patients
+*** Counseling
+- Report symptoms of bronchospasm.
+- Rinse mouth (do not swallow) after using fluticasone-salmeterol to avoid candidiasis.
+- Ensure patient knows proper inhalation technique.
+- Take fluticasone-salmeterol on a consistent schedule.
+*** Follow-up
+Ask the patient about any changes in the frequency of use or number of inhalations of albuterol.
+** Atrial fibrillation
+*** Pharmacologic
+- Discontinue *Amiodarone 100 mg PO QD* until the cessation of antibiotic therapy, then restart
+- Replace amiodarone with *Metoprolol succinate ER 50 mg PO QD* until cessation of antibiotic therapy, then discontinue
+- Continue *Warfarin (Coumadin®) 2.5 mg MWF and 1.25 mg TTSS*
+*** Adverse effects
+**** amiodarone
+- photosensitivity
+- constipation
+- loss of appetite
+- nausea, vomiting
+**** warfarin
+- bleeding
+- tissue necrosis
+- hemorrhage
+**** metoprolol
+- bradycardia
+- bronchospasm
+*** Monitoring
+**** for safety
+- Monitor bleeding and INR very carefully as levofloxacin interacts with warfarin to enhance its anticoagulant effect.
+- Monitor ECG and QTc interval
+**** for efficacy
+- INR
+- HR
+- BP
+*** Counseling
+- Maintain consistent weekly consumption of vitamin K-rich green leafy vegetables or green tea.
+- Immediately report symptoms of major bleeding.
+- Take a missed dose if remembered on the same day. If an entire day has passed, skip the dose and resume normal schedule.
+- Wear helmets and keep safe from falling as it would be much more dangerous on warfarin.
+- Let all healthcare professionals know about warfarin medication.
+- Seek emergency medical attention for any life-threatening symptoms of atrial fibrillation such as syncope, confusion, or heart rate over 200/minute.
+*** Follow-up
+On next visit, check whether ventricular rate/rhythm is controlled and whether atrial fibrillation persists.
+** Anxiety and depression
+*** Pharmacologic
+Continue Venlafaxine 75 mg PO AM
+*** Adverse effects
+- sweating
+- constipation
+- hypertension
+*** Monitoring
+**** for efficacy
+Stability of symptoms
+**** for safety
+- cholesterol; fasting lipid panel
+- serum sodium levels
+- renal function (suggested for elderly patients)
+*** Counseling
+- Take with food
+- Do not drink alcohol while taking this drug
+- Advise the patient against sudden discontinuation of venlafaxine because doing so may precipitate withdrawal symptoms
+*** Follow-up
+Check for worsening of anxiety or depression or unusual changes in behavior. Healthcare professionals should maintain at least weekly face-to-face contact with the patient, her family members, or her caregivers.
