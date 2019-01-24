@@ -1,0 +1,97 @@
+* Recall morphology class of bacterial organism and recognize the difference between gram positive vs gram negative vs. Anaerobes vs. Atypical
+* Compare and contrast spectrum of activity for the following antimicrobial class: 
+** β-lactams
+** Glycopeptides 
+** Fluoroquinolones
+** Aminoglycosides
+** Tetracycline, Macrolides and Ketolides 
+** Cyclic lipopeptides and Glycylcyclines
+** Oxazolidinones and Nitroimidazoles
+** Nitrofurans and Fosfomycin
+** Folate antagonist and Lincosamides 
+** Fidaxomicin, Polymyxins and Streptogramins
+* Demonstrate understanding of empiric treatment vs. definitive treatment vs. prophylaxis treatment given a patient case
+* Identify antimicrobial class pharmacokinetic and pharmacodynamic parameters
+* Classify antimicrobial class based on bacteriostatic vs. bactericidal activity
+** by MOA
+*** bactericidal
+- Cell membrane disrupters (polymyxins)
+- RNA polymerase
+- LPS and/or TLR4 blockers
+- Nucleic acid synthesis inhibitors
+- cell wall synthesis inhibitors
+  - β-lactams
+  - penicillins
+  - cephalosporins
+  - carbapenems
+  - monobactams
+  - glycopeptides
+*** bacteriostatic
+- protein synthesis
+  - 50S subunit
+    - macrolides
+    - aminoglycosides
+    - chloramphenicol
+  - 30S subunit
+    - aminoglycosides
+    - tetracyclines
+    - glycylcyclines
+- folate synthesis
+  - sulfonamides
+  - trimethoprim
+** by class
+*** bactericidal
+- Vancomycin,
+- Fluoroquinolones,
+- Penicillin,
+- Aminoglycosides,
+- Cephalosporins,
+- Metronidazole
+**** mnemonic
+Very Finely Proficient At Cell Murder
+*** bacteristatic
+- Erythromycin,
+- Clindamycin,
+- Sulfamethoxazole,
+- Trimethoprim,
+- Tetracyclines,
+- Chloramphenicol
+**** mnemonic
+ECSTaTiC
+* Identify the most common pathogens associated with acute otitis media, rhinosinusitis and pharyngitis 
+** acute otitis media
+- Streptococcus pneumoniae
+- Haemophilus influenzae (nontypeable)
+- Moraxella caatarrhalis
+** rhinosinusitis
+- Streptococcus pneumoniae
+- Haemophilus influenzae
+- Moraxella caatarrhalis
+** pharyngitis
+Group A Streptococcus (GAS)---/S. pyogenes/
+* Differentiate risk factors for amoxicillin-resistant bacteria in acute otitis media 
+- child care  centers
+- recent receipt of antibiotic---within 30 days
+- <2 yo
+* Recognize COMMON safety, side effects, and monitoring parameters of antimicrobials used to treat upper respiratory infection 
+** doxycyline
+*** warning
+suppression of bone growth and evelopment
+- children ≤8 years old
+- pregnancy
+- breastfeeding
+*** side effects
+photosensitivity
+** fluoroquinolones
+*** black box warning
+irreversible damage---tendon inflammation, rupture, peripheral neuropathy
+*** side effects
+- QT prolongation
+- photosensitivity
+** clindamycin
+*** black box warning
+severe and possibly fatal colitis
+** azithromycin
+*** warning
+QT prolongation
+
