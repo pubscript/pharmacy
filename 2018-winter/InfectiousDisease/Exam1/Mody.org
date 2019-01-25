@@ -394,29 +394,187 @@ ALL QUINOLONES SHOULD NOT BE CO-ADMINISTERED WITH TPN AND DIVALENT METAL IONS
 **** rifampin
 **** rifabutin
 **** rifapentine
-** Protein Biosynthesis :l:
-*** tetracyclines :l:
-**** tetracycline
-**** doxyycline
-**** minocycline
-**** tigecycline
-**** ervacycline
-**** omadacycline
-*** macrolides :l:
-**** erythromycin
-**** clarithromycin
-**** azithromycin
-*** lincosamide :l:
-**** clindamycin
-*** oxazolidinones :l:
-**** linezolid
-**** tedizolid
-*** amingolycosides :l:
-**** plazomicin
-**** gentamicin
-**** tobramycin
-**** amikacin
-**** streptomycin
+** Protein Biosynthesis Inhibitors
+*** 30S :l:
+**** tetracyclines
+***** SAR
+chelation of divalent and trivalent caations occur at C-{10, 11, 12}
+***** drugs :l:
+****** tetracycline
+******* indication
+skin and skin-structure infections in people ≥18 yo
+******* class
+glycylcycline
+******* spectrum
+- MSSA and MRSA
+- Enterococcus faecalis (vancomycin-susceptible strains)
+- Streptococcus species
+- E. coli
+- Bacteroides fragalis (an anaerobe)
+****** doxyycline
+******* ROA
+- PO
+- IV
+******* spectrum
+- aytpicals
+  - Chlamydia
+  - Chlamydophilia
+  - M. pneumoniae
+- tick borne diseases
+  - Ehrlichia
+  - Ricksettsoses
+  - Vibrio cholerae, V. vulnificus
+  - community associated MRSA
+  - S. pneumniae
+  - anthrax
+****** minocycline
+******* adverse effects
+- dizziness
+- vertigo
+******* spectrum
+community associated MRSA
+******* indicaitons
+- acne
+- dental work
+****** tigecycline
+******* brand
+Tygacil
+******* ROA
+IV only
+****** ervacycline
+****** omadacycline
+***** adverse effects
+- discoloration of developing
+- CNS effects because its high lipid solubility allows it to enter CNS
+***** mechanisms of resistance
+- efflux of antibiotic from microbe
+- decreased penetration into microbe
+- bacterial production of a ribosome protective protein
+**** amingolycosides
+***** MOA
+- concentration-dependent bactericidal killing
+- binds to 30S ribosomal subunit, intefering with protein synthesis
+***** mechanisms of resistance
+- phosphorylation of hydroxyl groups
+- adenylation of hydroxyl groups
+- acetylation of amino groups
+***** drugs :l:
+****** plazomicin
+****** gentamicin
+******* spectrum
+- Gram-(-)
+- P. aeruginosa
+****** tobramycin
+******* spectrum
+P. aeruginosa
+****** amikacin
+******* spectrum
+- high activity on nasty GNRs
+- P. aeruginosa
+****** streptomycin
+***** toxicity
+- nephrotoxicity
+- ototoxicity
+- neurotoxicity
+***** combination
+used /synergistically/ in combination with beta-lactam antibiotics or glycopeptides
+*** 50S :l:
+**** macrolides
+***** drugs :l:
+****** erythromycin
+******* disadvantages
+- acid catalyzed degradation in the stomach
+- less than desirable bioavailability
+- side effects
+  - GI
+  - hepatotoxicity
+- significant resistance
+****** clarithromycin
+******* ROA
+PO only
+****** azithromycin
+****** telithromycin
+******* brand
+Ketek
+******* spectrum
+macrolide-resistant pathogens including S. pneumoniae
+******* toxicity
+- hepatotoxicity
+- prolongation of QTc interval
+******* SAR
+C-6 methoxy improves acid stability
+****** fidaxomycin
+******* brand
+Dificid
+******* spectrum
+- narrow
+- mainly used against C. dificile
+***** structure
+[[./macrolide_structure.png]]
+***** MOA
+- bacteriostatic
+- blocks translation by binding to 50S ribosomal subunit
+***** non-indications
+- respiratory tract infections---use alternative agents for Moraxella, atypical pneumonia organisms (Mycoplasma, Chlamyida, Legionella)
+- use alternative agents for S. pneumoniae---erythromycin is resistant
+***** indications
+- acne
+- dental infections
+- H. influenzae infections
+***** SAR
+****** gut
+intramolecular nucleophillic attack by hydroxyl on the carbonyl group results in an inactive drug
+**** lincosamide
+***** drugs :l:
+****** clindamycin
+******* brand
+Cleocin
+******* spectrum
+- Gram-(+)
+- Strep., esp. in patients allergic to beta-lactams
+**** streptogramins
+***** drugs :l:
+****** quinupristin/dalfopristin
+******* ROA
+IV
+******* spectrum
+- MRSA
+- VRSA
+- VRE faecium---not /faecalis/
+***** spectrum
+Gram-(+)
+**** oxazolidinones
+***** drugs :l:
+****** linezolid
+******* brand
+Zyvox
+****** tedizolid
+******* brand
+Sivextro
+***** warnings
+- therapy more than 2 weeks increases risk of thrombocytopenia/pancytopenia
+- not for use in endocarditis/endovascular infections
+**** nitro compounds
+***** drugs :l:
+****** nitrofurantoin
+******* brand
+- Macrodantin
+- Macrobid
+****** metronidazole
+******* brand
+Flaygyl
+******* disulfiram-like reaction
+abstain from alcohol during therapy for 72 hours post-therapy---metronidazole inhibits aldehyde dehydrogenase
+******* indications
+- Bacterioides fragilis
+- Clostridium difficile colitis
+- Heliobacter pylori
+- Trichomonas vaginalis
+- Amebiasis
+- Giardiasis
+****** tinidazole
+******* brand
+Tindamax
 ** Tetrahydrofolic Acid
 * therapeutics
 ** bactericidal drugs
@@ -446,6 +604,12 @@ test for etiology
 ***** biomarkers
 - C-reactive protein (CRP)
 - procalcitonin (PCT)
+**** pathogens
+- Chlamydophilla pneumoniae
+- Haemophilus influenzae
+- Legionella pneumophila
+- Mycoplasma pneumoniae
+- Streptococcus cpneumoniae
 **** assessment
 ***** CURB-65
 - confusion : 1 point
@@ -461,10 +625,122 @@ test for etiology
 ****** risk factors for drug-resistant /S. pneumoniae/ or comorbidities
 - β-lactam + { macrolide, doxycyline }
 - respiratory quinolone monotherapy
+***** based on CURB-65 score
+- 0-1: monotherapy in patients without cormobodities
+- 2: combination antibiotics or quinolone; inpatient, no ICU admission
+- 3-4: beta-lactam + {macrolide, quinolone}; also requires inpaatient ICU admission
 *** hospital acquired pneumonia
 **** goal trough of vancomycin
 15-20 mcg/mL
-* no coverage against strep pneumon
+**** causative agents
+- Pseudomonas sp.
+- Acinetobacter sp.
+- Escherichia sp.
+- Klebsiella sp.
+- Staphylococcus aureus
+* no coverage against strep pneumoniae
 Cipro
 * moxifloxacin
 not a drug for UTIs
+* gastrointestinal infections
+** dystentery
+- Y. enterocolitica 
+- EHEC (Enterohemorrhagic E. coli)
+- Campylobacter spp.
+- Salmonella spp.
+- Shigella spp.
+** Guillain-Barre syndrome
+C. jejuni
+** HUS
+*** acronym
+hemolytc uremic syndrome
+*** increases HUS risk
+use of a fluoroquinolone or Bactrim may increase the risk of HUS by increasing production of Shiga-like toxin
+** severe diarreha
+>8 stools per day
+** infectious diarrhea
+*** treatment
+**** fluid and electrolyte replacement
+***** oral rehydration
+Pedialyte, Rehydralyte, Infalyte, Oralyte, WHO formula
+***** severe dehydration
+****** definition
+≥10% body weight loss
+**** bismuth subsalicylate
+***** brand
+Pepto-Bismol
+***** warnings
+avoid in children because it may cause Reye’s syndrome
+***** dosing‘
+- 30 mL (2 tabs) q30-60min
+- max 8 doses q24h
+**** when antibiotic therapy recommended
+- Severe diarrhea 
+- Moderate-to-severe cases of traveler’s diarrhea
+- Most cases of febrile dysenteric diarrhea
+- Culture-proven bacterial diarrhea in high-risk patients
+- Severe cases of cholera 
+- ETEC 
+- Pregnancy
+- Immunocompromised patients
+- Prolonged illnesses 
+- Infants <3 months old
+- Patients with fever and signs and symptoms of sepsis
+**** watery diarrhea
+***** ETEC
+- Ciprofloxacin (Cipro) 750 mg PO x1
+- azithromycin (Zithromax) 1000 mg PO OR 500 mg QD x3d
+- rifamixin 200 mg PO TID x3
+***** Vibrio cholerae
+doxycycline 300 mg PO x1
+**** dysenteric diarrhea
+***** Campylobacter sp.
+- azithromycin 500 mg PO QD x3d
+- erythromycin 500 mg PO q6h x3d
+***** Salmonella nontyphoidal, Shigella sp., Yersinia sp.
+- Ciprofloxacin 750 mg PO QD
+- Levofloxacin 500 mg PO QD
+** traveler’s diarrhea
+*** prophylaxis :l:
+**** Bismuth subsalicyclate
+***** brand
+Pepto-Bismol
+***** dosage
+524 mg (2 tabs or 2 tbsp) PO QID
+**** fluoroquinolones
+**** doxycyline
+**** azithromycin
+**** rifaximin
+200 mg pO TID only for Latin America and Africa
+***** spectrum
+only effective against E. coli
+*** treatment
+**** loperamide
+***** brand
+Immodium
+***** indication
+symptomatic relief
+***** dose
+4 mg x1 then 2 mg each subsequent stool; max 16 mg/day
+**** empiric treatment
+***** fluroquinolones
+****** ciprofloxacin
+****** levofloxacin
+****** norfloxacin
+800 mg PO x1d or 400 mg PO BID x3d
+***** azithromycin
+****** dose
+1 g PO x1 or 500 mg PO QD x3
+****** indication
+South and Southeast ASia
+***** Rifaximin
+****** dose
+200 mg PO TID x3
+****** indication
+Mexico and Jamaica
+** food poisoining
+*** Enterotoxigenic poisonings
+- Bacillus cereus
+- Clostridium botuilism
+- Clostridium perfringens (type A)
+- Staphylococcus aureus
