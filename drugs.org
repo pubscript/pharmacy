@@ -1,3 +1,13 @@
 * rifaximin
 ** brand
 Xifaxan
+* piperacillin-tazobactam
+** brand
+Zosyn
+* Imipenem-cilastin
+** brand
+cilastin
+* Aztreonam
+** brand
+ Azactam
+

@@ -531,6 +531,7 @@ intramolecular nucleophillic attack by hydroxyl on the carbonyl group results in
 Cleocin
 ******* spectrum
 - Gram-(+)
+- MRSA
 - Strep., esp. in patients allergic to beta-lactams
 **** streptogramins
 ***** drugs :l:
@@ -744,3 +745,125 @@ Mexico and Jamaica
 - Clostridium botuilism
 - Clostridium perfringens (type A)
 - Staphylococcus aureus
+* intra-abdominal infections
+** pathophysiology
+bacterial entry into and collections in the peritoneal or retroperitoneal spaces
+*** pathogens to cover
+**** peritonitis
+***** primary
+everything except anaerobes (i.e., Bacteroides)
+*** TODO
+cover e. coli for...
+*** 
+** peritonitis
+*** primary
+An infection of the peritoneal cavity without an evident source in the abdomen
+**** causes
+***** cirrhosis
+alcohol abuse
+***** ascites
+- CHF
+- malignancy
+- systemic lupus erythematosus
+- nephrotic syndrome
+- hepatitis
+***** bacterial
+****** cirrhotic ascites
+E. coli
+****** peritoneal dialysis
+- Gram-(+) coagulase-negative Staphylococci
+  - S. aureus
+  - S. streptococci
+  - S. enterococci
+- Gram-(-)
+  - E. coli
+  - Klebsiella spp.
+  - Pseudomonas spp.
+**** signs and symptoms
+**** lab tests
+- elevated WBC count
+- ascitic fluid analysis
+  - leukocyte count >250 PMNs/mm^3
+  - gram stain
+*** dialysis
+staph and strep
+*** secondary
+A focal disease process in the abdomen
+**** causes
+- mechanical GI problems
+- vascular causes
+- trauma
+- intraoperative events
+- leakage from GI anastomosis
+**** lab tests
+- CBC with differential---in order to see bands
+- Hct and BUN
+*** tertiary
+Infection that persists/ recurs 48h after adequate management of 1° or 2° peritonitis
+** treatment
+*** community-acquired complicated intra-abdominal inffections
+**** mild-to-moderate infections
+***** single agent
+- Cefoxitin
+- Moxifloxacin 400mg IV q24h
+- Ertapenem 1g IV q24h
+***** combination agents
+- {cefalozin, cefuroxime, ceftriaxone, cefotaxime} + metronidazole 500mg IV q8h
+- {ciprofloxacin 400mg IV q12h, levofloxacin 750mg IV q24h} + metronidazole 500mg IV q8h
+**** high risk or high severity
+***** single agent
+- piperacillin-tazobactam
+- carbapenem with Pseudomonas activity:
+  - imipenem-cilastin
+  - meropenem 1g IV q8h
+  - doripenem
+***** combination agents
+- cefepime 2g IV q8-12h
+- ceftazidime 2g IV q8h + metronidazole 500mg IV q8h
+- {ciprofloxacin 400mg IV q12h, levofloxacin 750mg IV q24h} + metronidazole 500mg IV q8h
+*** healthcare-acquired complicated intra-abdominal inffections
+**** single agent
+- piperacillin-tazobactam 3.375 IV q6h
+- carbapeem with Pseudomonas activity
+  - imipenem-cilastin
+  - meropenem 1g IV q8h
+  - doripenem
+**** combination agents
+- {Cefepime 2g IV q8-12h, ceftazidime 2g IV q8h} + metronidazole 500mg IV q8h
+- β-lactam allergy: Aztreonam (Azactam) + vancomycin 15mg/kg IV q12h + metronidazole 500mg IV q8h
+*** primary peritonitis
+vancomycin + {cefepime-ceftazidime, imipenem-cilastin} for at least 1 week after the dialysate fluid is clear
+*** acute cholecystitis and cholangitis
+[[./treatment_for_acute_cholecystitis_and_cholangitis.png]]
+*** anti-MRSA therapy
+vancomycin
+
+Empiric coverage for nosocoial intra-abdominal infectious patients known to be colonized or at risk of a MRSA infection due to significant, maybe failed, antibiotic exposure
+*** use of aminoglycosides
+**** reserved for specific patients
+- infections due to multidrug-resistant Gram-(-) pathogens
+- IgE-mediated allergic reactions
+**** extended interval dosing
+reasons for which are...
+- concentration dependent killing
+- long postantibiotic effect for Gram-(-) bacilli
+* urinary tract infections
+** causative organisms
+*** community-acquired :l:
+**** E. coli
+Gram-(-)
+**** Staphylococcus saprophyticus
+Gram-(+)
+**** Proteus mirabilis
+Gram-(-)
+**** Klebsiella pneumoniae
+Gram-(-)
+**** Enterococcus faecalis
+Gram-(+)
+*** nosocomial-acquired
+- E. coli
+- Enterococcus spp.
+- Klebsiella pneumoniae
+- Enterobacter spp.
+** lab tests
+*** urinalysis
