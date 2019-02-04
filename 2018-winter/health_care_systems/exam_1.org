@@ -1,0 +1,278 @@
+#+OPTIONS: org-html-postamble:nil html-postamble:nil
+* health care delivery in the United States
+** paradoxes
+*** high costs
+- High spending on health care technologies
+- Aging population
+- Increased insurance coverage
+- Decreased out-of-pocket
+- Waste, fraud, and abuse
+** laws
+*** hospitals
+Hill-Burton Act; grants for hospital growth
+** changes from 20th century to now
+*** health care policy
+- increased dependence on third-party payments
+- tax deductions to employers offering health insurance (but not to individuals)
+**** public vs. private
+less options for public sector health care
+*** medical education
+Flexner Report created higher accreditation standards for medical schools
+*** pharmacy education
+6 year PharmD curriculum for all new students after 2000
+*** life expectancy
+increased almost 60% because of:
+- improved standard of living
+  - hygiene
+  - nutrition/diet
+  - housing
+- advances in public health
+- progress in medical practice
+** around the world
+- USA has the lowest life expectancy among comparable countries
+- [[https://www.healthsystemtracker.org/dashboard/][Indicators of quality]]
+** Affordable Care Act
+- decrease in number of uninsured
+- Must obtain at least a minimum amount of health insurance or pay a penalty
+- Private, individually, Medicaid, subsidies
+- Change in health insurance performance activities
+- Established insurance exchanges on a state basis
+- Expansion of the Medicaid program
+* health care professionals
+** 5 characteristics of a profession
+1. Systematic  theory and body of knowledge
+2. Professional authority and special privileges
+3. Community sanction and social utility
+4. Ethical codes and internal control
+5. Professional culture and organizations
+** authorized prescribers
+*** independent authority
+- MD
+- DO
+- podiatrist
+- DDS, DMD
+- DVM
+- optometrist
+*** dependent authority
+- nurse practitioner
+- PA
+- certified nurse midwife
+*** none
+- DC (chiropractor)
+*** scope of practice
+- podiatrist
+- dentist
+- veterinarian
+*** state dependent
+- optometrist
+** education
+- more education leads to more direct patient care
+** business and entreprenurial opportunities
+- indpendent pharmacies
+- speaking
+- MTM
+- web-based business
+* pharmaceutical industry
+** laws
+*** Durham Humphrey Amendment
+created prescriptions
+*** Kefauver-Harris Drug Amendments 
+manufacturers must prove safety and efficacy to the FDA
+*** Drug Price Competition and Patent Term Restoration Act (Waxman-Hatch)
+FDA approves cheap generics without having to repeat safety and efficacy trials
+*** Medicare Prescription Drug Improvement and Modernization Act
+Medicaire Part D
+** pharma vs. biotechs
+*** pharma
+- larger R&D budgets
+- beauraucratic large companies; well-defined career ladders
+- higher salaries/benefits
+*** biotechs
+- fast-paced research
+- lower salaries/benefits
+- less bureaucracy
+** new product development
+*** requires
+- time
+- money
+- effort
+*** phases
+1. patient volunteers used to determine /safety and dosage/
+2. patient volunteers used to look for /efficacy and side effects/
+3. patient volunteers used to monitor /adverse reactions to long-term use/
+4. FDA approval, post-marketing, and testing
+** consumer goods vs. pharmaceuticals
+requires prescription
+** who affects the ultimately dispensed product?
+- consumer
+- 3rd party payer
+- wholesaler
+- pharmacy
+- prescriber
+** industry trends and challenges
+- competition → consolidation
+- counterfeiting
+** 4 Ps (pharmaceutical promotion)
+*** old
+- Product
+- Price
+- Place
+- Promotion
+*** new
+- Predictive Modeling
+- Personalization
+- Peer-to-Peer
+- Participation
+*** differences
+**** old
+- Brand-focused
+- Capital intensive
+- Technology-enabled (?)
+- Longer development
+- Slower to modify
+**** new
+- Customer-focused
+- Budget conscious
+- Technology-powered (?)
+- Quickly deployed
+- Highly optimized
+** drug distribution
+*** traditioanl supply chain
+1. manufacturer
+2. wholesaler
+3. pharmacy
+4. patient
+*** historical changes
+**** 1960s
+- wholesaler pricing was “list less”—average wholesale price minus a discount used to drive business
+- wholesalers only did /pick, pack, and ship/
+**** 1980s
+“cost plus”—average wholesale price /plus/ a percentage
+**** 1990s
+- price erosion
+- wholesaler consolidations
+*** big 3 wholesalers
+- AmerisourceBergen (ABC)
+- Cardinal Health
+- McKesson
+*** wholesale buying groups
+- exist to increase /buying power/
+- more than 80% of independent pharmacies pool together to purchase medications
+* consumers of healthcare
+** U.S. patient demographics
+- older
+- fastest growing segment is >85
+** models of care
+- Consumer model
+- Patient-centered model
+- Biopsychosocial model
+** health behavior models :l:
+*** Locus of Control
+Attainment of a particular outcome is either within one’s control or outside of it.
+*** Health Belief Model
+Likelihood that one will take action or change behavior.
+*** Social Cognitive Theory
+- outcome expectation—belief that a behavior will have some outcome
+- efficacy expectation—belief that one will be able to change
+  - Performance accomplishments
+  - Vicarious experience
+  - Verbal persuasion
+  - Physiological state
+*** Theories of Reasoned Action and Planned Behavior
+*** Transtheoretical Model of Change
+stages:
+1. Pre-contemplation
+2. Contemplation
+3. Preparation
+4. Action
+5. Maintenance
+* government and public health
+** top of org chart
+Health & Human Services
+** Health & Human Services budget allocation
+1. Medicaire and Medicaid
+2. Administration for Children and Families
+3. NIH
+4. Health Resources and Services
+5. FDA, CDC, …
+** FDA
+[[http://www.fda.gov/AboutFDA/WhatWeDo/default.htm][FDA responsibilites]]
+** Healthy People 2020
+- Provides comprehensive framework for health promotion and disease prevention
+- Tracking of data-driven outcomes to monitor progress 
+- Engages a multi-disciplinary network of stakeholders
+- Guides national research on public health
+- Establishes accountability – must demonstrate support  of Health People objectives for grants
+* economics
+** demand
+amounts of a commodity that consumers are /willing and able/ to purchase at a set of possible prices over a specified period of time
+*** factors that change demand
+- prices of related goods
+  - substitutes
+  - complements
+- income of consumer
+- number of other consumers in the market
+- attitudes, tastes, and preferences of the consumer
+- consumer expectations of future prices or future income
+*** elasticity (2 questions)
+the responsiveness of consumer demands to a change in price
+**** types :l:
+***** elastic demand
+increase in price ⇒ decrease in revenue
+***** inelastic demand
+increase in price ⇒ revenue still increases
+***** unitary demand
+- price changes ⇒ revenue doesn’t change
+- doesn’t happen in the real world
+**** healthcare costs that a patient must pay out of pocket—elastic or inelastic?
+elastic; the patient often foregoes treatment
+*** perfectly competitive market
+**** characteristics 
+- many buyers and sellers
+- freedom of entry and exit
+- standardized products
+- free information
+- no collusion
+**** healthcare
+healthcare is not a perfectly competitive market:
+- consolidation among sellers and buyers; maldistribution of supply
+- high barriers to entry for suppliers (e.g., healthcare providers, manufacturers)
+- care is individualized, inconsistent, and difficult to measure; so the “product” is not standardized
+*** improving healthcare
+- healthcare as a public utility
+- improve costs and quality
+  - pay for performance
+  - tiered cost sharing
+- create incentives
+** pharmacoeconomics
+*** goal
+outcomes outweigh costs
+*** cost
+**** economic cost
+the consumption of a resource that could otherwise be used for another purpose
+**** opportunity cost
+value of the benefits foregone because the resource is not available for its best alternative
+**** direct medical costs
+e.g., physician fees, X-ray costs, prescription costs
+**** direct non-medical costs
+e.g., transportation to healthcare providers, specific diet
+**** indirect costs
+- loss in productivity due to morbidity and mortality due to disease
+- hard to measure
+**** intangible costs
+- “emotional stress, fear, anxiety, psychological effects”
+- hardest to measure
+*** outcome
+**** types
+***** structure outcomes
+***** process outcomes
+e.g., accuracy of directions on prescription label
+***** clinical outcomes
+- safety and efficacy
+- uses intermediate measures as proxy indicators of outcomes; e.g., INR is the outcome for warfarin instead of strokes because strokes are unpredictable
+***** economic outcomes
+healthcare expenditures
+*** ECHO
+“Economic Clincial Humanistic Outcomes” model
+*** pharmacoeconomic evaluations
+[[https://cdn.pbrd.co/images/HSFpYnF.png][Know slide #16 from Pharmacoeconomics]]

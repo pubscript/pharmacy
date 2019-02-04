@@ -1,0 +1,3903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-01-18 Fri 08:32 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="zds" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgab75276">1. fluids and electrolytes</a>
+<ul>
+<li><a href="#org6810be1">1.1. normal electrolyte values</a>
+<ul>
+<li><a href="#org9dfe8d5">1.1.1. Sodium</a></li>
+<li><a href="#orgccaca65">1.1.2. Potassium</a></li>
+<li><a href="#orgf72259d">1.1.3. Magnesium</a></li>
+<li><a href="#org184cf97">1.1.4. Calcium</a></li>
+<li><a href="#orgc43607d">1.1.5. Phosphorus</a></li>
+</ul>
+</li>
+<li><a href="#orgfaca549">1.2. crystalloids and colloids</a>
+<ul>
+<li><a href="#org84009ff">1.2.1. crystalloids</a>
+<ul>
+<li><a href="#org7b42078">1.2.1.1. distribution in fluid compartments</a></li>
+<li><a href="#org1d5d399">1.2.1.2. risks</a></li>
+<li><a href="#org88662aa">1.2.1.3. benefits</a></li>
+</ul>
+</li>
+<li><a href="#org2291e08">1.2.2. colloids</a>
+<ul>
+<li><a href="#org28c9de7">1.2.2.1. distribution in fluid compartments</a></li>
+<li><a href="#org1d3cc0f">1.2.2.2. risks</a></li>
+<li><a href="#org2c661ca">1.2.2.3. benefits</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org6b82201">1.3. fluid requirements</a>
+<ul>
+<li><a href="#orgcad9af2">1.3.1. maintenance</a></li>
+<li><a href="#org023f7e5">1.3.2. water deficit</a>
+<ul>
+<li><a href="#org50fe05e">1.3.2.1. male</a></li>
+<li><a href="#org9853bf6">1.3.2.2. female</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgfb34c20">1.4. hyponatremia</a>
+<ul>
+<li><a href="#org9155e1b">1.4.1. treatment</a>
+<ul>
+<li><a href="#org3f209f2">1.4.1.1. pharmacological</a></li>
+<li><a href="#org8dd6f8f">1.4.1.2. non-pharmacological</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgd9f39e3">1.5. hypokalemia</a>
+<ul>
+<li><a href="#org4e97d54">1.5.1. drug-induced</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org5c6eecc">2. shock</a>
+<ul>
+<li><a href="#org83d319a">2.1. exam&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ignore">ignore</span></span></a></li>
+<li><a href="#orgc0f36b1">2.2. definition</a>
+<ul>
+<li><a href="#org80efc6c">2.2.1. types of shock</a></li>
+<li><a href="#org43a2c3e">2.2.2. stages of shock</a></li>
+</ul>
+</li>
+<li><a href="#org95b870a">2.3. causes</a></li>
+<li><a href="#orge27047e">2.4. end organ damage&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#orgbfe6438">2.4.1. brain</a>
+<ul>
+<li><a href="#org640b5e5">2.4.1.1. labs</a></li>
+</ul>
+</li>
+<li><a href="#orge5e116a">2.4.2. heart</a>
+<ul>
+<li><a href="#orgab038c0">2.4.2.1. labs</a></li>
+</ul>
+</li>
+<li><a href="#org5d2e9ba">2.4.3. kidneys</a>
+<ul>
+<li><a href="#orgc36089e">2.4.3.1. labs</a></li>
+</ul>
+</li>
+<li><a href="#org9fc0fec">2.4.4. liver</a>
+<ul>
+<li><a href="#orge2c42a2">2.4.4.1. labs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org2984445">2.5. hemodynamic parameters</a>
+<ul>
+<li><a href="#orgcb8b840">2.5.1. CO</a></li>
+<li><a href="#orgc651a11">2.5.2. Systemic Venous Oxygen Saturation (SVO2)</a></li>
+<li><a href="#org61504be">2.5.3. Central Venous Pressure (CVP)</a></li>
+<li><a href="#org0691f1c">2.5.4. PCWP</a></li>
+<li><a href="#org5601bba">2.5.5. SVR</a></li>
+<li><a href="#orgbaeac5a">2.5.6. by shock etiology</a></li>
+<li><a href="#org5719499">2.5.7. </a></li>
+</ul>
+</li>
+<li><a href="#org48ff56b">2.6. treatment</a>
+<ul>
+<li><a href="#orgf251d33">2.6.1. crystalloids&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#orgbfc3012">2.6.1.1. normal saline</a></li>
+<li><a href="#orgb0c2228">2.6.1.2. 5% dextrose water (D5W)</a></li>
+<li><a href="#orgeae7d71">2.6.1.3. Lactated Ringer’s solution</a></li>
+</ul>
+</li>
+<li><a href="#org7ba5433">2.6.2. colloids&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org4ad022f">2.6.2.1. albumin</a>
+<ul>
+<li><a href="#org9cd5d05">2.6.2.1.1. adverse effects</a></li>
+</ul>
+</li>
+<li><a href="#org534dfe6">2.6.2.2. hydroxyethyl starch</a></li>
+<li><a href="#orgf3032f9">2.6.2.3. dextran</a></li>
+</ul>
+</li>
+<li><a href="#org7ca6f04">2.6.3. side effects</a>
+<ul>
+<li><a href="#org278a8e9">2.6.3.1. crystalloids</a></li>
+<li><a href="#orge7c7b6a">2.6.3.2. colloids</a></li>
+</ul>
+</li>
+<li><a href="#org5a0d8c0">2.6.4. fluid resuscitation</a></li>
+<li><a href="#orge43bbdd">2.6.5. pressors</a>
+<ul>
+<li><a href="#org5daf514">2.6.5.1. adverse effects</a></li>
+<li><a href="#org7d7279c">2.6.5.2. first line agent</a></li>
+<li><a href="#org18beeb1">2.6.5.3. non-first line agents</a>
+<ul>
+<li><a href="#org0d9254a">2.6.5.3.1. dobutamine</a>
+<ul>
+<li><a href="#org73d849d">2.6.5.3.1.1. MOA</a></li>
+</ul>
+</li>
+<li><a href="#org4d8cb1a">2.6.5.3.2. vasopressin</a>
+<ul>
+<li><a href="#orge773147">2.6.5.3.2.1. MOA</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org37c7a62">3. renal</a>
+<ul>
+<li><a href="#orgbd8b933">3.1. exam&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ignore">ignore</span></span></a>
+<ul>
+<li><a href="#org60e1e5b">3.1.1. Wong</a>
+<ul>
+<li><a href="#orgc21b47a">3.1.1.1. phosphate management</a></li>
+<li><a href="#orga5fa6f8">3.1.1.2. phosphate binding agents</a></li>
+<li><a href="#org07a9bb1">3.1.1.3. calciumemtic agent</a></li>
+<li><a href="#org8197e0b">3.1.1.4. vitamin D maintains Ca homeostasis</a></li>
+<li><a href="#org9b2d5ed">3.1.1.5. anemia related to erythrypoietin</a></li>
+<li><a href="#orgb9c63cc">3.1.1.6. pharmacokinetic &amp; pharmacodynamic change&#x2013;general principle of changes in PK &amp; PD changes w.r.t. pharmacotherapy</a></li>
+<li><a href="#org26f7187">3.1.1.7. exam 1</a>
+<ul>
+<li><a href="#org1a95225">3.1.1.7.1. dobutamine</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org736afdf">3.2. chronic renal disease</a>
+<ul>
+<li><a href="#org0f2bd0e">3.2.1. pathophysiology</a></li>
+<li><a href="#org0bd00e9">3.2.2. treatments&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org872e065">3.2.2.1. phosphate-binding agents</a>
+<ul>
+<li><a href="#org9176729">3.2.2.1.1. MOA</a></li>
+</ul>
+</li>
+<li><a href="#org51622f0">3.2.2.2. vitamin D</a>
+<ul>
+<li><a href="#org52a8014">3.2.2.2.1. metabolism in organs</a>
+<ul>
+<li><a href="#orge3b0841">3.2.2.2.1.1. calcitriol</a></li>
+<li><a href="#org3a6ee1e">3.2.2.2.1.2. calcifediol</a></li>
+<li><a href="#org4d79baa">3.2.2.2.1.3. cholecalciferol</a></li>
+</ul>
+</li>
+<li><a href="#org71d2e3c">3.2.2.2.2. rank order of bioavailability</a></li>
+</ul>
+</li>
+<li><a href="#org0ad7b37">3.2.2.3. calcimimetics&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org9c5d239">3.2.2.3.1. cinaclet</a>
+<ul>
+<li><a href="#org215067e">3.2.2.3.1.1. brand</a></li>
+<li><a href="#org8d5afea">3.2.2.3.1.2. adverse effects</a></li>
+<li><a href="#org7a4cc14">3.2.2.3.1.3. interactions</a></li>
+<li><a href="#orge8c6666">3.2.2.3.1.4. MOA</a></li>
+</ul>
+</li>
+<li><a href="#org3b992cf">3.2.2.3.2. cinacalcet + low dose vitamin D</a></li>
+</ul>
+</li>
+<li><a href="#orgf164f88">3.2.2.4. EPO</a></li>
+<li><a href="#org80fa90e">3.2.2.5. osmotic diuretics</a>
+<ul>
+<li><a href="#org30f7e79">3.2.2.5.1. drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a></li>
+<li><a href="#orgdae0eaa">3.2.2.5.2. site of action</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org4a13262">3.2.3. drug-disease interactions</a>
+<ul>
+<li><a href="#orga077dc5">3.2.3.1. NSAIDs</a></li>
+<li><a href="#orgf3fec92">3.2.3.2. LMWH</a></li>
+<li><a href="#org9e9f6e2">3.2.3.3. furosemide</a></li>
+<li><a href="#org8199da1">3.2.3.4. propranolol</a></li>
+</ul>
+</li>
+<li><a href="#orgb6fd2a0">3.2.4. terminology</a>
+<ul>
+<li><a href="#orge3a99fd">3.2.4.1. KDOQI</a></li>
+<li><a href="#org81daa51">3.2.4.2. KDIGO</a></li>
+<li><a href="#org40c8dd8">3.2.4.3. kidney failure</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgc28effb">3.3. acute kidney injury</a>
+<ul>
+<li><a href="#orgfde7540">3.3.1. non-pharmacologic therapy</a></li>
+<li><a href="#org7bb5956">3.3.2. KDIGO guidelines</a>
+<ul>
+<li><a href="#orgf71adaf">3.3.2.1. prevention</a></li>
+<li><a href="#orgf10714a">3.3.2.2. treatment</a></li>
+</ul>
+</li>
+<li><a href="#orgfc540f6">3.3.3. RIFLE criteria</a></li>
+<li><a href="#org45566c6">3.3.4. acute intrinsic</a>
+<ul>
+<li><a href="#org7b62c54">3.3.4.1. extrinsic toxins</a></li>
+<li><a href="#org3ea6f1c">3.3.4.2. medications exacerbating&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ignore">ignore</span></span></a></li>
+<li><a href="#orgc758dea">3.3.4.3. diagnostic findings</a></li>
+<li><a href="#org1f884be">3.3.4.4. management</a>
+<ul>
+<li><a href="#org25d7781">3.3.4.4.1. medications</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org6a96e46">3.3.5. dialysis</a>
+<ul>
+<li><a href="#org1950b56">3.3.5.1. indications</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org34cc2b9">3.4. diabetes insipidus&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org833b200">3.4.1. central</a></li>
+<li><a href="#org8db160c">3.4.2. nephrogenic</a></li>
+<li><a href="#orgccabcaf">3.4.3. dipsogenic</a></li>
+<li><a href="#org3a2abab">3.4.4. gestational</a></li>
+</ul>
+</li>
+<li><a href="#org49bc934">3.5. dialysis</a>
+<ul>
+<li><a href="#org923dc26">3.5.1. indications</a></li>
+</ul>
+</li>
+<li><a href="#org18be8bd">3.6. chronic kidney disease</a>
+<ul>
+<li><a href="#org2157899">3.6.1. lab tests</a>
+<ul>
+<li><a href="#orga50ed2c">3.6.1.1. early CKD</a></li>
+<li><a href="#org1a85111">3.6.1.2. late CKD</a></li>
+<li><a href="#orgad6a031">3.6.1.3. quantification of proteinuria</a>
+<ul>
+<li><a href="#orgab29416">3.6.1.3.1. 24 hour collection</a></li>
+<li><a href="#org6970bb1">3.6.1.3.2. albumin:creatinine; spot collection</a></li>
+</ul>
+</li>
+<li><a href="#org6ad0a61">3.6.1.4. urinalysis</a>
+<ul>
+<li><a href="#orgf793d96">3.6.1.4.1. normal pH</a></li>
+<li><a href="#orgd1ee6c7">3.6.1.4.2. glucose</a></li>
+<li><a href="#orgdfc08ad">3.6.1.4.3. protein/albumin</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgd607e7e">4. acid base</a>
+<ul>
+<li><a href="#org842752f">4.1. anion gap</a>
+<ul>
+<li><a href="#org9b3808a">4.1.1. formula</a></li>
+<li><a href="#org57114e1">4.1.2. elevated</a>
+<ul>
+<li><a href="#orgce34c08">4.1.2.1. causes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgfac25a4">4.2. alkalosis</a></li>
+</ul>
+</li>
+<li><a href="#org81ddd1f">5. respiratory</a>
+<ul>
+<li><a href="#org58f3277">5.1. drug classes</a>
+<ul>
+<li><a href="#org0818842">5.1.1. bronchodilators&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org4b49072">5.1.1.1. sympathomimetics</a>
+<ul>
+<li><a href="#org2bb9297">5.1.1.1.1. direct-acting</a>
+<ul>
+<li><a href="#orgd650ec5">5.1.1.1.1.1. MOA</a></li>
+<li><a href="#org5ddcc55">5.1.1.1.1.2. SAR</a>
+<ul>
+<li><a href="#org7824845">5.1.1.1.1.2.1. w.r.t ./phenethylamine.png</a></li>
+<li><a href="#org6198fd1">5.1.1.1.1.2.2. catechol metabolism</a></li>
+</ul>
+</li>
+<li><a href="#orgf6d6b94">5.1.1.1.1.3. fundmanetal pharmacophore</a></li>
+<li><a href="#orga66b0e8">5.1.1.1.1.4. classes</a>
+<ul>
+<li><a href="#orgbf8bc9b">5.1.1.1.1.4.1. short acting β-2 agonists (SABAs)</a>
+<ul>
+<li><a href="#org4974659">5.1.1.1.1.4.1.1. drugs</a>
+<ul>
+<li><a href="#org4575fe3">5.1.1.1.1.4.1.1.1. albuterol</a></li>
+<li><a href="#org1662a9f">5.1.1.1.1.4.1.1.2. levalbuterol</a></li>
+<li><a href="#orga2226c3">5.1.1.1.1.4.1.1.3. pirbuterol</a></li>
+<li><a href="#orgc11925b">5.1.1.1.1.4.1.1.4. Metaproterenol; Terbutaline</a></li>
+<li><a href="#org3021e95">5.1.1.1.1.4.1.1.5. Tornalate</a></li>
+<li><a href="#org83d52da">5.1.1.1.1.4.1.1.6. bambuterol</a></li>
+<li><a href="#org53b2309">5.1.1.1.1.4.1.1.7. fenoterol</a></li>
+<li><a href="#org38c5bec">5.1.1.1.1.4.1.1.8. isoproterenol</a></li>
+<li><a href="#org1247dbd">5.1.1.1.1.4.1.1.9. levalbuterol</a></li>
+<li><a href="#orgfbae105">5.1.1.1.1.4.1.1.10. Levalbuterol</a></li>
+<li><a href="#org1d90c56">5.1.1.1.1.4.1.1.11. Metaproterenol</a></li>
+<li><a href="#org7d5df41">5.1.1.1.1.4.1.1.12. Pirbuterol</a></li>
+<li><a href="#org8240e75">5.1.1.1.1.4.1.1.13. Isoetherine</a></li>
+<li><a href="#org86c6bb1">5.1.1.1.1.4.1.1.14. Terbutaline</a></li>
+<li><a href="#org0668155">5.1.1.1.1.4.1.1.15. Tornalate</a></li>
+</ul>
+</li>
+<li><a href="#org712a8fa">5.1.1.1.1.4.1.2. adverse effects</a></li>
+<li><a href="#orgec0dcef">5.1.1.1.1.4.1.3. MOA</a></li>
+</ul>
+</li>
+<li><a href="#org95ec569">5.1.1.1.1.4.2. long acting beta agonists (LABAs)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org0fc8005">5.1.1.1.1.4.2.1. drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#orgb971e50">5.1.1.1.1.4.2.1.1. salmeterol</a></li>
+<li><a href="#orgc30f3f3">5.1.1.1.1.4.2.1.2. formoterol fumarate</a></li>
+</ul>
+</li>
+<li><a href="#org5585ad4">5.1.1.1.1.4.2.2. adverse effects</a></li>
+<li><a href="#org5afb5c8">5.1.1.1.1.4.2.3. MOA</a></li>
+<li><a href="#orga76d711">5.1.1.1.1.4.2.4. black box warning</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgcddc3a5">5.1.1.1.2. indirect-acting</a>
+<ul>
+<li><a href="#orgcd4ebb9">5.1.1.1.2.1. releasers</a></li>
+<li><a href="#org5568481">5.1.1.1.2.2. reuptake inhibitors</a></li>
+</ul>
+</li>
+<li><a href="#orgd0c6245">5.1.1.1.3. intracellular target</a></li>
+</ul>
+</li>
+<li><a href="#orga7762e2">5.1.1.2. antimuscarinic drugs</a>
+<ul>
+<li><a href="#org63443ce">5.1.1.2.1. SAR</a></li>
+<li><a href="#org388f452">5.1.1.2.2. classes</a>
+<ul>
+<li><a href="#orgfa6b475">5.1.1.2.2.1. short acting inhaled muscarinic receptor antagonists (SAMAs)</a>
+<ul>
+<li><a href="#orgb38214f">5.1.1.2.2.1.1. drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#orgc4b5e41">5.1.1.2.2.1.1.1. ipratropium bromide</a>
+<ul>
+<li><a href="#orgf60c0e1">5.1.1.2.2.1.1.1.1. brand</a></li>
+</ul>
+</li>
+<li><a href="#org8bb3687">5.1.1.2.2.1.1.2. oxitropium bromide</a></li>
+</ul>
+</li>
+<li><a href="#org31de67a">5.1.1.2.2.1.2. adverse effects</a></li>
+</ul>
+</li>
+<li><a href="#org4f2859d">5.1.1.2.2.2. long acting inhaled muscarinic receptor antagonists (LAMAs)</a>
+<ul>
+<li><a href="#orgf46487b">5.1.1.2.2.2.1. drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#orgd07862b">5.1.1.2.2.2.1.1. tiotropium</a>
+<ul>
+<li><a href="#org038630d">5.1.1.2.2.2.1.1.1. brand</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgc336cfa">5.1.1.2.2.2.2. adverse effects</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgb3ff012">5.1.1.3. methyl xanthines</a>
+<ul>
+<li><a href="#org598e0ac">5.1.1.3.1. structure</a></li>
+<li><a href="#org0d10596">5.1.1.3.2. MOA</a></li>
+<li><a href="#org6938f07">5.1.1.3.3. drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#orgb272bd0">5.1.1.3.3.1. theophylline</a>
+<ul>
+<li><a href="#orgdedee92">5.1.1.3.3.1.1. brand</a></li>
+</ul>
+</li>
+<li><a href="#orgcf13414">5.1.1.3.3.2. roflumilast</a>
+<ul>
+<li><a href="#org3c133e6">5.1.1.3.3.2.1. brand</a></li>
+<li><a href="#orgfd3ae13">5.1.1.3.3.2.2. MOA</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgd4eaab6">5.1.1.3.4. adverse effect</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgdf0541b">5.1.2. anti-inflammatory agents&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org117f9ef">5.1.2.1. glucocorticosteroids</a>
+<ul>
+<li><a href="#org7d46caa">5.1.2.1.1. SAR</a>
+<ul>
+<li><a href="#org0eb9b07">5.1.2.1.1.1. cortisol</a>
+<ul>
+<li><a href="#org5fb53c9">5.1.2.1.1.1.1. structure</a></li>
+<li><a href="#org645a6af">5.1.2.1.1.1.2. C-17 oxidation</a></li>
+<li><a href="#org4a87c5f">5.1.2.1.1.1.3. C-11</a></li>
+</ul>
+</li>
+<li><a href="#orgf54c766">5.1.2.1.1.2. corticosteroids</a>
+<ul>
+<li><a href="#org9d1f788">5.1.2.1.1.2.1. functional groups required for activity</a></li>
+<li><a href="#org46babf8">5.1.2.1.1.2.2. prodrug</a></li>
+<li><a href="#org441b91d">5.1.2.1.1.2.3. increase DOA</a></li>
+<li><a href="#orgc16e787">5.1.2.1.1.2.4. increases glucocorticoid activity, reduces mineralocorticoid activity</a></li>
+<li><a href="#org13b29e9">5.1.2.1.1.2.5. increases both glucocorticoid and mineralocorticoid activity</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgf3d9e65">5.1.2.1.2. drugs</a>
+<ul>
+<li><a href="#orgd57b979">5.1.2.1.2.1. systemic&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org9f96617">5.1.2.1.2.1.1. prednisone</a></li>
+<li><a href="#org58f7323">5.1.2.1.2.1.2. methylprednisone</a></li>
+<li><a href="#org0b18b68">5.1.2.1.2.1.3. dexamethasone</a></li>
+<li><a href="#orge7cf4c9">5.1.2.1.2.1.4. hydrocortisone</a></li>
+</ul>
+</li>
+<li><a href="#orgd096cc0">5.1.2.1.2.2. inhaled&#xa0;&#xa0;&#xa0;<span class="tag"><span class="L">L</span></span></a>
+<ul>
+<li><a href="#orgc2bb4ed">5.1.2.1.2.2.1. fluticasone propionate</a>
+<ul>
+<li><a href="#org8be5e27">5.1.2.1.2.2.1.1. brands&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org6833c5b">5.1.2.1.2.2.1.1.1. Flovent HFA</a></li>
+<li><a href="#org2be4ed7">5.1.2.1.2.2.1.1.2. Advair</a></li>
+<li><a href="#orgff80277">5.1.2.1.2.2.1.1.3. Flovent Diskus</a></li>
+<li><a href="#org8f9f56a">5.1.2.1.2.2.1.1.4. Arnuity Ellipta</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org9734f15">5.1.2.1.2.2.2. triamcinolone acetonide</a>
+<ul>
+<li><a href="#orga44e2dc">5.1.2.1.2.2.2.1. brand</a></li>
+</ul>
+</li>
+<li><a href="#org7e53b2c">5.1.2.1.2.2.3. budenoside</a>
+<ul>
+<li><a href="#org42cfb6a">5.1.2.1.2.2.3.1. brand</a></li>
+</ul>
+</li>
+<li><a href="#org0317944">5.1.2.1.2.2.4. beclomethasone</a>
+<ul>
+<li><a href="#org17976ed">5.1.2.1.2.2.4.1. brand</a></li>
+</ul>
+</li>
+<li><a href="#org8224c24">5.1.2.1.2.2.5. flunisolide</a>
+<ul>
+<li><a href="#org797155d">5.1.2.1.2.2.5.1. brand</a></li>
+</ul>
+</li>
+<li><a href="#org31f84d8">5.1.2.1.2.2.6. mometasone</a>
+<ul>
+<li><a href="#orgf1fddf5">5.1.2.1.2.2.6.1. brand</a></li>
+</ul>
+</li>
+<li><a href="#org808f31b">5.1.2.1.2.2.7. ciclesonide</a>
+<ul>
+<li><a href="#orga13ec53">5.1.2.1.2.2.7.1. brand</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgb1089db">5.1.2.1.3. MOA</a></li>
+<li><a href="#orgbb4727e">5.1.2.1.4. adverse effects</a></li>
+</ul>
+</li>
+<li><a href="#orgcb703ff">5.1.2.2. Mast Cell Degranulation inhibitors</a>
+<ul>
+<li><a href="#org9ca3641">5.1.2.2.1. drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org3a64e1b">5.1.2.2.1.1. cromolyn sodium</a></li>
+<li><a href="#org2f026b8">5.1.2.2.1.2. nedocromil sodium</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgc02c1cd">5.1.2.3. Leukotrine Inhibitors</a>
+<ul>
+<li><a href="#org2e63419">5.1.2.3.1. classes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org7c6cbb0">5.1.2.3.1.1. lipoxygenase inhibitors&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org8bb468b">5.1.2.3.1.1.1. Zileuton</a>
+<ul>
+<li><a href="#orgf63633a">5.1.2.3.1.1.1.1. brand</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org07e9144">5.1.2.3.1.2. leukotreine receptor inhibitors&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org8c69ac1">5.1.2.3.1.2.1. monteleukast</a>
+<ul>
+<li><a href="#org269f17d">5.1.2.3.1.2.1.1. brand</a></li>
+</ul>
+</li>
+<li><a href="#org6cbedfe">5.1.2.3.1.2.2. zafirlukast</a>
+<ul>
+<li><a href="#org1075070">5.1.2.3.1.2.2.1. brand</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org122c437">5.1.2.3.2. MOA</a></li>
+</ul>
+</li>
+<li><a href="#org68fe28d">5.1.2.4. Anti-IgE monoclonal antibodies</a>
+<ul>
+<li><a href="#org4d59eb7">5.1.2.4.1. MOA</a></li>
+<li><a href="#org0ad783c">5.1.2.4.2. drugs</a>
+<ul>
+<li><a href="#org0abdd83">5.1.2.4.2.1. omalizumab</a>
+<ul>
+<li><a href="#orgd3f844e">5.1.2.4.2.1.1. brand</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org2983d41">5.2. COPD</a>
+<ul>
+<li><a href="#orgbd69ded">5.2.1. drug classes used</a></li>
+</ul>
+</li>
+<li><a href="#org33e5d13">5.3. asthma</a>
+<ul>
+<li><a href="#orgb689c8e">5.3.1. combination</a></li>
+</ul>
+</li>
+<li><a href="#orgec016eb">5.4. congestion</a>
+<ul>
+<li><a href="#org9dd8c34">5.4.1. short-acting decongestants</a>
+<ul>
+<li><a href="#orga9e7041">5.4.1.1. drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org2e66a61">5.4.1.1.1. phenylephrine</a></li>
+<li><a href="#org8215220">5.4.1.1.2. oxymetazoline</a>
+<ul>
+<li><a href="#org6f0a58a">5.4.1.1.2.1. brand</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orga4293a8">5.4.2. long-acting decongestants</a>
+<ul>
+<li><a href="#org2a5deeb">5.4.2.1. drugs</a>
+<ul>
+<li><a href="#orge8eaff5">5.4.2.1.1. pseudoephedrine</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orga5e816b">5.5. dry cough</a>
+<ul>
+<li><a href="#org4483a9d">5.5.1. treatment plan</a></li>
+<li><a href="#org4aa3a85">5.5.2. antitussives</a>
+<ul>
+<li><a href="#org921882d">5.5.2.1. MOA</a></li>
+<li><a href="#orgafcfd07">5.5.2.2. drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org1d64540">5.5.2.2.1. dextromethorphan</a>
+<ul>
+<li><a href="#org463ac97">5.5.2.2.1.1. brand</a></li>
+</ul>
+</li>
+<li><a href="#org4022666">5.5.2.2.2. codeine</a></li>
+<li><a href="#orgbd87d36">5.5.2.2.3. benzonatate</a>
+<ul>
+<li><a href="#org38c17ec">5.5.2.2.3.1. brand</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgba6d392">5.5.3. expectorants/mucolytics</a>
+<ul>
+<li><a href="#org937e866">5.5.3.1. drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#orga142792">5.5.3.1.1. acetylcysteine</a>
+<ul>
+<li><a href="#org7d6a850">5.5.3.1.1.1. indication</a></li>
+<li><a href="#org20f7003">5.5.3.1.1.2. brand</a></li>
+</ul>
+</li>
+<li><a href="#orga96fba5">5.5.3.1.2. guaifenesin</a>
+<ul>
+<li><a href="#orged35dc4">5.5.3.1.2.1. brand</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orga9a92f2">5.6. pulmonary arterial hypertension (PAH)</a>
+<ul>
+<li><a href="#org3c40f35">5.6.1. epidemiology</a></li>
+<li><a href="#org1f3327e">5.6.2. pathophysiology</a></li>
+<li><a href="#org2dcaf0c">5.6.3. WHO classification</a>
+<ul>
+<li><a href="#orgb511d2d">5.6.3.1. class 1</a>
+<ul>
+<li><a href="#org1bf5773">5.6.3.1.1. recommended drug class</a></li>
+</ul>
+</li>
+<li><a href="#org04fcb99">5.6.3.2. class 2</a>
+<ul>
+<li><a href="#orgc090d6d">5.6.3.2.1. recommended drug class</a></li>
+</ul>
+</li>
+<li><a href="#org842f5ae">5.6.3.3. class 3</a>
+<ul>
+<li><a href="#org413fed6">5.6.3.3.1. recommended drug class</a></li>
+</ul>
+</li>
+<li><a href="#org44fb945">5.6.3.4. class 4</a>
+<ul>
+<li><a href="#org085cf54">5.6.3.4.1. recommended drug class</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org49ea6aa">5.6.4. diagnosis</a>
+<ul>
+<li><a href="#org3085258">5.6.4.1. diagnostic gold standard</a></li>
+<li><a href="#org2b7562d">5.6.4.2. vasoreactivity testing</a>
+<ul>
+<li><a href="#orgccdf05f">5.6.4.2.1. short acting vasodilators&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org52675f4">5.6.4.2.1.1. epoprostenol</a></li>
+<li><a href="#org902a0a9">5.6.4.2.1.2. adenosine</a></li>
+<li><a href="#org3f60b89">5.6.4.2.1.3. nitric oxide</a></li>
+</ul>
+</li>
+<li><a href="#org2ec0f69">5.6.4.2.2. positive test criteria</a></li>
+<li><a href="#org2504672">5.6.4.2.3. contraindications</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org2ced1ef">5.6.5. risk factors</a></li>
+<li><a href="#org48d0ab3">5.6.6. non-pharmacologic</a></li>
+<li><a href="#org57e49f1">5.6.7. pharmacologic</a>
+<ul>
+<li><a href="#org0ab0409">5.6.7.1. gated behind drug access programs</a></li>
+<li><a href="#org2e281c4">5.6.7.2. digoxin</a></li>
+<li><a href="#org31791e6">5.6.7.3. anticoagulation</a></li>
+<li><a href="#org338350f">5.6.7.4. CCBs</a>
+<ul>
+<li><a href="#orgb6e9227">5.6.7.4.1. drugs</a></li>
+<li><a href="#orgce0429f">5.6.7.4.2. contraindications</a></li>
+</ul>
+</li>
+<li><a href="#org08aa924">5.6.7.5. nitric oxide pathway&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#orgb575e15">5.6.7.5.1. sildenafil</a>
+<ul>
+<li><a href="#org85dcaf2">5.6.7.5.1.1. brand</a></li>
+<li><a href="#org6927ae3">5.6.7.5.1.2. dose</a></li>
+<li><a href="#orgd766ce8">5.6.7.5.1.3. adverse effects</a></li>
+</ul>
+</li>
+<li><a href="#org465cf2c">5.6.7.5.2. tadalafil</a>
+<ul>
+<li><a href="#orge6c8dae">5.6.7.5.2.1. brand</a></li>
+<li><a href="#org0cd316f">5.6.7.5.2.2. dose</a></li>
+</ul>
+</li>
+<li><a href="#orgd07cc18">5.6.7.5.3. riocigant</a>
+<ul>
+<li><a href="#org2d1359c">5.6.7.5.3.1. brand</a></li>
+<li><a href="#org9832b04">5.6.7.5.3.2. indication</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgd6f0334">5.6.7.6. endothelin receptor antagonists</a>
+<ul>
+<li><a href="#org2e7002a">5.6.7.6.1. drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org58d41a3">5.6.7.6.1.1. bosentan</a>
+<ul>
+<li><a href="#org9f22bcf">5.6.7.6.1.1.1. brand</a></li>
+</ul>
+</li>
+<li><a href="#org782f440">5.6.7.6.1.2. ambrisentan</a>
+<ul>
+<li><a href="#org47c19e4">5.6.7.6.1.2.1. brand</a></li>
+</ul>
+</li>
+<li><a href="#orgb53a345">5.6.7.6.1.3. macitentan</a>
+<ul>
+<li><a href="#org9db114d">5.6.7.6.1.3.1. brand</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org837f5ea">5.6.7.6.2. monitoring parameters&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ignore">ignore</span></span></a></li>
+<li><a href="#org35545fd">5.6.7.6.3. adverse effects&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ignore">ignore</span></span></a></li>
+<li><a href="#org76923cb">5.6.7.6.4. drug access&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ignore">ignore</span></span></a></li>
+<li><a href="#org2a6e8a7">5.6.7.6.5. warning&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ignore">ignore</span></span></a></li>
+</ul>
+</li>
+<li><a href="#org1d00efc">5.6.7.7. prostacyclin pathway prostanoids</a>
+<ul>
+<li><a href="#org25a8495">5.6.7.7.1. drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></a>
+<ul>
+<li><a href="#org6da5de7">5.6.7.7.1.1. epoprostenol</a>
+<ul>
+<li><a href="#org15acfba">5.6.7.7.1.1.1. brand</a></li>
+<li><a href="#orgb7c892d">5.6.7.7.1.1.2. ROA</a></li>
+</ul>
+</li>
+<li><a href="#org7448caf">5.6.7.7.1.2. treprostinil</a>
+<ul>
+<li><a href="#orgfd1b556">5.6.7.7.1.2.1. brand</a></li>
+<li><a href="#org97d2ad4">5.6.7.7.1.2.2. ROA</a></li>
+</ul>
+</li>
+<li><a href="#orge8b5bcb">5.6.7.7.1.3. selexipag</a>
+<ul>
+<li><a href="#org2e72e29">5.6.7.7.1.3.1. brand</a></li>
+<li><a href="#org447bea8">5.6.7.7.1.3.2. ROA</a></li>
+</ul>
+</li>
+<li><a href="#org80605b9">5.6.7.7.1.4. iloprost</a>
+<ul>
+<li><a href="#orgdc120c2">5.6.7.7.1.4.1. brand</a></li>
+<li><a href="#orgd977ab9">5.6.7.7.1.4.2. ROA</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org9bf97ab">5.6.7.7.2. MOA</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgab75276" class="outline-2">
+<h2 id="orgab75276"><span class="section-number-2">1</span> fluids and electrolytes</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org6810be1" class="outline-3">
+<h3 id="org6810be1"><span class="section-number-3">1.1</span> normal electrolyte values</h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-org9dfe8d5" class="outline-4">
+<h4 id="org9dfe8d5"><span class="section-number-4">1.1.1</span> Sodium</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<p>
+136 mEq/L – 145 mEq/L
+</p>
+</div>
+</div>
+<div id="outline-container-orgccaca65" class="outline-4">
+<h4 id="orgccaca65"><span class="section-number-4">1.1.2</span> Potassium</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<p>
+3.5 mEq/L – 5 mEq/L
+</p>
+</div>
+</div>
+<div id="outline-container-orgf72259d" class="outline-4">
+<h4 id="orgf72259d"><span class="section-number-4">1.1.3</span> Magnesium</h4>
+<div class="outline-text-4" id="text-1-1-3">
+<p>
+1.7 mg/dL – 2.3 mg/dL
+</p>
+</div>
+</div>
+<div id="outline-container-org184cf97" class="outline-4">
+<h4 id="org184cf97"><span class="section-number-4">1.1.4</span> Calcium</h4>
+<div class="outline-text-4" id="text-1-1-4">
+<p>
+8.5 mg/dL – 10.5 mg/dL
+</p>
+</div>
+</div>
+<div id="outline-container-orgc43607d" class="outline-4">
+<h4 id="orgc43607d"><span class="section-number-4">1.1.5</span> Phosphorus</h4>
+<div class="outline-text-4" id="text-1-1-5">
+<p>
+2.5 mg/dL – 4.5 mg/dL
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfaca549" class="outline-3">
+<h3 id="orgfaca549"><span class="section-number-3">1.2</span> crystalloids and colloids</h3>
+<div class="outline-text-3" id="text-1-2">
+</div>
+<div id="outline-container-org84009ff" class="outline-4">
+<h4 id="org84009ff"><span class="section-number-4">1.2.1</span> crystalloids</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<ul class="org-ul">
+<li>NS</li>
+<li>LR</li>
+</ul>
+</div>
+<div id="outline-container-org7b42078" class="outline-5">
+<h5 id="org7b42078"><span class="section-number-5">1.2.1.1</span> distribution in fluid compartments</h5>
+</div>
+<div id="outline-container-org1d5d399" class="outline-5">
+<h5 id="org1d5d399"><span class="section-number-5">1.2.1.2</span> risks</h5>
+</div>
+<div id="outline-container-org88662aa" class="outline-5">
+<h5 id="org88662aa"><span class="section-number-5">1.2.1.3</span> benefits</h5>
+<div class="outline-text-5" id="text-1-2-1-3">
+<ul class="org-ul">
+<li>less costly</li>
+<li>fewer ADRs</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org2291e08" class="outline-4">
+<h4 id="org2291e08"><span class="section-number-4">1.2.2</span> colloids</h4>
+<div class="outline-text-4" id="text-1-2-2">
+<ul class="org-ul">
+<li>albumin</li>
+<li>hydroxyethyl starch / hetastarch (HES)</li>
+<li>dextran</li>
+</ul>
+</div>
+<div id="outline-container-org28c9de7" class="outline-5">
+<h5 id="org28c9de7"><span class="section-number-5">1.2.2.1</span> distribution in fluid compartments</h5>
+<div class="outline-text-5" id="text-1-2-2-1">
+<p>
+25% albumin: intravascular; 5000 mL
+</p>
+</div>
+</div>
+<div id="outline-container-org1d3cc0f" class="outline-5">
+<h5 id="org1d3cc0f"><span class="section-number-5">1.2.2.2</span> risks</h5>
+</div>
+<div id="outline-container-org2c661ca" class="outline-5">
+<h5 id="org2c661ca"><span class="section-number-5">1.2.2.3</span> benefits</h5>
+</div>
+</div>
+</div>
+<div id="outline-container-org6b82201" class="outline-3">
+<h3 id="org6b82201"><span class="section-number-3">1.3</span> fluid requirements</h3>
+<div class="outline-text-3" id="text-1-3">
+</div>
+<div id="outline-container-orgcad9af2" class="outline-4">
+<h4 id="orgcad9af2"><span class="section-number-4">1.3.1</span> maintenance</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<ul class="org-ul">
+<li>adults: 30-40 mL/kg</li>
+<li>pediatrics: “4, 2, 1” rule
+<ul class="org-ul">
+<li>4 mL/kg/hr + 2 mL/kg/hr * (weight &gt; 10kg) + 1 mL/kg/hr * max(0, weight - 20 kg)</li>
+<li>first 10 kg: 4 mL/kg/hr</li>
+<li>second 10 kg: 2 mL/kg/hr</li>
+<li>thereafter: 1 mL/kg/hr</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org023f7e5" class="outline-4">
+<h4 id="org023f7e5"><span class="section-number-4">1.3.2</span> water deficit</h4>
+<div class="outline-text-4" id="text-1-3-2">
+</div>
+<div id="outline-container-org50fe05e" class="outline-5">
+<h5 id="org50fe05e"><span class="section-number-5">1.3.2.1</span> male</h5>
+<div class="outline-text-5" id="text-1-3-2-1">
+<p>
+\( 0.6 * \mathit{IBW} * \frac{sNa}{140} - 1 \)
+</p>
+</div>
+</div>
+<div id="outline-container-org9853bf6" class="outline-5">
+<h5 id="org9853bf6"><span class="section-number-5">1.3.2.2</span> female</h5>
+<div class="outline-text-5" id="text-1-3-2-2">
+<p>
+\( 0.5 * \mathit{IBW} * \frac{sNa}{140} - 1 \)
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfb34c20" class="outline-3">
+<h3 id="orgfb34c20"><span class="section-number-3">1.4</span> hyponatremia</h3>
+<div class="outline-text-3" id="text-1-4">
+</div>
+<div id="outline-container-org9155e1b" class="outline-4">
+<h4 id="org9155e1b"><span class="section-number-4">1.4.1</span> treatment</h4>
+<div class="outline-text-4" id="text-1-4-1">
+</div>
+<div id="outline-container-org3f209f2" class="outline-5">
+<h5 id="org3f209f2"><span class="section-number-5">1.4.1.1</span> pharmacological</h5>
+<div class="outline-text-5" id="text-1-4-1-1">
+<ul class="org-ul">
+<li>lithium</li>
+<li>fludrocortisone</li>
+<li>Tolvaptam (Samsca)</li>
+<li>Conivaptan (Vaprisol)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8dd6f8f" class="outline-5">
+<h5 id="org8dd6f8f"><span class="section-number-5">1.4.1.2</span> non-pharmacological</h5>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd9f39e3" class="outline-3">
+<h3 id="orgd9f39e3"><span class="section-number-3">1.5</span> hypokalemia</h3>
+<div class="outline-text-3" id="text-1-5">
+</div>
+<div id="outline-container-org4e97d54" class="outline-4">
+<h4 id="org4e97d54"><span class="section-number-4">1.5.1</span> drug-induced</h4>
+<div class="outline-text-4" id="text-1-5-1">
+<p>
+transcellular shift:
+</p>
+<ul class="org-ul">
+<li>insulin</li>
+<li>β agonists</li>
+<li>alkalosis, anything that causes</li>
+</ul>
+<p>
+enhanced renal excretion:
+</p>
+<ul class="org-ul">
+<li>diuretics</li>
+</ul>
+<p>
+laxatives:
+</p>
+<ul class="org-ul">
+<li>Sodium polystyrene sulfonate (Kayexalate)</li>
+<li>Sodium zirconium cyclosilicate (Lokelma)</li>
+<li>Patiromer (Veltassa)</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org5c6eecc" class="outline-2">
+<h2 id="org5c6eecc"><span class="section-number-2">2</span> shock</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org83d319a" class="outline-3">
+<h3 id="org83d319a"><span class="section-number-3">2.1</span> exam&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ignore">ignore</span></span></h3>
+</div>
+<div id="outline-container-orgc0f36b1" class="outline-3">
+<h3 id="orgc0f36b1"><span class="section-number-3">2.2</span> definition</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+acute state characterized by inadequate perfusion of critical organs; can produce serious consequences including death
+SBP ≤90 mm Hg + end organ damage
+</p>
+</div>
+<div id="outline-container-org80efc6c" class="outline-4">
+<h4 id="org80efc6c"><span class="section-number-4">2.2.1</span> types of shock</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<ul class="org-ul">
+<li>cardiogenic</li>
+<li>hypovolemic</li>
+<li>anaphylactic</li>
+<li>septic</li>
+<li>neurogenic</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org43a2c3e" class="outline-4">
+<h4 id="org43a2c3e"><span class="section-number-4">2.2.2</span> stages of shock</h4>
+<div class="outline-text-4" id="text-2-2-2">
+<ul class="org-ul">
+<li>initial</li>
+<li>compensatory (warm)</li>
+<li>progressive (cold)</li>
+<li>refractory</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org95b870a" class="outline-3">
+<h3 id="org95b870a"><span class="section-number-3">2.3</span> causes</h3>
+<div class="outline-text-3" id="text-2-3">
+<ul class="org-ul">
+<li>hypovolemia</li>
+<li>cardiogenic</li>
+<li>distributive</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge27047e" class="outline-3">
+<h3 id="orge27047e"><span class="section-number-3">2.4</span> end organ damage&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h3>
+<div class="outline-text-3" id="text-2-4">
+</div>
+<div id="outline-container-orgbfe6438" class="outline-4">
+<h4 id="orgbfe6438"><span class="section-number-4">2.4.1</span> brain</h4>
+<div class="outline-text-4" id="text-2-4-1">
+</div>
+<div id="outline-container-org640b5e5" class="outline-5">
+<h5 id="org640b5e5"><span class="section-number-5">2.4.1.1</span> labs</h5>
+<div class="outline-text-5" id="text-2-4-1-1">
+<ul class="org-ul">
+<li>abnormal CT scan</li>
+<li>abnormal MRI</li>
+<li>abnormal EEG</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orge5e116a" class="outline-4">
+<h4 id="orge5e116a"><span class="section-number-4">2.4.2</span> heart</h4>
+<div class="outline-text-4" id="text-2-4-2">
+</div>
+<div id="outline-container-orgab038c0" class="outline-5">
+<h5 id="orgab038c0"><span class="section-number-5">2.4.2.1</span> labs</h5>
+<div class="outline-text-5" id="text-2-4-2-1">
+<ul class="org-ul">
+<li>elevated troponins (reference: &lt;0.6 ng/mL)</li>
+<li>reduced ejection fraction on ECHO (&lt;45%)</li>
+<li>elevated BNP (reference: 0-99 pg/mL)</li>
+<li>abnormal EKG—STEMI, NSTEMI</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org5d2e9ba" class="outline-4">
+<h4 id="org5d2e9ba"><span class="section-number-4">2.4.3</span> kidneys</h4>
+<div class="outline-text-4" id="text-2-4-3">
+</div>
+<div id="outline-container-orgc36089e" class="outline-5">
+<h5 id="orgc36089e"><span class="section-number-5">2.4.3.1</span> labs</h5>
+<div class="outline-text-5" id="text-2-4-3-1">
+<ul class="org-ul">
+<li>elevated SCr</li>
+<li>elevated BUN</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org9fc0fec" class="outline-4">
+<h4 id="org9fc0fec"><span class="section-number-4">2.4.4</span> liver</h4>
+<div class="outline-text-4" id="text-2-4-4">
+</div>
+<div id="outline-container-orge2c42a2" class="outline-5">
+<h5 id="orge2c42a2"><span class="section-number-5">2.4.4.1</span> labs</h5>
+<div class="outline-text-5" id="text-2-4-4-1">
+<ul class="org-ul">
+<li>elevated LFTs</li>
+<li>elevated INR</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org2984445" class="outline-3">
+<h3 id="org2984445"><span class="section-number-3">2.5</span> hemodynamic parameters</h3>
+<div class="outline-text-3" id="text-2-5">
+</div>
+<div id="outline-container-orgcb8b840" class="outline-4">
+<h4 id="orgcb8b840"><span class="section-number-4">2.5.1</span> CO</h4>
+<div class="outline-text-4" id="text-2-5-1">
+<ul class="org-ul">
+<li>volume of blood pumped by the ventricle in 1 minute</li>
+<li>CO = SV × HR</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc651a11" class="outline-4">
+<h4 id="orgc651a11"><span class="section-number-4">2.5.2</span> Systemic Venous Oxygen Saturation (SVO2)</h4>
+<div class="outline-text-4" id="text-2-5-2">
+<p>
+measure of tissue oxygenation
+</p>
+</div>
+</div>
+<div id="outline-container-org61504be" class="outline-4">
+<h4 id="org61504be"><span class="section-number-4">2.5.3</span> Central Venous Pressure (CVP)</h4>
+<div class="outline-text-4" id="text-2-5-3">
+<p>
+correlates to the amount of blood returning to the heart
+</p>
+</div>
+</div>
+<div id="outline-container-org0691f1c" class="outline-4">
+<h4 id="org0691f1c"><span class="section-number-4">2.5.4</span> PCWP</h4>
+<div class="outline-text-4" id="text-2-5-4">
+<p>
+preload
+</p>
+</div>
+</div>
+<div id="outline-container-org5601bba" class="outline-4">
+<h4 id="org5601bba"><span class="section-number-4">2.5.5</span> SVR</h4>
+<div class="outline-text-4" id="text-2-5-5">
+<p>
+afterload
+</p>
+</div>
+</div>
+<div id="outline-container-orgbaeac5a" class="outline-4">
+<h4 id="orgbaeac5a"><span class="section-number-4">2.5.6</span> by shock etiology</h4>
+<div class="outline-text-4" id="text-2-5-6">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">CO</th>
+<th scope="col" class="org-left">CVP</th>
+<th scope="col" class="org-left">SVO2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">hypovolemia</td>
+<td class="org-left">down</td>
+<td class="org-left">down</td>
+<td class="org-left">down</td>
+</tr>
+
+<tr>
+<td class="org-left">cardiogenic</td>
+<td class="org-left">down</td>
+<td class="org-left">up</td>
+<td class="org-left">down</td>
+</tr>
+
+<tr>
+<td class="org-left">distributive</td>
+<td class="org-left">slightly up</td>
+<td class="org-left">down</td>
+<td class="org-left">slightly up</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org5719499" class="outline-4">
+<h4 id="org5719499"><span class="section-number-4">2.5.7</span> </h4>
+</div>
+</div>
+<div id="outline-container-org48ff56b" class="outline-3">
+<h3 id="org48ff56b"><span class="section-number-3">2.6</span> treatment</h3>
+<div class="outline-text-3" id="text-2-6">
+</div>
+<div id="outline-container-orgf251d33" class="outline-4">
+<h4 id="orgf251d33"><span class="section-number-4">2.6.1</span> crystalloids&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h4>
+<div class="outline-text-4" id="text-2-6-1">
+</div>
+<div id="outline-container-orgbfc3012" class="outline-5">
+<h5 id="orgbfc3012"><span class="section-number-5">2.6.1.1</span> normal saline</h5>
+</div>
+<div id="outline-container-orgb0c2228" class="outline-5">
+<h5 id="orgb0c2228"><span class="section-number-5">2.6.1.2</span> 5% dextrose water (D5W)</h5>
+</div>
+<div id="outline-container-orgeae7d71" class="outline-5">
+<h5 id="orgeae7d71"><span class="section-number-5">2.6.1.3</span> Lactated Ringer’s solution</h5>
+</div>
+</div>
+<div id="outline-container-org7ba5433" class="outline-4">
+<h4 id="org7ba5433"><span class="section-number-4">2.6.2</span> colloids&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h4>
+<div class="outline-text-4" id="text-2-6-2">
+</div>
+<div id="outline-container-org4ad022f" class="outline-5">
+<h5 id="org4ad022f"><span class="section-number-5">2.6.2.1</span> albumin</h5>
+<div class="outline-text-5" id="text-2-6-2-1">
+</div>
+<div id="outline-container-org9cd5d05" class="outline-6">
+<h6 id="org9cd5d05"><span class="section-number-6">2.6.2.1.1</span> adverse effects</h6>
+<div class="outline-text-6" id="text-2-6-2-1-1">
+<ul class="org-ul">
+<li>leakage into intravascular and interstitial space</li>
+<li>anaphylaxis</li>
+<li>renal toxicity</li>
+<li>hemolysis</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org534dfe6" class="outline-5">
+<h5 id="org534dfe6"><span class="section-number-5">2.6.2.2</span> hydroxyethyl starch</h5>
+</div>
+<div id="outline-container-orgf3032f9" class="outline-5">
+<h5 id="orgf3032f9"><span class="section-number-5">2.6.2.3</span> dextran</h5>
+</div>
+</div>
+<div id="outline-container-org7ca6f04" class="outline-4">
+<h4 id="org7ca6f04"><span class="section-number-4">2.6.3</span> side effects</h4>
+<div class="outline-text-4" id="text-2-6-3">
+</div>
+<div id="outline-container-org278a8e9" class="outline-5">
+<h5 id="org278a8e9"><span class="section-number-5">2.6.3.1</span> crystalloids</h5>
+<div class="outline-text-5" id="text-2-6-3-1">
+<ul class="org-ul">
+<li>peripheral and pulmonary edema</li>
+<li>for saline: hyperchloremic acidosis</li>
+<li>for dextose: hyperglycemia</li>
+<li>for LR/Plasmalyte: electrolyte abnormalitiees</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge7c7b6a" class="outline-5">
+<h5 id="orge7c7b6a"><span class="section-number-5">2.6.3.2</span> colloids</h5>
+<div class="outline-text-5" id="text-2-6-3-2">
+<ul class="org-ul">
+<li>cardiac failure</li>
+<li>edema</li>
+<li>for HES: mortality or renal failure</li>
+<li>anaphylaxis</li>
+<li>bleeding</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org5a0d8c0" class="outline-4">
+<h4 id="org5a0d8c0"><span class="section-number-4">2.6.4</span> fluid resuscitation</h4>
+<div class="outline-text-4" id="text-2-6-4">
+<p>
+isotonic crystalloids:
+</p>
+<ul class="org-ul">
+<li>NS</li>
+<li>LR</li>
+</ul>
+<p>
+20 mL/kg bolus
+</p>
+</div>
+</div>
+<div id="outline-container-orge43bbdd" class="outline-4">
+<h4 id="orge43bbdd"><span class="section-number-4">2.6.5</span> pressors</h4>
+<div class="outline-text-4" id="text-2-6-5">
+</div>
+<div id="outline-container-org5daf514" class="outline-5">
+<h5 id="org5daf514"><span class="section-number-5">2.6.5.1</span> adverse effects</h5>
+<div class="outline-text-5" id="text-2-6-5-1">
+<p>
+extravasation; manage with phentolamine subQ, hot/cold compresses, or elevation of affected extremity
+</p>
+</div>
+</div>
+<div id="outline-container-org7d7279c" class="outline-5">
+<h5 id="org7d7279c"><span class="section-number-5">2.6.5.2</span> first line agent</h5>
+<div class="outline-text-5" id="text-2-6-5-2">
+<p>
+norepinephrine
+</p>
+</div>
+</div>
+<div id="outline-container-org18beeb1" class="outline-5">
+<h5 id="org18beeb1"><span class="section-number-5">2.6.5.3</span> non-first line agents</h5>
+<div class="outline-text-5" id="text-2-6-5-3">
+</div>
+<div id="outline-container-org0d9254a" class="outline-6">
+<h6 id="org0d9254a"><span class="section-number-6">2.6.5.3.1</span> dobutamine</h6>
+<div class="outline-text-6" id="text-2-6-5-3-1">
+</div>
+<div id="outline-container-org73d849d" class="outline-7">
+<h7 id="org73d849d"><span class="section-number-7">2.6.5.3.1.1</span> MOA</h7>
+<div class="outline-text-7" id="text-2-6-5-3-1-1">
+<ul class="org-ul">
+<li>beta-{1, 2} &gt; alpha-1 receptors</li>
+<li>beta-2 receptor agonist on skeletal muscle</li>
+<li>increases cardiac output</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org4d8cb1a" class="outline-6">
+<h6 id="org4d8cb1a"><span class="section-number-6">2.6.5.3.2</span> vasopressin</h6>
+<div class="outline-text-6" id="text-2-6-5-3-2">
+</div>
+<div id="outline-container-orge773147" class="outline-7">
+<h7 id="orge773147"><span class="section-number-7">2.6.5.3.2.1</span> MOA</h7>
+<div class="outline-text-7" id="text-2-6-5-3-2-1">
+<p>
+activates aquaporins, reabsorbing water
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org37c7a62" class="outline-2">
+<h2 id="org37c7a62"><span class="section-number-2">3</span> renal</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orgbd8b933" class="outline-3">
+<h3 id="orgbd8b933"><span class="section-number-3">3.1</span> exam&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ignore">ignore</span></span></h3>
+<div class="outline-text-3" id="text-3-1">
+</div>
+<div id="outline-container-org60e1e5b" class="outline-4">
+<h4 id="org60e1e5b"><span class="section-number-4">3.1.1</span> Wong</h4>
+<div class="outline-text-4" id="text-3-1-1">
+</div>
+<div id="outline-container-orgc21b47a" class="outline-5">
+<h5 id="orgc21b47a"><span class="section-number-5">3.1.1.1</span> phosphate management</h5>
+</div>
+<div id="outline-container-orga5fa6f8" class="outline-5">
+<h5 id="orga5fa6f8"><span class="section-number-5">3.1.1.2</span> phosphate binding agents</h5>
+</div>
+<div id="outline-container-org07a9bb1" class="outline-5">
+<h5 id="org07a9bb1"><span class="section-number-5">3.1.1.3</span> calciumemtic agent</h5>
+</div>
+<div id="outline-container-org8197e0b" class="outline-5">
+<h5 id="org8197e0b"><span class="section-number-5">3.1.1.4</span> vitamin D maintains Ca homeostasis</h5>
+</div>
+<div id="outline-container-org9b2d5ed" class="outline-5">
+<h5 id="org9b2d5ed"><span class="section-number-5">3.1.1.5</span> anemia related to erythrypoietin</h5>
+</div>
+<div id="outline-container-orgb9c63cc" class="outline-5">
+<h5 id="orgb9c63cc"><span class="section-number-5">3.1.1.6</span> pharmacokinetic &amp; pharmacodynamic change&#x2013;general principle of changes in PK &amp; PD changes w.r.t. pharmacotherapy</h5>
+</div>
+<div id="outline-container-org26f7187" class="outline-5">
+<h5 id="org26f7187"><span class="section-number-5">3.1.1.7</span> exam 1</h5>
+<div class="outline-text-5" id="text-3-1-1-7">
+</div>
+<div id="outline-container-org1a95225" class="outline-6">
+<h6 id="org1a95225"><span class="section-number-6">3.1.1.7.1</span> dobutamine</h6>
+<div class="outline-text-6" id="text-3-1-1-7-1">
+<ul class="org-ul">
+<li>beta agonist</li>
+<li>positive ionotropic effect</li>
+<li>pka A activity in heart
+<ul class="org-ul">
+<li>phosphorylate L type calcium channel</li>
+<li>phosphorylate ryanodine receptor
+<ul class="org-ul">
+<li>calcium release from SR</li>
+<li>ionotropic effect</li>
+</ul></li>
+<li>phosphorylate phospholamban (sp?)
+<ul class="org-ul">
+<li>calcium cycling in the cell</li>
+<li>increases calcium usage as it's more effective</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org736afdf" class="outline-3">
+<h3 id="org736afdf"><span class="section-number-3">3.2</span> chronic renal disease</h3>
+<div class="outline-text-3" id="text-3-2">
+</div>
+<div id="outline-container-org0f2bd0e" class="outline-4">
+<h4 id="org0f2bd0e"><span class="section-number-4">3.2.1</span> pathophysiology</h4>
+<div class="outline-text-4" id="text-3-2-1">
+<ul class="org-ul">
+<li>anemia</li>
+<li>calcium loss from bone
+<ul class="org-ul">
+<li>high PTH</li>
+<li>decreased vitamin D synthesis</li>
+</ul></li>
+<li>decreased renal elimination</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0bd00e9" class="outline-4">
+<h4 id="org0bd00e9"><span class="section-number-4">3.2.2</span> treatments&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h4>
+<div class="outline-text-4" id="text-3-2-2">
+</div>
+<div id="outline-container-org872e065" class="outline-5">
+<h5 id="org872e065"><span class="section-number-5">3.2.2.1</span> phosphate-binding agents</h5>
+<div class="outline-text-5" id="text-3-2-2-1">
+</div>
+<div id="outline-container-org9176729" class="outline-6">
+<h6 id="org9176729"><span class="section-number-6">3.2.2.1.1</span> MOA</h6>
+<div class="outline-text-6" id="text-3-2-2-1-1">
+<ol class="org-ol">
+<li>form insoluble phosphate compounds in GI tract</li>
+<li>excretes in feces</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org51622f0" class="outline-5">
+<h5 id="org51622f0"><span class="section-number-5">3.2.2.2</span> vitamin D</h5>
+<div class="outline-text-5" id="text-3-2-2-2">
+</div>
+<div id="outline-container-org52a8014" class="outline-6">
+<h6 id="org52a8014"><span class="section-number-6">3.2.2.2.1</span> metabolism in organs</h6>
+<div class="outline-text-6" id="text-3-2-2-2-1">
+</div>
+<div id="outline-container-orge3b0841" class="outline-7">
+<h7 id="orge3b0841"><span class="section-number-7">3.2.2.2.1.1</span> calcitriol</h7>
+<div class="outline-text-7" id="text-3-2-2-2-1-1">
+<p>
+kidneys
+</p>
+</div>
+</div>
+<div id="outline-container-org3a6ee1e" class="outline-7">
+<h7 id="org3a6ee1e"><span class="section-number-7">3.2.2.2.1.2</span> calcifediol</h7>
+<div class="outline-text-7" id="text-3-2-2-2-1-2">
+<p>
+liver
+</p>
+</div>
+</div>
+<div id="outline-container-org4d79baa" class="outline-7">
+<h7 id="org4d79baa"><span class="section-number-7">3.2.2.2.1.3</span> cholecalciferol</h7>
+<div class="outline-text-7" id="text-3-2-2-2-1-3">
+<p>
+skin
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org71d2e3c" class="outline-6">
+<h6 id="org71d2e3c"><span class="section-number-6">3.2.2.2.2</span> rank order of bioavailability</h6>
+<div class="outline-text-6" id="text-3-2-2-2-2">
+<p>
+calcitriol &gt; calcifediol &gt;&gt;&gt; cholecalciferol
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org0ad7b37" class="outline-5">
+<h5 id="org0ad7b37"><span class="section-number-5">3.2.2.3</span> calcimimetics&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h5>
+<div class="outline-text-5" id="text-3-2-2-3">
+</div>
+<div id="outline-container-org9c5d239" class="outline-6">
+<h6 id="org9c5d239"><span class="section-number-6">3.2.2.3.1</span> cinaclet</h6>
+<div class="outline-text-6" id="text-3-2-2-3-1">
+</div>
+<div id="outline-container-org215067e" class="outline-7">
+<h7 id="org215067e"><span class="section-number-7">3.2.2.3.1.1</span> brand</h7>
+<div class="outline-text-7" id="text-3-2-2-3-1-1">
+<p>
+Sensipar
+</p>
+</div>
+</div>
+<div id="outline-container-org8d5afea" class="outline-7">
+<h7 id="org8d5afea"><span class="section-number-7">3.2.2.3.1.2</span> adverse effects</h7>
+<div class="outline-text-7" id="text-3-2-2-3-1-2">
+<p>
+hypocalcemia
+</p>
+</div>
+</div>
+<div id="outline-container-org7a4cc14" class="outline-7">
+<h7 id="org7a4cc14"><span class="section-number-7">3.2.2.3.1.3</span> interactions</h7>
+<div class="outline-text-7" id="text-3-2-2-3-1-3">
+<ul class="org-ul">
+<li>CYP2D6
+<ul class="org-ul">
+<li>flecainide</li>
+<li>thioridazine</li>
+<li>vinblastine</li>
+<li>tricyclic antidepressants; esp. amitriptyline</li>
+</ul></li>
+<li>CYP3A4
+<ul class="org-ul">
+<li>ketoconazole</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge8c6666" class="outline-7">
+<h7 id="orge8c6666"><span class="section-number-7">3.2.2.3.1.4</span> MOA</h7>
+<div class="outline-text-7" id="text-3-2-2-3-1-4">
+<ol class="org-ol">
+<li>binds to calcium-sensing receptor (CaSR)</li>
+<li>increases Ca-CaSR interaction</li>
+<li>reduce PTH secretion</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org3b992cf" class="outline-6">
+<h6 id="org3b992cf"><span class="section-number-6">3.2.2.3.2</span> cinacalcet + low dose vitamin D</h6>
+</div>
+</div>
+<div id="outline-container-orgf164f88" class="outline-5">
+<h5 id="orgf164f88"><span class="section-number-5">3.2.2.4</span> EPO</h5>
+</div>
+<div id="outline-container-org80fa90e" class="outline-5">
+<h5 id="org80fa90e"><span class="section-number-5">3.2.2.5</span> osmotic diuretics</h5>
+<div class="outline-text-5" id="text-3-2-2-5">
+</div>
+<div id="outline-container-org30f7e79" class="outline-6">
+<h6 id="org30f7e79"><span class="section-number-6">3.2.2.5.1</span> drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h6>
+<div class="outline-text-6" id="text-3-2-2-5-1">
+<ul class="org-ul">
+<li>mannitol</li>
+<li>glycerin</li>
+<li>isosorbide</li>
+<li>urea</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgdae0eaa" class="outline-6">
+<h6 id="orgdae0eaa"><span class="section-number-6">3.2.2.5.2</span> site of action</h6>
+<div class="outline-text-6" id="text-3-2-2-5-2">
+<p>
+proximal convoluted tubule
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org4a13262" class="outline-4">
+<h4 id="org4a13262"><span class="section-number-4">3.2.3</span> drug-disease interactions</h4>
+<div class="outline-text-4" id="text-3-2-3">
+</div>
+<div id="outline-container-orga077dc5" class="outline-5">
+<h5 id="orga077dc5"><span class="section-number-5">3.2.3.1</span> NSAIDs</h5>
+<div class="outline-text-5" id="text-3-2-3-1">
+<p>
+avoid NSAIDs in CKD
+</p>
+</div>
+</div>
+<div id="outline-container-orgf3fec92" class="outline-5">
+<h5 id="orgf3fec92"><span class="section-number-5">3.2.3.2</span> LMWH</h5>
+<div class="outline-text-5" id="text-3-2-3-2">
+<ul class="org-ul">
+<li>eGFT &lt;30 mL/min lengthens t<sub>1</sub>/2
+<ul class="org-ul">
+<li>increases anticoagulant anti-10a</li>
+<li>increases risk of major bleeding</li>
+</ul></li>
+<li>LMWH excreted by kidneys</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9e9f6e2" class="outline-5">
+<h5 id="org9e9f6e2"><span class="section-number-5">3.2.3.3</span> furosemide</h5>
+<div class="outline-text-5" id="text-3-2-3-3">
+<p>
+loop diuretics are effective in patients with residual renal function
+</p>
+</div>
+</div>
+<div id="outline-container-org8199da1" class="outline-5">
+<h5 id="org8199da1"><span class="section-number-5">3.2.3.4</span> propranolol</h5>
+<div class="outline-text-5" id="text-3-2-3-4">
+<p>
+decreased clearance because chronic renal failure downregulates CYP450, which normally metabolizes propranolol
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb6fd2a0" class="outline-4">
+<h4 id="orgb6fd2a0"><span class="section-number-4">3.2.4</span> terminology</h4>
+<div class="outline-text-4" id="text-3-2-4">
+</div>
+<div id="outline-container-orge3a99fd" class="outline-5">
+<h5 id="orge3a99fd"><span class="section-number-5">3.2.4.1</span> KDOQI</h5>
+<div class="outline-text-5" id="text-3-2-4-1">
+<p>
+Kidney Dialysis Outcomes and Quality Initiative
+</p>
+</div>
+</div>
+<div id="outline-container-org81daa51" class="outline-5">
+<h5 id="org81daa51"><span class="section-number-5">3.2.4.2</span> KDIGO</h5>
+<div class="outline-text-5" id="text-3-2-4-2">
+<p>
+Kidney Disease Improving Global Outcomes
+</p>
+</div>
+</div>
+<div id="outline-container-org40c8dd8" class="outline-5">
+<h5 id="org40c8dd8"><span class="section-number-5">3.2.4.3</span> kidney failure</h5>
+<div class="outline-text-5" id="text-3-2-4-3">
+<p>
+GFR &lt;15 mL/min/1.73 m²
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc28effb" class="outline-3">
+<h3 id="orgc28effb"><span class="section-number-3">3.3</span> acute kidney injury</h3>
+<div class="outline-text-3" id="text-3-3">
+</div>
+<div id="outline-container-orgfde7540" class="outline-4">
+<h4 id="orgfde7540"><span class="section-number-4">3.3.1</span> non-pharmacologic therapy</h4>
+<div class="outline-text-4" id="text-3-3-1">
+<p>
+isotonic crystalloids
+</p>
+<ul class="org-ul">
+<li>normal saline</li>
+<li>LR</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7bb5956" class="outline-4">
+<h4 id="org7bb5956"><span class="section-number-4">3.3.2</span> KDIGO guidelines</h4>
+<div class="outline-text-4" id="text-3-3-2">
+</div>
+<div id="outline-container-orgf71adaf" class="outline-5">
+<h5 id="orgf71adaf"><span class="section-number-5">3.3.2.1</span> prevention</h5>
+<div class="outline-text-5" id="text-3-3-2-1">
+<ul class="org-ul">
+<li>NAC</li>
+<li>sodium bicarbonate</li>
+</ul>
+<p>
+These are also treatments:
+</p>
+<ul class="org-ul">
+<li>vasopressors</li>
+<li>isotonic saline</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf10714a" class="outline-5">
+<h5 id="orgf10714a"><span class="section-number-5">3.3.2.2</span> treatment</h5>
+<div class="outline-text-5" id="text-3-3-2-2">
+<ul class="org-ul">
+<li>isotonic saline</li>
+<li>RRT</li>
+<li>vasopressors</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfc540f6" class="outline-4">
+<h4 id="orgfc540f6"><span class="section-number-4">3.3.3</span> RIFLE criteria</h4>
+</div>
+<div id="outline-container-org45566c6" class="outline-4">
+<h4 id="org45566c6"><span class="section-number-4">3.3.4</span> acute intrinsic</h4>
+<div class="outline-text-4" id="text-3-3-4">
+</div>
+<div id="outline-container-org7b62c54" class="outline-5">
+<h5 id="org7b62c54"><span class="section-number-5">3.3.4.1</span> extrinsic toxins</h5>
+<div class="outline-text-5" id="text-3-3-4-1">
+<ul class="org-ul">
+<li>aminoglycosides</li>
+<li>amphotericin</li>
+<li>IV contrast agents</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3ea6f1c" class="outline-5">
+<h5 id="org3ea6f1c"><span class="section-number-5">3.3.4.2</span> medications exacerbating&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ignore">ignore</span></span></h5>
+<div class="outline-text-5" id="text-3-3-4-2">
+<ul class="org-ul">
+<li>penicillins</li>
+<li>cephalosporins</li>
+<li>ciprofloxacin</li>
+<li>NSAIDs</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc758dea" class="outline-5">
+<h5 id="orgc758dea"><span class="section-number-5">3.3.4.3</span> diagnostic findings</h5>
+<div class="outline-text-5" id="text-3-3-4-3">
+<ul class="org-ul">
+<li>urine osmolality similar to plasma osmolality</li>
+<li>“dirty brown casts”</li>
+<li>high Na excretion</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1f884be" class="outline-5">
+<h5 id="org1f884be"><span class="section-number-5">3.3.4.4</span> management</h5>
+<div class="outline-text-5" id="text-3-3-4-4">
+</div>
+<div id="outline-container-org25d7781" class="outline-6">
+<h6 id="org25d7781"><span class="section-number-6">3.3.4.4.1</span> medications</h6>
+<div class="outline-text-6" id="text-3-3-4-4-1">
+<ul class="org-ul">
+<li>Prednisone 1 mg/kg/d x 1 wk</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org6a96e46" class="outline-4">
+<h4 id="org6a96e46"><span class="section-number-4">3.3.5</span> dialysis</h4>
+<div class="outline-text-4" id="text-3-3-5">
+</div>
+<div id="outline-container-org1950b56" class="outline-5">
+<h5 id="org1950b56"><span class="section-number-5">3.3.5.1</span> indications</h5>
+<div class="outline-text-5" id="text-3-3-5-1">
+<p>
+AEIOU:
+</p>
+<ul class="org-ul">
+<li>Acid Base Abnormalities</li>
+<li>Electrolyte imbalance</li>
+<li>Intoxications</li>
+<li>fluid Overload</li>
+<li>Uremia</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org34cc2b9" class="outline-3">
+<h3 id="org34cc2b9"><span class="section-number-3">3.4</span> diabetes insipidus&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h3>
+<div class="outline-text-3" id="text-3-4">
+</div>
+<div id="outline-container-org833b200" class="outline-4">
+<h4 id="org833b200"><span class="section-number-4">3.4.1</span> central</h4>
+</div>
+<div id="outline-container-org8db160c" class="outline-4">
+<h4 id="org8db160c"><span class="section-number-4">3.4.2</span> nephrogenic</h4>
+</div>
+<div id="outline-container-orgccabcaf" class="outline-4">
+<h4 id="orgccabcaf"><span class="section-number-4">3.4.3</span> dipsogenic</h4>
+</div>
+<div id="outline-container-org3a2abab" class="outline-4">
+<h4 id="org3a2abab"><span class="section-number-4">3.4.4</span> gestational</h4>
+</div>
+</div>
+<div id="outline-container-org49bc934" class="outline-3">
+<h3 id="org49bc934"><span class="section-number-3">3.5</span> dialysis</h3>
+<div class="outline-text-3" id="text-3-5">
+</div>
+<div id="outline-container-org923dc26" class="outline-4">
+<h4 id="org923dc26"><span class="section-number-4">3.5.1</span> indications</h4>
+<div class="outline-text-4" id="text-3-5-1">
+<ul class="org-ul">
+<li>Acid Base Abnormalities</li>
+<li>Electrolyte imbalance</li>
+<li>Intoxications</li>
+<li>fluid Overload</li>
+<li>Uremia</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org18be8bd" class="outline-3">
+<h3 id="org18be8bd"><span class="section-number-3">3.6</span> chronic kidney disease</h3>
+<div class="outline-text-3" id="text-3-6">
+</div>
+<div id="outline-container-org2157899" class="outline-4">
+<h4 id="org2157899"><span class="section-number-4">3.6.1</span> lab tests</h4>
+<div class="outline-text-4" id="text-3-6-1">
+</div>
+<div id="outline-container-orga50ed2c" class="outline-5">
+<h5 id="orga50ed2c"><span class="section-number-5">3.6.1.1</span> early CKD</h5>
+<div class="outline-text-5" id="text-3-6-1-1">
+<ul class="org-ul">
+<li>microalbuminuria</li>
+<li>Mildly elevated serum creatinine and blood urea nitrogen</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1a85111" class="outline-5">
+<h5 id="org1a85111"><span class="section-number-5">3.6.1.2</span> late CKD</h5>
+<div class="outline-text-5" id="text-3-6-1-2">
+<ul class="org-ul">
+<li>proteinuria, persistent</li>
+<li>↓ GFR</li>
+<li>↓ CrCl</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgad6a031" class="outline-5">
+<h5 id="orgad6a031"><span class="section-number-5">3.6.1.3</span> quantification of proteinuria</h5>
+<div class="outline-text-5" id="text-3-6-1-3">
+</div>
+<div id="outline-container-orgab29416" class="outline-6">
+<h6 id="orgab29416"><span class="section-number-6">3.6.1.3.1</span> 24 hour collection</h6>
+<div class="outline-text-6" id="text-3-6-1-3-1">
+<ul class="org-ul">
+<li>microalbuminuria: 30-300 mg/day</li>
+<li>clinical proteinuria/albuminuria ≥300 mg/day</li>
+<li>normal: &lt;300 mg/day protein</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6970bb1" class="outline-6">
+<h6 id="org6970bb1"><span class="section-number-6">3.6.1.3.2</span> albumin:creatinine; spot collection</h6>
+<div class="outline-text-6" id="text-3-6-1-3-2">
+<ul class="org-ul">
+<li>microalbuminuria: 30-300 mcg/mg</li>
+<li>clinical proteinuria/albuminuria: &gt;300 mcg/mg</li>
+<li>normal: &lt;30 mcg/mg</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org6ad0a61" class="outline-5">
+<h5 id="org6ad0a61"><span class="section-number-5">3.6.1.4</span> urinalysis</h5>
+<div class="outline-text-5" id="text-3-6-1-4">
+</div>
+<div id="outline-container-orgf793d96" class="outline-6">
+<h6 id="orgf793d96"><span class="section-number-6">3.6.1.4.1</span> normal pH</h6>
+<div class="outline-text-6" id="text-3-6-1-4-1">
+<p>
+4.5-7.8
+</p>
+</div>
+</div>
+<div id="outline-container-orgd1ee6c7" class="outline-6">
+<h6 id="orgd1ee6c7"><span class="section-number-6">3.6.1.4.2</span> glucose</h6>
+<div class="outline-text-6" id="text-3-6-1-4-2">
+<ul class="org-ul">
+<li>functioning kidney doesn’t lose glucose</li>
+<li>normal BG &gt;180 mg/dL</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgdfc08ad" class="outline-6">
+<h6 id="orgdfc08ad"><span class="section-number-6">3.6.1.4.3</span> protein/albumin</h6>
+<div class="outline-text-6" id="text-3-6-1-4-3">
+<p>
+marker of kidney damage
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd607e7e" class="outline-2">
+<h2 id="orgd607e7e"><span class="section-number-2">4</span> acid base</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org842752f" class="outline-3">
+<h3 id="org842752f"><span class="section-number-3">4.1</span> anion gap</h3>
+<div class="outline-text-3" id="text-4-1">
+</div>
+<div id="outline-container-org9b3808a" class="outline-4">
+<h4 id="org9b3808a"><span class="section-number-4">4.1.1</span> formula</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<p>
+Na - Cl - HCO₃
+</p>
+</div>
+</div>
+<div id="outline-container-org57114e1" class="outline-4">
+<h4 id="org57114e1"><span class="section-number-4">4.1.2</span> elevated</h4>
+<div class="outline-text-4" id="text-4-1-2">
+</div>
+<div id="outline-container-orgce34c08" class="outline-5">
+<h5 id="orgce34c08"><span class="section-number-5">4.1.2.1</span> causes</h5>
+<div class="outline-text-5" id="text-4-1-2-1">
+<p>
+“MUDPILES” mnemonic:
+</p>
+<ul class="org-ul">
+<li>Methanol Ingestion</li>
+<li>Uremia</li>
+<li>Diarrhea</li>
+<li>Propylene Glycol</li>
+<li>Isoniazid</li>
+<li>Lactic Acidosis</li>
+<li>Ethylene Glycol</li>
+<li>Salicylates</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfac25a4" class="outline-3">
+<h3 id="orgfac25a4"><span class="section-number-3">4.2</span> alkalosis</h3>
+</div>
+</div>
+<div id="outline-container-org81ddd1f" class="outline-2">
+<h2 id="org81ddd1f"><span class="section-number-2">5</span> respiratory</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-org58f3277" class="outline-3">
+<h3 id="org58f3277"><span class="section-number-3">5.1</span> drug classes</h3>
+<div class="outline-text-3" id="text-5-1">
+</div>
+<div id="outline-container-org0818842" class="outline-4">
+<h4 id="org0818842"><span class="section-number-4">5.1.1</span> bronchodilators&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h4>
+<div class="outline-text-4" id="text-5-1-1">
+</div>
+<div id="outline-container-org4b49072" class="outline-5">
+<h5 id="org4b49072"><span class="section-number-5">5.1.1.1</span> sympathomimetics</h5>
+<div class="outline-text-5" id="text-5-1-1-1">
+</div>
+<div id="outline-container-org2bb9297" class="outline-6">
+<h6 id="org2bb9297"><span class="section-number-6">5.1.1.1.1</span> direct-acting</h6>
+<div class="outline-text-6" id="text-5-1-1-1-1">
+</div>
+<div id="outline-container-orgd650ec5" class="outline-7">
+<h7 id="orgd650ec5"><span class="section-number-7">5.1.1.1.1.1</span> MOA</h7>
+<div class="outline-text-7" id="text-5-1-1-1-1-1">
+<ul class="org-ul">
+<li>β-agonists</li>
+<li>α-agonists</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5ddcc55" class="outline-7">
+<h7 id="org5ddcc55"><span class="section-number-7">5.1.1.1.1.2</span> SAR</h7>
+<div class="outline-text-7" id="text-5-1-1-1-1-2">
+</div>
+<div id="outline-container-org7824845" class="outline-8">
+<h8 id="org7824845"><span class="section-number-8">5.1.1.1.1.2.1</span> w.r.t <img src="./phenethylamine.png" alt="phenethylamine.png" /></h8>
+<div class="outline-text-8" id="text-5-1-1-1-1-2-1">
+<ul class="org-ul">
+<li>at R1 (amino): increase in R1 size increases β receptor selectivity</li>
+<li>at R2 (α carbon):
+<ul class="org-ul">
+<li>Ethyl group increases β receptor selectivity.</li>
+<li>Alkylation interferes with MAO metabolism; can still be metabolized by COMT</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6198fd1" class="outline-8">
+<h8 id="org6198fd1"><span class="section-number-8">5.1.1.1.1.2.2</span> catechol metabolism</h8>
+<div class="outline-text-8" id="text-5-1-1-1-1-2-2">
+<p>
+resorcinol and salicylic alcohol cannot be metabolized by COMT
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf6d6b94" class="outline-7">
+<h7 id="orgf6d6b94"><span class="section-number-7">5.1.1.1.1.3</span> fundmanetal pharmacophore</h7>
+<div class="outline-text-7" id="text-5-1-1-1-1-3">
+<p>
+substituted β-phenylethylamine
+</p>
+</div>
+</div>
+<div id="outline-container-orga66b0e8" class="outline-7">
+<h7 id="orga66b0e8"><span class="section-number-7">5.1.1.1.1.4</span> classes</h7>
+<div class="outline-text-7" id="text-5-1-1-1-1-4">
+</div>
+<div id="outline-container-orgbf8bc9b" class="outline-8">
+<h8 id="orgbf8bc9b"><span class="section-number-8">5.1.1.1.1.4.1</span> short acting β-2 agonists (SABAs)</h8>
+<div class="outline-text-8" id="text-5-1-1-1-1-4-1">
+</div>
+<div id="outline-container-org4974659" class="outline-9">
+<h9 id="org4974659"><span class="section-number-9">5.1.1.1.1.4.1.1</span> drugs</h9>
+<div class="outline-text-9" id="text-5-1-1-1-1-4-1-1">
+</div>
+<div id="outline-container-org4575fe3" class="outline-10">
+<h10 id="org4575fe3"><span class="section-number-10">5.1.1.1.1.4.1.1.1</span> albuterol</h10>
+<div class="outline-text-10" id="text-5-1-1-1-1-4-1-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="org923fbd3"></a>brands<br />
+<ol class="org-ol">
+<li><a id="org03e510d"></a>all&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ignore">ignore</span></span><br />
+<div class="outline-text-12" id="text-5-1-1-1-1-4-1-1-1-1-1">
+<ul class="org-ul">
+<li>Airolin</li>
+<li>Airomir</li>
+<li>Asmasal</li>
+<li>Buventol</li>
+<li>Evohaler</li>
+<li>Inspiryl</li>
+<li>Proventil</li>
+<li>Salamol</li>
+<li>Salbulin</li>
+<li>Ventodisk</li>
+<li>Ventolin</li>
+</ul>
+</div>
+</li>
+<li><a id="org25dc50d"></a>metered dose inhaler (MDI)<br />
+<div class="outline-text-12" id="text-5-1-1-1-1-4-1-1-1-1-2">
+<ul class="org-ul">
+<li>ProAir HFA</li>
+<li>Proventil HFA</li>
+<li>Ventolin HFA</li>
+</ul>
+</div>
+</li>
+<li><a id="orgeeeccb4"></a>dry powder inhaler (DPI)<br />
+<div class="outline-text-12" id="text-5-1-1-1-1-4-1-1-1-1-3">
+<p>
+ProAir Respiclick
+</p>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+<div id="outline-container-org1662a9f" class="outline-10">
+<h10 id="org1662a9f"><span class="section-number-10">5.1.1.1.1.4.1.1.2</span> levalbuterol</h10>
+</div>
+<div id="outline-container-orga2226c3" class="outline-10">
+<h10 id="orga2226c3"><span class="section-number-10">5.1.1.1.1.4.1.1.3</span> pirbuterol</h10>
+<div class="outline-text-10" id="text-5-1-1-1-1-4-1-1-3">
+</div>
+<ol class="org-ol">
+<li><a id="org166234e"></a>brand<br />
+<div class="outline-text-11" id="text-5-1-1-1-1-4-1-1-3-1">
+<p>
+Maxair
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgc11925b" class="outline-10">
+<h10 id="orgc11925b"><span class="section-number-10">5.1.1.1.1.4.1.1.4</span> Metaproterenol; Terbutaline</h10>
+</div>
+<div id="outline-container-org3021e95" class="outline-10">
+<h10 id="org3021e95"><span class="section-number-10">5.1.1.1.1.4.1.1.5</span> Tornalate</h10>
+</div>
+<div id="outline-container-org83d52da" class="outline-10">
+<h10 id="org83d52da"><span class="section-number-10">5.1.1.1.1.4.1.1.6</span> bambuterol</h10>
+<div class="outline-text-10" id="text-5-1-1-1-1-4-1-1-6">
+</div>
+<ol class="org-ol">
+<li><a id="org5696502"></a>brand<br />
+<div class="outline-text-11" id="text-5-1-1-1-1-4-1-1-6-1">
+<p>
+Bambec
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org53b2309" class="outline-10">
+<h10 id="org53b2309"><span class="section-number-10">5.1.1.1.1.4.1.1.7</span> fenoterol</h10>
+<div class="outline-text-10" id="text-5-1-1-1-1-4-1-1-7">
+</div>
+<ol class="org-ol">
+<li><a id="org18bc817"></a>brand<br />
+<div class="outline-text-11" id="text-5-1-1-1-1-4-1-1-7-1">
+<p>
+Berotec
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org38c5bec" class="outline-10">
+<h10 id="org38c5bec"><span class="section-number-10">5.1.1.1.1.4.1.1.8</span> isoproterenol</h10>
+<div class="outline-text-10" id="text-5-1-1-1-1-4-1-1-8">
+</div>
+<ol class="org-ol">
+<li><a id="org1d41a07"></a>brand<br />
+<div class="outline-text-11" id="text-5-1-1-1-1-4-1-1-8-1">
+<p>
+Isuprel
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org1247dbd" class="outline-10">
+<h10 id="org1247dbd"><span class="section-number-10">5.1.1.1.1.4.1.1.9</span> levalbuterol</h10>
+<div class="outline-text-10" id="text-5-1-1-1-1-4-1-1-9">
+</div>
+<ol class="org-ol">
+<li><a id="orge2a9185"></a>brand<br />
+<div class="outline-text-11" id="text-5-1-1-1-1-4-1-1-9-1">
+<p>
+Xopenex
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgfbae105" class="outline-10">
+<h10 id="orgfbae105"><span class="section-number-10">5.1.1.1.1.4.1.1.10</span> Levalbuterol</h10>
+<div class="outline-text-10" id="text-5-1-1-1-1-4-1-1-10">
+</div>
+<ol class="org-ol">
+<li><a id="org3a3ba90"></a>brand<br />
+<div class="outline-text-11" id="text-5-1-1-1-1-4-1-1-10-1">
+<p>
+Xopenex
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org1d90c56" class="outline-10">
+<h10 id="org1d90c56"><span class="section-number-10">5.1.1.1.1.4.1.1.11</span> Metaproterenol</h10>
+<div class="outline-text-10" id="text-5-1-1-1-1-4-1-1-11">
+</div>
+<ol class="org-ol">
+<li><a id="orgd5ee0ac"></a>brand<br />
+<div class="outline-text-11" id="text-5-1-1-1-1-4-1-1-11-1">
+<ul class="org-ul">
+<li>Alupent</li>
+<li>Metaprel</li>
+<li>ProMeta Maxair</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org7d5df41" class="outline-10">
+<h10 id="org7d5df41"><span class="section-number-10">5.1.1.1.1.4.1.1.12</span> Pirbuterol</h10>
+<div class="outline-text-10" id="text-5-1-1-1-1-4-1-1-12">
+</div>
+<ol class="org-ol">
+<li><a id="orgd2fa1b3"></a>brand<br />
+<div class="outline-text-11" id="text-5-1-1-1-1-4-1-1-12-1">
+<p>
+Alupent, Metaprel, ProMeta
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org8240e75" class="outline-10">
+<h10 id="org8240e75"><span class="section-number-10">5.1.1.1.1.4.1.1.13</span> Isoetherine</h10>
+<div class="outline-text-10" id="text-5-1-1-1-1-4-1-1-13">
+</div>
+<ol class="org-ol">
+<li><a id="org01be5d1"></a>brand<br />
+<div class="outline-text-11" id="text-5-1-1-1-1-4-1-1-13-1">
+<p>
+Bronkosol, Bronkometer
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org86c6bb1" class="outline-10">
+<h10 id="org86c6bb1"><span class="section-number-10">5.1.1.1.1.4.1.1.14</span> Terbutaline</h10>
+<div class="outline-text-10" id="text-5-1-1-1-1-4-1-1-14">
+</div>
+<ol class="org-ol">
+<li><a id="org2ffed2d"></a>brands<br />
+<div class="outline-text-11" id="text-5-1-1-1-1-4-1-1-14-1">
+<ul class="org-ul">
+<li>Breathaire</li>
+<li>Brethine</li>
+<li>Bricanyl</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org0668155" class="outline-10">
+<h10 id="org0668155"><span class="section-number-10">5.1.1.1.1.4.1.1.15</span> Tornalate</h10>
+<div class="outline-text-10" id="text-5-1-1-1-1-4-1-1-15">
+</div>
+<ol class="org-ol">
+<li><a id="orge9c2693"></a>brand<br />
+<div class="outline-text-11" id="text-5-1-1-1-1-4-1-1-15-1">
+<p>
+Bitolerol
+</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org712a8fa" class="outline-9">
+<h9 id="org712a8fa"><span class="section-number-9">5.1.1.1.1.4.1.2</span> adverse effects</h9>
+<div class="outline-text-9" id="text-5-1-1-1-1-4-1-2">
+<ul class="org-ul">
+<li>tachycardia</li>
+<li>muscle tremors</li>
+<li>dry mouth</li>
+<li>urinary flow obstruction</li>
+<li>increased intraocular pressure</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgec0dcef" class="outline-9">
+<h9 id="orgec0dcef"><span class="section-number-9">5.1.1.1.1.4.1.3</span> MOA</h9>
+<div class="outline-text-9" id="text-5-1-1-1-1-4-1-3">
+<ul class="org-ul">
+<li>sympathomimetic</li>
+<li>relaxes airway smooth muscles</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org95ec569" class="outline-8">
+<h8 id="org95ec569"><span class="section-number-8">5.1.1.1.1.4.2</span> long acting beta agonists (LABAs)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h8>
+<div class="outline-text-8" id="text-5-1-1-1-1-4-2">
+</div>
+<div id="outline-container-org0fc8005" class="outline-9">
+<h9 id="org0fc8005"><span class="section-number-9">5.1.1.1.1.4.2.1</span> drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h9>
+<div class="outline-text-9" id="text-5-1-1-1-1-4-2-1">
+</div>
+<div id="outline-container-orgb971e50" class="outline-10">
+<h10 id="orgb971e50"><span class="section-number-10">5.1.1.1.1.4.2.1.1</span> salmeterol</h10>
+</div>
+<div id="outline-container-orgc30f3f3" class="outline-10">
+<h10 id="orgc30f3f3"><span class="section-number-10">5.1.1.1.1.4.2.1.2</span> formoterol fumarate</h10>
+</div>
+</div>
+<div id="outline-container-org5585ad4" class="outline-9">
+<h9 id="org5585ad4"><span class="section-number-9">5.1.1.1.1.4.2.2</span> adverse effects</h9>
+<div class="outline-text-9" id="text-5-1-1-1-1-4-2-2">
+<ul class="org-ul">
+<li>arrhythmias</li>
+<li>hyperglycemia</li>
+<li>hypokalemia</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5afb5c8" class="outline-9">
+<h9 id="org5afb5c8"><span class="section-number-9">5.1.1.1.1.4.2.3</span> MOA</h9>
+<div class="outline-text-9" id="text-5-1-1-1-1-4-2-3">
+<p>
+sympathomimetic
+</p>
+</div>
+</div>
+<div id="outline-container-orga76d711" class="outline-9">
+<h9 id="orga76d711"><span class="section-number-9">5.1.1.1.1.4.2.4</span> black box warning</h9>
+<div class="outline-text-9" id="text-5-1-1-1-1-4-2-4">
+<p>
+LABA increases risk of asthma-related death
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcddc3a5" class="outline-6">
+<h6 id="orgcddc3a5"><span class="section-number-6">5.1.1.1.2</span> indirect-acting</h6>
+<div class="outline-text-6" id="text-5-1-1-1-2">
+</div>
+<div id="outline-container-orgcd4ebb9" class="outline-7">
+<h7 id="orgcd4ebb9"><span class="section-number-7">5.1.1.1.2.1</span> releasers</h7>
+</div>
+<div id="outline-container-org5568481" class="outline-7">
+<h7 id="org5568481"><span class="section-number-7">5.1.1.1.2.2</span> reuptake inhibitors</h7>
+</div>
+</div>
+<div id="outline-container-orgd0c6245" class="outline-6">
+<h6 id="orgd0c6245"><span class="section-number-6">5.1.1.1.3</span> intracellular target</h6>
+<div class="outline-text-6" id="text-5-1-1-1-3">
+<p>
+cAMP signaling
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orga7762e2" class="outline-5">
+<h5 id="orga7762e2"><span class="section-number-5">5.1.1.2</span> antimuscarinic drugs</h5>
+<div class="outline-text-5" id="text-5-1-1-2">
+</div>
+<div id="outline-container-org63443ce" class="outline-6">
+<h6 id="org63443ce"><span class="section-number-6">5.1.1.2.1</span> SAR</h6>
+<div class="outline-text-6" id="text-5-1-1-2-1">
+<p>
+ionized N is required
+</p>
+</div>
+</div>
+<div id="outline-container-org388f452" class="outline-6">
+<h6 id="org388f452"><span class="section-number-6">5.1.1.2.2</span> classes</h6>
+<div class="outline-text-6" id="text-5-1-1-2-2">
+</div>
+<div id="outline-container-orgfa6b475" class="outline-7">
+<h7 id="orgfa6b475"><span class="section-number-7">5.1.1.2.2.1</span> short acting inhaled muscarinic receptor antagonists (SAMAs)</h7>
+<div class="outline-text-7" id="text-5-1-1-2-2-1">
+</div>
+<div id="outline-container-orgb38214f" class="outline-8">
+<h8 id="orgb38214f"><span class="section-number-8">5.1.1.2.2.1.1</span> drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h8>
+<div class="outline-text-8" id="text-5-1-1-2-2-1-1">
+</div>
+<div id="outline-container-orgc4b5e41" class="outline-9">
+<h9 id="orgc4b5e41"><span class="section-number-9">5.1.1.2.2.1.1.1</span> ipratropium bromide</h9>
+<div class="outline-text-9" id="text-5-1-1-2-2-1-1-1">
+</div>
+<div id="outline-container-orgf60c0e1" class="outline-10">
+<h10 id="orgf60c0e1"><span class="section-number-10">5.1.1.2.2.1.1.1.1</span> brand</h10>
+<div class="outline-text-10" id="text-5-1-1-2-2-1-1-1-1">
+<p>
+Atrovent
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8bb3687" class="outline-9">
+<h9 id="org8bb3687"><span class="section-number-9">5.1.1.2.2.1.1.2</span> oxitropium bromide</h9>
+</div>
+</div>
+<div id="outline-container-org31de67a" class="outline-8">
+<h8 id="org31de67a"><span class="section-number-8">5.1.1.2.2.1.2</span> adverse effects</h8>
+<div class="outline-text-8" id="text-5-1-1-2-2-1-2">
+<ul class="org-ul">
+<li>tachycardia</li>
+<li>muscle tremors</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org4f2859d" class="outline-7">
+<h7 id="org4f2859d"><span class="section-number-7">5.1.1.2.2.2</span> long acting inhaled muscarinic receptor antagonists (LAMAs)</h7>
+<div class="outline-text-7" id="text-5-1-1-2-2-2">
+</div>
+<div id="outline-container-orgf46487b" class="outline-8">
+<h8 id="orgf46487b"><span class="section-number-8">5.1.1.2.2.2.1</span> drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h8>
+<div class="outline-text-8" id="text-5-1-1-2-2-2-1">
+</div>
+<div id="outline-container-orgd07862b" class="outline-9">
+<h9 id="orgd07862b"><span class="section-number-9">5.1.1.2.2.2.1.1</span> tiotropium</h9>
+<div class="outline-text-9" id="text-5-1-1-2-2-2-1-1">
+</div>
+<div id="outline-container-org038630d" class="outline-10">
+<h10 id="org038630d"><span class="section-number-10">5.1.1.2.2.2.1.1.1</span> brand</h10>
+<div class="outline-text-10" id="text-5-1-1-2-2-2-1-1-1">
+<p>
+Spiriva
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc336cfa" class="outline-8">
+<h8 id="orgc336cfa"><span class="section-number-8">5.1.1.2.2.2.2</span> adverse effects</h8>
+<div class="outline-text-8" id="text-5-1-1-2-2-2-2">
+<ul class="org-ul">
+<li>arrhythmias</li>
+<li>hyperglycemia</li>
+<li>hypokalemia</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb3ff012" class="outline-5">
+<h5 id="orgb3ff012"><span class="section-number-5">5.1.1.3</span> methyl xanthines</h5>
+<div class="outline-text-5" id="text-5-1-1-3">
+</div>
+<div id="outline-container-org598e0ac" class="outline-6">
+<h6 id="org598e0ac"><span class="section-number-6">5.1.1.3.1</span> structure</h6>
+<div class="outline-text-6" id="text-5-1-1-3-1">
+
+<div class="figure">
+<p><img src="./xanthine.png" alt="xanthine.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org0d10596" class="outline-6">
+<h6 id="org0d10596"><span class="section-number-6">5.1.1.3.2</span> MOA</h6>
+<div class="outline-text-6" id="text-5-1-1-3-2">
+<ul class="org-ul">
+<li>inhibits PDE4</li>
+<li>cAMP isn’t broken down; cAMP causes bronchodilation</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6938f07" class="outline-6">
+<h6 id="org6938f07"><span class="section-number-6">5.1.1.3.3</span> drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h6>
+<div class="outline-text-6" id="text-5-1-1-3-3">
+</div>
+<div id="outline-container-orgb272bd0" class="outline-7">
+<h7 id="orgb272bd0"><span class="section-number-7">5.1.1.3.3.1</span> theophylline</h7>
+<div class="outline-text-7" id="text-5-1-1-3-3-1">
+</div>
+<div id="outline-container-orgdedee92" class="outline-8">
+<h8 id="orgdedee92"><span class="section-number-8">5.1.1.3.3.1.1</span> brand</h8>
+<div class="outline-text-8" id="text-5-1-1-3-3-1-1">
+<p>
+Elixophyllin
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcf13414" class="outline-7">
+<h7 id="orgcf13414"><span class="section-number-7">5.1.1.3.3.2</span> roflumilast</h7>
+<div class="outline-text-7" id="text-5-1-1-3-3-2">
+</div>
+<div id="outline-container-org3c133e6" class="outline-8">
+<h8 id="org3c133e6"><span class="section-number-8">5.1.1.3.3.2.1</span> brand</h8>
+<div class="outline-text-8" id="text-5-1-1-3-3-2-1">
+<p>
+Daliresp
+</p>
+</div>
+</div>
+<div id="outline-container-orgfd3ae13" class="outline-8">
+<h8 id="orgfd3ae13"><span class="section-number-8">5.1.1.3.3.2.2</span> MOA</h8>
+<div class="outline-text-8" id="text-5-1-1-3-3-2-2">
+<ul class="org-ul">
+<li>very potent; only 500 µg needed</li>
+<li>PDE4 selective</li>
+<li>safe on heart</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd4eaab6" class="outline-6">
+<h6 id="orgd4eaab6"><span class="section-number-6">5.1.1.3.4</span> adverse effect</h6>
+<div class="outline-text-6" id="text-5-1-1-3-4">
+<ul class="org-ul">
+<li>emesis/vomiting</li>
+<li>can’t increase the dose because it will cause vomiting</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdf0541b" class="outline-4">
+<h4 id="orgdf0541b"><span class="section-number-4">5.1.2</span> anti-inflammatory agents&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h4>
+<div class="outline-text-4" id="text-5-1-2">
+</div>
+<div id="outline-container-org117f9ef" class="outline-5">
+<h5 id="org117f9ef"><span class="section-number-5">5.1.2.1</span> glucocorticosteroids</h5>
+<div class="outline-text-5" id="text-5-1-2-1">
+</div>
+<div id="outline-container-org7d46caa" class="outline-6">
+<h6 id="org7d46caa"><span class="section-number-6">5.1.2.1.1</span> SAR</h6>
+<div class="outline-text-6" id="text-5-1-2-1-1">
+</div>
+<div id="outline-container-org0eb9b07" class="outline-7">
+<h7 id="org0eb9b07"><span class="section-number-7">5.1.2.1.1.1</span> cortisol</h7>
+<div class="outline-text-7" id="text-5-1-2-1-1-1">
+</div>
+<div id="outline-container-org5fb53c9" class="outline-8">
+<h8 id="org5fb53c9"><span class="section-number-8">5.1.2.1.1.1.1</span> structure</h8>
+<div class="outline-text-8" id="text-5-1-2-1-1-1-1">
+
+<div class="figure">
+<p><img src="./cortisol_numbered.png" alt="cortisol_numbered.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org645a6af" class="outline-8">
+<h8 id="org645a6af"><span class="section-number-8">5.1.2.1.1.1.2</span> C-17 oxidation</h8>
+<div class="outline-text-8" id="text-5-1-2-1-1-1-2">
+<p>
+C-17 oxidation results in a shorter half life
+<img src="./cortisol_C-17_oxidase.png" alt="cortisol_C-17_oxidase.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-org4a87c5f" class="outline-8">
+<h8 id="org4a87c5f"><span class="section-number-8">5.1.2.1.1.1.3</span> C-11</h8>
+<div class="outline-text-8" id="text-5-1-2-1-1-1-3">
+
+<div class="figure">
+<p><img src="./cortisol_numbered.png" alt="cortisol_numbered.png" />
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf54c766" class="outline-7">
+<h7 id="orgf54c766"><span class="section-number-7">5.1.2.1.1.2</span> corticosteroids</h7>
+<div class="outline-text-7" id="text-5-1-2-1-1-2">
+</div>
+<div id="outline-container-org9d1f788" class="outline-8">
+<h8 id="org9d1f788"><span class="section-number-8">5.1.2.1.1.2.1</span> functional groups required for activity</h8>
+<div class="outline-text-8" id="text-5-1-2-1-1-2-1">
+<ul class="org-ul">
+<li>-OH at C11 and C21</li>
+<li>C=O at C3</li>
+<li>C4=C5</li>
+<li>-OH at C17</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org46babf8" class="outline-8">
+<h8 id="org46babf8"><span class="section-number-8">5.1.2.1.1.2.2</span> prodrug</h8>
+<div class="outline-text-8" id="text-5-1-2-1-1-2-2">
+<ul class="org-ul">
+<li>C=O at C11</li>
+<li>ester at C21</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org441b91d" class="outline-8">
+<h8 id="org441b91d"><span class="section-number-8">5.1.2.1.1.2.3</span> increase DOA</h8>
+<div class="outline-text-8" id="text-5-1-2-1-1-2-3">
+<ul class="org-ul">
+<li>ester or ether at C17</li>
+<li>make prodrug</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc16e787" class="outline-8">
+<h8 id="orgc16e787"><span class="section-number-8">5.1.2.1.1.2.4</span> increases glucocorticoid activity, reduces mineralocorticoid activity</h8>
+<div class="outline-text-8" id="text-5-1-2-1-1-2-4">
+<ul class="org-ul">
+<li>C1=C2</li>
+<li>C16 substitution</li>
+<li>C6 substitution</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org13b29e9" class="outline-8">
+<h8 id="org13b29e9"><span class="section-number-8">5.1.2.1.1.2.5</span> increases both glucocorticoid and mineralocorticoid activity</h8>
+<div class="outline-text-8" id="text-5-1-2-1-1-2-5">
+<p>
+C9 fluoroidation
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf3d9e65" class="outline-6">
+<h6 id="orgf3d9e65"><span class="section-number-6">5.1.2.1.2</span> drugs</h6>
+<div class="outline-text-6" id="text-5-1-2-1-2">
+</div>
+<div id="outline-container-orgd57b979" class="outline-7">
+<h7 id="orgd57b979"><span class="section-number-7">5.1.2.1.2.1</span> systemic&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h7>
+<div class="outline-text-7" id="text-5-1-2-1-2-1">
+</div>
+<div id="outline-container-org9f96617" class="outline-8">
+<h8 id="org9f96617"><span class="section-number-8">5.1.2.1.2.1.1</span> prednisone</h8>
+</div>
+<div id="outline-container-org58f7323" class="outline-8">
+<h8 id="org58f7323"><span class="section-number-8">5.1.2.1.2.1.2</span> methylprednisone</h8>
+</div>
+<div id="outline-container-org0b18b68" class="outline-8">
+<h8 id="org0b18b68"><span class="section-number-8">5.1.2.1.2.1.3</span> dexamethasone</h8>
+</div>
+<div id="outline-container-orge7cf4c9" class="outline-8">
+<h8 id="orge7cf4c9"><span class="section-number-8">5.1.2.1.2.1.4</span> hydrocortisone</h8>
+</div>
+</div>
+<div id="outline-container-orgd096cc0" class="outline-7">
+<h7 id="orgd096cc0"><span class="section-number-7">5.1.2.1.2.2</span> inhaled&#xa0;&#xa0;&#xa0;<span class="tag"><span class="L">L</span></span></h7>
+<div class="outline-text-7" id="text-5-1-2-1-2-2">
+</div>
+<div id="outline-container-orgc2bb4ed" class="outline-8">
+<h8 id="orgc2bb4ed"><span class="section-number-8">5.1.2.1.2.2.1</span> fluticasone propionate</h8>
+<div class="outline-text-8" id="text-5-1-2-1-2-2-1">
+</div>
+<div id="outline-container-org8be5e27" class="outline-9">
+<h9 id="org8be5e27"><span class="section-number-9">5.1.2.1.2.2.1.1</span> brands&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h9>
+<div class="outline-text-9" id="text-5-1-2-1-2-2-1-1">
+</div>
+<div id="outline-container-org6833c5b" class="outline-10">
+<h10 id="org6833c5b"><span class="section-number-10">5.1.2.1.2.2.1.1.1</span> Flovent HFA</h10>
+<div class="outline-text-10" id="text-5-1-2-1-2-2-1-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgcf3ee79"></a>dose<br />
+<ol class="org-ol">
+<li><a id="orgba2b271"></a>low<br />
+<div class="outline-text-12" id="text-5-1-2-1-2-2-1-1-1-1-1">
+<p>
+176 mcg
+</p>
+</div>
+</li>
+<li><a id="orge6ccc73"></a>high<br />
+<div class="outline-text-12" id="text-5-1-2-1-2-2-1-1-1-1-2">
+<p>
+&gt;440 mcg
+</p>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+<div id="outline-container-org2be4ed7" class="outline-10">
+<h10 id="org2be4ed7"><span class="section-number-10">5.1.2.1.2.2.1.1.2</span> Advair</h10>
+</div>
+<div id="outline-container-orgff80277" class="outline-10">
+<h10 id="orgff80277"><span class="section-number-10">5.1.2.1.2.2.1.1.3</span> Flovent Diskus</h10>
+<div class="outline-text-10" id="text-5-1-2-1-2-2-1-1-3">
+</div>
+<ol class="org-ol">
+<li><a id="org615cfb5"></a>dose<br />
+<ol class="org-ol">
+<li><a id="org44ed981"></a>low<br />
+<div class="outline-text-12" id="text-5-1-2-1-2-2-1-1-3-1-1">
+<p>
+200-300 mcg
+</p>
+</div>
+</li>
+<li><a id="org7be08bb"></a>high<br />
+<div class="outline-text-12" id="text-5-1-2-1-2-2-1-1-3-1-2">
+<p>
+&gt;500 mcg
+</p>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+<div id="outline-container-org8f9f56a" class="outline-10">
+<h10 id="org8f9f56a"><span class="section-number-10">5.1.2.1.2.2.1.1.4</span> Arnuity Ellipta</h10>
+<div class="outline-text-10" id="text-5-1-2-1-2-2-1-1-4">
+</div>
+<ol class="org-ol">
+<li><a id="org571c6d3"></a>dose<br />
+<div class="outline-text-11" id="text-5-1-2-1-2-2-1-1-4-1">
+<p>
+100-400 mcg (1-2 inh) QD
+</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org9734f15" class="outline-8">
+<h8 id="org9734f15"><span class="section-number-8">5.1.2.1.2.2.2</span> triamcinolone acetonide</h8>
+<div class="outline-text-8" id="text-5-1-2-1-2-2-2">
+</div>
+<div id="outline-container-orga44e2dc" class="outline-9">
+<h9 id="orga44e2dc"><span class="section-number-9">5.1.2.1.2.2.2.1</span> brand</h9>
+<div class="outline-text-9" id="text-5-1-2-1-2-2-2-1">
+<p>
+Azmacort
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7e53b2c" class="outline-8">
+<h8 id="org7e53b2c"><span class="section-number-8">5.1.2.1.2.2.3</span> budenoside</h8>
+<div class="outline-text-8" id="text-5-1-2-1-2-2-3">
+</div>
+<div id="outline-container-org42cfb6a" class="outline-9">
+<h9 id="org42cfb6a"><span class="section-number-9">5.1.2.1.2.2.3.1</span> brand</h9>
+<div class="outline-text-9" id="text-5-1-2-1-2-2-3-1">
+<ul class="org-ul">
+<li>Plumicort Flexhaler</li>
+<li>Respules</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org0317944" class="outline-8">
+<h8 id="org0317944"><span class="section-number-8">5.1.2.1.2.2.4</span> beclomethasone</h8>
+<div class="outline-text-8" id="text-5-1-2-1-2-2-4">
+</div>
+<div id="outline-container-org17976ed" class="outline-9">
+<h9 id="org17976ed"><span class="section-number-9">5.1.2.1.2.2.4.1</span> brand</h9>
+<div class="outline-text-9" id="text-5-1-2-1-2-2-4-1">
+<ul class="org-ul">
+<li>QVAR</li>
+<li>Beclovent</li>
+<li>Vanceril</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org8224c24" class="outline-8">
+<h8 id="org8224c24"><span class="section-number-8">5.1.2.1.2.2.5</span> flunisolide</h8>
+<div class="outline-text-8" id="text-5-1-2-1-2-2-5">
+</div>
+<div id="outline-container-org797155d" class="outline-9">
+<h9 id="org797155d"><span class="section-number-9">5.1.2.1.2.2.5.1</span> brand</h9>
+<div class="outline-text-9" id="text-5-1-2-1-2-2-5-1">
+<p>
+AeroBid
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org31f84d8" class="outline-8">
+<h8 id="org31f84d8"><span class="section-number-8">5.1.2.1.2.2.6</span> mometasone</h8>
+<div class="outline-text-8" id="text-5-1-2-1-2-2-6">
+</div>
+<div id="outline-container-orgf1fddf5" class="outline-9">
+<h9 id="orgf1fddf5"><span class="section-number-9">5.1.2.1.2.2.6.1</span> brand</h9>
+<div class="outline-text-9" id="text-5-1-2-1-2-2-6-1">
+<p>
+Asmanex {HFA, Twisthaler}
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org808f31b" class="outline-8">
+<h8 id="org808f31b"><span class="section-number-8">5.1.2.1.2.2.7</span> ciclesonide</h8>
+<div class="outline-text-8" id="text-5-1-2-1-2-2-7">
+</div>
+<div id="outline-container-orga13ec53" class="outline-9">
+<h9 id="orga13ec53"><span class="section-number-9">5.1.2.1.2.2.7.1</span> brand</h9>
+<div class="outline-text-9" id="text-5-1-2-1-2-2-7-1">
+<p>
+Alvesco
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb1089db" class="outline-6">
+<h6 id="orgb1089db"><span class="section-number-6">5.1.2.1.3</span> MOA</h6>
+<div class="outline-text-6" id="text-5-1-2-1-3">
+<ul class="org-ul">
+<li>inhibits synthesis of arachidonic acid</li>
+<li>by inhibiting arachidonic acid, glucocorticoids inhibit expression of COX2 and in turn inhibits the synthesis of prostaglandins</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbb4727e" class="outline-6">
+<h6 id="orgbb4727e"><span class="section-number-6">5.1.2.1.4</span> adverse effects</h6>
+<div class="outline-text-6" id="text-5-1-2-1-4">
+<p>
+hypokalemia
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcb703ff" class="outline-5">
+<h5 id="orgcb703ff"><span class="section-number-5">5.1.2.2</span> Mast Cell Degranulation inhibitors</h5>
+<div class="outline-text-5" id="text-5-1-2-2">
+</div>
+<div id="outline-container-org9ca3641" class="outline-6">
+<h6 id="org9ca3641"><span class="section-number-6">5.1.2.2.1</span> drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h6>
+<div class="outline-text-6" id="text-5-1-2-2-1">
+</div>
+<div id="outline-container-org3a64e1b" class="outline-7">
+<h7 id="org3a64e1b"><span class="section-number-7">5.1.2.2.1.1</span> cromolyn sodium</h7>
+</div>
+<div id="outline-container-org2f026b8" class="outline-7">
+<h7 id="org2f026b8"><span class="section-number-7">5.1.2.2.1.2</span> nedocromil sodium</h7>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc02c1cd" class="outline-5">
+<h5 id="orgc02c1cd"><span class="section-number-5">5.1.2.3</span> Leukotrine Inhibitors</h5>
+<div class="outline-text-5" id="text-5-1-2-3">
+</div>
+<div id="outline-container-org2e63419" class="outline-6">
+<h6 id="org2e63419"><span class="section-number-6">5.1.2.3.1</span> classes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h6>
+<div class="outline-text-6" id="text-5-1-2-3-1">
+</div>
+<div id="outline-container-org7c6cbb0" class="outline-7">
+<h7 id="org7c6cbb0"><span class="section-number-7">5.1.2.3.1.1</span> lipoxygenase inhibitors&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h7>
+<div class="outline-text-7" id="text-5-1-2-3-1-1">
+</div>
+<div id="outline-container-org8bb468b" class="outline-8">
+<h8 id="org8bb468b"><span class="section-number-8">5.1.2.3.1.1.1</span> Zileuton</h8>
+<div class="outline-text-8" id="text-5-1-2-3-1-1-1">
+</div>
+<div id="outline-container-orgf63633a" class="outline-9">
+<h9 id="orgf63633a"><span class="section-number-9">5.1.2.3.1.1.1.1</span> brand</h9>
+<div class="outline-text-9" id="text-5-1-2-3-1-1-1-1">
+<p>
+Zyflo
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org07e9144" class="outline-7">
+<h7 id="org07e9144"><span class="section-number-7">5.1.2.3.1.2</span> leukotreine receptor inhibitors&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h7>
+<div class="outline-text-7" id="text-5-1-2-3-1-2">
+</div>
+<div id="outline-container-org8c69ac1" class="outline-8">
+<h8 id="org8c69ac1"><span class="section-number-8">5.1.2.3.1.2.1</span> monteleukast</h8>
+<div class="outline-text-8" id="text-5-1-2-3-1-2-1">
+</div>
+<div id="outline-container-org269f17d" class="outline-9">
+<h9 id="org269f17d"><span class="section-number-9">5.1.2.3.1.2.1.1</span> brand</h9>
+<div class="outline-text-9" id="text-5-1-2-3-1-2-1-1">
+<p>
+Singulair
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org6cbedfe" class="outline-8">
+<h8 id="org6cbedfe"><span class="section-number-8">5.1.2.3.1.2.2</span> zafirlukast</h8>
+<div class="outline-text-8" id="text-5-1-2-3-1-2-2">
+</div>
+<div id="outline-container-org1075070" class="outline-9">
+<h9 id="org1075070"><span class="section-number-9">5.1.2.3.1.2.2.1</span> brand</h9>
+<div class="outline-text-9" id="text-5-1-2-3-1-2-2-1">
+<p>
+Accolate
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org122c437" class="outline-6">
+<h6 id="org122c437"><span class="section-number-6">5.1.2.3.2</span> MOA</h6>
+<div class="outline-text-6" id="text-5-1-2-3-2">
+<p>
+reduces inflammatory response by…
+</p>
+<ul class="org-ul">
+<li>inhibiting 5-lipoxygenase; prevents arachidonic acid → leukotrienes</li>
+<li>antagonizing LTD4 receptors; blunted contraction of airway smooth muscle cells</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org68fe28d" class="outline-5">
+<h5 id="org68fe28d"><span class="section-number-5">5.1.2.4</span> Anti-IgE monoclonal antibodies</h5>
+<div class="outline-text-5" id="text-5-1-2-4">
+</div>
+<div id="outline-container-org4d59eb7" class="outline-6">
+<h6 id="org4d59eb7"><span class="section-number-6">5.1.2.4.1</span> MOA</h6>
+<div class="outline-text-6" id="text-5-1-2-4-1">
+<p>
+relieves symptoms; Monoclonal antibody inhibits IgE interaction with mast cells and basophils
+<img src="./omalizumab_moa.png" alt="omalizumab_moa.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-org0ad783c" class="outline-6">
+<h6 id="org0ad783c"><span class="section-number-6">5.1.2.4.2</span> drugs</h6>
+<div class="outline-text-6" id="text-5-1-2-4-2">
+</div>
+<div id="outline-container-org0abdd83" class="outline-7">
+<h7 id="org0abdd83"><span class="section-number-7">5.1.2.4.2.1</span> omalizumab</h7>
+<div class="outline-text-7" id="text-5-1-2-4-2-1">
+</div>
+<div id="outline-container-orgd3f844e" class="outline-8">
+<h8 id="orgd3f844e"><span class="section-number-8">5.1.2.4.2.1.1</span> brand</h8>
+<div class="outline-text-8" id="text-5-1-2-4-2-1-1">
+<p>
+Xolair
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org2983d41" class="outline-3">
+<h3 id="org2983d41"><span class="section-number-3">5.2</span> COPD</h3>
+<div class="outline-text-3" id="text-5-2">
+</div>
+<div id="outline-container-orgbd69ded" class="outline-4">
+<h4 id="orgbd69ded"><span class="section-number-4">5.2.1</span> drug classes used</h4>
+<div class="outline-text-4" id="text-5-2-1">
+<ul class="org-ul">
+<li>LAMA</li>
+<li>LABA</li>
+<li>SABA + SAMA</li>
+<li>LAMBA + PDE4 inhibitor</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org33e5d13" class="outline-3">
+<h3 id="org33e5d13"><span class="section-number-3">5.3</span> asthma</h3>
+<div class="outline-text-3" id="text-5-3">
+</div>
+<div id="outline-container-orgb689c8e" class="outline-4">
+<h4 id="orgb689c8e"><span class="section-number-4">5.3.1</span> combination</h4>
+<div class="outline-text-4" id="text-5-3-1">
+<ul class="org-ul">
+<li>FDA requires LABAs to be combined with corticosteroids</li>
+<li>LABAs/corticosteroids are for prophylaxis of asthma, not acute asthma attacks</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgec016eb" class="outline-3">
+<h3 id="orgec016eb"><span class="section-number-3">5.4</span> congestion</h3>
+<div class="outline-text-3" id="text-5-4">
+</div>
+<div id="outline-container-org9dd8c34" class="outline-4">
+<h4 id="org9dd8c34"><span class="section-number-4">5.4.1</span> short-acting decongestants</h4>
+<div class="outline-text-4" id="text-5-4-1">
+<p>
+α-adrenergic agonists delivered via a nasal spray
+</p>
+</div>
+<div id="outline-container-orga9e7041" class="outline-5">
+<h5 id="orga9e7041"><span class="section-number-5">5.4.1.1</span> drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h5>
+<div class="outline-text-5" id="text-5-4-1-1">
+</div>
+<div id="outline-container-org2e66a61" class="outline-6">
+<h6 id="org2e66a61"><span class="section-number-6">5.4.1.1.1</span> phenylephrine</h6>
+</div>
+<div id="outline-container-org8215220" class="outline-6">
+<h6 id="org8215220"><span class="section-number-6">5.4.1.1.2</span> oxymetazoline</h6>
+<div class="outline-text-6" id="text-5-4-1-1-2">
+</div>
+<div id="outline-container-org6f0a58a" class="outline-7">
+<h7 id="org6f0a58a"><span class="section-number-7">5.4.1.1.2.1</span> brand</h7>
+<div class="outline-text-7" id="text-5-4-1-1-2-1">
+<p>
+Afrin
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orga4293a8" class="outline-4">
+<h4 id="orga4293a8"><span class="section-number-4">5.4.2</span> long-acting decongestants</h4>
+<div class="outline-text-4" id="text-5-4-2">
+<p>
+α-adrenergic agonists delivered systemically
+</p>
+</div>
+<div id="outline-container-org2a5deeb" class="outline-5">
+<h5 id="org2a5deeb"><span class="section-number-5">5.4.2.1</span> drugs</h5>
+<div class="outline-text-5" id="text-5-4-2-1">
+</div>
+<div id="outline-container-orge8eaff5" class="outline-6">
+<h6 id="orge8eaff5"><span class="section-number-6">5.4.2.1.1</span> pseudoephedrine</h6>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orga5e816b" class="outline-3">
+<h3 id="orga5e816b"><span class="section-number-3">5.5</span> dry cough</h3>
+<div class="outline-text-3" id="text-5-5">
+</div>
+<div id="outline-container-org4483a9d" class="outline-4">
+<h4 id="org4483a9d"><span class="section-number-4">5.5.1</span> treatment plan</h4>
+<div class="outline-text-4" id="text-5-5-1">
+<ul class="org-ul">
+<li>suppress with antitussives</li>
+<li>treat with expectorants/mucolytics</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4aa3a85" class="outline-4">
+<h4 id="org4aa3a85"><span class="section-number-4">5.5.2</span> antitussives</h4>
+<div class="outline-text-4" id="text-5-5-2">
+</div>
+<div id="outline-container-org921882d" class="outline-5">
+<h5 id="org921882d"><span class="section-number-5">5.5.2.1</span> MOA</h5>
+<div class="outline-text-5" id="text-5-5-2-1">
+<p>
+depresses cough center in the medulla of the brain
+</p>
+</div>
+</div>
+<div id="outline-container-orgafcfd07" class="outline-5">
+<h5 id="orgafcfd07"><span class="section-number-5">5.5.2.2</span> drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h5>
+<div class="outline-text-5" id="text-5-5-2-2">
+</div>
+<div id="outline-container-org1d64540" class="outline-6">
+<h6 id="org1d64540"><span class="section-number-6">5.5.2.2.1</span> dextromethorphan</h6>
+<div class="outline-text-6" id="text-5-5-2-2-1">
+</div>
+<div id="outline-container-org463ac97" class="outline-7">
+<h7 id="org463ac97"><span class="section-number-7">5.5.2.2.1.1</span> brand</h7>
+<div class="outline-text-7" id="text-5-5-2-2-1-1">
+<ul class="org-ul">
+<li>Benylin</li>
+<li>Robitussin</li>
+<li>Delsym</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org4022666" class="outline-6">
+<h6 id="org4022666"><span class="section-number-6">5.5.2.2.2</span> codeine</h6>
+</div>
+<div id="outline-container-orgbd87d36" class="outline-6">
+<h6 id="orgbd87d36"><span class="section-number-6">5.5.2.2.3</span> benzonatate</h6>
+<div class="outline-text-6" id="text-5-5-2-2-3">
+</div>
+<div id="outline-container-org38c17ec" class="outline-7">
+<h7 id="org38c17ec"><span class="section-number-7">5.5.2.2.3.1</span> brand</h7>
+<div class="outline-text-7" id="text-5-5-2-2-3-1">
+<p>
+Tessalon Perles
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgba6d392" class="outline-4">
+<h4 id="orgba6d392"><span class="section-number-4">5.5.3</span> expectorants/mucolytics</h4>
+<div class="outline-text-4" id="text-5-5-3">
+</div>
+<div id="outline-container-org937e866" class="outline-5">
+<h5 id="org937e866"><span class="section-number-5">5.5.3.1</span> drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h5>
+<div class="outline-text-5" id="text-5-5-3-1">
+</div>
+<div id="outline-container-orga142792" class="outline-6">
+<h6 id="orga142792"><span class="section-number-6">5.5.3.1.1</span> acetylcysteine</h6>
+<div class="outline-text-6" id="text-5-5-3-1-1">
+</div>
+<div id="outline-container-org7d6a850" class="outline-7">
+<h7 id="org7d6a850"><span class="section-number-7">5.5.3.1.1.1</span> indication</h7>
+<div class="outline-text-7" id="text-5-5-3-1-1-1">
+<p>
+severe cases e.g. cystic fibrosis
+</p>
+</div>
+</div>
+<div id="outline-container-org20f7003" class="outline-7">
+<h7 id="org20f7003"><span class="section-number-7">5.5.3.1.1.2</span> brand</h7>
+<div class="outline-text-7" id="text-5-5-3-1-1-2">
+<p>
+Mucomyst
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orga96fba5" class="outline-6">
+<h6 id="orga96fba5"><span class="section-number-6">5.5.3.1.2</span> guaifenesin</h6>
+<div class="outline-text-6" id="text-5-5-3-1-2">
+</div>
+<div id="outline-container-orged35dc4" class="outline-7">
+<h7 id="orged35dc4"><span class="section-number-7">5.5.3.1.2.1</span> brand</h7>
+<div class="outline-text-7" id="text-5-5-3-1-2-1">
+<p>
+Robitussin
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orga9a92f2" class="outline-3">
+<h3 id="orga9a92f2"><span class="section-number-3">5.6</span> pulmonary arterial hypertension (PAH)</h3>
+<div class="outline-text-3" id="text-5-6">
+</div>
+<div id="outline-container-org3c40f35" class="outline-4">
+<h4 id="org3c40f35"><span class="section-number-4">5.6.1</span> epidemiology</h4>
+<div class="outline-text-4" id="text-5-6-1">
+<ul class="org-ul">
+<li>females disproportionately affected 1.7:1</li>
+<li>survival: 2.8 yrs without treatment</li>
+<li>typically diagnosed 20-50 yo</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1f3327e" class="outline-4">
+<h4 id="org1f3327e"><span class="section-number-4">5.6.2</span> pathophysiology</h4>
+<div class="outline-text-4" id="text-5-6-2">
+<ul class="org-ul">
+<li>mean pulmonary artery pressure (mPAP) of ≥25 mm Hg</li>
+<li>left ventricular end diastolic pressure (LVEDP) ≤15 mm Hg</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2dcaf0c" class="outline-4">
+<h4 id="org2dcaf0c"><span class="section-number-4">5.6.3</span> WHO classification</h4>
+<div class="outline-text-4" id="text-5-6-3">
+</div>
+<div id="outline-container-orgb511d2d" class="outline-5">
+<h5 id="orgb511d2d"><span class="section-number-5">5.6.3.1</span> class 1</h5>
+<div class="outline-text-5" id="text-5-6-3-1">
+<ul class="org-ul">
+<li>No symptoms</li>
+<li>No limitation in ordinary physical activity</li>
+<li>Median survival: 6 years</li>
+</ul>
+</div>
+<div id="outline-container-org1bf5773" class="outline-6">
+<h6 id="org1bf5773"><span class="section-number-6">5.6.3.1.1</span> recommended drug class</h6>
+<div class="outline-text-6" id="text-5-6-3-1-1">
+<p>
+CCB (after a positive vasoreactivity test)
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org04fcb99" class="outline-5">
+<h5 id="org04fcb99"><span class="section-number-5">5.6.3.2</span> class 2</h5>
+<div class="outline-text-5" id="text-5-6-3-2">
+<ul class="org-ul">
+<li>Mild symptoms</li>
+<li>Slight limitation during ordinary activity</li>
+<li>Comfortable at rest</li>
+<li>Median survival: 6 years</li>
+</ul>
+</div>
+<div id="outline-container-orgc090d6d" class="outline-6">
+<h6 id="orgc090d6d"><span class="section-number-6">5.6.3.2.1</span> recommended drug class</h6>
+<div class="outline-text-6" id="text-5-6-3-2-1">
+<ul class="org-ul">
+<li>Ambrisentan/bosentan/macitentan</li>
+<li>Sildenafil/tadalafil</li>
+<li>Riociguat</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org842f5ae" class="outline-5">
+<h5 id="org842f5ae"><span class="section-number-5">5.6.3.3</span> class 3</h5>
+<div class="outline-text-5" id="text-5-6-3-3">
+<ul class="org-ul">
+<li>Marked activity limitation due to symptoms at less-than-ordinary activity</li>
+<li>Comfortable ONLY at rest</li>
+<li>Median survival: 2.5 years</li>
+</ul>
+</div>
+<div id="outline-container-org413fed6" class="outline-6">
+<h6 id="org413fed6"><span class="section-number-6">5.6.3.3.1</span> recommended drug class</h6>
+<div class="outline-text-6" id="text-5-6-3-3-1">
+<ul class="org-ul">
+<li>Bosentan/ambrisentan/macitentan</li>
+<li>Sildenafil/tadalafil</li>
+<li>Riociguat</li>
+</ul>
+<p>
+If rapid progression or poor prognosis:
+</p>
+<ul class="org-ul">
+<li>IV epoprostenol</li>
+<li>IV, SubQ, or inhaled treprostinil</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org44fb945" class="outline-5">
+<h5 id="org44fb945"><span class="section-number-5">5.6.3.4</span> class 4</h5>
+<div class="outline-text-5" id="text-5-6-3-4">
+<ul class="org-ul">
+<li>Symptoms with any activity, even at rest</li>
+<li>Severe limitations</li>
+<li>Median survival: 6 months</li>
+</ul>
+</div>
+<div id="outline-container-org085cf54" class="outline-6">
+<h6 id="org085cf54"><span class="section-number-6">5.6.3.4.1</span> recommended drug class</h6>
+<div class="outline-text-6" id="text-5-6-3-4-1">
+<ul class="org-ul">
+<li>IV epoprostenol</li>
+<li>IV or SubQ treprostinil</li>
+</ul>
+<p>
+Patients unable to receive parenteral prostanoid therapy: Inhaled iloprost/treprostinil
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org49ea6aa" class="outline-4">
+<h4 id="org49ea6aa"><span class="section-number-4">5.6.4</span> diagnosis</h4>
+<div class="outline-text-4" id="text-5-6-4">
+</div>
+<div id="outline-container-org3085258" class="outline-5">
+<h5 id="org3085258"><span class="section-number-5">5.6.4.1</span> diagnostic gold standard</h5>
+<div class="outline-text-5" id="text-5-6-4-1">
+<p>
+<i>right heart catheterization</i>
+</p>
+</div>
+</div>
+<div id="outline-container-org2b7562d" class="outline-5">
+<h5 id="org2b7562d"><span class="section-number-5">5.6.4.2</span> vasoreactivity testing</h5>
+<div class="outline-text-5" id="text-5-6-4-2">
+</div>
+<div id="outline-container-orgccdf05f" class="outline-6">
+<h6 id="orgccdf05f"><span class="section-number-6">5.6.4.2.1</span> short acting vasodilators&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h6>
+<div class="outline-text-6" id="text-5-6-4-2-1">
+</div>
+<div id="outline-container-org52675f4" class="outline-7">
+<h7 id="org52675f4"><span class="section-number-7">5.6.4.2.1.1</span> epoprostenol</h7>
+</div>
+<div id="outline-container-org902a0a9" class="outline-7">
+<h7 id="org902a0a9"><span class="section-number-7">5.6.4.2.1.2</span> adenosine</h7>
+</div>
+<div id="outline-container-org3f60b89" class="outline-7">
+<h7 id="org3f60b89"><span class="section-number-7">5.6.4.2.1.3</span> nitric oxide</h7>
+</div>
+</div>
+<div id="outline-container-org2ec0f69" class="outline-6">
+<h6 id="org2ec0f69"><span class="section-number-6">5.6.4.2.2</span> positive test criteria</h6>
+<div class="outline-text-6" id="text-5-6-4-2-2">
+<p>
+reduction in mPAP of [10, 40) mm Hg <i>without decreasing CO</i>
+</p>
+
+<p>
+Use CCBs for therapy if test is positive; do not use CCBs if negative.
+</p>
+</div>
+</div>
+<div id="outline-container-org2504672" class="outline-6">
+<h6 id="org2504672"><span class="section-number-6">5.6.4.2.3</span> contraindications</h6>
+<div class="outline-text-6" id="text-5-6-4-2-3">
+<p>
+WHO FC IV symptoms
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org2ced1ef" class="outline-4">
+<h4 id="org2ced1ef"><span class="section-number-4">5.6.5</span> risk factors</h4>
+<div class="outline-text-4" id="text-5-6-5">
+<ul class="org-ul">
+<li>Drug/toxin induced
+<ul class="org-ul">
+<li>Fenfluramine</li>
+<li>Amphetamines/Cocaine</li>
+<li>Chemo (etoposide, bleomycin)</li>
+</ul></li>
+<li>Idiopathic vs. Familial</li>
+<li>Connective tissue diseases: Portal HTN, and HIV</li>
+<li>Pulmonary HTN of newborn</li>
+<li>Pulmonary venoocclusive disease</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org48d0ab3" class="outline-4">
+<h4 id="org48d0ab3"><span class="section-number-4">5.6.6</span> non-pharmacologic</h4>
+<div class="outline-text-4" id="text-5-6-6">
+<ul class="org-ul">
+<li>avoid pregnancy</li>
+<li>avoid high altitudes</li>
+<li>avoid decongestants/vasoconstrictors</li>
+<li>sodium restriction</li>
+<li>aerobic exercise</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org57e49f1" class="outline-4">
+<h4 id="org57e49f1"><span class="section-number-4">5.6.7</span> pharmacologic</h4>
+<div class="outline-text-4" id="text-5-6-7">
+</div>
+<div id="outline-container-org0ab0409" class="outline-5">
+<h5 id="org0ab0409"><span class="section-number-5">5.6.7.1</span> gated behind drug access programs</h5>
+<div class="outline-text-5" id="text-5-6-7-1">
+<ul class="org-ul">
+<li>riociguat (Adempas)</li>
+<li>endothelial receptor antagonists
+<ul class="org-ul">
+<li>bosentan (Tracleer)</li>
+<li>ambrisentan (Letairis)</li>
+<li>macitentan (Opsumit)</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2e281c4" class="outline-5">
+<h5 id="org2e281c4"><span class="section-number-5">5.6.7.2</span> digoxin</h5>
+</div>
+<div id="outline-container-org31791e6" class="outline-5">
+<h5 id="org31791e6"><span class="section-number-5">5.6.7.3</span> anticoagulation</h5>
+</div>
+<div id="outline-container-org338350f" class="outline-5">
+<h5 id="org338350f"><span class="section-number-5">5.6.7.4</span> CCBs</h5>
+<div class="outline-text-5" id="text-5-6-7-4">
+</div>
+<div id="outline-container-orgb6e9227" class="outline-6">
+<h6 id="orgb6e9227"><span class="section-number-6">5.6.7.4.1</span> drugs</h6>
+<div class="outline-text-6" id="text-5-6-7-4-1">
+<ul class="org-ul">
+<li>nifedipine</li>
+<li>diltiazem</li>
+<li>amlodipine</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgce0429f" class="outline-6">
+<h6 id="orgce0429f"><span class="section-number-6">5.6.7.4.2</span> contraindications</h6>
+<div class="outline-text-6" id="text-5-6-7-4-2">
+<ul class="org-ul">
+<li>LVEF &lt;40%—LV systolic dysfunction</li>
+<li>negative vasoreactivity test</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org08aa924" class="outline-5">
+<h5 id="org08aa924"><span class="section-number-5">5.6.7.5</span> nitric oxide pathway&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h5>
+<div class="outline-text-5" id="text-5-6-7-5">
+</div>
+<div id="outline-container-orgb575e15" class="outline-6">
+<h6 id="orgb575e15"><span class="section-number-6">5.6.7.5.1</span> sildenafil</h6>
+<div class="outline-text-6" id="text-5-6-7-5-1">
+</div>
+<div id="outline-container-org85dcaf2" class="outline-7">
+<h7 id="org85dcaf2"><span class="section-number-7">5.6.7.5.1.1</span> brand</h7>
+<div class="outline-text-7" id="text-5-6-7-5-1-1">
+<p>
+Reviato
+</p>
+</div>
+</div>
+<div id="outline-container-org6927ae3" class="outline-7">
+<h7 id="org6927ae3"><span class="section-number-7">5.6.7.5.1.2</span> dose</h7>
+<div class="outline-text-7" id="text-5-6-7-5-1-2">
+<ul class="org-ul">
+<li>20-80 mg TID</li>
+<li>doses are greater for PAH than in ED</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd766ce8" class="outline-7">
+<h7 id="orgd766ce8"><span class="section-number-7">5.6.7.5.1.3</span> adverse effects</h7>
+<div class="outline-text-7" id="text-5-6-7-5-1-3">
+<p>
+vision changes
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org465cf2c" class="outline-6">
+<h6 id="org465cf2c"><span class="section-number-6">5.6.7.5.2</span> tadalafil</h6>
+<div class="outline-text-6" id="text-5-6-7-5-2">
+</div>
+<div id="outline-container-orge6c8dae" class="outline-7">
+<h7 id="orge6c8dae"><span class="section-number-7">5.6.7.5.2.1</span> brand</h7>
+<div class="outline-text-7" id="text-5-6-7-5-2-1">
+<p>
+Adcirca
+</p>
+</div>
+</div>
+<div id="outline-container-org0cd316f" class="outline-7">
+<h7 id="org0cd316f"><span class="section-number-7">5.6.7.5.2.2</span> dose</h7>
+<div class="outline-text-7" id="text-5-6-7-5-2-2">
+<ul class="org-ul">
+<li>20-40 mg QD</li>
+<li>doses are greater for PAH than in ED</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd07cc18" class="outline-6">
+<h6 id="orgd07cc18"><span class="section-number-6">5.6.7.5.3</span> riocigant</h6>
+<div class="outline-text-6" id="text-5-6-7-5-3">
+</div>
+<div id="outline-container-org2d1359c" class="outline-7">
+<h7 id="org2d1359c"><span class="section-number-7">5.6.7.5.3.1</span> brand</h7>
+<div class="outline-text-7" id="text-5-6-7-5-3-1">
+<p>
+Adempas
+</p>
+</div>
+</div>
+<div id="outline-container-org9832b04" class="outline-7">
+<h7 id="org9832b04"><span class="section-number-7">5.6.7.5.3.2</span> indication</h7>
+<div class="outline-text-7" id="text-5-6-7-5-3-2">
+<p>
+chronic thromboembolic PH
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd6f0334" class="outline-5">
+<h5 id="orgd6f0334"><span class="section-number-5">5.6.7.6</span> endothelin receptor antagonists</h5>
+<div class="outline-text-5" id="text-5-6-7-6">
+<ul class="org-ul">
+<li>pregnancy category X</li>
+<li>requires drug access program</li>
+<li>hepatotoxic so measure LFTs</li>
+</ul>
+</div>
+<div id="outline-container-org2e7002a" class="outline-6">
+<h6 id="org2e7002a"><span class="section-number-6">5.6.7.6.1</span> drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h6>
+<div class="outline-text-6" id="text-5-6-7-6-1">
+</div>
+<div id="outline-container-org58d41a3" class="outline-7">
+<h7 id="org58d41a3"><span class="section-number-7">5.6.7.6.1.1</span> bosentan</h7>
+<div class="outline-text-7" id="text-5-6-7-6-1-1">
+</div>
+<div id="outline-container-org9f22bcf" class="outline-8">
+<h8 id="org9f22bcf"><span class="section-number-8">5.6.7.6.1.1.1</span> brand</h8>
+<div class="outline-text-8" id="text-5-6-7-6-1-1-1">
+<p>
+Tracleer
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org782f440" class="outline-7">
+<h7 id="org782f440"><span class="section-number-7">5.6.7.6.1.2</span> ambrisentan</h7>
+<div class="outline-text-7" id="text-5-6-7-6-1-2">
+</div>
+<div id="outline-container-org47c19e4" class="outline-8">
+<h8 id="org47c19e4"><span class="section-number-8">5.6.7.6.1.2.1</span> brand</h8>
+<div class="outline-text-8" id="text-5-6-7-6-1-2-1">
+<p>
+Letairis
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb53a345" class="outline-7">
+<h7 id="orgb53a345"><span class="section-number-7">5.6.7.6.1.3</span> macitentan</h7>
+<div class="outline-text-7" id="text-5-6-7-6-1-3">
+</div>
+<div id="outline-container-org9db114d" class="outline-8">
+<h8 id="org9db114d"><span class="section-number-8">5.6.7.6.1.3.1</span> brand</h8>
+<div class="outline-text-8" id="text-5-6-7-6-1-3-1">
+<p>
+Opsumit
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org837f5ea" class="outline-6">
+<h6 id="org837f5ea"><span class="section-number-6">5.6.7.6.2</span> monitoring parameters&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ignore">ignore</span></span></h6>
+<div class="outline-text-6" id="text-5-6-7-6-2">
+<p>
+LFTs
+</p>
+</div>
+</div>
+<div id="outline-container-org35545fd" class="outline-6">
+<h6 id="org35545fd"><span class="section-number-6">5.6.7.6.3</span> adverse effects&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ignore">ignore</span></span></h6>
+<div class="outline-text-6" id="text-5-6-7-6-3">
+<p>
+potential serious liver injury
+</p>
+</div>
+</div>
+<div id="outline-container-org76923cb" class="outline-6">
+<h6 id="org76923cb"><span class="section-number-6">5.6.7.6.4</span> drug access&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ignore">ignore</span></span></h6>
+<div class="outline-text-6" id="text-5-6-7-6-4">
+<p>
+requires restricted drug access program by pharmacy and prescriber because of its risks
+</p>
+</div>
+</div>
+<div id="outline-container-org2a6e8a7" class="outline-6">
+<h6 id="org2a6e8a7"><span class="section-number-6">5.6.7.6.5</span> warning&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ignore">ignore</span></span></h6>
+<div class="outline-text-6" id="text-5-6-7-6-5">
+<ul class="org-ul">
+<li>pregnancy category X; teratogenic</li>
+<li>decreases efficacy of oral contraceptives</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org1d00efc" class="outline-5">
+<h5 id="org1d00efc"><span class="section-number-5">5.6.7.7</span> prostacyclin pathway prostanoids</h5>
+<div class="outline-text-5" id="text-5-6-7-7">
+</div>
+<div id="outline-container-org25a8495" class="outline-6">
+<h6 id="org25a8495"><span class="section-number-6">5.6.7.7.1</span> drugs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="l">l</span></span></h6>
+<div class="outline-text-6" id="text-5-6-7-7-1">
+</div>
+<div id="outline-container-org6da5de7" class="outline-7">
+<h7 id="org6da5de7"><span class="section-number-7">5.6.7.7.1.1</span> epoprostenol</h7>
+<div class="outline-text-7" id="text-5-6-7-7-1-1">
+</div>
+<div id="outline-container-org15acfba" class="outline-8">
+<h8 id="org15acfba"><span class="section-number-8">5.6.7.7.1.1.1</span> brand</h8>
+<div class="outline-text-8" id="text-5-6-7-7-1-1-1">
+<ul class="org-ul">
+<li>Flolan</li>
+<li>Veletri</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb7c892d" class="outline-8">
+<h8 id="orgb7c892d"><span class="section-number-8">5.6.7.7.1.1.2</span> ROA</h8>
+<div class="outline-text-8" id="text-5-6-7-7-1-1-2">
+<ul class="org-ul">
+<li>IV</li>
+<li>pump</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org7448caf" class="outline-7">
+<h7 id="org7448caf"><span class="section-number-7">5.6.7.7.1.2</span> treprostinil</h7>
+<div class="outline-text-7" id="text-5-6-7-7-1-2">
+</div>
+<div id="outline-container-orgfd1b556" class="outline-8">
+<h8 id="orgfd1b556"><span class="section-number-8">5.6.7.7.1.2.1</span> brand</h8>
+<div class="outline-text-8" id="text-5-6-7-7-1-2-1">
+<ul class="org-ul">
+<li>Remodulin</li>
+<li>Tyvaso</li>
+<li>Orenitram</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org97d2ad4" class="outline-8">
+<h8 id="org97d2ad4"><span class="section-number-8">5.6.7.7.1.2.2</span> ROA</h8>
+<div class="outline-text-8" id="text-5-6-7-7-1-2-2">
+<ul class="org-ul">
+<li>SC</li>
+<li>IV</li>
+<li>pump</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orge8b5bcb" class="outline-7">
+<h7 id="orge8b5bcb"><span class="section-number-7">5.6.7.7.1.3</span> selexipag</h7>
+<div class="outline-text-7" id="text-5-6-7-7-1-3">
+</div>
+<div id="outline-container-org2e72e29" class="outline-8">
+<h8 id="org2e72e29"><span class="section-number-8">5.6.7.7.1.3.1</span> brand</h8>
+<div class="outline-text-8" id="text-5-6-7-7-1-3-1">
+<p>
+Uptravi
+</p>
+</div>
+</div>
+<div id="outline-container-org447bea8" class="outline-8">
+<h8 id="org447bea8"><span class="section-number-8">5.6.7.7.1.3.2</span> ROA</h8>
+<div class="outline-text-8" id="text-5-6-7-7-1-3-2">
+<p>
+PO
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org80605b9" class="outline-7">
+<h7 id="org80605b9"><span class="section-number-7">5.6.7.7.1.4</span> iloprost</h7>
+<div class="outline-text-7" id="text-5-6-7-7-1-4">
+</div>
+<div id="outline-container-orgdc120c2" class="outline-8">
+<h8 id="orgdc120c2"><span class="section-number-8">5.6.7.7.1.4.1</span> brand</h8>
+<div class="outline-text-8" id="text-5-6-7-7-1-4-1">
+<p>
+Ventavis
+</p>
+</div>
+</div>
+<div id="outline-container-orgd977ab9" class="outline-8">
+<h8 id="orgd977ab9"><span class="section-number-8">5.6.7.7.1.4.2</span> ROA</h8>
+<div class="outline-text-8" id="text-5-6-7-7-1-4-2">
+<p>
+inhaled; I-neb adaptive aerosol device
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org9bf97ab" class="outline-6">
+<h6 id="org9bf97ab"><span class="section-number-6">5.6.7.7.2</span> MOA</h6>
+<div class="outline-text-6" id="text-5-6-7-7-2">
+<p>
+relaxes smooth muscle by increasing intracellular cAMP
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: zds</p>
+<p class="date">Created: 2019-01-18 Fri 08:32</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
