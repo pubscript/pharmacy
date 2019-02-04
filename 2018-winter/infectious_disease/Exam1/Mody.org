@@ -266,9 +266,9 @@ cefem nucleus
 penam nucleus
 ****** [[./monobactam_nucleus.png]]
 monobactam nucleus
-*** Glycopeptide
+*** Glycopeptide :l:
 **** Vancomycin
-*** Glycolipopeptide
+*** Glycolipopeptide :l:
 **** Telavancin
 **** Oritavancin
 **** Dalbavancin
@@ -860,10 +860,72 @@ Gram-(-)
 Gram-(-)
 **** Enterococcus faecalis
 Gram-(+)
-*** nosocomial-acquired
-- E. coli
-- Enterococcus spp.
-- Klebsiella pneumoniae
-- Enterobacter spp.
+*** nosocomial-acquired :l:
+**** E. coli
+**** Enterococcus spp.
+**** Klebsiella pneumoniae
+**** Enterobacter spp.
+**** Serratia spp.
+**** Staphylococcus aureus
+**** Pseudomonas aeruginosa
+**** Candida spp.
 ** lab tests
 *** urinalysis
+1. midstream clean-catch method---preferred method
+2. catheterization
+3. suprapubic bladder aspiration
+**** normal values
+***** leukocytes
+0-5 cells/mm^3
+***** erythrocytes
+0-2 cells/mm^3
+***** crystals/casts
+None
+***** bacteria
+None
+***** epithelial cells
+0-2 cells/mm^3
+***** pH
+4.5-8
+***** specific gravity
+1.003-1.03
+** significant bacteriuria
+*** females
+*** males
+*** catheterized patients
+** cystitis
+- lower urinary tract infection
+- inflammation of the bladder, urethra, prostate, and epididymis
+*** signs and symptoms
+- Dysuria
+- Frequency
+- Urgency 
+- Nocturia 
+- Suprapubic heaviness 
+- Hematuria (gross) 
+- Fever usually absent 
+*** treatment of complicated cystitis
+*** treatment of acute uncomplicated cystitis
+** pyelonephritis
+- upper urinary tract infection
+- inflammation of the kidney from infection
+*** treatment of acute pyelonephritis
+*** signs and symptoms
+- Flank pain 
+- Fever 
+- Nausea
+- Vomiting 
+- Malaise 
+- Hematuria (gross)
+** treatment
+*** relapse
+*** recurrent
+*** pregnancy
+*** prostatitis
+** drug-drug interactions
+** questions
+*** A patient diagnosed with a nosocomial-acquired UTI should be empirically treated for what microorganism? 
+- Enterococcus faecalis 
+- +Legionella pneumophila+
+- +Streptooccous pyogenes+
+- +Staphylococcus saprophyticus+

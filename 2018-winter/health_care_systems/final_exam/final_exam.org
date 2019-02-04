@@ -1,5 +1,10 @@
 * Health Care in the US
 ** Identify and describe the paradoxes of the US health care system and why overall costs are increasing.
+- Fragmentation of health care regulation, financing and delivery
+- Focus on treatment versus prevention
+- High rate of medical errors
+- Socioeconomic and racial disparities in outcomes
+- Not everyone with adequate health insurance
 ** Explain and differentiate between the public versus private sector within our health care system.
 *** public examples
 - medicaire
@@ -14,6 +19,11 @@
 - dynamics of physician affect pharmacist market
 - how pharmacist role is expanded
 ** List and describe the trends associated with care and the various health care professionals.
+- pay for performance
+- patient-centered care
+- medical home---one central clearinghouse in which all patient medication records are kept up to date
+- interdisciplinary care
+- affordable care act
 * RPhs & the Pharmacy Profession
 ** Identify the educational and career paths for pharmacy and describe trends within the pharmacy workforce.
 is this a good offer?
@@ -24,44 +34,122 @@ prescription is the only thing that differentiates it
 - payers pushing people to strengthen drug budget
 - prior authorization
 * Pharma – Drug Distribution
-** TODO Describe the traditional flow of medications from the manufacturer to the patient/ end user.
-pick pack and ship...
-** TODO Identify the trends over time with regards to the changing of the wholesale industry, especially the changing business model.
-wholesale role w.r.t. pharmacy
+** Describe the traditional flow of medications from the manufacturer to the patient/ end user.
+- no additional services were offered outside of pick, pack, and ship
+- pricing was list less (AWP less a percentage)
+** Identify the trends over time with regards to the changing of the wholesale industry, especially the changing business model.
+- wholesale role w.r.t. pharmacy
+- pricing moved from list less to cost plus (WAC plus a percentage)
 ** Describe the significance of buying groups /group purchasing organizations and the wholesaler’s role in community pharmacy.
 * Public Health & Government
-** TODO Identify and describe the roles the U.S. government plays in health care.
+** Identify and describe the roles the U.S. government plays in health care.
+- payer: financier, purchaser
+- provider: e.g., VA
+- regulator
+** Describe the governmental structure of public health in the U.S, including federal, state, and local arms.
 - top of org chart for healthcare in this country: Health & Human services
 - most of money funds center for medicaid & medicaid services
-** Describe the governmental structure of public health in the U.S, including federal, state, and local arms.
 * Economics
 ** Describe elasticity of demand and identify what happens to revenue in each demand situation.
-** TODO Describe a perfectly competitive market and how the health care market is different.
-...moral hazard
+** Describe a perfectly competitive market and how the health care market is different.
+*** perfect competition
+- Many buyers and sellers
+- Freedom of entry and exit
+- Standardized products
+- Full and free information
+- No collusion
+*** why the healthcare market is different
+- consolidation among sellers and buyers
+- high barriers to entry for suppliers
+- care is individualized and customized
+- quality is difficult to measure
+- information is not free; requires specialized knowledge
+- third party insurance, decreased out-of-pocket expenses by patients, leads to moral hazardous increase in demand and consumption
 * Pharmacoeconomics
 ** Identify the type of economic evaluation based on cost and outcome measurement, primary concern, and decision rule.
-that one chart with dollars on the left
+*** cost minimization
+**** primary concern
+efficiency
+*** cost-benefit
+**** primary concern
+most beneficial use of resources
+*** cost-effectiveness
+**** primary concern
+least costly way to achieve objective
+*** cost-utility
+**** primary concern
+quality of life
 * Private Insurance
 ** Describe the demographics of the uninsured population.
+- young and working poor
+- approx. 2/3 are young (<34)
+- 33% are non-US citizens
+- household income <50k
 ** Define indemnity insurance and its pros and cons.
+*** definition
+Reimbursement of a percentage of expenses to subscribers rather than direct payment to providers
+**** cons
+- Subscribers had to save receipts & fill out claims forms 
+- Costs rapidly increased 
+- Administrative + reimbursement on a retrospective, fee-for-service basis
 ** Differentiate between the two types of risk and describe the role of risk in insurance.
+*** types :l:
+**** pure
+- Probability of event determined
+- Irregular (can determine the probability but NOT to whom)
+- Accidental
+- Substantial loss
+- Measurable (attributable to a specific event and $ amount)
+- Insurable interest (i.e. can’t insure your extreme sports/crazy neighbor)
+**** speculative
 ** Describe potential risk management problems and the strategies used to avoid those problems.
 *** potential risk management problems
 - adverse selection
 - moral hazard
-stratgies to avoid
-*** TODO
+- catastrophic hazard
+- supplier-induced demand
+*** stratgies to avoid
+- group policies
+- coverage limitations
+- coordination of benefits
 ** Describe the differences between employer-sponsored & individual policies
 ** Define COBRA & its impact in the pharmacy.
-cobra protects protects the availability not afofrodbility of insurance
+cobra protects protects the availability not affordability of insurance
 * Managed Care
 ** Define managed care and describe its contribution to 	health care delivery in the U.S.
 ** Identify and describe the 4 characteristics which 	differentiate the type of managed care organization 	(MCO).
+- risk bearing
+- physician type
+- relationship exclusivity
+- out-of-network coverage
 ** Identify and describe the different HMO types.
-** TODO Describe distinguishing characteristics of HMOs and 	PPOs.
+- staff-model
+- group-model
+- network-model
+- independent practice association model
+** Describe distinguishing characteristics of HMOs and 	PPOs.
+*** PPOs
+Preferred Provider Organizations are affiliations of providers that seek contracts with insurance plans.
+A. Nonexclusive arrangements
+B. Individuals are free to see any provider, but have a financial incentive to see those within the preferred network.
+C. Providers accept a discounted FFS rather than capitation.
+D. Providers bear no risk, but, along with the discounts, they are subject to utilization management and review to control costs.
+*** HMOs
+Generally do not provide coverage for medical care that is received out of network
+They place providers at risk, either directly or indirectly.
+Capitation 
+Risk pools 
+Gatekeeper
 ** Differentiate an accountable care organization from other 	MCOs and describe its impact on practice.
+- Network of doctors and hospitals (and other HCPs) with shared responsibility and coordinated care
+- Primary care physician = gatekeeper
+- Financial incentives to keep patients well
 ** Describe the role and importance of NCQA and HEDIS 	measures.
+measures performance/quality on care and service in health plans
 ** Describe managed care’s impact on pharmacy 	practice.
+- drug information
+- medication safety/quality
+- pharmacist-run clinics/ambulatory care services in HMOs
 * MEDICARE
 ** Identify and describe the 4 primary parts of Medicare, including eligibility, financing, coverage and cost sharing associated with each.
 *** A
@@ -287,9 +375,9 @@ Patient pays a specified fixed percentage of a service (usually 20%)
 dispensing fee + ingredient costs - patient cost sharing
 ** ingredient cost
 *** factors
-**** average wholesale price (AWP)
-**** wholesale acquisition cost (WAC)
-**** actual acquisition cost (AAC)
+- average wholesale price (AWP)
+- wholesale acquisition cost (WAC)
+- actual acquisition cost (AAC)
 *** rank of factors by magnitude
 AWP > WAC > AAC
 * terminology
