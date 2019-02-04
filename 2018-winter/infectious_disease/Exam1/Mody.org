@@ -100,6 +100,8 @@ acid-catalyzed ring opening of the strained Penam nucleus
 ******* Amoxicillin + Clavulanic acid
 ******* Ticarcillin + Clavulanic Acid
 ******* Ampicillin + Sulbactam
+******** brand
+Unasyn
 ******* Piperacillin + Tazobactam
 ***** Cephalosporins
 ****** general structure
@@ -171,17 +173,17 @@ PO
 parenteral
 ******* drugs
 ******** IV :l:
-********* Ceftriaxone 
+********* ceftriaxone 
 ********** brand
 Rocephin
 ********** DOC for
 Neisseria meningitis
 ********** usage
 don’t administer within 24h of calcium products e.g. TPN
-********* Cefotaxime
+********* cefotaxime
 ********** brand
 Claforan
-********* Ceftazidime
+********* ceftazidime
 ********** brand
 - Fortaz
 - Tazicef
@@ -193,13 +195,17 @@ Claforan
 ********* ceftazidime/avibactam
 ********* ceftolozane/tazobactam
 ******** PO :l:
-********* Cefixime
-********* Cefdinir
-********* Cefditore
-********* Cefixime
-********* Ceftibute
-********* Cefoperazone
-********* Ceftizoxime
+********* cefixime
+********* cefpoxoxime
+********** brand
+Vantin
+********* cefdinir
+********** brand
+Omnicef
+********* cefditore
+********* ceftibute
+********* cefoperazone
+********* ceftizoxime
 ********** brand
 Cefizox
 ****** 4th generation
@@ -891,8 +897,12 @@ None
 1.003-1.03
 ** significant bacteriuria
 *** females
+- ≥100 CFU bacteria/mL in a symptomatic female
+- ≥ 100’000 CFU noncoliforms/mL in a symptomatic female
 *** males
+≥10k CFU bacteria/mL in a symptomatic male
 *** catheterized patients
+any growth of bacteria on a suprapubic catheterization in a symptomatic patient
 ** cystitis
 - lower urinary tract infection
 - inflammation of the bladder, urethra, prostate, and epididymis
@@ -906,26 +916,114 @@ None
 - Fever usually absent 
 *** treatment of complicated cystitis
 *** treatment of acute uncomplicated cystitis
+**** preferred :l:
+***** nitrofurantoin monohydrate (Macrobid) 100 mg pO q12h x 5d
+- avoid if CrCl <30 mL/min
+- avoid if early pyelonephritis suspected
+***** Bactrim DS 800-160 mg pO q12h x 3d
+- avoid if resistance >20%
+- used to treat UTI in past 3 months
+***** Trimethoprim (Primsol) 100 mg pO q12h x 3d
+avoid if CrCl <15 mL/min
+***** fosfomycin (Monurol) 3 g PO x 1
+avoid if early pyelonephritis suspected
+**** alternative :ignore:
+***** fluoroquinolones
+***** β-lactams
+- Augmentin 500-125 mg pO q8h x 5-7d
+- cefdinir (Omnicef) 300 mg pO q8h x 5-7d
+- cephalexin (Keflex) 500 mg pO q12h x 5-7d
+- cefpodoxime (Vantin) 100 mg pO q12h x 5-7d
 ** pyelonephritis
 - upper urinary tract infection
 - inflammation of the kidney from infection
-*** treatment of acute pyelonephritis
 *** signs and symptoms
 - Flank pain 
-- Fever 
-- Nausea
-- Vomiting 
+- Fever (>38.3 C or >100.9 F)
+- Nausea/Vomiting 
 - Malaise 
 - Hematuria (gross)
+*** acute pyelonephritis
+**** treatment
+- Cipro 400 mg IVPB q12h x 7d
+- levofloxacin 500 mg ivpb q24h x 7d
+- ampicillin/sulbactam (Unasyn) 3 g IVPB q6h
+- piperacillin/tazobactam (Zosyn) 3.375 g IVPB q6h
+**** signs and symptoms
+- fever
+- chills
+- abdominal pain
+- casts in urine
+- leukocytosis
 ** treatment
 *** relapse
+- if relapse occurs within 90 days of treatment, NEVER use the same treatment regimen
+- women who relapse after a 2 week course of therapy should receive another 2-4 weeks of therapy
 *** recurrent
+**** reinfection
+- If reinfection occurs within 90 days of treatment, NEVER use the same treatment regimen
+- use prophylactic therapy; Bactrim, TMP, nitrofurantoin, fluoroquinolones..., cephalexin
 *** pregnancy
+- avoid fluoroquinolones because they inhibit cartilage and bone development in newborns
+- never use Bactrim in the 3rd trimester due to possible development of hyperbilirubinemia and kernicterus
+- only use Bactrim in the 1st and 2nd trimesters
+**** first trimester
+- ends month 3
+- weeks 9-13
+**** second trimester
+- ends month 6
+- weeks 22-26
 *** prostatitis
+**** acute treatment
+2-4 weeks:
+- fluoroquinolones
+- TMP
+- cephalosporins
 ** drug-drug interactions
+*** CYP450 inhibitors
+SICKFACES.COM Group:
+- S = sodium valproate 
+- I = isoniazid 
+- C = cimetidine 
+- K = ketoconazole 
+- F = fluconazole 
+- A = alcohol – binge drinking 
+- C = ciprofloxacin 
+- E = erythromycin 
+- S = sulfonamides 
+- C = chloramphenicol 
+- O = omeprazole 
+- M = metronidazole 
+- G = grapefruit juice 
+*** CYP450 inducers
+CRAP GPS
+- C = carbamazepines 
+- R = rifampin 
+- A = alcohol – chronic 
+- P = phenytoin 
+- G = griseofulvin
+- P = phenobarbitone 
+- S = sulphylureas 
 ** questions
 *** A patient diagnosed with a nosocomial-acquired UTI should be empirically treated for what microorganism? 
 - Enterococcus faecalis 
 - +Legionella pneumophila+
 - +Streptooccous pyogenes+
 - +Staphylococcus saprophyticus+
+*** What lab result indicates the presence of cystitis on a urinalysis (UA)? 
+- +Positive casts+
+- +Positive epithelial cells+
+- +Positive ketones+
+- Positive WBC esterase
+*** What patient should the use of nitrofurantoin be avoided? 
+- A patient with a CrCl < 30 mL/min.
+- +A patient with documented anaphylaxis to sulfa.+
+- +A patient receiving daily warfarin.+
+- +A patient who is pregnant and in her first trimester.+
+*** SM presents to the ambulatory care clinic with symptoms of urinary frequency and burning. She was treated with Bactrim DS® 2-months ago for an uncomplicated UTI.  What is the preferred treatment for this patient? 
+- +Bactrim DS PO Q12H x 3 days+
+- +Ciprofloxacin 500 mg PO Q12H x 3 days+
+- Fosfomycin 3 grams PO x 1 Dose
+- +Nitrofurantoin 100 mg PO Q12H x 3 days+
+
+
