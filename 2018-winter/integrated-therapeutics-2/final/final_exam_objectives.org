@@ -1,0 +1,13 @@
+* sleep disorders
+** pharmacology
+- [ ] Describe Sleep Physiology:  REM  versus NREM Sleep
+- [ ] Explain the neuropharmacology of GABA  receptors and GABAA receptors
+- [ ] Site of action of Barbiturates, benzodiazepines (BZs) and non-benzodiazepines (non-BZs)
+- [ ] Classify and name sedatives and hypnotics
+- [ ] BZs and non-BZs
+- [ ] Explain pharmacodynamics of sedative drugs: 
+- [ ] Classification of benzodiazepine on the basis of duration of action
+- [ ] Explain pharmacokinetics, side effects, adverse effects, toxicity and rationale for drug interaction of BZs, barbiturates and nonBZs
+- [ ] Explain mechanism of action, pharmacokinetics, side effects, toxicity and drug interactions of Buspirone and Ramelteon
+** pharmacotherapy
+

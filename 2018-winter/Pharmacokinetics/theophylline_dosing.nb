@@ -1,0 +1,169 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6749,        161]
+NotebookOptionsPosition[      5354,        132]
+NotebookOutlinePosition[      5708,        148]
+CellTagsIndexPosition[      5665,        145]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[StyleBox["Theophylline", "Title"]], "Text",
+ CellChangeTimes->{{3.757936235356091*^9, 
+  3.757936236852894*^9}},ExpressionUUID->"54edec6e-1563-47b2-ab89-\
+09ad84b6057a"],
+
+Cell["\<\
+1. KG is a 48\[Hyphen]year\[Hyphen]old, 70\[Hyphen]kg, black man with a long \
+history of mild COPD that currently is not well controlled. KG is receiving a \
+beta\[Hyphen]2 agonist, ipratropium, and an inhaled steroid. His physician \
+wishes to initiate intravenous theophylline to see if KG can be more \
+adequately controlled. If a satisfactory response occurs, he will discharge \
+KG on sustained\[Hyphen]release theophylline.  Determine an aminophylline \
+loading dose and continuous infusion rate to maintain a theophylline \
+concentration of 15 mg/L. (complete from class)
+\
+\>", "Text",
+ CellChangeTimes->{{3.757935465803987*^9, 3.757935466509914*^9}, {
+   3.757935501286833*^9, 3.757935513022127*^9}, 3.7579361421321487`*^9, {
+   3.757936239680633*^9, 
+   3.757936240274938*^9}},ExpressionUUID->"466272e3-0ab3-43a1-b24c-\
+d5e5fabe5356"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  SubscriptBox["C", "ss"], "=", "15"}], "\[IndentingNewLine]", 
+ RowBox[{
+  SubscriptBox["V", "d"], "=", 
+  RowBox[{"0.5", "*", "70"}]}], "\[IndentingNewLine]", 
+ RowBox[{"F", "=", "0.8"}], "\[IndentingNewLine]", 
+ RowBox[{"S", "=", "1.0"}], "\[IndentingNewLine]", 
+ RowBox[{"Cl", "=", 
+  RowBox[{
+  "0.04", "*", 
+   "70"}]}], "\[IndentingNewLine]", Cell["N.B.: 0.04 L/kg/hr is standard for \
+theophylline",ExpressionUUID->
+  "2078e9d7-214a-4ad5-ae7a-629b0e80d837"]}], "Input",
+ CellChangeTimes->{{3.757935484286036*^9, 3.757935563912195*^9}, {
+  3.757935599146205*^9, 3.757935605196835*^9}, {3.757935651064843*^9, 
+  3.757935658267338*^9}, {3.757935705443881*^9, 3.757935707202929*^9}, {
+  3.757935808917227*^9, 3.7579359124543533`*^9}, {3.757936370845182*^9, 
+  3.757936383123423*^9}},
+ CellLabel->"In[32]:=",ExpressionUUID->"cf7b7794-563c-4736-b9d4-6ba91af51c58"],
+
+Cell[BoxData["15"], "Output",
+ CellChangeTimes->{{3.757935686659185*^9, 3.7579357089541473`*^9}, {
+   3.757935894487714*^9, 3.7579359193386393`*^9}, 3.7579363849508247`*^9},
+ CellLabel->"Out[32]=",ExpressionUUID->"ad40cd4e-7aad-4ccf-953b-9f1ed52cefd0"],
+
+Cell[BoxData["35.`"], "Output",
+ CellChangeTimes->{{3.757935686659185*^9, 3.7579357089541473`*^9}, {
+   3.757935894487714*^9, 3.7579359193386393`*^9}, 3.757936384965087*^9},
+ CellLabel->"Out[33]=",ExpressionUUID->"402e0e02-2d4a-4d7c-b748-e1f04514b51a"],
+
+Cell[BoxData["0.8`"], "Output",
+ CellChangeTimes->{{3.757935686659185*^9, 3.7579357089541473`*^9}, {
+   3.757935894487714*^9, 3.7579359193386393`*^9}, 3.757936384972485*^9},
+ CellLabel->"Out[34]=",ExpressionUUID->"8b433501-3c83-453c-ad27-403691a39151"],
+
+Cell[BoxData["1.`"], "Output",
+ CellChangeTimes->{{3.757935686659185*^9, 3.7579357089541473`*^9}, {
+   3.757935894487714*^9, 3.7579359193386393`*^9}, 3.757936384981394*^9},
+ CellLabel->"Out[35]=",ExpressionUUID->"91f12ea7-dd66-4646-bea0-6351049197d6"],
+
+Cell[BoxData["2.8000000000000003`"], "Output",
+ CellChangeTimes->{{3.757935686659185*^9, 3.7579357089541473`*^9}, {
+   3.757935894487714*^9, 3.7579359193386393`*^9}, 3.7579363849886923`*^9},
+ CellLabel->"Out[36]=",ExpressionUUID->"111ce533-ab23-483e-8bdd-4181d9c06ac4"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "N.B.: 0.04 L/kg/hr is standard for theophylline",ExpressionUUID->
+   "7bb12a81-73d5-4a33-a257-6a4f5976522c"],
+  TextCell["N.B.: 0.04 L/kg/hr is standard for theophylline"]]], "Output",
+ CellChangeTimes->{{3.757935686659185*^9, 3.7579357089541473`*^9}, {
+   3.757935894487714*^9, 3.7579359193386393`*^9}, 3.75793638499809*^9},
+ CellLabel->"Out[37]=",ExpressionUUID->"d796eaab-7c42-49c7-9c1e-3bda6c316519"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"LD", "=", 
+  FractionBox[
+   RowBox[{
+    SubscriptBox["V", "d"], "*", 
+    SubscriptBox["C", "p"]}], 
+   RowBox[{"S", "*", "F"}]]}]], "Input",
+ CellChangeTimes->{{3.7579355508607273`*^9, 3.757935583825337*^9}, {
+  3.75793613547714*^9, 3.757936166141344*^9}, {3.757936555841866*^9, 
+  3.7579365598579063`*^9}},ExpressionUUID->"af4e9fa9-a3bf-4ab6-8453-\
+2033aeeec0de"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["R", "a"], "=", 
+  FractionBox[
+   RowBox[{
+    SubscriptBox["C", "ss"], "*", "Cl"}], 
+   RowBox[{"S", "*", "F"}]]}]], "Input",
+ CellChangeTimes->{{3.757935543746554*^9, 3.757935544031836*^9}, {
+  3.757935589062615*^9, 3.757935611565884*^9}, {3.757935662645149*^9, 
+  3.757935716263105*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"9503d219-cce0-426d-b7fb-7a492cc0a8af"],
+
+Cell[BoxData["52.50000000000001`"], "Output",
+ CellChangeTimes->{{3.7579357110805397`*^9, 3.75793571675259*^9}, {
+  3.757935897601461*^9, 3.757935924421361*^9}},
+ CellLabel->"Out[31]=",ExpressionUUID->"86188134-7a4e-4bc6-b207-9818c2a63d47"]
+}, Open  ]]
+},
+WindowSize->{653, 761},
+WindowMargins->{{Automatic, 15}, {Automatic, 26}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 183, 3, 73, "Text",ExpressionUUID->"54edec6e-1563-47b2-ab89-09ad84b6057a"],
+Cell[744, 25, 855, 15, 196, "Text",ExpressionUUID->"466272e3-0ab3-43a1-b24c-d5e5fabe5356"],
+Cell[CellGroupData[{
+Cell[1624, 44, 891, 19, 137, "Input",ExpressionUUID->"cf7b7794-563c-4736-b9d4-6ba91af51c58"],
+Cell[2518, 65, 252, 3, 34, "Output",ExpressionUUID->"ad40cd4e-7aad-4ccf-953b-9f1ed52cefd0"],
+Cell[2773, 70, 252, 3, 34, "Output",ExpressionUUID->"402e0e02-2d4a-4d7c-b748-e1f04514b51a"],
+Cell[3028, 75, 252, 3, 34, "Output",ExpressionUUID->"8b433501-3c83-453c-ad27-403691a39151"],
+Cell[3283, 80, 251, 3, 34, "Output",ExpressionUUID->"91f12ea7-dd66-4646-bea0-6351049197d6"],
+Cell[3537, 85, 269, 3, 34, "Output",ExpressionUUID->"111ce533-ab23-483e-8bdd-4181d9c06ac4"],
+Cell[3809, 90, 446, 7, 36, "Output",ExpressionUUID->"d796eaab-7c42-49c7-9c1e-3bda6c316519"]
+}, Open  ]],
+Cell[4270, 100, 391, 10, 49, "Input",ExpressionUUID->"af4e9fa9-a3bf-4ab6-8453-2033aeeec0de"],
+Cell[CellGroupData[{
+Cell[4686, 114, 409, 10, 49, "Input",ExpressionUUID->"9503d219-cce0-426d-b7fb-7a492cc0a8af"],
+Cell[5098, 126, 240, 3, 34, "Output",ExpressionUUID->"86188134-7a4e-4bc6-b207-9818c2a63d47"]
+}, Open  ]]
+}
+]
+*)
+

@@ -1,0 +1,301 @@
+* Health Care in the US
+** Identify and describe the paradoxes of the US health care system and why overall costs are increasing.
+** Explain and differentiate between the public versus private sector within our health care system.
+*** public examples
+- medicaire
+- medicaid
+- indian health services
+*** private examples
+- aetna
+- blue cross
+- blue shield
+* Health Care Profs & Interdisciplinary Care
+** Describe the dynamics of the current and future physician market.
+- dynamics of physician affect pharmacist market
+- how pharmacist role is expanded
+** List and describe the trends associated with care and the various health care professionals.
+* RPhs & the Pharmacy Profession
+** Identify the educational and career paths for pharmacy and describe trends within the pharmacy workforce.
+is this a good offer?
+** Identify the major legislative changes which affected and worked to shape the current pharmaceutical industry.
+** Differentiate the pharmaceutical environment from that of traditional consumer goods and what influences the ultimately dispensed product.
+prescription is the only thing that differentiates it
+** Identify and describe the six current industry trends.
+- payers pushing people to strengthen drug budget
+- prior authorization
+* Pharma – Drug Distribution
+** TODO Describe the traditional flow of medications from the manufacturer to the patient/ end user.
+pick pack and ship...
+** TODO Identify the trends over time with regards to the changing of the wholesale industry, especially the changing business model.
+wholesale role w.r.t. pharmacy
+** Describe the significance of buying groups /group purchasing organizations and the wholesaler’s role in community pharmacy.
+* Public Health & Government
+** TODO Identify and describe the roles the U.S. government plays in health care.
+- top of org chart for healthcare in this country: Health & Human services
+- most of money funds center for medicaid & medicaid services
+** Describe the governmental structure of public health in the U.S, including federal, state, and local arms.
+* Economics
+** Describe elasticity of demand and identify what happens to revenue in each demand situation.
+** TODO Describe a perfectly competitive market and how the health care market is different.
+...moral hazard
+* Pharmacoeconomics
+** Identify the type of economic evaluation based on cost and outcome measurement, primary concern, and decision rule.
+that one chart with dollars on the left
+* Private Insurance
+** Describe the demographics of the uninsured population.
+** Define indemnity insurance and its pros and cons.
+** Differentiate between the two types of risk and describe the role of risk in insurance.
+** Describe potential risk management problems and the strategies used to avoid those problems.
+*** potential risk management problems
+- adverse selection
+- moral hazard
+stratgies to avoid
+*** TODO
+** Describe the differences between employer-sponsored & individual policies
+** Define COBRA & its impact in the pharmacy.
+cobra protects protects the availability not afofrodbility of insurance
+* Managed Care
+** Define managed care and describe its contribution to 	health care delivery in the U.S.
+** Identify and describe the 4 characteristics which 	differentiate the type of managed care organization 	(MCO).
+** Identify and describe the different HMO types.
+** TODO Describe distinguishing characteristics of HMOs and 	PPOs.
+** Differentiate an accountable care organization from other 	MCOs and describe its impact on practice.
+** Describe the role and importance of NCQA and HEDIS 	measures.
+** Describe managed care’s impact on pharmacy 	practice.
+* MEDICARE
+** Identify and describe the 4 primary parts of Medicare, including eligibility, financing, coverage and cost sharing associated with each.
+*** A
+hospital insurance
+**** covers
+- skilled nursing facilities
+- hospitals: 90 days of inpatient hospital care /including drugs/
+- hospice & home health care
+**** how eligible?
+- 65 years old
+- end stage renal disease requiring dialysis or transplant
+- SSI; ALS disease
+**** financing
+- 75% payroll taxes
+- 25% beneficiary cost sharing
+*** B
+supplemental medical insurance
+**** covers
+physicians’ services and outpatient hospital care
+**** eligibility
+voluntary, but 94% have parts A and B
+**** financing
+- premium paid
+- cost sharing
+- SMI (Federal government) trust fund
+*** C
+Medicaire advantage
+**** covers
+participation in approved HMOs or PPOs
+**** eligibility
+- eligible for part A
+- uses approved MCO
+**** financing
+may need to pay an additional premium
+**** cost sharing
+- ensures parity in options for Medicaire beneficiaries with HMO, PPO, etc.
+- if plan is cheaper, savings must be passed on to beneficiary or returned to Medicaire
+*** D
+prescription drug benefit
+**** covers
+Rx
+**** eligbility
+voluntary
+**** financing
+- deductible
+- donut hole
+- co-insurance/co-pays until hit donut hole
+**** cost sharing
+- subsidies for low income beneficiaries
+- provider plans may have formularies with tiered cost sharing
+- prevent Medicare from negotiating discounts directly with manufacturers
+** Describe the supplemental coverage options and why they exist.
+Medigap---private plan that covers many charges not covered by Medicaire; Medicaire only pyas for 45% of the average beneficiary’s health care bills.
+
+Eligible for those with parts A & B
+* MEDICAID
+** Distinguish between Medicaid and Medicare in terms of financing, coverage and administration.
+*** administration
+- states are /not required/ to implement Medicaid
+- state-level agencies administers the program
+- Centers for Medicaire & Medicaid Services (CMS) administers on a Federal level
+*** coverage
+- Inpatient hospital services
+- Outpatient hospitals services
+- Physician services
+- Rural health clinic services
+- Federally-qualified health center services
+- Labs and X-rays
+- Nursing facility services for individuals >21 years old
+- Early and periodic screening, diagnosis, and treatment (EPSDT) for individuals <21 years old
+- Family planning services and supplies
+- Home health services for persons eligible for skilled nursing services
+- Nurse-midwife services
+- Certified pediatric and family nurse practitioner services
+- Prenatal care
+*** financing
+- Federal and state governments share financing
+- Federal portion is determined by Federal Medical Assistance Percentage: max 83%, min 50%; depends on state’s average per capita income compared to national average
+- administrative costs are split evenly
+** Identify and describe state specific Medicaid requirements, flexibility, and cost containment/sharing measures.
+*** state specific requirements
+- state-wideness---in effect throughout state without variation
+- freedom of choice---beneficiaries should be able to acquire covered services from any qualifying provider
+- comparability of services---services equal for all beneficiaries
+* pharmacy benefit managers
+** Describe pharmacy benefits managers and their role within health plans.
+** Describe the different services provided by pharmacy benefits managers and how they themselves make money.
+*** services
+- mail service pharmacies
+- negotiating discounts, generic substitutions, and rebates from manufacturers for placing their drug on formulary or preferred status
+- claims adjudicatoin
+- limited networks---network pharmacies
+*** how they make money
+- Administration fees
+- Additional payments from pharmaceutical manufacturers
+- PBM-owned mail order pharmacy
+- Rebates and associated fees
+** Identify and describe the cost containment measures used by pharmacy benefits managers.
+- formularies
+  - open: all drugs covered
+  - closed: drugs not on formulary aren’t covered
+  - incented: financial incentives to use preferred drugs
+** Identify and describe the 3 cost-sharing measures used by pharmacy benefits managers.
+- co-insurance: patient pays a fixed percentage
+- co-payment, tiered system: generic, brand preferred, brand not preferred
+- deductible
+* reimbursement systems
+** Identify the mechanisms for physician reimbursement and what dictates their use.
+- fee for service (FFS)
+- capitation
+*** TODO depends on...
+** Describe the typical mechanisms by which pharmacies are reimbursed for products dispensed.
+*** calculation of prescription reimbursement
+dispensing fee + ingredient cost - patient cost sharing
+*** factors :l:
+**** dispensing fee
+**** ingredient costs
+- average wholesale price (AWP)
+- wholesale acquisition cost (WAC)
+- actual acquisistion cost (AAC)
+**** patient cost sharing
+- co-payment
+- coinsurance
+- deductible
+** Identify and differentiate the role of AWP, WAC, MAC, and FUL in prescription reimbursement.
+- most signiicant is AWP >> WAC >>> Actual Acquisition Cost
+- AWP vs AAC is the spread
+** Define and describe the Prospective Payment System (PPS) used for hospital reimbursement, including DRGs, ICD coding, and their impact.
+*** definition
+- flat fee reimbursmeent for treatment of a diagnosis
+- cost lower? hospital profits
+- costs higher? hospital takes a loss
+*** DRGs
+Diagnostic Related Groups
+**** impact
+- *Forced hospitals to increase efficiency.* Utilization review - evaluating diagnostic and treatment procedures for appropriateness
+- *Hospitals services also were “unbundled”.* Some services shifted to before and after the admission, which decreased lengths of stay (LOS).
+- *Unbundled services were then billed by other providers as outpatient services under Medicare Part B.*
+- *The decreased reimbursements also decreased the hospitals’ ability to absorb uncompensated care.*
+**** ICD coding
+DRGs are assigned by a "grouper" program based on ICD (International Classification of Diseases) diagnoses, procedures, age, sex, discharge status, and the presence of complications or comorbidities.
+* Hospitals
+** Differentiate between horiozntal and vertical integration.
+- horizontal: affiliations with other hospitals improves efficiency, improves purchasing power, deduplicates costly services
+- vertical: affiliations with other providers to provide a continuum of care; hostpials no longer have to dpend onlyon revneues form acute care
+** Identify the sources of managerial authority within a hospital/health system.
+- board e.g., of trustees (non-profit) or directors (for-profit)---governance role, making sure hospital is in line with mission
+- hospital administration---implements policies responsible for daily operations
+- medical staff---self-governing; responsible for quality of care of patients
+** Identify and describe the reporting structure within a hospital organization, pharmacy department, and pharmacy's role within the hospital.
+*** reporting structure
+#+BEGIN_SRC
+board------------medical executive committee
+|                |  |  |  |
+|                |  |  |  other committees
+|                |  |  critical care commitee
+|                |  ER committee
+CEO------COO     pharmacy & therapeutics commitee
+        .   .             |
+       .     .            |
+      .       .           |
+      VP      VP-------Pharmacy
+#+END_SRC
+* Long-Term Care
+** Define long-term care and describe the types of patients who use long-term care services.
+*** definition
+set of health, personal care, and social services delivered over a sustained period of time to persons who have lost or never acquired some degree of functional capacity
+*** patients
+- 80 % have at least one *chronic disease* and 50 % have at least 2 
+- 20 % experience *disability or physical limitations*...leading to difficulty with ADLs and IADLs
+- In 2004, Approximately 45 % of US nursing home residents were *85+*. Approximately 70 % of seniors require LTC at some point in their life & at least 40 % will spend time in a nursing home.
+- *rehabilitation needs*
+- *terminally ill*
+** Identify and differentiate the types of long-term care services available, in particularly skilled nursing facilities versus assisted living facilities. :l:
+*** skilled nursing facilities
+**** definition
+- Provide 24-hour medical/nursing care, rehabilitation, and assistance with Activities of Daily Living (ADLs)
+- Medications administered by LPN or RN
+**** demogrpahics
+- Avg. Age of SNF resident: ~80 years of age
+- Avg. number of residents in a skilled nusring facility: ~100 
+**** quality control
+***** Federal tags
+- Federal regulations that govern long term care facilities (LTCF)
+- Centers for Medicare and Medicaid Services survey quality of care provided to residents in long term care facilities
+****** non-compliance
+Federal government can impose financial penalties against non-compliant long term care facilities---Civil Monetary Penalty up to $10k
+******* levels to determine civil penalty
+1. Potential for minimal harm
+2. Minimal harm occurred
+3. Harm occurred, but not imminent jeopardy 
+4. Harm, immediate jeopardy
+***** Five-Star quality rating
+Created to help consumers, their families, and caregivers compare nursing homes more easily
+*** specialized instituational care
+*** assisted living facilities
+- Provides limited nursing care, supervision, and assistance with ADLs
+- Resident must be able to self-administer medications
+- Average age of ALF Resident: ~80 years old
+*** hospital/pallative care
+*** adult day services
+*** home care
+** Describe the various payment mechanisms for LTC services.
+*** RUGs (Resource Utilization Groups)
+CMS uses Minimum Data Set (MDS, Federally-mandated assessment of residents in Medicaire/Medicaid-covered nursing homes) data for quality measurements and payment to facilities
+*** skilled nursing facilities
+- Residents are “dual eligible”
+- Meidcaire coverage requires...
+  - hospitalized ≥3 consecutive days
+  - admitted within 30 days of discharge
+  - doctor certified need
+- Medicaire part A pays for up to 100 days
+- Medicaire primarily pays for the medications
+* pharmacy benefit management
+** cost containment measures
+*** cost sharing :l:
+**** co-payment
+**** deductible
+**** co-insurance
+Patient pays a specified fixed percentage of a service (usually 20%)
+* reimbursement system
+** calculation
+dispensing fee + ingredient costs - patient cost sharing
+** ingredient cost
+*** factors
+**** average wholesale price (AWP)
+**** wholesale acquisition cost (WAC)
+**** actual acquisition cost (AAC)
+*** rank of factors by magnitude
+AWP > WAC > AAC
+* terminology
+** capitation
+flat payment
+** MAC
+maximum allowable cost
+** FUL
+federal upper limit
