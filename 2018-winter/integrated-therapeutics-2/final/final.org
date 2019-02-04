@@ -1,0 +1,167 @@
+* sleep disorders
+** GABA neuropharmacology
+*** GABA role
+inhibitory neurotransmitter
+*** GABAergic receptors
+**** GABA_A
+- Have chloride channels associated with in the receptor
+- Modulated by GABA, Benzodiazepines, Barbiturates
+***** agonists
+****** drugs
+- zolpidem
+- zaleplon
+- eszopiclone
+****** pharmacology
+- enhances membrane hyperpolarization similar to benzodiazepines
+- doesn’t cause anxiolysis, muscle relaxation, or amnesia
+**** GABA_B
+***** agonists
+Baclofen
+***** antagonists
+flumazenil
+** drug classes :l:
+*** benzodiazepines
+**** drugs :l:
+***** Alprazolam
+****** brand
+Xanax
+***** Chlordiazepoxide 
+****** brand
+Librium
+***** Clorazepate 
+****** brand
+Tranxene
+***** Clonazepam 
+****** brand
+Klonopin
+***** Diazepam 
+****** brand
+Valium
+***** Estazolam 
+****** brand
+ProSom
+***** Flurazepam 
+****** brand
+Dalmene
+***** Lorazepam 
+****** brand
+Ativan
+***** Midazolam 
+****** brand
+Versed
+***** Quazepam 
+****** brand
+Doral
+***** Temazepam 
+****** brand
+Restoril
+***** Triazolam 
+****** brand
+Halcion
+**** interactions
+***** severe liver impairment
+- oxazepam
+- temazepam
+- lorazepam
+**** drugs by duration of action
+***** ultrashort acting drugs 6h
+- triazolam
+- midazolam
+*** barbituates :l:
+**** Amobarbital 
+***** brand
+Amytal
+**** Mephobarbital 
+***** brand
+Mebaral
+**** Pentobarbital 
+***** brand
+Nembutal
+**** Phenobarbital 
+***** brand
+Luminal
+**** Secobarbital 
+***** brand
+Seconal
+*** GABA_A agonists aka “Z Hypnotics” :l:
+**** Eszopiclone 
+***** brand
+Lunesta
+***** indication
+effective for maintaining sleep---sencodary to longer duration
+**** Zaleplon 
+***** brand
+Sonata
+**** Zolpidem 
+***** brand
+Ambien
+*** Melatonin receptor agonists :l:
+**** Ramelteon 
+***** brand
+Rozerem
+***** MOA :ignore:
+M1 and M2 receptor antagonist
+***** adverse effects
+- worsening depression
+- psychosis
+*** 5-HT1A-partial agonist :l:
+**** Buspirone 
+***** brand
+BuSpar
+*** orexin receptor antagonist :l:
+**** suvorexant
+***** brand
+Belsomra
+***** MOA
+orexin (hypocretin) is released from the hypothalamus to promote wakefulness or arousal
+*** sedating antipsychotics :l:
+**** olanzapinep
+***** brand
+Zyprexa
+**** quetiapine
+***** brand
+Seroquel
+** obstructive sleep apnea
+*** diagnosis
+polysomnography; 5-15+ events/hr
+*** non-pharmacologic
+Positive Airway Pressure is the gold standard
+*** pharmacologic
+**** drugs :l:
+***** modafinil (Provigil)
+***** armodafinil (Nuvigil)
+**** indication
+Residual excessive daytime sleepiness despite effective PAP treatment
+** narcolepsy
+*** first line :l:
+**** modafinil 200mg qAM, max 400mg/day
+**** armodafinil 150-250 mg qAM
+** cataplexy
+*** first line :l:
+sodium oxybate (GHB) 2.25-4 g/HS (powder); repeat dose in 4 hoursp
+** restless leg syndrome
+*** causes
+low dopamine; treatment is dopamine agonists
+*** drugs
+**** dopamine agonists :l:
+***** Ropinirole
+****** brand
+Requip
+***** Pramiprexole
+****** brand
+Miraxpex 
+***** Levodopa/Carbidopa
+****** brand
+Sinemet
+***** Rotigotine 
+**** anticonvulsants :l:
+***** Gabapentin Enacarbil
+****** brand
+Horizant
+***** Gabapentin
+****** brand
+Neurontin 
+***** Pregabalin
+****** brand
+Lyrica 
+

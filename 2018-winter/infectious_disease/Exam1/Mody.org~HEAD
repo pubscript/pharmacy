@@ -1,18 +1,18 @@
-#+OPTIONS: org-inline-image-overlays:t org-image-actual-width:nil
+:#+OPTIONS: org-inline-image-overlays:t org-image-actual-width:nil
 #+ATTR_HTML: :width 40px
 * antibacterial targets :l:
 ** Cell Wall Biosynthesis
 *** Beta-lactam antibiotics
-**** Why do β-lactam antibiotics inhibit penicillin-binding proteins (transpeptidase)?
+**** Why do β-lactam antibiotics inhibit penicillin-binding proteins (transpeptidase)? :ignore:
 (D-Ala)₂ looks a lot like penicillin, so PBP-Serine-OH reacts with penicillin instead of (D-Ala)₂ on the growing peptidoglycan polymer. β-lactam antibiotics irreversibly inhibit PBP.
-**** β-lactamase hydrolysis of penicillin
+**** β-lactamase hydrolysis of penicillin :ignore:
 β-lactamase-Ser-OH opens β-lactam ring at carbonyl
-**** resistance
+**** resistance :ignore:
 ***** causes
 production of β-lactamase by bacteria
 ***** mechanism
 β-lactamase hydrolyzes the β-lactam ring
-**** SAR
+**** SAR :ignore:
 ***** overcoming resistance
 - add bulky functional groups to the acyclic amide to sterically inhibit β-lactamases
 - electron withdrawing group to acyclic amide
@@ -104,13 +104,12 @@ acid-catalyzed ring opening of the strained Penam nucleus
 ***** Cephalosporins
 ****** general structure
 [[./cephalosporin_general_structure.png]]
-****** avoid with TPN or divalent metal ions
+****** avoid with TPN or divalent metal ions :ignore:
 Ceftrioxone (Rocephin)
-****** SAR
+****** SAR :ignore:
 ******* free carboxylic acid at C2
 - must be present for antibacterial activity
 - prodrugs formed by making an ester with the carboxylic acid at C2
-******* 
 ****** 1st generation
 ******* Cefazolin
 ******** brand
@@ -193,7 +192,6 @@ Claforan
 ********* ceftazidime/avibactam
 ********* ceftolozane/tazobactam
 ******** PO :l:
-********* Cefixime
 ********* Cefdinir
 ********* Cefditore
 ********* Cefixime
@@ -222,6 +220,13 @@ IV
 - S. pneumoniae
 - K. pneumoniae
 - E. coli
+****** spectrum
+****** non-spectrum (organisms on which Cephalosporins have no effect)
+- LAME
+- Listeria
+- Atypicals
+- MRSA
+- Enterococci
 ***** Carbapenems
 ****** cilastin
 inhibits renal dehydropeptidase-1, which hydrolyzes the β-lactam ring of imipenem
@@ -267,7 +272,13 @@ penam nucleus
 ****** [[./monobactam_nucleus.png]]
 monobactam nucleus
 *** Glycopeptide
-**** Vancomycin
+**** drugs :l:
+***** Vancomycin
+**** spectrum
+- MRSA
+- VRE
+**** non-spectrum
+Gram-(-)
 *** Glycolipopeptide
 **** Telavancin
 **** Oritavancin
@@ -297,6 +308,9 @@ TB infections
 - lipophillic decanoyl side chain inserts into bacterial cell membrane
 - bactericidal
 ***** indications
+***** spectrum
+- MRSA
+- VRE
 **** Polymixins
 ***** MOA
 - detergent-like effect
@@ -305,6 +319,10 @@ TB infections
 ***** indications
 - IV agent used to kill nasty infections
 - Gram(-) bacteria
+***** spectrum
+- MDR acinetobacter
+- Pseudomonas
+- Klebsiella
 **** Bacitracin
 ***** spectrum
 Gram(+)
@@ -386,8 +404,12 @@ ALL QUINOLONES SHOULD NOT BE CO-ADMINISTERED WITH TPN AND DIVALENT METAL IONS
 *** metronidzole
 *** nitrofurantoin
 ** folate synthesis inhibitors
-*** dapsone
-*** trimethoprim/sulfamethoxazole
+*** drugs :l:
+**** dapsone
+**** trimethoprim/sulfamethoxazole
+*** spectrum
+- MRSA
+- Stenotrophomonas maltophilia
 ** DNA-dependent RNA Polymerase
 ** RNA inhibitors :l:
 *** rifamycins :l:
@@ -441,6 +463,8 @@ community associated MRSA
 Tygacil
 ******* ROA
 IV only
+******* non-spectrum
+Pseudomonas
 ****** ervacycline
 ****** omadacycline
 ***** adverse effects
@@ -450,7 +474,7 @@ IV only
 - efflux of antibiotic from microbe
 - decreased penetration into microbe
 - bacterial production of a ribosome protective protein
-**** amingolycosides
+**** aminoglycosides
 ***** MOA
 - concentration-dependent bactericidal killing
 - binds to 30S ribosomal subunit, intefering with protein synthesis
@@ -458,6 +482,11 @@ IV only
 - phosphorylation of hydroxyl groups
 - adenylation of hydroxyl groups
 - acetylation of amino groups
+***** chemistry
+- highly polar---positive charge
+- multiple hydroxyl groups
+- lacks lipid solubility
+- multiple basic nitrogens
 ***** drugs :l:
 ****** plazomicin
 ****** gentamicin
@@ -472,6 +501,8 @@ P. aeruginosa
 - high activity on nasty GNRs
 - P. aeruginosa
 ****** streptomycin
+***** spectrum
+only Gram-(-)
 ***** toxicity
 - nephrotoxicity
 - ototoxicity
@@ -510,6 +541,7 @@ Dificid
 - narrow
 - mainly used against C. dificile
 ***** structure
+large cyclic ester ring
 [[./macrolide_structure.png]]
 ***** MOA
 - bacteriostatic
@@ -523,25 +555,54 @@ Dificid
 - H. influenzae infections
 ***** SAR
 ****** gut
-intramolecular nucleophillic attack by hydroxyl on the carbonyl group results in an inactive drug
+- intramolecular nucleophillic attack by hydroxyl on the carbonyl group results in an inactive drug
+- unstable due to acid catalyzed ring opening in the stomach
+****** dosage designs
+- erythromycin stearate---stearate salt off the dimethylamino grouup on the desoamine ring is less soluble in acidic media and hence more stable to degradation in the stomach
+- erythromycin estolate---salt is less soluble in acidic media and hence more stable to acid degradation in the stomach
+- erythromycin lactobionate---water soluble salt for parenteral administration
+- erythromycin ethylsuccinate---esters of the hydroxyl group on the desoamine ring creates decreased water solubility to mask the bitter taste of erythromycin in pediatric dosage forms
+****** 
+***** spectrum
+atypicals
 **** lincosamide
+***** chemistry
+- 8 carbon sugar, thiomethyl amino-octoside (O-thio-lincosamide)
+- weakly basic and forms hydrochloride salts
 ***** drugs :l:
 ****** clindamycin
 ******* brand
 Cleocin
 ******* spectrum
 - Gram-(+)
-- MRSA
 - Strep., esp. in patients allergic to beta-lactams
+******* SAR
+substitution of chloride for hydroxy group improves oral bioavailability; more lipophillic
+******* adverse effects
+potentially fatal colitis
+****** lincomycin
+******* brand
+Lincosin
+***** spectrum
+- anaerobes
+- MRSA
 **** streptogramins
 ***** drugs :l:
 ****** quinupristin/dalfopristin
 ******* ROA
 IV
+******* brand
+Synercid
+******* composition
+Synercid® is quinupristin:dalfopristin in a 30:70 ratio
 ******* spectrum
 - MRSA
 - VRSA
 - VRE faecium---not /faecalis/
+- Gram-(+)
+****** MOA
+- binds to 50S ribosomal subunit
+- bacteriostatic
 ***** spectrum
 Gram-(+)
 **** oxazolidinones
@@ -549,13 +610,25 @@ Gram-(+)
 ****** linezolid
 ******* brand
 Zyvox
+******* spectrum
+Gram-(+)
+******* interactions
+- since linezolid is a MOA inhibitor...
+  - tyramine, phenylalanine, tyrosine, tryptophan
+  - adrenergic agents
+  - serotonergic agents
+  - beer containing tyramine
+- myelosuppressive drugs
 ****** tedizolid
 ******* brand
 Sivextro
 ***** warnings
 - therapy more than 2 weeks increases risk of thrombocytopenia/pancytopenia
 - not for use in endocarditis/endovascular infections
-**** nitro compounds
+***** spectrum
+- MRSA
+- VRE
+**** nitroimidiazoles
 ***** drugs :l:
 ****** nitrofurantoin
 ******* brand
@@ -564,8 +637,11 @@ Sivextro
 ****** metronidazole
 ******* brand
 Flaygyl
-******* disulfiram-like reaction
-abstain from alcohol during therapy for 72 hours post-therapy---metronidazole inhibits aldehyde dehydrogenase
+******* adverse effects :l:
+******** disulfiram-like reaction
+abstain from alcohol during therapy for 72 hours post-therapy because metronidazole inhibits aldehyde dehydrogenase
+******** GI---n/v/d; metallic taste
+******** neuropathy
 ******* indications
 - Bacterioides fragilis
 - Clostridium difficile colitis
@@ -576,7 +652,61 @@ abstain from alcohol during therapy for 72 hours post-therapy---metronidazole in
 ****** tinidazole
 ******* brand
 Tindamax
+***** MOA
+- bactericidal
+- nitro group is reduced in anaerobic pathogens to yield a highly reactive nitro radical anion that kills the pathogens
+***** spectrum
+anaerobes
+**** fosfomycin
+***** spectrum
+- Pseudomonas
 ** Tetrahydrofolic Acid
+* normal flora
+** oral cavity
+- Viridians streptococci
+- Peptococcus
+- Petpostreptococcus
+- Eikenella
+- Haemophilus
+** upper airways
+- S. pneumoniae
+- S. pyogenes
+- Neisseria sp.
+- H. influenzae
+- S. aureus
+** lower airway
+normally sterile
+** skin
+- S. epidermidis
+- S. aureus
+- Propionibacterium
+- Corynebacterium
+** stomach
+H. pylori
+** small intestine
+*** proximal
+- Lactobacillus
+- Enterococcus
+*** distal
+- Lactobacillus
+- Enterococcus
+- Bacteroides
+- coliforms (E. coli, Enterobacter, Citrobacter)  
+** large intestine and rectum
+- Bacteroides
+- Fusobacterium
+- Bifidobacterium
+- Clostridium
+- Enterococcus
+- Lactobacillus
+- S. bovis
+- coliforms (E. coli, Enterobacter, Citrobacter)
+** genitourinary tract
+- Lactobacillus
+- Streptococcus
+- E. coli
+- Corynebacterium
+- Candida
 * therapeutics
 ** bactericidal drugs
 - Vancomycin
@@ -639,6 +769,79 @@ test for etiology
 - Escherichia sp.
 - Klebsiella sp.
 - Staphylococcus aureus
+** step wise approach to ID
+1. Establish presence and severity of infection
+2. Confounding factors in diagnosis of infection
+3. Establish site of infection
+4. Determine likely pathogens
+5. Understand microbiologic test and susceptibility of organism
+6. Determination of isolate pathogenicity
+7. Evaluate antimicrobial toxicities, cost of therapy
+8. Determine most appropriate route of administration and dosing
+9. Keep in mind pharmacokinetics/pharmacodynamics
+10. Assess for antimicrobial failure and recognize pertinent host factors 
+** common hepatically cleared drugs
+- ceftriaxone
+- clindamycin
+- isoniazid
+- macrolides
+- metronidazole
+- naficillin
+- rifamycins
+- tetracyclines
+** antibiotics with post-antibiotic effect
+- aminoglycosides
+- vancomycins
+- fluoroquinolones
+- daptomycin
+** antibiotics to avoid in pregnancy
+- SAFE Moms Take Really Good  Care
+- Sulfonamides
+- Aminoglycosides
+- Fluoroquinolones
+- Erythromycin
+- Metronidazole
+- Tetracyclines
+- Ribavirin
+- Griseofulvin
+- Chloramphenicol 
+** side chain similarities
+*** cephalosporin similar to penicillin, ampicillin, amoxicillin?
+cephalexin
+*** carbapenems similar to *cillin?
+none
+*** cephalosporins similar to each other?
+- cefoxitin
+- ceftriaxone
+- cefotaxime
+** otitis media
+*** treatment
+**** initial
+- first line: amoxicillin 80-90 mg/kg/d PO in 2 divided doses
+- alternative: amoxicillin/clavulanate
+- second-line: cefuroxime (2nd gen cephalosporin) or 3rd gen cephalosporin like cefdinir, cefpodoxime, ceftriaxone
+**** treatment failure
+amoxicillin/clavulanate 90mg-6.4mg/kg/d PO in 2 divided doses
+*** causative agents
+- H. influenzae
+- S. pneumoniae
+- M. catarrhalis
+** rhinosinusitis
+*** treatment
+**** children
+amoxicillin-clavulanate 45mg/kg/d PO BID
+**** adults
+amoxicillin-clavulanate 500mg/125mg PO TID or 875/125mg PO BID
+**** β-lactam allergy
+- doxycycline 100 mg PO BID or 200 mg PO QD
+- levofloxacin 500 mg PO QD
+*** pharyngitis
+**** most common cause
+Group A Streptococcus---S. pyogenes
+**** treatment
+1. penicillin VK x10d
+2. penicillin G IM x1
+3. amoxicillin 50 mg/kg QD (max 1g) x10d
 * no coverage against strep pneumoniae
 Cipro
 * moxifloxacin
@@ -654,10 +857,10 @@ not a drug for UTIs
 C. jejuni
 ** HUS
 *** acronym
-hemolytc uremic syndrome
+hemolytic uremic syndrome
 *** increases HUS risk
-use of a fluoroquinolone or Bactrim may increase the risk of HUS by increasing production of Shiga-like toxin
-** severe diarreha
+use of a fluroquinolone or Bactrim may increase the risk of HUS by increasing production of Shiga-like toxin
+** severe diarrhea
 >8 stools per day
 ** infectious diarrhea
 *** treatment
@@ -672,7 +875,7 @@ Pedialyte, Rehydralyte, Infalyte, Oralyte, WHO formula
 Pepto-Bismol
 ***** warnings
 avoid in children because it may cause Reye’s syndrome
-***** dosing‘
+***** dosing
 - 30 mL (2 tabs) q30-60min
 - max 8 doses q24h
 **** when antibiotic therapy recommended
@@ -691,7 +894,7 @@ avoid in children because it may cause Reye’s syndrome
 ***** ETEC
 - Ciprofloxacin (Cipro) 750 mg PO x1
 - azithromycin (Zithromax) 1000 mg PO OR 500 mg QD x3d
-- rifamixin 200 mg PO TID x3
+- rifaximin 200 mg PO TID x3
 ***** Vibrio cholerae
 doxycycline 300 mg PO x1
 **** dysenteric diarrhea
@@ -712,16 +915,16 @@ Pepto-Bismol
 **** doxycyline
 **** azithromycin
 **** rifaximin
+***** indication
 200 mg pO TID only for Latin America and Africa
 ***** spectrum
 only effective against E. coli
 *** treatment
-**** loperamide
-***** brand
+**** symptomatic relief
+***** loperamide
+****** brand
 Immodium
-***** indication
-symptomatic relief
-***** dose
+****** dose
 4 mg x1 then 2 mg each subsequent stool; max 16 mg/day
 **** empiric treatment
 ***** fluroquinolones
@@ -739,131 +942,9 @@ South and Southeast ASia
 200 mg PO TID x3
 ****** indication
 Mexico and Jamaica
-** food poisoining
+** food poisoning
 *** Enterotoxigenic poisonings
 - Bacillus cereus
 - Clostridium botuilism
 - Clostridium perfringens (type A)
 - Staphylococcus aureus
-* intra-abdominal infections
-** pathophysiology
-bacterial entry into and collections in the peritoneal or retroperitoneal spaces
-*** pathogens to cover
-**** peritonitis
-***** primary
-everything except anaerobes (i.e., Bacteroides)
-*** TODO
-cover e. coli for...
-*** 
-** peritonitis
-*** primary
-An infection of the peritoneal cavity without an evident source in the abdomen
-**** causes
-***** cirrhosis
-alcohol abuse
-***** ascites
-- CHF
-- malignancy
-- systemic lupus erythematosus
-- nephrotic syndrome
-- hepatitis
-***** bacterial
-****** cirrhotic ascites
-E. coli
-****** peritoneal dialysis
-- Gram-(+) coagulase-negative Staphylococci
-  - S. aureus
-  - S. streptococci
-  - S. enterococci
-- Gram-(-)
-  - E. coli
-  - Klebsiella spp.
-  - Pseudomonas spp.
-**** signs and symptoms
-**** lab tests
-- elevated WBC count
-- ascitic fluid analysis
-  - leukocyte count >250 PMNs/mm^3
-  - gram stain
-*** dialysis
-staph and strep
-*** secondary
-A focal disease process in the abdomen
-**** causes
-- mechanical GI problems
-- vascular causes
-- trauma
-- intraoperative events
-- leakage from GI anastomosis
-**** lab tests
-- CBC with differential---in order to see bands
-- Hct and BUN
-*** tertiary
-Infection that persists/ recurs 48h after adequate management of 1° or 2° peritonitis
-** treatment
-*** community-acquired complicated intra-abdominal inffections
-**** mild-to-moderate infections
-***** single agent
-- Cefoxitin
-- Moxifloxacin 400mg IV q24h
-- Ertapenem 1g IV q24h
-***** combination agents
-- {cefalozin, cefuroxime, ceftriaxone, cefotaxime} + metronidazole 500mg IV q8h
-- {ciprofloxacin 400mg IV q12h, levofloxacin 750mg IV q24h} + metronidazole 500mg IV q8h
-**** high risk or high severity
-***** single agent
-- piperacillin-tazobactam
-- carbapenem with Pseudomonas activity:
-  - imipenem-cilastin
-  - meropenem 1g IV q8h
-  - doripenem
-***** combination agents
-- cefepime 2g IV q8-12h
-- ceftazidime 2g IV q8h + metronidazole 500mg IV q8h
-- {ciprofloxacin 400mg IV q12h, levofloxacin 750mg IV q24h} + metronidazole 500mg IV q8h
-*** healthcare-acquired complicated intra-abdominal inffections
-**** single agent
-- piperacillin-tazobactam 3.375 IV q6h
-- carbapeem with Pseudomonas activity
-  - imipenem-cilastin
-  - meropenem 1g IV q8h
-  - doripenem
-**** combination agents
-- {Cefepime 2g IV q8-12h, ceftazidime 2g IV q8h} + metronidazole 500mg IV q8h
-- β-lactam allergy: Aztreonam (Azactam) + vancomycin 15mg/kg IV q12h + metronidazole 500mg IV q8h
-*** primary peritonitis
-vancomycin + {cefepime-ceftazidime, imipenem-cilastin} for at least 1 week after the dialysate fluid is clear
-*** acute cholecystitis and cholangitis
-[[./treatment_for_acute_cholecystitis_and_cholangitis.png]]
-*** anti-MRSA therapy
-vancomycin
-
-Empiric coverage for nosocoial intra-abdominal infectious patients known to be colonized or at risk of a MRSA infection due to significant, maybe failed, antibiotic exposure
-*** use of aminoglycosides
-**** reserved for specific patients
-- infections due to multidrug-resistant Gram-(-) pathogens
-- IgE-mediated allergic reactions
-**** extended interval dosing
-reasons for which are...
-- concentration dependent killing
-- long postantibiotic effect for Gram-(-) bacilli
-* urinary tract infections
-** causative organisms
-*** community-acquired :l:
-**** E. coli
-Gram-(-)
-**** Staphylococcus saprophyticus
-Gram-(+)
-**** Proteus mirabilis
-Gram-(-)
-**** Klebsiella pneumoniae
-Gram-(-)
-**** Enterococcus faecalis
-Gram-(+)
-*** nosocomial-acquired
-- E. coli
-- Enterococcus spp.
-- Klebsiella pneumoniae
-- Enterobacter spp.
-** lab tests
-*** urinalysis
