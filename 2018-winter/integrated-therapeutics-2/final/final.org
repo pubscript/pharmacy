@@ -168,6 +168,119 @@ Lyrica
 ** neuropharmacology
 *** glutaminergic receptors
 - N-methyl-D-aspartate (NMDA Receptors)
-- AMPA (alpha-amino-3- hydroxymethyl -4- isoxazolepropionic acid) Receptors
+- AMPA (alpha-amino-3-hydroxymethyl-4-isoxazolepropionic acid) Receptors
 - Kainate Receptors
-*** 
+** causes
+- neurologic diseases
+- heredity
+- gene defects
+** classes
+*** partial seizures :l:
+**** simple partial
+preservation of consciousness
+**** complex partial
+impaired consciousness lasting 30 seconds - 2 minutes
+**** partial with secondarily generalized tonic-clonic seizure
+- simple or complex partial seizure with loss of consciousness and tonicity (sustained contractions) followed by periods of clonicity (relaxation)
+- typically lasts 1-2 minutes
+*** generalized seizures :l:
+**** Generalized tonic-clonic (grand mal) seizures
+**** Absence (petit mal) seizures
+abrupt onset of impaired consciousness; e.g., staring off into the void for 30 seconds
+**** myoclonic seizure
+A brief (perhaps a second), shock like contraction of muscles that may be restricted to part of one extremity or may be generalized
+**** Tonic seizures
+**** Atonic seizures
+**** Clonic and myoclonic seizures
+**** Infantile spasm
+** indication → drugs
+*** status epilepticus
+- diazepam
+- lorazepam
+** drug classes
+*** newer agents :l:
+**** Voltage gated calcium channels :l:
+***** Gabapentin
+****** MOA
+Bind selectively to high affinity to Ca2+ channel subunit α2δ-1 protein in cortical membrane
+***** Pregablin
+****** MOA
+Bind selectively to high affinity to Ca2+ channel subunit α2δ-1 protein in cortical membrane
+**** GABA uptake/GABA-T inhibitor
+- Tiagabine
+- Vigabatrin
+**** NMDA antagonist
+Felbamate
+**** AMPA/Kainate receptor antagonist
+Topiramate
+**** HCN channel activity enhancer
+Lamotrigine
+**** SV2A protein ligand
+Levitiracetam
+**** Ca and Na channels blocker
+Zonisamide
+**** Voltage Gated Na Channels
+Lacosamide
+**** Carbonic anhydrase inhibitor
+Acetazolamide
+*** older agents :l:
+**** Hydantoins :l:
+***** Phenytoin
+****** MOA
+- Limits the repetitive firing of action potentials evoked by a sustained depolarization
+- Selectively, slows the rate of recovery of voltage-activated Na+ channels from inactivation, an action that is both voltage- and use-dependent (without affecting GABA or glutamate) 
+****** interactions
+Valproate competes for protein binding sites and inhibits phenytoin metabolism, resulting in marked and sustained increases in free phenytoin
+***** Phosphenytoin
+**** Benzodiazepines :l:
+***** clonazepam
+****** brand
+Klonopin
+***** clorazepate
+****** brand
+Tranxene
+***** diazepam
+****** brand
+Valium
+****** indication
+status epilepticus
+***** lorazepam
+****** brand
+Ativan
+****** indication
+status epilepticus
+**** Barbiturates :l:
+***** Phenobarbital
+Relatively low toxicity, is inexpensive, and is still one of the more effective and widely used drugs for control of generalized tonic-clonic and partial seizures
+****** indication
+generalized tonic-clonic and partial seizures
+****** nonindications
+abscence seizures
+****** MOA
+Potentiation of GABA_A receptor-mediated synaptic inhibition
+****** adverse effects
+sedative effect htat disturbs behavior in children
+**** Iminostilbenes :l:
+***** Carbamazepine
+****** MOA
+- Limits the repetitive firing of action potentials evoked by a sustained depolarization of mouse spinal cord or cortical neurons maintained in 
+- Selectively, slows the rate of recovery of voltage-activated Na+ channels from inactivation 
+- Carbamazepine metabolite, 10,11-epoxycarbamazepine, also limits sustained repetitive firing at therapeutically relevant concentrations
+****** indication
+- trigeminal and glossopharyngeal neuralgias
+- generalized tonic clonic
+- simple and complex partial seizures
+***** Oxcarbazepine
+****** indication
+- partial seizures
+**** Succinimides :l:
+***** Ethosuximide
+****** indication
+/only/ absence seizures
+**** valproic acid
+***** indication
+broad spectrum:
+- absence
+- partial seizures
+- generalized tonic-clonic seizures
+- myoclonic
