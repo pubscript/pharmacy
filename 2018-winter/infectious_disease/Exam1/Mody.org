@@ -103,6 +103,10 @@ acid-catalyzed ring opening of the strained Penam nucleus
 ******** brand
 Unasyn
 ******* Piperacillin + Tazobactam
+******** spectrum
+- Gram-(+)
+- Gram-(-)
+- Pseudomonas aeruginosa
 ***** Cephalosporins
 ****** general structure
 [[./cephalosporin_general_structure.png]]
@@ -1025,5 +1029,83 @@ CRAP GPS
 - +Ciprofloxacin 500 mg PO Q12H x 3 days+
 - Fosfomycin 3 grams PO x 1 Dose
 - +Nitrofurantoin 100 mg PO Q12H x 3 days+
-
-
+* skin and soft tissue infections (SSTI)
+** folliculitis
+*** defintiion
+Folliculitis is inflammation of the hair follicle
+*** furnucles and carbuncles
+** TODO signs and symptoms
+** TODO common pathogens
+** impetigo
+*** definition
+superficial skin infection, seen most commonly in children
+*** causative organism
+- S. aureus
+- S. pyogenes
+*** treatment
+**** mainstay of therapy
+mupirocin or retapmulin ointment BID x 5d
+**** patients with numerosu lesions and not responding to topicla therpay
+anti-staphylocccal penicillins
+** lymphangitis
+*** definition
+Inflammation involving the subcutaneous lymphatic channel
+*** causative oragnism
+- Group A streptococi---S. pyogenes
+- S. aureus
+*** treatment
+- penicillin IV 1-2M units q4-6h
+- clindamycin for penicillin allergic patients
+** abscess/cellulitis
+*** causative organism
+- S. pyogenes
+- S. aureus
+*** treatment
+**** purulent or underlying abscess
+empiric coverage of MRSA
+**** non-purulent diffuse cellulitis
+empiric coverage for Streptococci sp.
+** necrotizing fascitis
+- high morbidity and mortality
+- rare but aggressive subcutaneous infection
+- causes major estruction of tissue
+- early and aggressive surgical debridement
+*** causative organism
+Group A Streptococci---S. pyogenes
+*** Type 1
+polymicrobial infection---averager 5 different isolates per wound:
+- Non-group A Strep: Enterobacteriaceae, Bacteriodes, Peptostreptococcus
+- Saltwater viariant with marine vibrios (e.g., Vibrio vulnificus)
+**** antimicrobial therapy
+- (Ampicillin-sulbactam or piperacillin-tazobactam) + clindamycin + ciprofloxacin
+- Carbapenem (meropenem, imipenem, ertapenem)
+*** Type 2
+monomicrobial infection caused by /S. pyogenes/ which may produce pyrogenic exotoxins
+**** antimicrobial therapy
+high dose penicillin (IV) + clindamycin (IV)
+*clindamycin* is for toxin suppression and superior efficacy
+** animal bites
+*** causative oragnism
+Pasturella spp.
+** human bites
+*** organism types
+anaerobes
+*** treatment
+Augmentin 7-14d
+*** prophylaxis
+3-5d
+** diabetic foot infection
+*** causative organisms
+- S. aureus including methicillin-resistant strains
+- Streptococci
+- Enterobacteriaceae
+- Bacteriodes spp.
+- Peptostreptococus spp.
+- Pseudomonas aeruginosa
+*** TODO pathogenesis
+ischemia
+* bone and joint infections
+** diagnostics
+- C-reactive protein (CRP)---predicts resposne to therapy; fluctuates sooner than ESR does
+- Elevated erythrocyte sedimentation rate (ESR)
+- MRI

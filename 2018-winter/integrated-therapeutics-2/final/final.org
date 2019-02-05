@@ -164,4 +164,10 @@ Neurontin
 ***** Pregabalin
 ****** brand
 Lyrica 
-
+* epilepsy
+** neuropharmacology
+*** glutaminergic receptors
+- N-methyl-D-aspartate (NMDA Receptors)
+- AMPA (alpha-amino-3- hydroxymethyl -4- isoxazolepropionic acid) Receptors
+- Kainate Receptors
+*** 
