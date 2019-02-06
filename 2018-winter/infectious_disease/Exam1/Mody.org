@@ -1105,7 +1105,50 @@ Augmentin 7-14d
 *** TODO pathogenesis
 ischemia
 * bone and joint infections
-** diagnostics
+** osteomyelitis
+*** diagnostics
 - C-reactive protein (CRP)---predicts resposne to therapy; fluctuates sooner than ESR does
 - Elevated erythrocyte sedimentation rate (ESR)
 - MRI
+*** Gram-(+) antibiotic therapy
+**** empiric
+***** preferred
+vancomycin IV; troughs 15-20 mcg/mL
+**** definitive
+***** MSSA
+***** MRSA
+*** TODO Take notes for this section
+** septic arthritis
+*** most common pathogen
+S. aureus
+*** empiric treatment
+**** adults
+ceftriaxone 1 g {IV, IM} q24h
+**** neonates and children :ignore:
+- neonates: {naficillin, oxacillin} + cefotaxime
+- children: naficillin, oxacillin, or cefalozin
+* surgical prophylaxis / Surgical Site Infection (SSI)
+** patient characteristics that may affect SSI
+diabetic patients have increased risk for SSIs
+** first line
+Cefazolin 2 g; for patients weighing ≥ 120 kg, 3 g
+** administration
+- administer Cefazolin 1 hour before surgery
+- discontinue 24 hours after surgery ends
+* Infective Endocarditis (IE)
+** Risk factors
+- prosthetic valve
+- IVDU (IV drug abusers)
+- transient bacteremia
+  - GI procedures
+  - GU procedures
+  - dental procedures
+** causative organisms
+- Staphylococci spp.
+- Streptococci spp.
+- Enterococci spp.
+** drugs of choice
+Streptococcal: penicillin G
+Enterococcal: ampicillin
+Staphylococcal: naficillin and oxacillin
+** 
