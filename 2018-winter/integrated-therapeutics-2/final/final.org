@@ -286,6 +286,17 @@ A brief (perhaps a second), shock like contraction of muscles that may be restri
 *** status epilepticus
 - diazepam
 - lorazepam
+** structure → name
+*** [[./azapane_azapine.png]]
+azapane	diazapine
+*** [[./benzodiazepines.png]]
+benzodiazepines
+*** [[./ureides.png]]
+ureides
+*** [[./sulfonamides.png]]
+sulfonamides
+*** [[./dibenzapine.png]]
+dibenzapines
 ** drug classes
 *** newer agents :l:
 **** Voltage gated calcium channels :l:
@@ -302,41 +313,70 @@ Bind selectively to high affinity to Ca2+ channel subunit α2δ-1 protein in c
 Felbamate
 **** AMPA/Kainate receptor antagonist
 Topiramate
-**** HCN channel activity enhancer
-Lamotrigine
+**** HCN channel activity enhancer :l:
+***** Lamotrigine
+****** indication
+- partial and secondarily generalized tonic-clonic seizures in adults
+- Lennox-Gastaut syndrome in both children and adults 
 **** SV2A protein ligand
 Levitiracetam
 **** Ca and Na channels blocker
 Zonisamide
-**** Voltage Gated Na Channels
-Lacosamide
-**** Carbonic anhydrase inhibitor
-Acetazolamide
-*** older agents :l:
-**** Hydantoins :l:
-***** Phenytoin
+**** Voltage Gated Na Channels :l:
+***** Lacosamide
+****** brand
+Vimpat
+****** indication
+partial-onset seizures; refractory partial seizures
 ****** MOA
+Lacosamide enhances slow inactivation of voltage-gated Na+ channels and limits sustained repetitive firing, the neuronal firing pattern characteristic of partial seizures
+**** Carbonic anhydrase inhibitor :l:
+***** Acetazolamide
+*** older agents :l:
+**** Hydantoins
+***** drugs :l:
+****** phenytoin
+******* brand
+Dilantin
+******* MOA
 - Limits the repetitive firing of action potentials evoked by a sustained depolarization
 - Selectively, slows the rate of recovery of voltage-activated Na+ channels from inactivation, an action that is both voltage- and use-dependent (without affecting GABA or glutamate) 
-****** interactions
+- Blocks high-frequency firing of neurons through inhibitory actions on VG-Na+ channels
+******* interactions
 Valproate competes for protein binding sites and inhibits phenytoin metabolism, resulting in marked and sustained increases in free phenytoin
-***** Phosphenytoin
-**** Benzodiazepines :l:
-***** clonazepam
-****** brand
+******* TODO adverse drug reactions
+******* indications
+- cardiac arrhythmia
+- partial seizures
+- tonic-clonic seizures
+******* non-indications
+absence seizures
+****** phosphenytoin
+****** mephenytoin
+****** ethotoin
+***** structure
+[[./hydantoins.png]]
+**** Benzodiazepines
+***** [#A] MOA
+increases chloride flux
+***** structure
+[[./benzodiazepines.png]]
+***** drugs :l:
+****** clonazepam
+******* brand
 Klonopin
-***** clorazepate
-****** brand
+****** clorazepate
+******* brand
 Tranxene
-***** diazepam
-****** brand
+****** diazepam
+******* brand
 Valium
-****** indication
+******* indication
 status epilepticus
-***** lorazepam
-****** brand
+****** lorazepam
+******* brand
 Ativan
-****** indication
+******* indication
 status epilepticus
 **** Barbiturates :l:
 ***** Phenobarbital
@@ -366,6 +406,7 @@ sedative effect htat disturbs behavior in children
 ***** Ethosuximide
 ****** indication
 /only/ absence seizures
+****** TODO adverse drug reactions
 **** valproic acid
 ***** indication
 broad spectrum:
@@ -373,3 +414,6 @@ broad spectrum:
 - partial seizures
 - generalized tonic-clonic seizures
 - myoclonic
+** TODO role of voltage gated sodium channels in epilepsy
+** TODO metabotropic G-protein receptors
+** TODO listen to 9:00am-9:15am Sharma 2018 Feb 6
