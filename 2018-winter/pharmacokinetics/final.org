@@ -1,0 +1,171 @@
+* renal failure
+** RIFLE classification
+- Risk
+- Injury
+- Failure
+- Loss
+- End Stage
+** chronic
+- Progressive loss of kidney function over months to years
+- Normal renal parenchyma is replaced by interstitial fibrosis
+- results in loss of kidney function
+*** National Kidney Foundation ratings
+- 1 = GFR >90
+- 2 = GFR 60-89
+- 3 = GFR 30-59
+- 4 = GFR 12-29
+- 5 = GFR <15 (includes patients on dialysis)
+** acute :l:
+*** prerenal
+- Hypovolemia / dehydration
+- Acute blood loss
+- Hypoalbuminemia
+- Arterial hypoperfusion
+- Decreased cardiac output
+- Renal hypoperfusion
+- bilateral RAS
+- emboli
+*** intrinsic
+- Vascular damage
+- Glomerular damage
+- ATN (Acute Tubular Necrosis)
+- Acute interstitial nephritis
+*** postrenal
+- Bladder outlet obstruction
+  - BPH (Benign prostatic hyperplasia)
+  - Infection
+  - Anticholinergics
+  - CA
+- Ureteral
+- Renal pelvis: nephrolithiasis (kidney stones)
+** drug interactions
+- ACEIs
+- ARBs
+- theophylline
+- NSAIDs
+- diuretics
+* theophylline
+** toxicities
+- ventricular arrhythmias
+- tachyarrhythmias; sinus tachycardia
+- seizures
+** adverse drug reactions
+- caffeine-like side effects
+** dosing
+*** loading dose
+*** continuous infusion
+** salts
+S_aminophylline = 0.8
+S_{theophylline monohydrate} = 0.91
+S_{theophylline} = 1.
+** drug interactions
+*** decrease clearance
+- cimetidine
+- ciprofloxacin
+- estrogen
+- propranolol, metoprolol
+- interferon
+*** increase clearance
+- Phenytoin
+- carbamazepine
+- phenobarbital
+- rifampin
+** PK parameters
+*** Cl
+0.04 L/kg/hr
+*** half life
+8 hr
+*** therapeutic plasma concentration
+5-15 mg/L
+** interactions with conditions and diseases
+- tobacco or marijuana
+- age
+* dialysis :l:
+** Hemodialysis
+Hemodialysis uses a machine that perfuses blood across a semi-permeable membrane to remove water, solutes and wastes /by diffusion/
+** Hemofiltration
+blood is moved across a semipermeable membrane and hydrostatic pressure is applied to force fluid and solutes across the membrane /by convection rather than diffusion/ /without use of any dialysate fluid/
+** High flux hemodialysis
+- uses a dialysis membrane that has larger pores than standard hemodialysis
+- High flux hemodialysis removes smaller molecules more efficiently and can remove larger molecules that are not removed with standard hemodialysis
+** Continuous Renal Replacement (CRRT)
+ultrafiltration process with a large pore membrane Filters both water and solutes (including drugs)
+** Peritoneal dialysis
+Peritoneal dialysis is a method of dialyzing a patient using his/her own peritoneal cavity as a reservoir and the peritoneal membrane as a filter
+* lithium
+** adverse drug reactions
+- Hypothyroidism with or without goiter formation
+- Electrocardiographic abnormalities
+- Weight gain
+- Drug-induced diabetes insipidus
+** toxicity
+- Renal toxicity (glomerulosclerosis, renal tubular atrophy, interstitial nephritis, urinary casts)
+** bioavailability
+** clearance
+** salt form
+* methotrexate
+** dosing
+*** oral
+Oral doses of 30 g/m^2 is 100% bioavailable (F)
+** leucovorin rescue
+- 10-100mg/m^2 every 4 to 6 hours for up to 72 hours
+- If does not respond quickly enough, dialysis can be employed
+*** indication
+- Concentrations of 1 X 10-6 molar (1 micromolar) at 48 hours are associated with an increased incidence of MTX toxicity
+- moderate to high dose methotrexate regimens
+** clearance
+renally
+** MOA
+- inhibits dihydrofolic acid reductase
+- interferes with DNA synthesis, repair, and cellular replication
+** indications
+- Neoplastic Diseases
+  - Including bone marrow transplant – Acute lymphoblastic leukemia
+  - Lymphomas (Burkitt’s tumor)
+  - Cutaneous T cell lymphoma
+- psoriasis
+- Rheumatoid Arthritis including Polyarticular-Course Juvenile Rheumatoid Arthritis
+- terminate pregnancies during the early stages (abortifacient)
+* carbamazepine
+** warnings
+- black box warning serious dermatologic reactions, aplastic anemia and agranulocytosis
+- Genetic association with HLA-B*1502 allele should be screened before initiating therapy
+- FDA requires Asian patients be tested for this genetic susceptibility prior to initiating therapy
+** adverse drug reactions
+- Nausea
+- vomiting
+- lethargy
+- dizziness
+- drowsiness
+- headache
+- blurred vision
+- diplopia
+- unsteadiness
+- ataxia
+- incoordination
+** drug interactions
+*** increase carbamazepine clearance
+- Phenytoin
+- phenobarbital
+*** decrease carbamazepine clearance
+- cimetidine
+- macrolide antibiotics
+- azole antifungals
+- fluoxetine
+- fluvoxamine
+- nefazodone
+- cyclosporine
+- diltiazem
+- verapamil
+- indinavir
+- ritonavir
+*** food
+Administration of single doses of carbamazepine with grapefruit juice increases both the AUC and C_max by about 40%
+* digoxin
+** durg interactions
+*** drugs increasing clearance
+- quinidine
+- spironolactone
+- verapamil
+** TODO [#A] loading dose calculation
+11:59am 2019 Feb 6
