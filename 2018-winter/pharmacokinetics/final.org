@@ -169,3 +169,73 @@ Administration of single doses of carbamazepine with grapefruit juice increases 
 - verapamil
 ** TODO [#A] loading dose calculation
 11:59am 2019 Feb 6
+* immunosuppressives
+** objectives :ignore:
+- [ ] Describethetherapeuticusageof Immunosuppressants
+- [ ] Befamiliarwiththetoxicitiesandadverseevents associated with tacrolimus and cyclosporine
+- [ ] Describe pharmacokinetic properties of cyclosporine and tacrolimus
+- [ ] Befamiliarwithdrugsthatwillinteractwiththe IL-2 inhibitors
+- [ ] Befamiliarwithtimingofbloodsamples
+- [ ] Describe inter-hepatic circulation and secondary peaks
+** cyclosporine
+*** indication
+- autoimmune diseases
+  - psoriasis
+  - rheumatoid arthritis
+- transplant rejection
+*** adverse drug reactions
+- Hypertension
+- Nephrotoxicity
+- Hyperlipidemia
+- Tremor
+- Hirsutism and gingival hyperplasia
+- Gastrointestinal side effects (nausea, vomiting, diarrhea)
+- Headache
+- Hepatotoxicity, hyperglycemia, acne, leukopenia, hyperkalemia, and hypomagnesemia
+*** elimination
+- hepatic (>99%)
+- CYP3A4
+- <1% renal
+*** bioavailability
+- Absorption rate and bioavailability for original dosage form (Sandimmune, Novartis), a microemulsion version of the drug (Neoral, Novartis) was marketed to help reduce absorption variability
+- The fat content of meals has an influence on the absorption of oral cyclosporine
+- Cyclosporine has low water solubility
+*** MOA
+blocking of production of IL-2 and other cytokines from T-cells
+*** drug interactions
+**** nephrotoxicity
+- Aminoglycoside antibiotics
+- vancomycin
+- trimethoprim- sulfamethoxazole
+- amphotericin B
+- anti-inflammatory drugs melphalan
+- ketoconazole
+- cimetidine
+- ranitidine
+- tacrolimus
+**** inhibition or induction of metabolism
+- Calcium channel blockers
+- azole antifungals (fluconazole, itraconazole, ketoconazole)
+- macrolide antibiotics (erythromycin, clarithromycin)
+- antivirals (indinavir, nelfinavir, ritonavir, saquinavir)
+** tacrolimus
+*** indication
+- heart, liver, kidney transplants
+- graft-versus-host disease
+*** adverse drug reactions
+- Hypertension
+- Nephrotoxicity
+- Hyperlipidemia
+- Tremor
+- Headache
+- Hepatotoxicity, hyperglycemia, acne, leukopenia, hyperkalemia, and hypomagnesemia.
+- Gastrointestinal side effects (nausea, vomiting, diarrhea)
+**** not shared with cyclosporine
+- hirsuitism
+- gingival hyperplasia
+*** toxicity
+- nephrotoxicity
+** Sirolimus and everolimus
+- MTOR inhibitors
+- Trough monitoring applicable
+- Everolimus also approved for salvage treatment of renal cell CA
