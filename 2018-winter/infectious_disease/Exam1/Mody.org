@@ -834,6 +834,7 @@ Infection that persists/ recurs 48h after adequate management of 1° or 2° peri
 *** primary peritonitis
 vancomycin + {cefepime-ceftazidime, imipenem-cilastin} for at least 1 week after the dialysate fluid is clear
 *** acute cholecystitis and cholangitis
+#+ATTR_ORG: :width 700
 [[./treatment_for_acute_cholecystitis_and_cholangitis.png]]
 *** anti-MRSA therapy
 vancomycin
