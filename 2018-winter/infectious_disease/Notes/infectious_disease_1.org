@@ -1214,7 +1214,7 @@ WBC: elevated
 *differential: PMNs---neutrophils*
 protein: elevated; >100-500 mg/dL
 CSF blood glucose: decreased; <40%
-*** treatment
+*** empiric treatment
 **** age <1 month
 - ampicillin + cefotaxime
 - ampicillin + aminoglycoside
@@ -1225,7 +1225,48 @@ vancomycin + 3rd generation cephalosporin (cefotaxime or ceftriaxone)
 **** age >50 yrs
 Vancomycin + ampicillin + 3rd generation cephalosporin (cefotaxime or ceftriaxone)
 Ampicillin is added for Listeria coverage
+*** targeted treatment
+**** N. meningitidis
+1. ceftriaxone 2g q12h
+2. meropenem 2g q8h
+3. ampicillin 2g q4h
+***** duration
+7-10 days
+**** S. pneumoniae
+***** PCN sensitive strains
+- penicillin G 4mu q4h
+- ampicillin 2g q4h
+***** intermediate strains
+- ceftriaxone 2g q12h
+- cefotaxime 2g q6h
+***** duration
+10-14 days
+**** L. monocytogenes
+{ampicillin 2g q4h, penicillin G 4mu q4h} ± gentamicin 2 mg/kg q8h
+***** duration
+21 days
+**** H. influenzae
+***** β-lactamase negative
+ampicillin 2g q4h
+***** β-lactamase positive
+- ceftriaxone 2g q12h
+- cefotaxime 2g q6h
+***** duration
+7 days
+**** S. agalactiae
+{ampicillin 2g q4h, penicillin G 4 mu q4h} ± genatmicin 2mg/kg q8h
+**** S. epidermidis
+***** MSSA
+- naficillin 2g q4h
+- oxacillin 2g q4h
+***** MRSA
+- linezolid 600mg q12h
+- vancomycin 3-60 mg/kg/day q8h
+** Brain abscess
+*** empiric treatment
+- 3rd or 4th gen CFN + vanc + metronidazole
+- Vanc + meropenem 
+- Vanc + piperacillin/tazobactam
 ** Viral meningitis
 ** Encephalitis
-** Focal infections (brain abscess, subdural empyema)
 ** Infectious thrombophlebitis
