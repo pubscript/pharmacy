@@ -1,4 +1,14 @@
 * sleep disorders
+** definition
+changes in the normal sleep cycle that can negatively affect your health
+*** primary
+not attributable to any other condition
+*** secondary
+attributable to an identifiable cause---e.g., medication or disease state
+*** dyssomia
+Dyssomnias are a broad classification of sleeping disorders involving difficulty getting to sleep, remaining asleep, or of excessive sleepiness.
+*** parasomnia
+Parasomnias are a category of sleep disorders that involve abnormal movements, behaviors, emotions, perceptions, and dreams that occur while falling asleep, sleeping, between sleep stages, or during arousal from sleep. Most parasomnias are dissociated sleep states which are partial arousals during the transitions between wakefulness and NREM sleep, or wakefulness and REM sleep.
 ** GABA neuropharmacology
 *** GABA role
 inhibitory neurotransmitter
@@ -19,108 +29,157 @@ inhibitory neurotransmitter
 Baclofen
 ***** antagonists
 flumazenil
-** drug classes :l:
-*** benzodiazepines
-**** drugs :l:
-***** Alprazolam
-****** brand
+** epidemiology
+- African Americans
+- Elderly
+** sleep
+*** cycles
+**** NREM
+nonrapid eye movement---75% of the time
+***** stage 1
+- sleep is initiated
+- relaxed wakefulness
+***** stage 2
+- alpha wave sleep
+- preparation for deep sleep
+- muscles and brain are relaxed
+***** stage 3 & 4
+- slow wave delta sleep
+- deep sleep
+- body is healing itself
+**** REM
+- rapid eye movement---20-30% of the time
+- brain is more active
+- Lateral eye movement 
+- Heart rate increases
+- Respiration increases
+- Increased cerebral blood flow
+- Muscle atonia
+- Varying body temperature
+- Dreaming 
+*** regulation of sleep
+**** neurotransmitters
+- H
+- DA
+- NE
+- 5HT
+- ACh
+**** suprachiasmatic nucleus
+controls the release of the neurotransmitters 
+** insomnia
+*** first line
+- Short acting BZD or BzRA or ramelteon
+- if comorbid depression/anxiety: sedating antidepressant or combination with BzRa or ramelteon
+*** drug classes :l:
+**** benzodiazepines
+***** drugs :l:
+****** Alprazolam
+******* brand
 Xanax
-***** Chlordiazepoxide 
-****** brand
+****** Chlordiazepoxide 
+******* brand
 Librium
-***** Clorazepate 
-****** brand
+****** Clorazepate 
+******* brand
 Tranxene
-***** Clonazepam 
-****** brand
+****** Clonazepam 
+******* brand
 Klonopin
-***** Diazepam 
-****** brand
+****** Diazepam 
+******* brand
 Valium
-***** Estazolam 
-****** brand
+****** Estazolam 
+******* brand
 ProSom
-***** Flurazepam 
-****** brand
+****** Flurazepam 
+******* brand
 Dalmene
-***** Lorazepam 
-****** brand
+****** Lorazepam 
+******* brand
 Ativan
-***** Midazolam 
-****** brand
+****** Midazolam 
+******* brand
 Versed
-***** Quazepam 
-****** brand
+****** Quazepam 
+******* brand
 Doral
-***** Temazepam 
-****** brand
+****** Temazepam 
+******* brand
 Restoril
-***** Triazolam 
-****** brand
+****** Triazolam 
+******* brand
 Halcion
-**** interactions
-***** severe liver impairment
+***** interactions
+****** severe liver impairment
 - oxazepam
 - temazepam
 - lorazepam
-**** drugs by duration of action
-***** ultrashort acting drugs 6h
+***** drugs by duration of action
+****** ultrashort acting drugs 6h
 - triazolam
 - midazolam
-*** barbituates :l:
-**** Amobarbital 
-***** brand
+**** barbituates :l:
+***** Amobarbital 
+****** brand
 Amytal
-**** Mephobarbital 
-***** brand
+***** Mephobarbital 
+****** brand
 Mebaral
-**** Pentobarbital 
-***** brand
+***** Pentobarbital 
+****** brand
 Nembutal
-**** Phenobarbital 
-***** brand
+***** Phenobarbital 
+****** brand
 Luminal
-**** Secobarbital 
-***** brand
+***** Secobarbital 
+****** brand
 Seconal
-*** GABA_A agonists aka “Z Hypnotics” :l:
-**** Eszopiclone 
-***** brand
+**** GABA_A agonists aka “Z Hypnotics” :l:
+***** Eszopiclone 
+****** brand
 Lunesta
-***** indication
+****** indication
 effective for maintaining sleep---sencodary to longer duration
-**** Zaleplon 
-***** brand
+***** Zaleplon 
+****** brand
 Sonata
-**** Zolpidem 
-***** brand
+***** Zolpidem 
+****** brand
 Ambien
-*** Melatonin receptor agonists :l:
-**** Ramelteon 
-***** brand
+**** Melatonin receptor agonists :l:
+***** Ramelteon 
+****** brand
 Rozerem
-***** MOA :ignore:
+****** MOA :ignore:
 M1 and M2 receptor antagonist
-***** adverse effects
+****** adverse effects
 - worsening depression
 - psychosis
-*** 5-HT1A-partial agonist :l:
-**** Buspirone 
-***** brand
+**** 5-HT1A-partial agonist :l:
+***** Buspirone 
+****** brand
 BuSpar
-*** orexin receptor antagonist :l:
-**** suvorexant
-***** brand
+**** orexin receptor antagonist :l:
+***** suvorexant
+****** brand
 Belsomra
-***** MOA
+****** MOA
 orexin (hypocretin) is released from the hypothalamus to promote wakefulness or arousal
-*** sedating antipsychotics :l:
-**** olanzapinep
-***** brand
+**** sedating antipsychotics :l:
+***** olanzapinep
+****** brand
 Zyprexa
-**** quetiapine
-***** brand
+***** quetiapine
+****** brand
 Seroquel
+**** antidepressants :l:
+***** doxepin
+****** brand
+Silenor
+***** amitryptiline
+***** mirtazapine
+***** trazodone
+*** consequences
 ** obstructive sleep apnea
 *** diagnosis
 polysomnography; 5-15+ events/hr
@@ -136,32 +195,225 @@ Residual excessive daytime sleepiness despite effective PAP treatment
 *** first line :l:
 **** modafinil 200mg qAM, max 400mg/day
 **** armodafinil 150-250 mg qAM
-** cataplexy
-*** first line :l:
+*** tetrad :l:
+**** cataplexy
+- abrupt loss of muscle tone
+- narcolepsy + cataplexy is the most common
+- Cataplexy is a sudden and transient episode of muscle weakness accompanied by full conscious awareness, typically triggered by emotions such as laughing, crying, or terror.[1] Cataplexy affects approximately 70% of people who have narcolepsy,[2] and is caused by an autoimmune destruction of neurons that produce the neuropeptide hypocretin (also called orexin), which regulates arousal and wakefulness. Cataplexy without narcolepsy is rare and the cause is unknown.
+***** first line
 sodium oxybate (GHB) 2.25-4 g/HS (powder); repeat dose in 4 hoursp
-** restless leg syndrome
-*** causes
+**** EDS
+Uncontrollable excessive daytime sleepiness (EDS)
+**** paralysis
+**** hallucinations
+** circadian rhythm disorders
+*** jet lag
+**** pharmacologic
+- melatonin prior to the trip
+- benzodiazepines, short-acting
+*** restless leg syndrome
+**** causes
 low dopamine; treatment is dopamine agonists
-*** drugs
-**** dopamine agonists :l:
-***** Ropinirole
-****** brand
+**** drugs
+***** dopamine agonists :l:
+****** Ropinirole
+******* brand
 Requip
-***** Pramiprexole
-****** brand
+****** Pramiprexole
+******* brand
 Miraxpex 
-***** Levodopa/Carbidopa
-****** brand
+****** Levodopa/Carbidopa
+******* brand
 Sinemet
-***** Rotigotine 
-**** anticonvulsants :l:
-***** Gabapentin Enacarbil
-****** brand
+****** Rotigotine 
+***** anticonvulsants :l:
+****** Gabapentin Enacarbil
+******* brand
 Horizant
-***** Gabapentin
-****** brand
+****** Gabapentin
+******* brand
 Neurontin 
-***** Pregabalin
-****** brand
+****** Pregabalin
+******* brand
 Lyrica 
-
+**** first line
+dopamine agonists
+*** shift work sleep disorder
+**** pharmacologic
+- melatonin
+- benzodiazepines
+- modafinil or armodafinil
+*** (Non-24) Non-24 hour sleep wake disorder
+If you have Non-24-hour sleep-wake disorder (Non-24), you may find yourself gradually going to bed later every night and waking up later each day. Eventually, your sleep schedule goes all the way around the clock. Common in the legally blind.
+**** non-pharmacologic
+Sleep schedule, Melatonin, Bright light therapy (sight)
+**** pharmacologic :l:
+***** Tasimelteon
+****** dosing
+20 mg/HS
+****** brand
+Hetlioz
+* epilepsy
+** neuropharmacology
+*** glutaminergic receptors
+- N-methyl-D-aspartate (NMDA Receptors)
+- AMPA (alpha-amino-3-hydroxymethyl-4-isoxazolepropionic acid) Receptors
+- Kainate Receptors
+** causes
+- neurologic diseases
+- heredity
+- gene defects
+** classes
+*** partial seizures :l:
+**** simple partial
+preservation of consciousness
+**** complex partial
+impaired consciousness lasting 30 seconds - 2 minutes
+**** partial with secondarily generalized tonic-clonic seizure
+- simple or complex partial seizure with loss of consciousness and tonicity (sustained contractions) followed by periods of clonicity (relaxation)
+- typically lasts 1-2 minutes
+*** generalized seizures :l:
+**** Generalized tonic-clonic (grand mal) seizures
+**** Absence (petit mal) seizures
+abrupt onset of impaired consciousness; e.g., staring off into the void for 30 seconds
+**** myoclonic seizure
+A brief (perhaps a second), shock like contraction of muscles that may be restricted to part of one extremity or may be generalized
+**** Tonic seizures
+**** Atonic seizures
+**** Clonic and myoclonic seizures
+**** Infantile spasm
+** indication → drugs
+*** status epilepticus
+- diazepam
+- lorazepam
+** structure → name
+*** [[./azapane_azapine.png]]
+azapane	diazapine
+*** [[./benzodiazepines.png]]
+benzodiazepines
+*** [[./ureides.png]]
+ureides
+*** [[./sulfonamides.png]]
+sulfonamides
+*** [[./dibenzapine.png]]
+dibenzapines
+** drug classes
+*** newer agents :l:
+**** Voltage gated calcium channels :l:
+***** Gabapentin
+****** MOA
+Bind selectively to high affinity to Ca2+ channel subunit α2δ-1 protein in cortical membrane
+***** Pregablin
+****** MOA
+Bind selectively to high affinity to Ca2+ channel subunit α2δ-1 protein in cortical membrane
+**** GABA uptake/GABA-T inhibitor
+- Tiagabine
+- Vigabatrin
+**** NMDA antagonist
+Felbamate
+**** AMPA/Kainate receptor antagonist
+Topiramate
+**** HCN channel activity enhancer :l:
+***** Lamotrigine
+****** indication
+- partial and secondarily generalized tonic-clonic seizures in adults
+- Lennox-Gastaut syndrome in both children and adults 
+**** SV2A protein ligand
+Levitiracetam
+**** Ca and Na channels blocker
+Zonisamide
+**** Voltage Gated Na Channels :l:
+***** Lacosamide
+****** brand
+Vimpat
+****** indication
+partial-onset seizures; refractory partial seizures
+****** MOA
+Lacosamide enhances slow inactivation of voltage-gated Na+ channels and limits sustained repetitive firing, the neuronal firing pattern characteristic of partial seizures
+**** Carbonic anhydrase inhibitor :l:
+***** Acetazolamide
+*** older agents :l:
+**** Hydantoins
+***** drugs :l:
+****** phenytoin
+******* brand
+Dilantin
+******* MOA
+- Limits the repetitive firing of action potentials evoked by a sustained depolarization
+- Selectively, slows the rate of recovery of voltage-activated Na+ channels from inactivation, an action that is both voltage- and use-dependent (without affecting GABA or glutamate) 
+- Blocks high-frequency firing of neurons through inhibitory actions on VG-Na+ channels
+******* interactions
+Valproate competes for protein binding sites and inhibits phenytoin metabolism, resulting in marked and sustained increases in free phenytoin
+******* TODO adverse drug reactions
+******* indications
+- cardiac arrhythmia
+- partial seizures
+- tonic-clonic seizures
+******* non-indications
+absence seizures
+****** phosphenytoin
+****** mephenytoin
+****** ethotoin
+***** structure
+[[./hydantoins.png]]
+**** Benzodiazepines
+***** [#A] MOA
+increases chloride flux
+***** structure
+[[./benzodiazepines.png]]
+***** drugs :l:
+****** clonazepam
+******* brand
+Klonopin
+****** clorazepate
+******* brand
+Tranxene
+****** diazepam
+******* brand
+Valium
+******* indication
+status epilepticus
+****** lorazepam
+******* brand
+Ativan
+******* indication
+status epilepticus
+**** Barbiturates :l:
+***** Phenobarbital
+Relatively low toxicity, is inexpensive, and is still one of the more effective and widely used drugs for control of generalized tonic-clonic and partial seizures
+****** indication
+generalized tonic-clonic and partial seizures
+****** nonindications
+abscence seizures
+****** MOA
+Potentiation of GABA_A receptor-mediated synaptic inhibition
+****** adverse effects
+sedative effect htat disturbs behavior in children
+**** Iminostilbenes :l:
+***** Carbamazepine
+****** MOA
+- Limits the repetitive firing of action potentials evoked by a sustained depolarization of mouse spinal cord or cortical neurons maintained in 
+- Selectively, slows the rate of recovery of voltage-activated Na+ channels from inactivation 
+- Carbamazepine metabolite, 10,11-epoxycarbamazepine, also limits sustained repetitive firing at therapeutically relevant concentrations
+****** indication
+- trigeminal and glossopharyngeal neuralgias
+- generalized tonic clonic
+- simple and complex partial seizures
+***** Oxcarbazepine
+****** indication
+- partial seizures
+**** Succinimides :l:
+***** Ethosuximide
+****** indication
+/only/ absence seizures
+****** TODO adverse drug reactions
+**** valproic acid
+***** indication
+broad spectrum:
+- absence
+- partial seizures
+- generalized tonic-clonic seizures
+- myoclonic
+** TODO role of voltage gated sodium channels in epilepsy
+** TODO metabotropic G-protein receptors
+** TODO listen to 9:00am-9:15am Sharma 2018 Feb 6

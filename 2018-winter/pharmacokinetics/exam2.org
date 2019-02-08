@@ -1,4 +1,4 @@
-#+OPTIONS: tex:t
+^#+OPTIONS: tex:t
 #+STARTUP: latexpreview
 #+LATEX_HEADER: \usepackage{amsmath}
 * formulas
