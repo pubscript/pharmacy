@@ -10,4 +10,49 @@
 - [ ] Explain pharmacokinetics, side effects, adverse effects, toxicity and rationale for drug interaction of BZs, barbiturates and nonBZs
 - [ ] Explain mechanism of action, pharmacokinetics, side effects, toxicity and drug interactions of Buspirone and Ramelteon
 ** pharmacotherapy
+* Mody
+** antiarrhythmics
+Describe four classes of antiarrythmics and their mechanism of action.
+Describe the effect of pH on the ionization and activity of sodium channel blocker.
+Describe the effect of ionized and unionized molecules on sodium channels.
+Explain the different rate of dissociation of sodium channel blockers.
+Explain the metabolic pathway of Lidocaine and why is it metabolized by MAO as compared to Tocainide.
+Explain why Lidocaine is IV only.
+Explain the importance of methanesulfonamide group in Class III antiarrythmics.
+** respiratory
+-	What is the mechanism of action of adrenergic agonists. 
+-	For drugs within the adrenergic class, identify any specific feature that will lead to modification of DOA, onset of action or Oral Bioavailability.
+-	Identify structure of acetylcholine, muscarinic antagonists, /methylxanthines class of agents/
+-	/Explain the physicochemical properties of atropine./
 
+-	Asthma& *COPD2*
+-	Differentiate physiological functions of glucocorticoids and mineralocorticoids
+-	What is the core structure and numbering of steroids and glucocorticoids? 
+-	Understand the C-17 hydroxyl metabolism of Corticosteroids.
+-	Understand the SAR at C-3, C11, C17, C20 and C21 for Corticosteroids.
+-	*Explain why Modification at C17 will lead to longer duration of action*
+-	*Explain the significance of C-11 hydroxyl group and prodrug.*
+-	Explain the significance of C-11 carbonyl group and Oral formulation.
+-	Explain the significance of C-21 hydroxyl group and ester prodrug.
+
+** Sedatives-Hypnotics and Antiseizure Drugs
+*** For Antiseizure drugs
+**** TODO Features of ideal structural features and class of various antiseizure drugs.
+**** TODO [#A] I want you to remember the structure of basic class, hydantoins, barbiturates, succinimides, oxazolidinediones, dibenzazepines, benzodiazepines, sulfonamides.
+**** TODO MOA of barbituates
+**** TODO Difference between sulfamate and sulfonamide group and how they can interact with Carbonic anhydrase.
+**** TODO Solubility and structure of sodium salt of phenytoin vs phenytoin (see active learning), and how it should be infused
+**** TODO Advantage of fosphenytoin over phenytoin and its pharmacological significance and relevance. 
+water solubility
+**** TODO Advantage of oxycarbamazepine over carbamazepine.
+oxycarbamazepine cannot be metabolized easily. oxycarbamazeine has less autoinduction.
+**** TODO Least sedating effect of carbamazepine over others old class of anti seizure agents.
+**** TODO Agents which are structurally related to GABA and their mechanism of action.
+*** Sedatives and Hypnotics:
+**** TODO MOA, drug activity, bioavailability, hydrophilicity, lipophilicity, potency, duration of action, onset of action, acidity, basicity, etc, of the all sedatives and hypnotics 
+**** TODO Identify the physicochemical properties of these drugs (acidic or basic nature, lipophilicity, hydrophilicity)
+**** TODO Significance, advantages and disadvantages of Melatonin as a hormone and as drug
+**** TODO Use of Melatonin analog as a drug and its MOA
+* Sharma
+** inhibitory neurotransmission? gaba?
+** structure 

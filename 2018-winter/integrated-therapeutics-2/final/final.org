@@ -1,4 +1,128 @@
 #+OPTIONS: tex:t
+* arrhythmias
+** Lisi
+*** CHA²DS²-VASc Score²
+- Congestive heart failure: 1 point
+- HTN: 1
+- age ≥75: 2
+- age 65-74: 1
+- diabetes: 1
+- prior stroke/TIA/TE: 2
+- vascular disease: 1
+- female: 1
+**** treatment guidelines
+- 0: nothing
+- 1: aspirin, anticoagulant, or nothing
+- >2: need anticoagulation (/not/ Plavix): warfarin, epixaban, edoxaban, rivaroxaban
+*** treatment
+**** TODO anticoagulants with doses
+**** rate control vs. rhythm control
+***** ejection fraction <40%
+no DHP ccalcium channel blockers
+***** TODO summary slide
+*** torsades de points (TdP)
+**** risk factors
+- female
+- renal compromise
+- electrolyte disorders
+**** drugs
+- fluoroquinolones
+- SSRIs
+- ibuprofen
+*** digoxin toxicity, risk factors
+- renal compromise; digoxin is renally cleared
+- advanced age
+- electrolyte disorders
+  - K
+  - Mg
+  - P
+  - Na
+** Wang
+*** drug → ion channel
+**** lidocaine
+inhibits sodium current
+**** amiodarone
+inhibits lna, lca, lkr, IKs
+**** verapamil
+lca
+*** drug → classification
+**** diltiazem
+class 4 CCB
+**** TODO lidocaine
+subgroup 1B (or 2B)?
+**** dronedarone
+class 3; prolongs refractory peroid
+**** metoprolol
+class 2 β-blocker
+**** name some other antiarrhythmic drugs
+- adenosine
+- digoxin
+*** TODO 3.	Name phosphorylation targets of PKA following activation of beta receptors and/or inhibition of PDE. such as RyR2, Ca channel protein, Phospholamban and relate each of them to the positive inotropic effect of beta agonist and/or PDE inhibitors
+*** positive ionotropic effect of dixoin
+- inhibits ATPase
+- increass the activity of Na/Ca
+- increases intracellular calcium concentrarion
+*** TODO digoxin’s pro-arrhythmic adverse effect
+*** anemia causes :l:
+**** intrinsic factor
+dereased B12 absorption
+**** erythropoiten deficiency
+*** chronic kidney disease
+**** pathological changes
+- higher PTH
+- anemia
+- reduced secretion of erythropoiten
+- vitamin D activation
+**** vitamin D
+- CKD affects vitamin D activation
+***** TODO metabolism in skin, liver, kidney
+***** TODO most active form
+*** TODO respiratory
+**** SABA
+**** LABA
+**** SAMA
+**** LAMA
+**** Roflumilast
+**** TODO steroids
+identify the name of a steroid
+**** TODO compare the anti-inflammatory effects of steroids, 5-lipoxygenase inhibitors, leukotriene receptor antagonists and PDE inhibitors
+pro-inflammatory
+arachidonic acid
+* heart failure
+** TODO NYHA functional classification
+** TODO drugs reducing mortality in heart failure
+- metoprolol
+** drugs symptom control
+- furosemide
+- digoxin
+** TODO [#A] subset of heart failure exacerbation, treatment
+*** TODO [#A] acute decompensated heart failure
+* renal
+** causes
+* fluid and electrolytes
+** crystalloid fluids
+** TODO fluid distribution
+** TODO treatment
+*** sodium disorders
+*** potassium disorders
+* acid base disorder
+** TODO identify acid base disorder based on lab values
+** TODO appropriate management of 4 types of acid base disorders
+* pulmonary hypertension
+** TODO treatment based on vasoreactivity test
+** TODO pregnancy
+* cystic fibrosis
+** TODO [#A] targeted on CFTR protien
+idocaftrer???
+leumocafter?
+** [#A] pulmonary toilet
+- albuterol to open up airways
+- dornate alpha
+- hypertonic saline
+- inhaled antibiotics for Pseudomonas
+** [#A] exacerbation of CF
+- multi-drug resistant Pseudomonas
+- double cover because of drug resistance
 * sleep disorders
 ** definition
 changes in the normal sleep cycle that can negatively affect your health
@@ -151,7 +275,7 @@ Ambien
 ***** Ramelteon 
 ****** brand
 Rozerem
-****** MOA :ignore:
+****** [#A] MOA
 M1 and M2 receptor antagonist
 ****** adverse effects
 - worsening depression
@@ -160,6 +284,8 @@ M1 and M2 receptor antagonist
 ***** Buspirone 
 ****** brand
 BuSpar
+****** TODO [#A] MOA
+requires repeated administration
 **** orexin receptor antagonist :l:
 ***** suvorexant
 ****** brand
@@ -256,12 +382,23 @@ If you have Non-24-hour sleep-wake disorder (Non-24), you may find yourself grad
 ****** brand
 Hetlioz
 ***** melatonin
+****** structure
+[[./melatonin.png]]
+** name → structure
+*** melatonin
+[[./melatonin.png]]
 * epilepsy
 ** neuropharmacology
 *** glutaminergic receptors
 - N-methyl-D-aspartate (NMDA Receptors)
 - AMPA (alpha-amino-3-hydroxymethyl-4-isoxazolepropionic acid) Receptors
 - Kainate Receptors
+*** TODO [#A] glutamate
+- excitatory neurotransmitter
+**** receptors
+- NMDA
+- AMPA
+- kainate
 ** causes
 - neurologic diseases
 - heredity
@@ -350,30 +487,67 @@ can happen when dose is titrated up quickly or in large increments---or even in 
 **** children
 higher dose
 ** drug classes
-*** newer agents :l:
+*** newer agents
 **** Voltage gated calcium channels :l:
 ***** Gabapentin
 ****** MOA
 Bind selectively to high affinity to Ca2+ channel subunit α2δ-1 protein in cortical membrane
+****** pharmacokinetics
+- renally eliinated; requires dose adjustments
+****** indication
+comorbid neuropathic pain
+****** clinical considerations
+few drug interactions
 ***** Pregablin
 ****** MOA
 Bind selectively to high affinity to Ca2+ channel subunit α2δ-1 protein in cortical membrane
-**** GABA uptake/GABA-T inhibitor
-- Tiagabine
-- Vigabatrin
-**** NMDA antagonist
-Felbamate
-**** AMPA/Kainate receptor antagonist
-Topiramate
+****** adverse effects
+****** indication
+- comorbid anxiety
+- neuropathic pain
+****** compared to gabapentin
+- more potent
+- less GI adverse drug reactions
+- used for comorbid neuropathic pain, not just seizures
+**** GABA uptake/GABA-T inhibitor :l:
+***** Tiagabine
+***** Vigabatrin
+****** mnemonic
+gabat...GABA T...GABA transaminase
+****** MOA
+GABA transaminase inhibitor
+****** adverse effects
+irreversible vision loss
+**** NMDA antagonist :l:
+***** Felbamate
+****** adverse drug reactions
+- aplastic anemia
+- hepatic failure
+**** AMPA/Kainate receptor antagonist :l:
+***** Topiramate
+****** adverse effects
+dose-related cognitive impairment; difficulty in stringing together sentences
+***** Perampanel
+****** black box warning
+Serious life threatening psychiatric & behavioral reactions
 **** HCN channel activity enhancer :l:
 ***** Lamotrigine
 ****** indication
 - partial and secondarily generalized tonic-clonic seizures in adults
 - Lennox-Gastaut syndrome in both children and adults 
+****** adverse effects
+rash which may progress to SJS
+****** [#B] dosing
+25 mg Daily, titrated by 25 mg to a max of 200 – 400 mg. Dependent on dosing with inhibitors or inducers.
+****** warnings
+Hemophagocytic Lymphohistiocyosis (HLH)
+****** brand
+Lamictal
 **** SV2A protein ligand
 Levitiracetam
-**** Ca and Na channels blocker
-Zonisamide
+**** Ca and Na channels blocker :l:
+***** Zonisamide
+use cautiously in sulfa allergies
 **** Voltage Gated Na Channels :l:
 ***** Lacosamide
 ****** brand
@@ -382,6 +556,10 @@ Vimpat
 partial-onset seizures; refractory partial seizures
 ****** MOA
 Lacosamide enhances slow inactivation of voltage-gated Na+ channels and limits sustained repetitive firing, the neuronal firing pattern characteristic of partial seizures
+****** adverse effects
+- increases PR interval
+****** clinical considerations
+- 2nd line secondary to cost
 **** Carbonic anhydrase inhibitor :l:
 ***** Acetazolamide
 **** cannabinoids :l:
@@ -391,6 +569,10 @@ Epidiolex
 ****** indication
 - Lennox-Gastaut Syndrome
 - Dravet Syndrome 
+**** other
+***** Rufinamide
+****** indication
+used in Lenox-Gastaut syndrome
 *** older agents :l:
 **** Hydantoins
 ***** drugs :l:
@@ -435,7 +617,9 @@ absence seizures
 [[./hydantoins.png]]
 **** Benzodiazepines
 ***** [#A] MOA
-increases chloride flux
+- increases chloride flux
+- at therapeutically relevant concentrations: act at subsets of GABA_A receptors and increase the frequency, but not duration, of openings at GABA-activated chloride channels
+- at higher concentrations: diazepam and other benzodiazepines reduce sustained high-frequency firing of neurons, similar to the effects of phenytoin, carbamazepine, and valproate
 ***** structure
 [[./benzodiazepines.png]]
 ***** drugs :l:
@@ -455,6 +639,8 @@ status epilepticus
 Ativan
 ******* indication
 status epilepticus
+***** interactions
+CYP3A4
 **** Barbiturates :l:
 ***** Phenobarbital
 Relatively low toxicity, is inexpensive, and is still one of the more effective and widely used drugs for control of generalized tonic-clonic and partial seizures
@@ -465,7 +651,10 @@ abscence seizures
 ****** MOA
 Potentiation of GABA_A receptor-mediated synaptic inhibition
 ****** adverse effects
-sedative effect htat disturbs behavior in children
+- CNS depression/sedation
+- sedative effect that disturbs behavior in children
+****** pharmacokinetics
+potent inducer
 **** Iminostilbenes :l:
 ***** Carbamazepine
 ****** MOA
@@ -476,13 +665,28 @@ sedative effect htat disturbs behavior in children
 - trigeminal and glossopharyngeal neuralgias
 - generalized tonic clonic
 - simple and complex partial seizures
+****** pharmacokinetics
+- autoinducer
+- induces enzyme that metabolizes itself, CYP3A4
 ***** Oxcarbazepine
 ****** indication
 - partial seizures
+****** adverse effects
+hyponetremia
+****** advantages over carbamazepine
+- ketone moiety protects from metabolized by oxiation
+- oxcarbamazepine is a less potent inducer than carbamazepine
+****** prodrug?
+- not a prodrug of carbamazepine
+- prodrug of azocarbazepine
+***** Eslicarbazepine
+****** dosing
+400 mg/day, max 1200 mg/day, /once daily/
 **** Succinimides :l:
 ***** Ethosuximide
 ****** indication
-/only/ absence seizures
+- /only/ absence seizures
+- narrow spectrum
 ****** TODO adverse drug reactions
 **** valproic acid
 ***** indication
@@ -491,6 +695,30 @@ broad spectrum:
 - partial seizures
 - generalized tonic-clonic seizures
 - myoclonic
+***** adverse effects
+- hepatotoxicity
+- thrombocytopenia
+- increased NH_4
+***** pharmacokinetics
+highly protein bound
+** status epilepticus
+- consecutive seizures lasting 5+ minutes or continuously
+- longer the seizure, the worse it is for mortality/morbidity
+*** treatment
+**** emergent initial therapy
+benzodiazepines IV
+**** urgent control therapy
+- phenytoin 10-20 mg/kg
+- 75 mg fosphenytoin ≍ 50 mg phenytoin
+ideally, you don’t want to have to titrate up
+**** treatment refractory
+- continuous infusion of AED + bolus doses of AED to prevent breakthrough seizures
+- medically induced coma
+*** nonpharmacologic treatment
+- metabolic acidosis: sodium bicarbonate
+- respiratory acidosis: ventilation
+- hypoglycemia: glucose
+- alcoholics/Wernicke encephalopathy: thiamine before glucose
 ** TODO role of voltage gated sodium channels in epilepsy
 ** TODO metabotropic G-protein receptors
 ** TODO listen to 9:00am-9:15am Sharma 2018 Feb 6
