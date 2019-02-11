@@ -764,6 +764,36 @@ bacterial entry into and collections in the peritoneal or retroperitoneal spaces
 everything except anaerobes (i.e., Bacteroides)
 *** TODO
 cover e. coli for...
+** etiology quiz_5
+*** GI microflora
+**** stomach
+- Streptococcus
+- Lactobacillus
+**** biliary tract
+normally sterile
+**** proximal small bowel
+- Streptococcus
+- E. coli
+- Klebsiella
+- Lactobacillus
+- diptheroids
+**** Distal ileum
+- E. coli
+- Klebsiella
+- Enterobacter
+- Bacteroides fragilis
+- Clostridium
+- peptostreptococci
+- enterococci
+**** colon
+- Bacteroides spp.
+- peptostreptococci
+- Clostridium
+- E. coli
+- Klebsiella
+- enterococci
+- Enterobacter
+- Candida
 ** peritonitis
 *** primary
 An infection of the peritoneal cavity without an evident source in the abdomen
@@ -809,7 +839,7 @@ A focal disease process in the abdomen
 - Hct and BUN
 *** tertiary
 Infection that persists/ recurs 48h after adequate management of 1° or 2° peritonitis
-** treatment
+** treatment quiz_5
 *** community-acquired complicated intra-abdominal inffections
 **** mild-to-moderate infections
 ***** single agent
@@ -1179,7 +1209,7 @@ vancomycin + rifampin + gentamicin
 **** 
 * CNS infections
 ** Bacterial meningitis
-*** causes
+*** causes quiz_5
 **** common pathogens
 1. S. pneumoniae 
 2. N. meningitides 
@@ -1214,7 +1244,7 @@ WBC: elevated
 *differential: PMNs---neutrophils*
 protein: elevated; >100-500 mg/dL
 CSF blood glucose: decreased; <40%
-*** treatment
+*** treatment quiz_5
 **** age <1 month
 - ampicillin + cefotaxime
 - ampicillin + aminoglycoside
