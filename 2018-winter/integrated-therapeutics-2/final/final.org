@@ -1,3 +1,4 @@
+#+OPTIONS: tex:t
 * sleep disorders
 ** definition
 changes in the normal sleep cycle that can negatively affect your health
@@ -246,13 +247,15 @@ dopamine agonists
 *** (Non-24) Non-24 hour sleep wake disorder
 If you have Non-24-hour sleep-wake disorder (Non-24), you may find yourself gradually going to bed later every night and waking up later each day. Eventually, your sleep schedule goes all the way around the clock. Common in the legally blind.
 **** non-pharmacologic
-Sleep schedule, Melatonin, Bright light therapy (sight)
+- Sleep schedule
+- Bright light therapy (sight)
 **** pharmacologic :l:
-***** Tasimelteon
+***** tasimelteon
 ****** dosing
 20 mg/HS
 ****** brand
 Hetlioz
+***** melatonin
 * epilepsy
 ** neuropharmacology
 *** glutaminergic receptors
@@ -297,6 +300,55 @@ ureides
 sulfonamides
 *** [[./dibenzapine.png]]
 dibenzapines
+** therapeutics
+*** reasons to beign pharmacologic treatment
+- after 2nd unprovoeked seizure
+- after 1st seizure & risk factors for 2nd seizure
+- 2nd seizure ocurrence produces large consequences
+  - elderly patients
+  - psychosocial consequences
+*** medications that lower seizure threshold
+*** TODO broad spectrum
+*** TODO narrow spectrum
+Phenytoin
+Valproic Acid
+Phenobarbital
+Lamotrigine
+Carbamazepine
+Topiramate
+Oxcarbamazepine
+Zoniesamide
+Gabapentin
+Levetiracetam
+Pregabilin
+Clonazepam
+Lacosamide
+Rufinamide
+Vigabatrin
+*** drug interactions
+**** inducers
+- Carbamazepine (potent)
+- Phenytoin (potent)/Fosphenytoin
+- Phenobarbital/Primidone (potent)
+- Topiramate > 200 mg/day
+- Felbamate 
+**** inhibitors
+- Dilvaproex sodium/Valproic Acid
+- Topiramate
+- Felbamate 
+*** adverse effects
+**** ocurrence
+can happen when dose is titrated up quickly or in large increments---or even in normal dosage ranges
+*** special populations
+**** elderly
+- lower doses
+- monotherapy
+**** pregnant
+- avoid teratogens: depakote, valproic acid, carbamazepine
+- supplement with folic acid 0.4-5 mg/day
+- most AEDs will pass through breast milk
+**** children
+higher dose
 ** drug classes
 *** newer agents :l:
 **** Voltage gated calcium channels :l:
@@ -332,12 +384,32 @@ partial-onset seizures; refractory partial seizures
 Lacosamide enhances slow inactivation of voltage-gated Na+ channels and limits sustained repetitive firing, the neuronal firing pattern characteristic of partial seizures
 **** Carbonic anhydrase inhibitor :l:
 ***** Acetazolamide
+**** cannabinoids :l:
+***** cannabidiol
+****** brand
+Epidiolex
+****** indication
+- Lennox-Gastaut Syndrome
+- Dravet Syndrome 
 *** older agents :l:
 **** Hydantoins
 ***** drugs :l:
 ****** phenytoin
 ******* brand
 Dilantin
+******* therapeutic concentration
+10-20
+******* pharmacokinetics
+- nonlinear
+- 90% protein bound; when albumin levels fall, concentration increases
+******* adjusted total phenytoin concentration
+\begin{equation}
+[Phenytoin]_\text{adj} = \frac{[Phenytoin]_\text{obs}}{0.2*Albumin + 0.1}
+\end{equation}
+
+\begin{equation}
+[Phenytoin]_\text{adj} = \frac{[Phenytoin]_\text{obs}}{0.9 * \frac{Albumin}{Albumin_\text{normal}} + 0.1}
+\end{equation}
 ******* MOA
 - Limits the repetitive firing of action potentials evoked by a sustained depolarization
 - Selectively, slows the rate of recovery of voltage-activated Na+ channels from inactivation, an action that is both voltage- and use-dependent (without affecting GABA or glutamate) 
@@ -351,6 +423,11 @@ Valproate competes for protein binding sites and inhibits phenytoin metabolism, 
 - tonic-clonic seizures
 ******* non-indications
 absence seizures
+******* monitoring
+- 10-20 mcg/mL
+- CBC
+- LFTs
+- bone density
 ****** phosphenytoin
 ****** mephenytoin
 ****** ethotoin
