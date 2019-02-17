@@ -184,11 +184,11 @@ Administration of single doses of carbamazepine with grapefruit juice increases 
   - rheumatoid arthritis
 - transplant rejection
 *** adverse drug reactions
+- Hirsutism and gingival hyperplasia
 - Hypertension
 - Nephrotoxicity
 - Hyperlipidemia
 - Tremor
-- Hirsutism and gingival hyperplasia
 - Gastrointestinal side effects (nausea, vomiting, diarrhea)
 - Headache
 - Hepatotoxicity, hyperglycemia, acne, leukopenia, hyperkalemia, and hypomagnesemia
@@ -231,7 +231,7 @@ blocking of production of IL-2 and other cytokines from T-cells
 - Hepatotoxicity, hyperglycemia, acne, leukopenia, hyperkalemia, and hypomagnesemia.
 - Gastrointestinal side effects (nausea, vomiting, diarrhea)
 **** not shared with cyclosporine
-- hirsuitism
+- hirsute
 - gingival hyperplasia
 *** toxicity
 - nephrotoxicity
@@ -239,3 +239,15 @@ blocking of production of IL-2 and other cytokines from T-cells
 - MTOR inhibitors
 - Trough monitoring applicable
 - Everolimus also approved for salvage treatment of renal cell CA
+* phenytoin
+** maximum rate of administration
+50 mg/min
+** adverse effects
+*** chronic
+- gingival hyperplasia & hirsuitism
+- folate deficiency
+- peripheral neuropathy
+*** high serum concentrations
+- ataxia
+- decreased mental capacity
+- nystagmus
