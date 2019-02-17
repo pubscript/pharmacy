@@ -1,0 +1,13 @@
+3 point evaluation
+k_e gives you two points on the same line
+volume of distribution: use the trough peak given
+choose the right vancomycin table to choose the dose from
+extended dose aminoglycoside 7mg/kg gentamicin tobramicin or 15 mg/kg amikacin <- weight based dosing
+
+random level 6-14 hrs out is hwo we determine safety. triangle determines how often to get the dose. number of hours out to the dose
+
+amikacin: twice the dose, so divide the level by 2 before applying it to the triangels or the Hartford nomogram
+
+valproic acid & majority of antiepiletpics: highly protein-bound
+
+digoxin: very old drug; long half life = 36hr

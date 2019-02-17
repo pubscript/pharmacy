@@ -722,3 +722,79 @@ ideally, you don’t want to have to titrate up
 ** TODO role of voltage gated sodium channels in epilepsy
 ** TODO metabotropic G-protein receptors
 ** TODO listen to 9:00am-9:15am Sharma 2018 Feb 6
+* asthma
+** increments of drug therapies
+1. SABA PRN
+2. low-dose ICS
+3. {medium-dose ICS, low-dose ICS and LABA}
+4. medium-dose ICS + LABA
+5. high-dose ICS + LABA
+6. high dose ICS + LABA + oral corticosteroid
+** Interleukin-5 (IL-5) receptor antagonist agents :l:
+*** Mepolizumab
+**** brand
+Nucala
+*** Reslizumab
+**** brand
+Cinqair
+*** Benralizumab
+**** brand
+Fasenra
+** anti-IgE :l:
+*** Omalizumab
+**** brand
+Xolair
+** inhaled short-acting β-2 agonists (SABA) :l:
+*** albuterol
+**** MDI
+***** brand
+- ProAir HFA
+- Proventil HFA
+**** DPI
+***** brand
+- ProAir Respiclick
+** inhaled long acting β-2 agonists (LABA) :l:
+*** salmeterol
+**** brand
+Serevent Diskus
+*** formoterol
+*** vilanterol
+** ICS+LABA combinations :l:
+*** fluticasone/salmeterol
+**** brand
+- Advair {Diskus, HFA}
+- AirDuo Respiclick
+*** mometasone/formoterol
+**** brand
+Dulera MDI
+*** budenoside/formoterol
+**** brand
+Symbicort MDI
+*** fluticasone furoate/vilatnerol
+**** brand
+Breo Ellipta DPI
+** inhaled corticosteroids :l:
+*** beclomethasone
+**** brand
+QVAR (RediHaler)?
+*** budenoside
+**** brand
+Plumicort {Respules [nebulizer], Flexhaler [DPI]}
+*** ciclesonide
+**** brand
+Alvesco
+*** fluticasone propionate
+**** brand :l:
+***** Flovent HFA
+- BID
+- doses low to high: 176..440
+***** Flovent Diskus
+- BID
+- doses low to high: 200..500 mcg
+***** Arnuity Ellipta
+- ONCE DAILY
+- doses low to high: 100 mcg..200 mcg
+*** mometasone
+**** brand
+Asmanex {HFA, Twisthaler}
+* COPD

@@ -1329,7 +1329,32 @@ ampicillin 2g q4h
 ** Viral meningitis
 ** Encephalitis
 ** Infectious thrombophlebitis
+* multi-drug resistance
+** VISA
+*** at risk
+prior vancomycin exposure with serum concentraitons consistenly <10mg/dL
 * C. difficile
+** risk factors
+- Proton pump inhibitor (PPI) or frequent laxative use
+- Antibiotic use 
+- Advanced age
+- Duration of hospital stay
+- Cancer chemotherapy
+- GI surgery or manipulation of GI tract (eg, tube feeding)
+** antibiotic culprits
+- Clindamycin
+- Cephalosporins (3rd/4th gen)
+- Carbapenems
+- Fluoroquinolones
+** pathophysiology
+- Gram-(+) spore-forming anaerobic bacillus
+- causes a toxin-mediated disease
+- toxins A (enterotoxin) and B (cytotoxin), causing damage to colonic mucosa
+** treatment
+- vancomycin 125mg PO QID x10d
+- fidaxomicin 200mg PO BID x10d
+*** initial epsiode, fulminant
+vancomycin PO 500mg QID + metronidazole 500mg IV q8h
 ** [#A] clinical definitions
 *** initial episode, non-severe
 WBC <= 15k and SCr <= 1.5

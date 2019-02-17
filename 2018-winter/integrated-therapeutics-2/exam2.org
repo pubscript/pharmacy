@@ -478,7 +478,11 @@ Atrovent
 - tachycardia
 - muscle tremors
 ****** long acting inhaled muscarinic receptor antagonists (LAMAs)
+******* naming scheme
+- -ium
+- glycopyrollate
 ******* drugs :l:
+******** glycopyrollate
 ******** tiotropium
 ********* brand
 Spiriva

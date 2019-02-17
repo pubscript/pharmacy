@@ -1,0 +1,741 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     25878,        733]
+NotebookOptionsPosition[     20936,        650]
+NotebookOutlinePosition[     21288,        666]
+CellTagsIndexPosition[     21245,        663]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[StyleBox["Nonlinear Pharmacokinetics", "Title"]], "Text",
+ CellChangeTimes->{{3.7588883602152443`*^9, 
+  3.7588883700584517`*^9}},ExpressionUUID->"a9e70e06-b69b-4d80-b96f-\
+2f5cd6e00e89"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"MichaelisMentin", "[", 
+   RowBox[{"C_", ",", "Vmax_", ",", " ", "Km_"}], "]"}], "=", "V"}]], "Input",\
+
+ CellChangeTimes->{{3.7588910097421637`*^9, 
+  3.758891074152022*^9}},ExpressionUUID->"fcf817d4-c533-4457-a3f8-\
+736df630daa2"],
+
+Cell["\<\
+
+1. Phenytoin was administered to a patient at dosing rates of 150 and 300 \
+mg/day, respectively. The steady-state plasma drug concentrations were 8.6 \
+and 25.1 mg/L, respectively. Find the K_M and V_max of this patient. What \
+dose is needed to achieve a new steady-state concentration of 11.3 mg/L?\
+\>", "Text",
+ CellChangeTimes->{{3.75889204193137*^9, 3.758892044686705*^9}, {
+  3.758892207982044*^9, 3.7588922105783033`*^9}, {3.758892811146573*^9, 
+  3.758892811625876*^9}},ExpressionUUID->"60d3c711-5a7e-41a2-b759-\
+73d5b5806869"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   SubscriptBox["R", 
+    RowBox[{"a", ",", "1"}]], "=", "150"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["R", 
+    RowBox[{"a", ",", "2"}]], "=", "300"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["C", 
+    RowBox[{"ss", ",", "1"}]], "=", "8.6"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["C", 
+    RowBox[{"ss", ",", "2"}]], "=", "25.1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"S", "=", 
+   RowBox[{"F", "=", "1."}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.758892081909363*^9, 3.758892116495525*^9}, {
+  3.7588921720423594`*^9, 3.758892176039163*^9}, {3.758893642467513*^9, 
+  3.758893646599092*^9}},
+ CellLabel->"In[72]:=",ExpressionUUID->"d2833c43-087c-4f07-8524-eefc11ca874c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["K", "M"], "=", 
+  FractionBox[
+   RowBox[{
+    SubscriptBox["R", 
+     RowBox[{"a", ",", "2"}]], "-", 
+    SubscriptBox["R", 
+     RowBox[{"a", ",", "1"}]]}], 
+   RowBox[{
+    FractionBox[
+     SubscriptBox["R", 
+      RowBox[{"a", ",", "1"}]], 
+     SubscriptBox["C", 
+      RowBox[{"ss", ",", "1"}]]], "-", 
+    FractionBox[
+     SubscriptBox["R", 
+      RowBox[{"a", ",", "2"}]], 
+     SubscriptBox["C", 
+      RowBox[{"ss", ",", "2"}]]]}]]}]], "Input",
+ CellChangeTimes->{{3.758892124154694*^9, 3.758892156528841*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"03f1a7c0-5799-4609-b7de-03802ece6243"],
+
+Cell[BoxData["27.324050632911398`"], "Output",
+ CellChangeTimes->{3.758892158643114*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"62980be1-eb84-4767-b488-24c34ac182c1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["V", "max"], "=", 
+  FractionBox[
+   RowBox[{"S", "*", "F", "*", 
+    SubscriptBox["R", 
+     RowBox[{"a", ",", "1"}]], "*", 
+    RowBox[{"(", 
+     RowBox[{
+      SubscriptBox["K", "M"], "+", 
+      SubscriptBox["C", 
+       RowBox[{"ss", ",", "1"}]]}], ")"}]}], 
+   SubscriptBox["C", 
+    RowBox[{"ss", ",", "1"}]]]}]], "Input",
+ CellChangeTimes->{{3.7588921599770613`*^9, 3.758892197864332*^9}, {
+  3.758892443027012*^9, 3.758892446172964*^9}},
+ CellLabel->"In[17]:=",ExpressionUUID->"3029d4b8-75fa-4b5c-8545-2a644fa664f8"],
+
+Cell[BoxData["626.5822784810126`"], "Output",
+ CellChangeTimes->{3.75889219918363*^9, 3.758892449173889*^9},
+ CellLabel->"Out[17]=",ExpressionUUID->"e600a20d-43ba-4087-a916-bbac10267166"]
+}, Open  ]],
+
+Cell["dose to achieve a steady-state concentration of 11.3 mg/L:", "Text",
+ CellChangeTimes->{{3.758892283678419*^9, 
+  3.7588923015945377`*^9}},ExpressionUUID->"e445ed68-3419-480c-addd-\
+f748e16f3f42"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+   SubscriptBox["V", "max"], "*", "11.3"}], 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     SubscriptBox["K", "M"], "+", "11.3"}], ")"}], "*", "S", "*", 
+   "F"}]]], "Input",
+ CellChangeTimes->{{3.7588922358844433`*^9, 3.758892266817865*^9}},
+ CellLabel->"In[18]:=",ExpressionUUID->"64e230f3-e59f-4e21-a3f5-d5be0cc5339a"],
+
+Cell[BoxData["183.3153082292793`"], "Output",
+ CellChangeTimes->{3.758892268477817*^9, 3.758892450609665*^9},
+ CellLabel->"Out[18]=",ExpressionUUID->"c847577c-8d96-4af9-b43c-5e5787f43377"]
+}, Open  ]],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{
+  3.758892680642445*^9},ExpressionUUID->"0ed924d5-3ab0-49ca-825d-\
+25a86bf09728"],
+
+Cell["\<\
+2. Phenytoin was administered to a patient at dosing rates of 150 and 300 \
+mg/day, respectively. The steady-state plasma drug concentrations were 8.6 \
+and 25.1 mg/L, respectively. What steady-state concentration will be achieved \
+if the patient receives phenytoin at a dosing rate of 400 mg/day?\
+\>", "Text",
+ CellChangeTimes->{{3.758892657492107*^9, 3.758892678363275*^9}, {
+  3.758892817788994*^9, 
+  3.75889281816572*^9}},ExpressionUUID->"7bd8161f-9c96-4a08-91c6-\
+b265660d1da4"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   SubscriptBox["R", 
+    RowBox[{"a", ",", "1"}]], "=", "150"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["R", 
+    RowBox[{"a", ",", "2"}]], "=", "300"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["C", 
+    RowBox[{"ss", ",", "1"}]], "=", "8.6"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["C", 
+    RowBox[{"ss", ",", "2"}]], "=", "25.1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"S", "=", 
+   RowBox[{"F", "=", "1."}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.758892081909363*^9, 3.758892116495525*^9}, {
+  3.7588921720423594`*^9, 3.758892176039163*^9}, {3.758893634979681*^9, 
+  3.758893638895152*^9}},
+ CellLabel->"In[67]:=",ExpressionUUID->"c080c39d-294b-4125-9835-4f3f85c696b4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  SubscriptBox["K", "M"], "=", 
+  FractionBox[
+   RowBox[{
+    SubscriptBox["R", 
+     RowBox[{"a", ",", "2"}]], "-", 
+    SubscriptBox["R", 
+     RowBox[{"a", ",", "1"}]]}], 
+   RowBox[{
+    FractionBox[
+     SubscriptBox["R", 
+      RowBox[{"a", ",", "1"}]], 
+     SubscriptBox["C", 
+      RowBox[{"ss", ",", "1"}]]], "-", 
+    FractionBox[
+     SubscriptBox["R", 
+      RowBox[{"a", ",", "2"}]], 
+     SubscriptBox["C", 
+      RowBox[{"ss", ",", "2"}]]]}]]}], "\[IndentingNewLine]", 
+ RowBox[{
+  SubscriptBox["V", "max"], "=", 
+  FractionBox[
+   RowBox[{"S", "*", "F", "*", 
+    SubscriptBox["R", 
+     RowBox[{"a", ",", "1"}]], "*", 
+    RowBox[{"(", 
+     RowBox[{
+      SubscriptBox["K", "M"], "+", 
+      SubscriptBox["C", 
+       RowBox[{"ss", ",", "1"}]]}], ")"}]}], 
+   SubscriptBox["C", 
+    RowBox[{"ss", ",", "1"}]]]}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.758892714392956*^9, 3.758892744509881*^9}},
+ CellLabel->"In[24]:=",ExpressionUUID->"5126dd24-7bb1-4625-b476-01ecd53070d6"],
+
+Cell[BoxData["27.324050632911398`"], "Output",
+ CellChangeTimes->{3.758892745556407*^9},
+ CellLabel->"Out[24]=",ExpressionUUID->"eaa1bfb9-a79d-4580-9b08-6212e1386e2c"],
+
+Cell[BoxData["626.5822784810126`"], "Output",
+ CellChangeTimes->{3.758892745560568*^9},
+ CellLabel->"Out[25]=",ExpressionUUID->"cd9acb80-c307-49d6-8c06-cce008ce16c2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["R", "a"], "=", "400"}]], "Input",
+ CellChangeTimes->{{3.758892769615532*^9, 3.7588927725457277`*^9}},
+ CellLabel->"In[27]:=",ExpressionUUID->"b61447a4-bcb7-4e3d-b5cf-1472fe1d6b08"],
+
+Cell[BoxData["400"], "Output",
+ CellChangeTimes->{3.758892794776373*^9},
+ CellLabel->"Out[27]=",ExpressionUUID->"522aa269-20d8-4c35-a660-ce83d66c4042"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["C", "ss"], "=", 
+  FractionBox[
+   RowBox[{
+    SubscriptBox["K", "M"], "*", "S", "*", "F", "*", 
+    SubscriptBox["R", "a"]}], 
+   RowBox[{
+    SubscriptBox["V", "max"], "-", 
+    RowBox[{"S", "*", "F", "*", 
+     SubscriptBox["R", "a"]}]}]]}]], "Input",
+ CellChangeTimes->{{3.758892748330611*^9, 3.758892790557859*^9}},
+ CellLabel->"In[28]:=",ExpressionUUID->"97257d66-fdbb-4130-8e33-d6d1bbc80ce0"],
+
+Cell[BoxData["48.236871508379906`"], "Output",
+ CellChangeTimes->{{3.758892791673092*^9, 3.7588927966487637`*^9}},
+ CellLabel->"Out[28]=",ExpressionUUID->"53824957-4ddb-4021-8a7f-add2b7cd8057"]
+}, Open  ]],
+
+Cell["\<\
+
+3. Phenytoin was administered to a patient (77kg) at dosing rates of 150 and \
+300 mg/day, respectively. The steady-state plasma drug concentrations were \
+8.6 and 25.1 mg/L, respectively. You are given that the volume of \
+distribution in this patient is 0.65 L/Kg. How long will it take to reach 90% \
+of the steady-state drug concentration after the dose of 150 and 300 mg/day, \
+respectively?
+\
+\>", "Text",
+ CellChangeTimes->{{3.75889302911157*^9, 3.7588930328600407`*^9}, {
+  3.7588933503142033`*^9, 
+  3.758893350755754*^9}},ExpressionUUID->"b98b6122-90da-492c-bebf-\
+f471fd9ca6a6"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   SubscriptBox["V", "d"], "=", 
+   RowBox[{"77", "*", "0.65"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["R", 
+    RowBox[{"a", ",", "1"}]], "=", "150"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["R", 
+    RowBox[{"a", ",", "2"}]], "=", "300"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["C", 
+    RowBox[{"ss", ",", "1"}]], "=", "8.6"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["C", 
+    RowBox[{"ss", ",", "2"}]], "=", "25.1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"S", "=", 
+   RowBox[{"F", "=", "1."}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.758893067924974*^9, 3.758893122373818*^9}, {
+  3.758893202924979*^9, 3.758893205611001*^9}, {3.758893579709467*^9, 
+  3.758893586685811*^9}},
+ CellLabel->"In[61]:=",ExpressionUUID->"dee2385a-d001-4b00-aa35-817fee3eb427"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["K", "M"], "=", 
+  FractionBox[
+   RowBox[{
+    SubscriptBox["R", 
+     RowBox[{"a", ",", "2"}]], "-", 
+    SubscriptBox["R", 
+     RowBox[{"a", ",", "1"}]]}], 
+   RowBox[{
+    FractionBox[
+     SubscriptBox["R", 
+      RowBox[{"a", ",", "1"}]], 
+     SubscriptBox["C", 
+      RowBox[{"ss", ",", "1"}]]], "-", 
+    FractionBox[
+     SubscriptBox["R", 
+      RowBox[{"a", ",", "2"}]], 
+     SubscriptBox["C", 
+      RowBox[{"ss", ",", "2"}]]]}]]}]], "Input",
+ CellChangeTimes->{{3.7588931500152884`*^9, 3.758893164738171*^9}},
+ CellLabel->"In[34]:=",ExpressionUUID->"297f8983-bfd4-419c-af70-881dcd30544f"],
+
+Cell[BoxData["27.324050632911398`"], "Output",
+ CellChangeTimes->{3.7588931673715754`*^9},
+ CellLabel->"Out[34]=",ExpressionUUID->"109924c9-a02a-4054-af20-1524765385e0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["V", "max"], "=", 
+  FractionBox[
+   RowBox[{"S", "*", "F", "*", 
+    SubscriptBox["R", 
+     RowBox[{"a", ",", "1"}]], "*", 
+    RowBox[{"(", 
+     RowBox[{
+      SubscriptBox["K", "M"], "+", 
+      SubscriptBox["C", 
+       RowBox[{"ss", ",", "1"}]]}], ")"}]}], 
+   SubscriptBox["C", 
+    RowBox[{"ss", ",", "1"}]]]}]], "Input",
+ CellChangeTimes->{{3.758893266608481*^9, 3.758893276540868*^9}},
+ CellLabel->"In[41]:=",ExpressionUUID->"7e6e34c1-afd5-4ed4-b2ae-184a6a80238f"],
+
+Cell[BoxData["626.5822784810126`"], "Output",
+ CellChangeTimes->{3.7588932775066843`*^9},
+ CellLabel->"Out[41]=",ExpressionUUID->"c0bec59f-7e35-4d43-9d7d-7ac9a0f1f712"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  SubscriptBox["t", 
+   RowBox[{
+    RowBox[{"90", "%"}], ",", "1"}]], "=", 
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SubscriptBox["K", "M"], "*", 
+     SubscriptBox["V", "d"]}], 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       SubscriptBox["V", "max"], "-", 
+       RowBox[{"S", "*", "F", "*", 
+        SubscriptBox["R", 
+         RowBox[{"a", ",", "1"}]]}]}], ")"}], "2"]], 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"2.3", "*", 
+      SubscriptBox["V", "max"]}], "-", 
+     RowBox[{"0.9", "*", "S", "*", "F", "*", 
+      SubscriptBox["R", 
+       RowBox[{"a", ",", "1"}]]}]}], ")"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  SubscriptBox["t", 
+   RowBox[{
+    RowBox[{"90", "%"}], ",", "2"}]], "=", 
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SubscriptBox["K", "M"], "*", 
+     SubscriptBox["V", "d"]}], 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       SubscriptBox["V", "max"], "-", 
+       RowBox[{"S", "*", "F", "*", 
+        SubscriptBox["R", 
+         RowBox[{"a", ",", "2"}]]}]}], ")"}], "2"]], 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"2.3", "*", 
+      SubscriptBox["V", "max"]}], "-", 
+     RowBox[{"0.9", "*", "S", "*", "F", "*", 
+      SubscriptBox["R", 
+       RowBox[{"a", ",", "2"}]]}]}], ")"}]}]}]}], "Input",
+ CellChangeTimes->{{3.758893124935842*^9, 3.7588933330592318`*^9}},
+ CellLabel->"In[45]:=",ExpressionUUID->"ccc4d67f-931b-4f0d-8d7a-d061e900df18"],
+
+Cell[BoxData["7.864350517928289`"], "Output",
+ CellChangeTimes->{{3.758893292335948*^9, 3.7588933335863*^9}},
+ CellLabel->"Out[45]=",ExpressionUUID->"46e97c49-04e3-40e2-b916-1037e7c9008e"],
+
+Cell[BoxData["15.016629534883725`"], "Output",
+ CellChangeTimes->{{3.758893292335948*^9, 3.7588933335942087`*^9}},
+ CellLabel->"Out[46]=",ExpressionUUID->"7143622c-bc2f-461d-86da-5eb959497a42"]
+}, Open  ]],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{
+  3.7588934073072987`*^9},ExpressionUUID->"8a5a63e6-9715-4e14-952d-\
+c90446187615"],
+
+Cell["\<\
+4. A patient is given a phenytoin dose of 300 mg/day for 10 days. A blood \
+level is drawn at this time and Cp = 26 mg/L. How long would it take for this \
+concentration to drop to 15 mg/L?
+Assume: KM = 4mg/L, Vmax = 292 mg/day, and Vd = 45.5L\
+\>", "Text",
+ CellChangeTimes->{{3.7588934013197813`*^9, 
+  3.758893404671598*^9}},ExpressionUUID->"483e7527-dcc4-48e9-a1f0-\
+5c9b79600eb5"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   SubscriptBox["K", "M"], "=", "4"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["V", "max"], "=", "292"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["V", "d"], "=", "45.5"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["R", "a"], "=", "300"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["C", "1"], "=", "26"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["C", "2"], "=", "15"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.7588934096710567`*^9, 3.7588934654071007`*^9}, {
+  3.758893559630745*^9, 3.758893565795274*^9}},
+ CellLabel->"In[55]:=",ExpressionUUID->"893e5f17-46a6-47ce-b787-da1fe9e84923"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"t", "=", 
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     RowBox[{
+      SubscriptBox["K", "M"], "*", 
+      RowBox[{"Log", "[", 
+       RowBox[{
+        SubscriptBox["C", "1"], "/", 
+        SubscriptBox["C", "2"]}], "]"}]}], "+", 
+     RowBox[{"(", 
+      RowBox[{
+       SubscriptBox["C", "1"], "-", 
+       SubscriptBox["C", "2"]}], ")"}]}], 
+    RowBox[{
+     SubscriptBox["V", "max"], "/", 
+     SubscriptBox["V", "d"]}]], Cell[
+   "days",ExpressionUUID->
+    "b3979ca7-c8f7-419c-a515-ba9f9b20a5f3"]}]}]], "Input",
+ CellChangeTimes->{{3.758893472597763*^9, 3.758893520917347*^9}, {
+  3.7588942295760593`*^9, 3.758894231462022*^9}},
+ CellLabel->"In[90]:=",ExpressionUUID->"ec6c9bfe-2592-44fd-9686-59ac4c9e3534"],
+
+Cell[BoxData[
+ RowBox[{"2.056878196298998`", " ", 
+  InterpretationBox[Cell[
+   "days",ExpressionUUID->"4d806eea-91a6-4773-a529-80f01479750c"],
+   TextCell["days"]]}]], "Output",
+ CellChangeTimes->{{3.758893517113394*^9, 3.758893521515417*^9}, 
+   3.758894236137044*^9},
+ CellLabel->"Out[90]=",ExpressionUUID->"b674873e-b53f-4d5d-a5ce-65c9d4c8dc6b"]
+}, Open  ]],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{
+  3.758893857433535*^9},ExpressionUUID->"420e9d81-e52e-4892-8889-\
+29a9ffd5d446"],
+
+Cell["\<\
+5. Calculate the phenytoin loading dose required to achieve a concentration \
+of 15 mg/L in a 50 yo male patient (70 kg) after oral administration.
+Recall, F =1, S = 0.92. Vd = 0.65 L/kg\
+\>", "Text",
+ CellChangeTimes->{{3.7588938501190367`*^9, 
+  3.7588938558307*^9}},ExpressionUUID->"9b0f58fc-dc5a-47b5-874b-1f7f12aa3385"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"S", "=", "0.92"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"F", "=", "1."}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["V", "d"], "=", 
+   RowBox[{"0.65", "*", "70"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["C", "desired"], "=", "15"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.7588938616712513`*^9, 3.7588939071898947`*^9}, {
+  3.758893967660987*^9, 3.7588939702073793`*^9}},
+ CellLabel->"In[82]:=",ExpressionUUID->"631a32c0-8917-47b5-9055-c14b427d7aa3"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox[
+   RowBox[{
+    SubscriptBox["C", "desired"], 
+    SubscriptBox["V", "d"]}], 
+   RowBox[{"S", "*", "F"}]], Cell[
+  "mg loading dose",ExpressionUUID->
+   "2cd3f11c-d5d9-48a0-98c7-2949a66cceb9"]}]], "Input",
+ CellChangeTimes->{{3.7588939415812597`*^9, 3.758893988030027*^9}, {
+  3.758894127398047*^9, 3.7588942004209957`*^9}},
+ CellLabel->"In[91]:=",ExpressionUUID->"eb637ab1-600c-4e2d-9cfa-3ec1328e7c7a"],
+
+Cell[BoxData[
+ RowBox[{"741.8478260869565`", " ", 
+  InterpretationBox[Cell[
+   "mg loading dose",ExpressionUUID->"44a4e489-5ca8-4384-85da-8d76021b0f47"],
+   TextCell["mg loading dose"]]}]], "Output",
+ CellChangeTimes->{3.7588942010139627`*^9, 3.758894251483116*^9},
+ CellLabel->"Out[91]=",ExpressionUUID->"a25399d5-d99b-4a98-b75f-0376b8fe5db8"]
+}, Open  ]],
+
+Cell["approx. 750 mg", "Text",
+ CellChangeTimes->{{3.758894011786048*^9, 
+  3.7588940158010693`*^9}},ExpressionUUID->"3f9deef7-5907-43cf-8ec1-\
+3bdc5c24bc50"],
+
+Cell["\<\
+
+
+6. A patient (70 kg) has been receiving 300 mg/day of phenytoin capsules. His \
+plasma concentration has been stable at 10 mg/L on several occasions. The \
+patient\[CloseCurlyQuote]s seizures have only been partially controlled at \
+this dose. Calculate a maintenance dose to achieve a new steady state \
+concentration of 20 mg/L. Recall that F =1, S = 0.92, Vd = 0.65 L/kg, and KM \
+= 4 mg/L.
+\
+\>", "Text",
+ CellChangeTimes->{{3.758894023850238*^9, 
+  3.758894042689415*^9}},ExpressionUUID->"54f5670d-fc4b-4d26-be58-\
+3762f611416d"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"F", "=", "1."}], ";", " ", 
+  RowBox[{"S", "=", "0.92"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["V", "d"], "=", 
+   RowBox[{"0.65", "*", "70"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["K", "M"], "=", "4"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["C", 
+    RowBox[{"ss", ",", "1"}]], "=", "10"}], ";", " ", 
+  RowBox[{
+   SubscriptBox["C", 
+    RowBox[{"ss", ",", "2"}]], "=", "20"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["R", "a"], "=", "300"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.7588940438391953`*^9, 3.758894068549665*^9}, {
+  3.758894301015023*^9, 3.758894323302932*^9}, {3.758894499683043*^9, 
+  3.7588945029064817`*^9}},
+ CellLabel->"In[99]:=",ExpressionUUID->"e08bf81d-59a4-4fb5-93de-292ad4ac7ff2"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  SubscriptBox["V", "max"], "=", 
+  FractionBox[
+   RowBox[{"S", "*", "F", "*", 
+    SubscriptBox["R", "a"], "*", 
+    RowBox[{"(", 
+     RowBox[{
+      SubscriptBox["K", "M"], "+", 
+      SubscriptBox["C", 
+       RowBox[{"ss", ",", "1"}]]}], ")"}]}], 
+   SubscriptBox["C", 
+    RowBox[{"ss", ",", "1"}]]]}], "\[IndentingNewLine]", 
+ RowBox[{
+  SubscriptBox["R", 
+   RowBox[{"a", ",", "new"}]], "=", 
+  FractionBox[
+   RowBox[{
+    SubscriptBox["V", "max"], 
+    SubscriptBox["C", 
+     RowBox[{"ss", ",", "1"}]]}], 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      SubscriptBox["K", "M"], "+", 
+      SubscriptBox["C", 
+       RowBox[{"ss", ",", "1"}]]}], ")"}], "*", "S", "*", "F"}]]}]}], "Input",\
+
+ CellChangeTimes->{{3.758894379442834*^9, 3.758894389670562*^9}, {
+  3.758894480434444*^9, 3.758894647262616*^9}},
+ CellLabel->
+  "In[104]:=",ExpressionUUID->"d93e535a-2495-4536-a8ba-0a0bf92169e5"],
+
+Cell[BoxData["386.4`"], "Output",
+ CellChangeTimes->{3.758894650857794*^9},
+ CellLabel->
+  "Out[104]=",ExpressionUUID->"e84600f8-a5b0-427e-afb0-dafdc8429896"],
+
+Cell[BoxData["300.`"], "Output",
+ CellChangeTimes->{3.758894650862522*^9},
+ CellLabel->
+  "Out[105]=",ExpressionUUID->"460d96c1-e3f5-4181-b8af-ba655a6d9250"]
+}, Open  ]]
+},
+WindowSize->{601, 852},
+WindowMargins->{{4, Automatic}, {0, Automatic}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 201, 3, 135, "Text",ExpressionUUID->"a9e70e06-b69b-4d80-b96f-2f5cd6e00e89"],
+Cell[762, 25, 267, 7, 30, "Input",ExpressionUUID->"fcf817d4-c533-4457-a3f8-736df630daa2"],
+Cell[1032, 34, 548, 10, 127, "Text",ExpressionUUID->"60d3c711-5a7e-41a2-b759-73d5b5806869"],
+Cell[1583, 46, 814, 23, 123, "Input",ExpressionUUID->"d2833c43-087c-4f07-8524-eefc11ca874c"],
+Cell[CellGroupData[{
+Cell[2422, 73, 640, 21, 66, "Input",ExpressionUUID->"03f1a7c0-5799-4609-b7de-03802ece6243"],
+Cell[3065, 96, 166, 2, 34, "Output",ExpressionUUID->"62980be1-eb84-4767-b488-24c34ac182c1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3268, 103, 565, 16, 56, "Input",ExpressionUUID->"3029d4b8-75fa-4b5c-8545-2a644fa664f8"],
+Cell[3836, 121, 187, 2, 34, "Output",ExpressionUUID->"e600a20d-43ba-4087-a916-bbac10267166"]
+}, Open  ]],
+Cell[4038, 126, 202, 3, 35, "Text",ExpressionUUID->"e445ed68-3419-480c-addd-f748e16f3f42"],
+Cell[CellGroupData[{
+Cell[4265, 133, 359, 10, 50, "Input",ExpressionUUID->"64e230f3-e59f-4e21-a3f5-d5be0cc5339a"],
+Cell[4627, 145, 188, 2, 34, "Output",ExpressionUUID->"c847577c-8d96-4af9-b43c-5e5787f43377"]
+}, Open  ]],
+Cell[4830, 150, 147, 3, 52, "Input",ExpressionUUID->"0ed924d5-3ab0-49ca-825d-25a86bf09728"],
+Cell[4980, 155, 496, 9, 104, "Text",ExpressionUUID->"7bd8161f-9c96-4a08-91c6-b265660d1da4"],
+Cell[5479, 166, 814, 23, 123, "Input",ExpressionUUID->"c080c39d-294b-4125-9835-4f3f85c696b4"],
+Cell[CellGroupData[{
+Cell[6318, 193, 1036, 34, 141, "Input",ExpressionUUID->"5126dd24-7bb1-4625-b476-01ecd53070d6"],
+Cell[7357, 229, 167, 2, 34, "Output",ExpressionUUID->"eaa1bfb9-a79d-4580-9b08-6212e1386e2c"],
+Cell[7527, 233, 166, 2, 34, "Output",ExpressionUUID->"cd9acb80-c307-49d6-8c06-cce008ce16c2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7730, 240, 220, 4, 30, "Input",ExpressionUUID->"b61447a4-bcb7-4e3d-b5cf-1472fe1d6b08"],
+Cell[7953, 246, 151, 2, 34, "Output",ExpressionUUID->"522aa269-20d8-4c35-a660-ce83d66c4042"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8141, 253, 440, 12, 50, "Input",ExpressionUUID->"97257d66-fdbb-4130-8e33-d6d1bbc80ce0"],
+Cell[8584, 267, 193, 2, 34, "Output",ExpressionUUID->"53824957-4ddb-4021-8a7f-add2b7cd8057"]
+}, Open  ]],
+Cell[8792, 272, 600, 13, 173, "Text",ExpressionUUID->"b98b6122-90da-492c-bebf-f471fd9ca6a6"],
+Cell[9395, 287, 931, 27, 144, "Input",ExpressionUUID->"dee2385a-d001-4b00-aa35-817fee3eb427"],
+Cell[CellGroupData[{
+Cell[10351, 318, 643, 21, 66, "Input",ExpressionUUID->"297f8983-bfd4-419c-af70-881dcd30544f"],
+Cell[10997, 341, 169, 2, 34, "Output",ExpressionUUID->"109924c9-a02a-4054-af20-1524765385e0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11203, 348, 514, 15, 56, "Input",ExpressionUUID->"7e6e34c1-afd5-4ed4-b2ae-184a6a80238f"],
+Cell[11720, 365, 168, 2, 34, "Output",ExpressionUUID->"c0bec59f-7e35-4d43-9d7d-7ac9a0f1f712"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11925, 372, 1434, 48, 102, "Input",ExpressionUUID->"ccc4d67f-931b-4f0d-8d7a-d061e900df18"],
+Cell[13362, 422, 188, 2, 34, "Output",ExpressionUUID->"46e97c49-04e3-40e2-b916-1037e7c9008e"],
+Cell[13553, 426, 193, 2, 34, "Output",ExpressionUUID->"7143622c-bc2f-461d-86da-5eb959497a42"]
+}, Open  ]],
+Cell[13761, 431, 149, 3, 52, "Input",ExpressionUUID->"8a5a63e6-9715-4e14-952d-c90446187615"],
+Cell[13913, 436, 395, 8, 104, "Text",ExpressionUUID->"483e7527-dcc4-48e9-a1f0-5c9b79600eb5"],
+Cell[14311, 446, 756, 21, 136, "Input",ExpressionUUID->"893e5f17-46a6-47ce-b787-da1fe9e84923"],
+Cell[CellGroupData[{
+Cell[15092, 471, 737, 22, 50, "Input",ExpressionUUID->"ec6c9bfe-2592-44fd-9686-59ac4c9e3534"],
+Cell[15832, 495, 349, 7, 36, "Output",ExpressionUUID->"b674873e-b53f-4d5d-a5ce-65c9d4c8dc6b"]
+}, Open  ]],
+Cell[16196, 505, 147, 3, 52, "Input",ExpressionUUID->"420e9d81-e52e-4892-8889-29a9ffd5d446"],
+Cell[16346, 510, 334, 6, 81, "Text",ExpressionUUID->"9b0f58fc-dc5a-47b5-874b-1f7f12aa3385"],
+Cell[16683, 518, 558, 14, 94, "Input",ExpressionUUID->"631a32c0-8917-47b5-9055-c14b427d7aa3"],
+Cell[CellGroupData[{
+Cell[17266, 536, 442, 11, 48, "Input",ExpressionUUID->"eb637ab1-600c-4e2d-9cfa-3ec1328e7c7a"],
+Cell[17711, 549, 345, 6, 36, "Output",ExpressionUUID->"a25399d5-d99b-4a98-b75f-0376b8fe5db8"]
+}, Open  ]],
+Cell[18071, 558, 158, 3, 35, "Text",ExpressionUUID->"3f9deef7-5907-43cf-8ec1-3bdc5c24bc50"],
+Cell[18232, 563, 546, 13, 196, "Text",ExpressionUUID->"54f5670d-fc4b-4d26-be58-3762f611416d"],
+Cell[18781, 578, 867, 24, 117, "Input",ExpressionUUID->"e08bf81d-59a4-4fb5-93de-292ad4ac7ff2"],
+Cell[CellGroupData[{
+Cell[19673, 606, 926, 31, 104, "Input",ExpressionUUID->"d93e535a-2495-4536-a8ba-0a0bf92169e5"],
+Cell[20602, 639, 158, 3, 34, "Output",ExpressionUUID->"e84600f8-a5b0-427e-afb0-dafdc8429896"],
+Cell[20763, 644, 157, 3, 68, "Output",ExpressionUUID->"460d96c1-e3f5-4181-b8af-ba655a6d9250"]
+}, Open  ]]
+}
+]
+*)
+
