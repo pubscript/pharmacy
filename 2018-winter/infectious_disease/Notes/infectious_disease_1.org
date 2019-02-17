@@ -685,7 +685,7 @@ avoid in children because it may cause Reye’s syndrome
 ***** dosing‘
 - 30 mL (2 tabs) q30-60min
 - max 8 doses q24h
-**** when antibiotic therapy recommended
+**** [#A] when antibiotic therapy recommended
 - Severe diarrhea 
 - Moderate-to-severe cases of traveler’s diarrhea
 - Most cases of febrile dysenteric diarrhea
@@ -742,19 +742,26 @@ symptomatic relief
 ***** azithromycin
 ****** dose
 1 g PO x1 or 500 mg PO QD x3
-****** indication
-South and Southeast ASia
+****** [#A] indication
+South and Southeast Asia
 ***** Rifaximin
 ****** dose
 200 mg PO TID x3
-****** indication
-Mexico and Jamaica
+****** [#A] indication
+- Latin America
+- Jamaica
+- Africa
+- E. coli
 ** food poisoining
 *** Enterotoxigenic poisonings
 - Bacillus cereus
 - Clostridium botuilism
 - Clostridium perfringens (type A)
 - Staphylococcus aureus
+*** treatment options
+- supportive care
+- fluid replacement
+- antimicrobials are not effective
 * intra-abdominal infections
 ** pathophysiology
 bacterial entry into and collections in the peritoneal or retroperitoneal spaces
@@ -1139,6 +1146,8 @@ ischemia
 - C-reactive protein (CRP)---predicts resposne to therapy; fluctuates sooner than ESR does
 - Elevated erythrocyte sedimentation rate (ESR)
 - MRI
+*** cause
+Staphylococcus aureus
 *** Gram-(+) antibiotic therapy
 **** empiric
 ***** preferred
@@ -1176,6 +1185,24 @@ Cefazolin 2 g; for patients weighing ≥ 120 kg, 3 g
   - GI procedures
   - GU procedures
   - dental procedures
+** diagnosis
+*** definitive quiz!
+- Duke criteria
+  - 2 major
+  - 1 major + 3 minor
+  - 5 minor
+- microorganisms identified by culture or histologic examination
+- active endocaarditis confirmed by histologic examination
+*** Duke criteria
+**** major
+- positive blood culture
+- evidence of endocardial involvement
+**** minor
+- heart condition or IVDU
+- fever
+- vascular phenomena
+- immunologic phenomena
+- positive blood culture not meeting criteria
 ** causative organisms
 - Staphylococci spp.
 - Streptococci spp.
@@ -1207,6 +1234,8 @@ avoid aminoglycosides
 vancomycin + rifampin + gentamicin
 **** Viridians Streptococci and S. gallolyticus
 **** 
+* anti-MRSA antibiotics quiz!
+* anti-Pseudomonal antibiotics quiz!
 * CNS infections
 ** Bacterial meningitis
 *** causes quiz_5
@@ -1300,3 +1329,18 @@ ampicillin 2g q4h
 ** Viral meningitis
 ** Encephalitis
 ** Infectious thrombophlebitis
+* C. difficile
+** [#A] clinical definitions
+*** initial episode, non-severe
+WBC <= 15k and SCr <= 1.5
+*** initial episode, severe
+WBC > 15k or SCr > 1.5
+*** initial episode, fulminant
+- hypotension or shock
+- ileus
+- megacolon
+** [#B] measures to prevent and control CDI
+- medical/hospital hygiene
+- chlorine wipes
+- antimicrobial stewardship (restrict use of cephalosporin and clindamycin)
+
