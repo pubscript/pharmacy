@@ -1,4 +1,138 @@
 #+OPTIONS: tex:t
+* Wang /pharmacology
+** [#A] class → ion channel target
+*** 1a
+Na fast channel block; prolonging action potential
+*** 1b
+Na; shorten action potential
+*** 1c
+- Na; doesn’t prolong APD or QT interval
+- supraventricular arrhythmias
+*** 2
+β blockers; prolong AP
+*** 3
+K
+**** effects
+- ↑ APD
+- ↑ QT
+- ↑ refractory periods
+*** 4
+Ca
+** [#B] drug → ion channel
+*** lidocaine
+inhibits sodium current
+*** amiodarone
+- inhibits I_Na, I_Ca, I_Kr, I_Ks
+- ↑ APD
+- ↑ QT interval
+*** verapamil
+lCa
+** [#A] drug → classification
+*** diltiazem
+class 4 CCB
+*** lidocaine
+subgroup 1B
+*** dronedarone
+class 3; prolongs refractory peroid
+*** metoprolol
+class 2 β-blocker
+*** name some other antiarrhythmic drugs
+- adenosine
+- digoxin
+** [#C] drugs that can’t prolong APD or QT interval
+- flecainide
+- propafenone
+** [#C] lidocaine’s use-dependent effect
+- doesn’t affect healthy tissue
+- rapid kinetics selectively depresses conduction in depolarized, diseased cells
+** [#C] amiodarone adverse drug reactions 
+- blindness
+- thyroid
+- pulmonary fibrosis
+- Torsades de pointes
+** [#B] digoxin
+*** mechanism of action
+- parasymathomimetic effects
+- good for AF
+- pro-arrhythmic otherwise because it increases sympathetic outflow
+*** adverse drug reactions
+- digitalis-induced bigeminy; DAD
+- ventricular fibrillation (VF)
+*** [#A] why digoxin is pro-arrhythmic
+- sympathetic outflow increased at toxic levels
+- [Ca]_i overload
+*** [#B] positive ionotropic effect of digoxin
+- ↑ [Ca]_i
+- ↑ [Na]_i
+- ⇥ Na-K-ATPase
+- ↑ NCX
+- ↑ contractility
+** [#C] similarity of ibutilide and amiodarone
+I_Kr
+** [#C] dobutamine
+*** mechanism of action 
+- positive inotropic effect
+- selective β-1 agonist
+*** signaling pathway
+1. β-agonism
+2. ↑ PKA
+3. phosphorylation of phospholamban
+4. ⇥ SERCA
+** Name phosphorylation targets of PKA following activation of beta receptors and/or inhibition of PDE :l:
+*** RyR2
+*** Ca channel protein
+*** Phospholamban
+1. β-agonism
+2. ↑ PKA
+3. phosphorylation of phospholamban
+4. ⇥ SERCA
+phospholamban inhibits SERCA (sarcoplasmic endoplasmic reticuluum Ca-ATPase), increasing Ca
+** [#A] anemia
+*** causes :l:
+**** intrinsic factor
+dereased B12 absorption
+**** erythropoiten deficiency
+**** iron deficiency
+**** folate deficiency
+*** difference between folate deficiency and B12 deficiency
+- pernicious anemia ∈ B12 deficiency symptoms
+- ↑ methylmalonic acid ∈ B12 deficiency symptoms
+** chronic kidney disease
+*** [#A] pathological changes
+- anemia
+- protein in urine
+- higher PTH
+- Ca
+- P
+- ↑ BUN
+- ↓ EPO
+- Vitamin D
+*** [#A] vitamin D
+**** metabolism in skin, liver, kidney
+- kidney: 1,25-(OH)_2-D calcitriol
+- liver: 25-(OH)-D calcifediol
+- skin: cholecalciferol
+**** most active form
+calcitriol > calcifediol >> cholecalciferol
+** [#B] respiratory
+*** mechanism of actions
+**** SABA
+β-2 agonism then cAMP signaling
+**** LABA
+β-2
+**** SAMA
+competitive inhibitors for acetylcholine at M_1, M_3
+**** LAMA
+competitive inhibitors for acetylcholine at M_1, M_3
+**** Roflumilast
+PDE4 inhibition
+**** steroids
+⇥ arachidonic acid synthesis; thus blocking COX_2 and prostaglandin synthesis
+*** compare the anti-inflammatory effects of steroids, 5-lipoxygenase inhibitors, leukotriene receptor antagonists and PDE inhibitors
+- steroids inhibit arachidonic acid synthesis
+- 5-lipoxygenase inhibitors
+- LTD4 antagonists directly block end receptor
+- PDE inhibitors keep cAMP around to bronchodilate
 * arrhythmias
 ** Lisi
 *** CHA²DS²-VASc Score²
@@ -37,57 +171,150 @@ no DHP ccalcium channel blockers
   - Mg
   - P
   - Na
-** Wang
-*** drug → ion channel
-**** lidocaine
-inhibits sodium current
-**** amiodarone
-inhibits lna, lca, lkr, IKs
-**** verapamil
-lca
-*** drug → classification
-**** diltiazem
-class 4 CCB
-**** TODO lidocaine
-subgroup 1B (or 2B)?
-**** dronedarone
-class 3; prolongs refractory peroid
-**** metoprolol
-class 2 β-blocker
-**** name some other antiarrhythmic drugs
-- adenosine
-- digoxin
-*** TODO 3.	Name phosphorylation targets of PKA following activation of beta receptors and/or inhibition of PDE. such as RyR2, Ca channel protein, Phospholamban and relate each of them to the positive inotropic effect of beta agonist and/or PDE inhibitors
-*** positive ionotropic effect of dixoin
-- inhibits ATPase
-- increass the activity of Na/Ca
-- increases intracellular calcium concentrarion
-*** TODO digoxin’s pro-arrhythmic adverse effect
-*** anemia causes :l:
-**** intrinsic factor
-dereased B12 absorption
-**** erythropoiten deficiency
-*** chronic kidney disease
-**** pathological changes
-- higher PTH
-- anemia
-- reduced secretion of erythropoiten
-- vitamin D activation
-**** vitamin D
-- CKD affects vitamin D activation
-***** TODO metabolism in skin, liver, kidney
-***** TODO most active form
-*** TODO respiratory
-**** SABA
-**** LABA
+* Samuel
+** COPD
+*** [#B] vs. asthma
+- hyperinflation and decreased recoil
+- steroids are useful
+- neutrophils
+- reversible
+- CD8, neutrophils, macrophages
+*** GOLD
+1. FEV >80
+2. (50, 80)
+3. (30, 50)
+4. (0, 30)
+*** [#B] drugs :l:
+**** β-2 agonists
+- albuterol
+- levalbuterol
+- albuterol
 **** SAMA
-**** LAMA
-**** Roflumilast
-**** TODO steroids
-identify the name of a steroid
-**** TODO compare the anti-inflammatory effects of steroids, 5-lipoxygenase inhibitors, leukotriene receptor antagonists and PDE inhibitors
-pro-inflammatory
-arachidonic acid
+- ipratropium bromide
+**** SABA/SAMA combinations :l:
+***** albuterol/ipratropium
+****** [#B] brand
+- Combivent Respimat
+- DuoNeb
+**** LABA
+**** ICS combinations :l:
+***** salmeterol/fluticasone
+****** [#A] brand
+Advair
+***** formoterol/budenoside
+****** [#A] brand
+Symbicort HFA
+**** methylxanthines
+- Roflumilast
+- Theophylline
+*** [#A] by category
+- A) {SABA, SAMA, LABA, LAMA}
+- B) {LABA, LAMA}
+- C) LAMA
+- D) {LABA + LAMA, LABA + ICS}
+*** patient care plan for smoker
+- PPSV13, PPSV23 1yr
+- Ask, Advise, Assess, Assist, Arrange
+- macrolides, doxycycline, Augmentin
+** anemia
+*** ESAs
+- darbapoetin
+- epotein
+- BBW: cardiovascular
+*** [#C] IV iron formulations :l:
+**** ferric gluconate
+***** brand
+Ferrlecit
+**** iron dextran
+***** brand
+Infed
+**** iron sucrose
+***** brand
+Venofer
+**** ferumoxytol
+***** brand
+Feraheme
+**** ferric carboxaltose
+***** brand
+Injectafer
+* [#B] Mody / medicinal chemistry
+** [#A] lidocaine
+- lidocaine must be given by IV; trisubstituted amino group leads to rapid and efficient first-pass metabolism
+- tocainide is the orally active alternative because its amino group is unsubstituted
+** sleep
+*** melatonin
+**** [#B] disadvantages
+- poor absorption
+- low oral bio-availability
+- ubiquitious effects
+**** ramelteon
+analog of melatonin for long-term insomnia; non-scheduled
+***** [#A] brand
+Rozerem
+*** benzodiazepines
+**** mechanism of action
+GABA_A modulators at α-1 and γ-2 subunits
+**** 2-keto benzos
+- long half lives; 60 hrs
+- active metabolites
+**** triazolo benzos
+**** 3-hydroxy benzos
+no active metabolites
+*** barbituate
+**** mechanism of action
+GABA_A at α-1 subunit
+*** zolpidem/zaleplon/eszopiclone
+**** mechanism of action
+GABA_A at α-1 only
+**** zolpidem (Sonata)
+- pKa=6.2; weak base
+- 1.5h half life
+*** flumazenil
+**** mechanism of action
+- selective GABA_A antagonist
+- blocks zolpidem/zaleplon/eszopiclone
+- doesn’t block barbituates, meprobamate, or ethanol
+*** [#A] structure → drug
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Benzodiazepine_a.svg/1200px-Benzodiazepine_a.svg.png"/>
+benzodiazepine
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Zaleplon_Structural_Formulae_V.1.svg/220px-Zaleplon_Structural_Formulae_V.1.svg.png"/>
+zaleplon
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Eszopiclone.svg/1200px-Eszopiclone.svg.png"/>
+eszopiclone
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Zolpidem.svg/1200px-Zolpidem.svg.png"/>
+zolpidem
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Buspirone_200.svg/1200px-Buspirone_200.svg.png"/>
+buspirone
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ramelteon_skeletal_formula.svg/1200px-Ramelteon_skeletal_formula.svg.png"/>
+ramelteon
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flurazepam.svg/1200px-Flurazepam.svg.png"/>
+a 2-keto benzodiazepine (flurazepam)
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Lorazepam.svg/1200px-Lorazepam.svg.png"/>
+a 3-hydroxy benzodiazepine (lorazepam)
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Alprazolam_structure.svg/1200px-Alprazolam_structure.svg.png"/>
+a triazolo benzodiazepine (alprazolam)
+** hypnotics and seizures
+*** [#A] structure → drug
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Iprodione.png/220px-Iprodione.png"/>
+hydantoin
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Barbituric-acid-structural.svg/1200px-Barbituric-acid-structural.svg.png"/>
+barbituate
+**** <img src="http://www.prepchem.com/wp-content/uploads/2016/01/Synthesis-of-succinimide.png"/>
+succinimide
+**** <img src="https://www.sigmaaldrich.com/content/dam/sigma-aldrich/structure1/114/mfcd00005268.eps/_jcr_content/renditions/mfcd00005268-medium.png"/>
+oxazolidinone
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Dibenzazepine.png/1200px-Dibenzazepine.png"/>
+dibenzazepines
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Acetazolamide.svg/1200px-Acetazolamide.svg.png"/>
+acetazolamide
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Gabapentin2DACS.svg/1200px-Gabapentin2DACS.svg.png"/>
+gabapentin
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Pregabalin_Structural_Formulae.png/259px-Pregabalin_Structural_Formulae.png"/>
+pregabalin
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Vigabatrin2DCSD.svg/1200px-Vigabatrin2DCSD.svg.png"/>
+vigabatrin
+**** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tiagabine.svg/1200px-Tiagabine.svg.png"/>
+tiagabine
 * heart failure
 ** TODO NYHA functional classification
 ** TODO drugs reducing mortality in heart failure
@@ -143,17 +370,16 @@ inhibitory neurotransmitter
 - Modulated by GABA, Benzodiazepines, Barbiturates
 ***** agonists
 ****** drugs
-- zolpidem
-- zaleplon
-- eszopiclone
+- benzodiazepines
+- zolpidem, zaleplon, eszopiclone
 ****** pharmacology
 - enhances membrane hyperpolarization similar to benzodiazepines
 - doesn’t cause anxiolysis, muscle relaxation, or amnesia
-**** GABA_B
-***** agonists
-Baclofen
-***** antagonists
+***** [#A] antagonists
 flumazenil
+**** GABA_B
+***** [#A] agonists
+Baclofen
 ** epidemiology
 - African Americans
 - Elderly
@@ -205,8 +431,12 @@ Xanax
 ******* brand
 Librium
 ****** Clorazepate 
-******* brand
+******* [#B] brand
 Tranxene
+******* [#B] indication
+partial seizures; in combination with other drugs
+******* [#A] mechanism of action
+active metabolite, desmethyl-diazepam, is a partial agonist of GABA_A
 ****** Clonazepam 
 ******* brand
 Klonopin
@@ -240,9 +470,15 @@ Halcion
 - temazepam
 - lorazepam
 ***** drugs by duration of action
-****** ultrashort acting drugs 6h
+****** [#A] ultrashort acting drugs 6h
 - triazolam
 - midazolam
+****** [#B] long acting drugs (24-48h)
+- diazepam
+- chlordiazepoxide
+- flurazepam
+- clonazepam
+- clorazepate
 **** barbituates :l:
 ***** Amobarbital 
 ****** brand
@@ -264,7 +500,7 @@ Seconal
 ****** brand
 Lunesta
 ****** indication
-effective for maintaining sleep---sencodary to longer duration
+effective for maintaining sleep---secondary to longer duration
 ***** Zaleplon 
 ****** brand
 Sonata
@@ -284,8 +520,16 @@ M1 and M2 receptor antagonist
 ***** Buspirone 
 ****** brand
 BuSpar
-****** TODO [#A] MOA
-requires repeated administration
+****** [#A] MOA
+- partial agonist at 5-HT_1A receptors
+- ↓ 5HT activity
+- ↑ NA and DA activity
+- requires repeated administration
+****** difference with benzodiazepines
+- no action on GABA_A sites
+- no interaction with the GABAergic system
+- elderly are /not/ more sensitive to buspirone
+- not a controlled substance
 **** orexin receptor antagonist :l:
 ***** suvorexant
 ****** brand
@@ -389,16 +633,10 @@ Hetlioz
 [[./melatonin.png]]
 * epilepsy
 ** neuropharmacology
-*** glutaminergic receptors
+*** [#A] glutaminergic receptors
 - N-methyl-D-aspartate (NMDA Receptors)
 - AMPA (alpha-amino-3-hydroxymethyl-4-isoxazolepropionic acid) Receptors
 - Kainate Receptors
-*** TODO [#A] glutamate
-- excitatory neurotransmitter
-**** receptors
-- NMDA
-- AMPA
-- kainate
 ** causes
 - neurologic diseases
 - heredity
@@ -407,8 +645,8 @@ Hetlioz
 *** partial seizures :l:
 **** simple partial
 preservation of consciousness
-**** complex partial
-impaired consciousness lasting 30 seconds - 2 minutes
+**** complex partiali
+mpaired consciousness lasting 30 seconds - 2 minutes
 **** partial with secondarily generalized tonic-clonic seizure
 - simple or complex partial seizure with loss of consciousness and tonicity (sustained contractions) followed by periods of clonicity (relaxation)
 - typically lasts 1-2 minutes
@@ -423,9 +661,9 @@ A brief (perhaps a second), shock like contraction of muscles that may be restri
 **** Clonic and myoclonic seizures
 **** Infantile spasm
 ** indication → drugs
-*** status epilepticus
+*** [#A] status epilepticus
+- lorazepam 4mg IV repeat in 15 min
 - diazepam
-- lorazepam
 ** structure → name
 *** [[./azapane_azapine.png]]
 azapane	diazapine
@@ -490,8 +728,8 @@ higher dose
 *** newer agents
 **** Voltage gated calcium channels :l:
 ***** Gabapentin
-****** MOA
-Bind selectively to high affinity to Ca2+ channel subunit α2δ-1 protein in cortical membrane
+****** [#A] MOA
+Bind selectively to high affinity to Ca2+ channel subunit α2δ-1 protein in cortical membrane
 ****** pharmacokinetics
 - renally eliinated; requires dose adjustments
 ****** indication
@@ -511,11 +749,14 @@ Bind selectively to high affinity to Ca2+ channel subunit α2δ-1 protein in c
 - used for comorbid neuropathic pain, not just seizures
 **** GABA uptake/GABA-T inhibitor :l:
 ***** Tiagabine
+****** [#A] mechanism of action
+⇥ GAT-1
 ***** Vigabatrin
-****** mnemonic
-gabat...GABA T...GABA transaminase
-****** MOA
-GABA transaminase inhibitor
+****** [#B] mnemonic
+- gabat...GABA T...GABA transaminase
+- VInyl GABA TRansaminase INhibitor
+****** [#A] MOA
+GABA-T inhibitor
 ****** adverse effects
 irreversible vision loss
 **** NMDA antagonist :l:
@@ -532,6 +773,10 @@ dose-related cognitive impairment; difficulty in stringing together sentences
 Serious life threatening psychiatric & behavioral reactions
 **** HCN channel activity enhancer :l:
 ***** Lamotrigine
+****** [#A] mechanism of action
+delays recovery from inactivation of recombinant Na+ channels
+****** [#A] elimination
+95% excreted in urine
 ****** indication
 - partial and secondarily generalized tonic-clonic seizures in adults
 - Lennox-Gastaut syndrome in both children and adults 
@@ -562,6 +807,18 @@ Lacosamide enhances slow inactivation of voltage-gated Na+ channels and limits s
 - 2nd line secondary to cost
 **** Carbonic anhydrase inhibitor :l:
 ***** Acetazolamide
+****** brand
+Diamox
+****** indication
+absence seizures
+****** [#B] chemical identity
+- sulfonamide
+- thiadiazole
+****** mechanism of action
+inhibition of carbonic anhydrase; retards abnormal firing of neurons in the brain
+***** Zonisamide
+****** brand
+Zonegran
 **** cannabinoids :l:
 ***** cannabidiol
 ****** brand
@@ -577,14 +834,21 @@ used in Lenox-Gastaut syndrome
 **** Hydantoins
 ***** drugs :l:
 ****** phenytoin
-******* brand
+******* [#A] brand
 Dilantin
-******* therapeutic concentration
+******* [#B] therapeutic concentration
 10-20
 ******* pharmacokinetics
 - nonlinear
 - 90% protein bound; when albumin levels fall, concentration increases
-******* adjusted total phenytoin concentration
+******* [#A] solubility
+- poorly water soluble as free base; pKa=8
+- must be infused IV as sodium salt; pKa=11
+******* [#A] prodrug
+fosphenytoin---phosphate ester of phenytoin:
+- water soluble
+- IV compatible
+******* [#A] adjusted total phenytoin concentration
 \begin{equation}
 [Phenytoin]_\text{adj} = \frac{[Phenytoin]_\text{obs}}{0.2*Albumin + 0.1}
 \end{equation}
@@ -598,7 +862,15 @@ Dilantin
 - Blocks high-frequency firing of neurons through inhibitory actions on VG-Na+ channels
 ******* interactions
 Valproate competes for protein binding sites and inhibits phenytoin metabolism, resulting in marked and sustained increases in free phenytoin
-******* TODO adverse drug reactions
+******* [#A] adverse drug reactions
+- gingival hyperplasia
+- hirsuitism
+- inhibits insulin---hyperglycemia, glycosuria
+- megaloblastic anemia
+- ↓ IgA
+- vitamin D; osteomalacia, hypocalcemia
+- alkaline phosphate; hypersensitivity
+- neutropenia/leukopenia
 ******* indications
 - cardiac arrhythmia
 - partial seizures
@@ -620,6 +892,13 @@ absence seizures
 - increases chloride flux
 - at therapeutically relevant concentrations: act at subsets of GABA_A receptors and increase the frequency, but not duration, of openings at GABA-activated chloride channels
 - at higher concentrations: diazepam and other benzodiazepines reduce sustained high-frequency firing of neurons, similar to the effects of phenytoin, carbamazepine, and valproate
+***** [#B] adverse effects
+- sedation
+- anterograde amnesia
+- hypnosis
+- anaesthesia
+***** effect on sleep/hypnotic patterns
+
 ***** structure
 [[./benzodiazepines.png]]
 ***** drugs :l:
@@ -658,22 +937,26 @@ potent inducer
 **** Iminostilbenes :l:
 ***** Carbamazepine
 ****** MOA
-- Limits the repetitive firing of action potentials evoked by a sustained depolarization of mouse spinal cord or cortical neurons maintained in 
 - Selectively, slows the rate of recovery of voltage-activated Na+ channels from inactivation 
+- Limits the repetitive firing of action potentials evoked by a sustained depolarization of mouse spinal cord or cortical neurons maintained in 
 - Carbamazepine metabolite, 10,11-epoxycarbamazepine, also limits sustained repetitive firing at therapeutically relevant concentrations
+****** metabolism
+metabolite also limits sustained repetitive firing at therapeutically relevant concentrations
 ****** indication
 - trigeminal and glossopharyngeal neuralgias
 - generalized tonic clonic
 - simple and complex partial seizures
-****** pharmacokinetics
+****** [#B] pharmacokinetics
 - autoinducer
 - induces enzyme that metabolizes itself, CYP3A4
+****** [#A] difference with older classes of antiseizure medications
+less sedating effect
 ***** Oxcarbazepine
 ****** indication
 - partial seizures
 ****** adverse effects
 hyponetremia
-****** advantages over carbamazepine
+****** [#A] advantages over carbamazepine
 - ketone moiety protects from metabolized by oxiation
 - oxcarbamazepine is a less potent inducer than carbamazepine
 ****** prodrug?
@@ -684,11 +967,16 @@ hyponetremia
 400 mg/day, max 1200 mg/day, /once daily/
 **** Succinimides :l:
 ***** Ethosuximide
-****** indication
+****** [#B] indication
 - /only/ absence seizures
 - narrow spectrum
+****** mechanism of action
+↓ low threshold Ca currents (T-type)
 ****** TODO adverse drug reactions
 **** valproic acid
+***** [#A] mechanism of action
+- ⇥ GABA-T
+- ⇥ succinic semialdehyde dehydrogenase
 ***** indication
 broad spectrum:
 - absence
@@ -701,17 +989,25 @@ broad spectrum:
 - increased NH_4
 ***** pharmacokinetics
 highly protein bound
+*** [#A] structurally related to GABA
+- vigabatrin
+- gabapentin
+- pregabalin
+- tiagabine
 ** status epilepticus
 - consecutive seizures lasting 5+ minutes or continuously
 - longer the seizure, the worse it is for mortality/morbidity
-*** treatment
+*** [#B] treatment
 **** emergent initial therapy
-benzodiazepines IV
-**** urgent control therapy
-- phenytoin 10-20 mg/kg
+benzodiazepines; lorazepam IV 4mg IV repeat 10-15 min.
+Goal is to /stop/ the seizure.
+**** [#A] urgent control therapy
+- phenytoin 10-20 mg/kg may repeat in 10 min
 - 75 mg fosphenytoin ≍ 50 mg phenytoin
-ideally, you don’t want to have to titrate up
+ideally, you don’t want to have to titrate up.
+Goal is to prevent further seizure.
 **** treatment refractory
+Goal is to /stop/ the seizure.
 - continuous infusion of AED + bolus doses of AED to prevent breakthrough seizures
 - medically induced coma
 *** nonpharmacologic treatment
@@ -798,3 +1094,38 @@ Alvesco
 **** brand
 Asmanex {HFA, Twisthaler}
 * COPD
+* cystic fibrosis
+** [#A] genetic inheritance
+- autosomal recessive
+- CFTR gene
+** [#B] organs affected
+- pulmonary
+- pancreas
+- intestines
+- liver
+- sweat glands
+- reproductive
+** [#B] s/s
+- bacterial growth in lungs
+- ↓ FEV1
+** [#A] diagnostic criteria
+- sweat chloride test ≥ 60; uses pilocarpine
+- newborn screening
+** [#A] treatment steps
+1. albuterol
+2. hypertonic saline
+3. dornase alfa (Pulmozyme)---mucolytic DNA cleaver
+4. percussion
+5. inhaled antibiotics---tobramycin (Tobi), aztreonam (Cayston)---to target Pseudomonas
+** [#B] future therapies
+gene therapies:
+- Ivacaftor (Kalydeco)
+- Lumacaftor and Ivacaftor (Orkambi)
+** [#A] pulmonary exacerbations
+- IV antibiotics
+- Pseudomonas overage with double coverage
+  - gentamicin (once daily)
+  - tobramycin (once daily)
+  - amikacin (once daily)
+- higher doses than average population because rapid metabolizers
+

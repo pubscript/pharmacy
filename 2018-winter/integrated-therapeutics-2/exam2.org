@@ -392,13 +392,15 @@ substituted β-phenylethylamine
 - Salbulin
 - Ventodisk
 - Ventolin
-*********** metered dose inhaler (MDI)
+*********** [#A] metered dose inhaler (MDI)
 - ProAir HFA
 - Proventil HFA
 - Ventolin HFA
 *********** dry powder inhaler (DPI)
 ProAir Respiclick
 ********* levalbuterol
+********** [#A] brand
+Xopenex HFA
 ********* pirbuterol
 ********** brand
 Maxair
@@ -448,8 +450,10 @@ Bitolerol
 - sympathomimetic
 - relaxes airway smooth muscles
 ******* long acting beta agonists (LABAs) :l:
-******** drugs :l:
+******** [#A] drugs :l:
 ********* salmeterol
+********** [#B] brand
+Serevent Diskus
 ********* formoterol fumarate
 ******** adverse effects
 - arrhythmias
@@ -469,23 +473,25 @@ cAMP signaling
 ionized N is required
 ***** classes
 ****** short acting inhaled muscarinic receptor antagonists (SAMAs)
-******* drugs :l:
+******* [#B] drugs :l:
 ******** ipratropium bromide
-********* brand
+********* [#A] brand
 Atrovent
 ******** oxitropium bromide
 ******* adverse effects
 - tachycardia
 - muscle tremors
 ****** long acting inhaled muscarinic receptor antagonists (LAMAs)
-******* naming scheme
+******* [#A] naming scheme
 - -ium
 - glycopyrollate
-******* drugs :l:
-******** glycopyrollate
+******* [#A] drugs :l:
 ******** tiotropium
-********* brand
+********* [#A] brand
 Spiriva
+******** glycopyrollate
+******** aclidinium
+******** umeclidinum
 ******* adverse effects
 - arrhythmias
 - hyperglycemia
@@ -547,35 +553,33 @@ C9 fluoroidation
 ******* hydrocortisone
 ****** inhaled :L:
 ******* fluticasone propionate
-******** brands :l:
+******** [#B] brands :l:
 ********* Flovent HFA
-********** dose
+********** [#C] dose
 *********** low
 176 mcg
 *********** high
 >440 mcg
 ********* Advair
 ********* Flovent Diskus
-********** dose
+********** [#C] dose
 *********** low
 200-300 mcg
 *********** high
 >500 mcg
 ********* Arnuity Ellipta
-********** dose
+********** [#C] dose
 100-400 mcg (1-2 inh) QD
 ******* triamcinolone acetonide
 ******** brand
 Azmacort
 ******* budenoside
-******** brand
-- Plumicort Flexhaler
-- Respules
+******** [#A] brand
+- Plumicort Flexhaler (DPI)
+- Plumicort Respules (nebulizer)
 ******* beclomethasone
-******** brand
-- QVAR
-- Beclovent
-- Vanceril
+******** [#A] brand
+QVAR
 ******* flunisolide
 ******** brand
 AeroBid
@@ -585,6 +589,20 @@ Asmanex {HFA, Twisthaler}
 ******* ciclesonide
 ******** brand
 Alvesco
+****** ICS/LABA combinations :l:
+******* fluticasone/salmeterol
+******** brand
+- Advair {Diskus, HFA}
+- AirDuo Respiclick
+******* mometasone/formoterol
+******** [#A] brand
+Dulera MDI
+******* budenoside/formoterol
+******** [#A] brand
+Symbicort MDI
+******* fluticasone furoate/vilanterol
+******** [#A] brand
+Breo Ellipta DPI
 ***** MOA
 - inhibits synthesis of arachidonic acid
 - by inhibiting arachidonic acid, glucocorticoids inhibit expression of COX2 and in turn inhibits the synthesis of prostaglandins
@@ -602,11 +620,14 @@ hypokalemia
 Zyflo
 ****** leukotreine receptor inhibitors :l:
 ******* monteleukast
-******** brand
+******** [#A] brand
 Singulair
 ******* zafirlukast
 ******** brand
 Accolate
+******* zileuton
+******** brand
+Zyflo
 ***** MOA
 reduces inflammatory response by…
 - inhibiting 5-lipoxygenase; prevents arachidonic acid → leukotrienes
@@ -626,7 +647,7 @@ Xolair
 - SABA + SAMA
 - LAMBA + PDE4 inhibitor
 ** asthma
-*** combination
+*** nation
 - FDA requires LABAs to be combined with corticosteroids
 - LABAs/corticosteroids are for prophylaxis of asthma, not acute asthma attacks
 ** congestion
