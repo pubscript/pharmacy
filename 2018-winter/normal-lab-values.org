@@ -20,4 +20,14 @@
 * Chem-7 / BMP
 ** HCO3
 22-30 mEq/L
-
+* blood panel
+** hemoglobin
+*** men
+14-18
+*** women
+12-16
+** hematocrit
+*** men
+42-54
+*** women
+38-46

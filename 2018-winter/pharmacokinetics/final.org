@@ -1,11 +1,272 @@
+#+OPTIONS: tex:t
+#+STARTUP: latexpreview
+#+LATEX_HEADER: \usepackage{amsmath}
+* formulas
+** ideal body weight (IBW)
+*** males
+\(50 kg + 2.3 kg * \text{inches over 5 feet}\)
+*** females
+\(45.5 kg + 2.3 kg * \text{inches over 5 feet}\)
+** adjusted body weight (ABW)
+\begin{equation}
+(\text{total body weight} - \text{ideal body weight})*0.4 + \text{ideal body weight}
+\end{equation}
+** Cockroft-Gault
+\begin{equation*}
+w = \begin{cases}
+\mathit{TBW} > 1.2*\mathit{IBW}  & (\mathit{TBW} - \mathit{IBW})*0.4 + \mathit{IBW}\\
+\text{otherwise}  &\mathit{IBW}
+\end{cases}
+\end{equation*}
+
+\begin{equation*}
+\mathit{CrCl}(\mathit{SCr}) = \begin{cases}
+\text{female}   & 0.85 * \frac{(140 - \mathit{age})*w}{\mathit{SCr}*72}\\
+\text{male}   & \frac{(140 - \mathit{age})*w}{\mathit{SCr}*72}
+\end{cases}
+\end{equation*}
+* fundamentals
+** zero order reactions
+*** [#A] half life
+half life is not constant; t_1/2 = C_0/2k
+*** equations
+-dC/dt = k * C^0 = k
+
+C = - k * t + C_0
+
+t_1/2 = C_0 / 2*k
+** first order reactions
+*** equations
+-dC/dt = k * C^1 = kC
+
+C = C_0 * e^(-kt)
+ln C = ln C_0 - kt
+
+t_1/2 = ln 2 / k
+*** [#A] half life
+half life is constant; t_1/2 = ln 2 / k
+* Absorption, Distribution, Metabolism, Elimination (ADME)
+** distribution
+*** volume of distribution
+**** definition
+V_d = amount of drug in body / plasma drug concentration
+**** [#A] factors
+- increasing V_d
+  - lipophillic drugs
+  - increased plasma tissue binding
+  - decreased plasma protein binding
+- decreasing V_d
+  - hydrophillic drugs
+  - decreased tissue binding
+  - increased plasma protein binding
+*** plasma proteins
+**** major proteins :l:
+***** α-1 acid glycoprotein (AAG)
+****** capacity/affinity
+low capacity, high affinity
+***** albumin
+****** capacity/affinity
+high capacity, low affinity
+**** [#A] factors affecting protein binding of drugs
+- lipophilicity
+- ethnicity
+- extremes of age
+- pregnancy
+- disease
+  - renal failure ↓ albumin
+  - hepatic failure ↓ albumin
+  - inflammatory state ↑ AAG
+** elimination
+*** clearance
+**** [#A] factors
+- cardiac output
+- body weight or body surface area
+- drug-drug interactions
+- extraction ratio
+- hepatic and renal function
+- plasma protein binding
+- genetics
+* pharmacokinetic models
+** one compartment
+*** [#A] examples of tissues that fit into one compartment
+- heart
+- liver
+- kidney
+- systemic circulation
+*** [#A] one compartment model drug with two-compartment model characteristics
+- nonlinear plasma protein binding
+- metabolism product inhibition
+- cosubstrate depletion
+- enantiomers with different PK behavior
+** noncompartmental analysis
+*** [#A] PK parameters able to be estimated
+- AUC
+- AUMC
+- clearance
+- mean residence/absorption time
+- V_d at steady state
+- bioavailability
+- half life
+** multiple dosing regiments
+*** clearance
+**** decreased
+- higher C_ss,max, higher C_ss,min
+- same fluctuation between C_ss,max and C_ss,min
+- longer time to reach steady state
+*** dose
+**** [#A] increased
+- higher C_ss,max and higher C_ss, min
+- more fluctuation between C_ss,max and C_ss,min
+- same time to reach steady state
+*** τ [dosing interval]
+**** [#A] decreased
+- higher C_ss,max and higher C_ss,min
+- less fluctuation between C_ss,max and C_ss,min
+- same time to reach steady state
+*** [#A] decreased k_e (or increased t_1/2)
+- higher C_ss,max and higher C_ss,min
+- less fluctuation between C_ss,max and C_ss,min
+- longer time to reach steady state
+* aminoglycoside
+** drugs
+- gentamicin
+- tobramycin
+- amikacin
+- streptomycin
+** route of administration
+usually administered as IV infusions because aminoglycosides are poorly absorbed from the gastrointestinal tract
+** [#A] spectrum
+- Gram-(+)
+- Enterococcal infections
+- Staphylococcal
+** [#A] toxicity
+- ototoxicity
+- nephrotoxicity
+- neuromuscular blockade
+** [#B] pharmacokinetic parameters
+*** half life
+- 0.5-3 hrs
+- 30-60 hrs for patients with minimal renal function
+*** volume of distribution
+25% of ideal body weight
+** sampling times
+*** peak
+1 hour after first 30 min IV infusion
+*** trough
+≤30 min before second IV infusion
+*** obtaining levels
+after 3-4 doses (~5 half lifes) at which point most patients should be at steady state
+** dosing
+*** [#A] body weight calculation
+- actual body weight
+- for obese patients, use adjusted body weight = 0.6(ideal) + 0.4(actual)
+*** once daily dosing aka extended-interval dosing
+**** [#A] tobramycin and gentamicin
+7 mg/kg
+**** [#A] amikacin
+15 mg/kg
+**** [#A] contraindications
+- pregnant or breastfeeding
+- CrCl <20mL/min
+- burn victims
+- organ transplant, neutropenia
+- ascites, cystic fibrosis, dialysis, endocarditis
+**** [#A] how to evaluate levels
+1. random level 6-14 hours after 1st dose
+2. apply that result to the nomogram heuristic
+3. since the nomogram is based on 7 mg/kg (gentamicin and tobramycin), if a different dosing strategy X mg/kg is being used, multiply your result by 7/X; e.g., for 15 mg/kg (amikacin), multiply your result by 7/15 ≈ 1/2
+**** [#A] dosing intervals
+- CrCl: (60, 120) → q24h
+- (40, 50) → q36h
+- (20, 39) → q48h
+7mg/kg for gentamicin; 15mg/kg for amikacin
+**** [#A] 3 point evaluation
+use 3 point evaluation if the patient’s status changes, e.g., their creatine rising
+- trough prior to dose
+- peak after dose
+- trough after dose
+Then determine V_d and k_e based on the peak and trough evaluation
+* vancomycin
+** MOA
+- tricyclic glycopeptide antibiotic
+- inhibits bacterial cell wall synthesis
+- bactericidal
+- concentration-independent; increasing concentrations won’t kill bacteria faster
+** [#A] spectrum
+- MRSA
+- Penicillin-resistant S. pneumoniae
+- Penicllin-resistant Enterococcus
+** ROA
+IV only
+** pharmacokinetic parameters
+*** [#A] goal trough
+5-15 mcg/mL
+*** goal peak
+30-40 mcg/mL
+*** [#B] volume of distribution
+0.9 L/kg
+** distribution
+widely distributed except in the CSF
+** dosing
+*** weight based
+- 15-20 mg/kg based on actual body weight (or for obese (120% of ideal body weight): adjusted body weight)
+- loading dose for life threatening infections: 25 mg/kg
+*** [#A] body weight calculation
+- actual body weight
+- for obese patients, use adjusted body weight = 0.6(ideal) + 0.4(actual)
+*** minimum trough
+keep above 10 mcg/mL
+*** [#A] target trough levels
+- skin and soft tissue infections: *10-15* mcg/ml
+- bacterial meningitis: 15-20
+- hospital acquired pneumonia: 15-20
+- endocarditis: 15-20
+- bacteremia/sepsis: 15-20
+*** [#A] sampling serum levels
+**** peak
+1 hour after infusion; therapeutic range = 25-45
+**** trough
+1/2 - 1 hour before infusion; therapeutic range = 10-20
+**** rechecking levels
+- when dose is changed
+- unstable renal function
+- in stable patients, check levels weekly
+** [#A] toxicity
+- nephrotoxicity; will increase nephrotoxicity of other medications
+- ototoxicity
+although the chance of either of these toxicities is low
+** [#B] adverse effects
+- red man syndrome
+- nephrotoxicity
+- ototoxicity
+- neutropenia, thrombophelembitis; skinrash
 * renal failure
-** RIFLE classification
-- Risk
-- Injury
-- Failure
-- Loss
-- End Stage
+** [#B] RIFLE classification
+- Risk; GFR decreased by 25%
+- Injury; GFR decreased 50%
+- Failure; GFR decreased 75%
+- Loss (complete loss of kidney function; >4 weeks)
+- End Stage (end stage kidney disease; >3 months)
+** [#B] dialysis :l:
+*** hemodialysis
+- 3x/week
+- perfuses blood across a semi-permeable membrane to remove solutes, water, and waste
+- an anastamosis between an artery and a vein is created in advance to access the blood to be filtered
+- hemodialysis is the standard and well-known method of dialysis
+*** hemofiltration
+- blood is filtered at a much slower rate
+- hydrostatic pressure moves fluids and solutes across the membrane (by “convection”)
+*** high flux hemodialysis
+- can remove larger molecules that are not efficiently removed by hemodialysis
+- larger pores than standard hemodialysis
+*** continuous rental replacement
+- ~1 L/hr, continuously
+- often used in hemodynamically unstable patients---e.g., acute renal failure, fluid overload---because it’s more hemodynamically forgiving and less likely to cause hypotension
+*** peritoneal dialysis
+- uses patient’s own peritoneal cavity as a reservoir and the patient’s own peritoneal membrane as a filter; filtrate is eventually drained from the peritoneal cavity
+- can be completed once a day (manual) or on a continuous cycler machine while the patient is sleep
 ** chronic
+*** [#B] definition
 - Progressive loss of kidney function over months to years
 - Normal renal parenchyma is replaced by interstitial fibrosis
 - results in loss of kidney function
@@ -15,8 +276,14 @@
 - 3 = GFR 30-59
 - 4 = GFR 12-29
 - 5 = GFR <15 (includes patients on dialysis)
-** acute :l:
-*** prerenal
+** acute
+*** [#A] definition
+- rapid decline in renal function that occurs over hours or days
+- ↓ GFR
+- ↑ SCr
+- ↑ BUN; urea and waste products
+*** stages :l:
+**** prerenal
 - Hypovolemia / dehydration
 - Acute blood loss
 - Hypoalbuminemia
@@ -25,12 +292,12 @@
 - Renal hypoperfusion
 - bilateral RAS
 - emboli
-*** intrinsic
+**** intrinsic
 - Vascular damage
 - Glomerular damage
 - ATN (Acute Tubular Necrosis)
 - Acute interstitial nephritis
-*** postrenal
+**** postrenal
 - Bladder outlet obstruction
   - BPH (Benign prostatic hyperplasia)
   - Infection
@@ -54,11 +321,13 @@
 ** dosing
 *** loading dose
 *** continuous infusion
-** salts
+*** [#B] therapeutic concentration
+5-15 mg/L
+** [#B] salts
 S_aminophylline = 0.8
 S_{theophylline monohydrate} = 0.91
 S_{theophylline} = 1.
-** drug interactions
+** [#A] drug interactions
 *** decrease clearance
 - cimetidine
 - ciprofloxacin
@@ -71,15 +340,27 @@ S_{theophylline} = 1.
 - phenobarbital
 - rifampin
 ** PK parameters
-*** Cl
+*** [#A] Cl
 0.04 L/kg/hr
-*** half life
+*** [#A] V_d
+0.5 L/kg
+*** [#A] half life
 8 hr
-*** therapeutic plasma concentration
+*** [#A] therapeutic plasma concentration
 5-15 mg/L
-** interactions with conditions and diseases
+** [#A] interactions with conditions and diseases
 - tobacco or marijuana
-- age
+- age >65
+- heart failure or heart disease
+- obesity
+** [#B] toxicity
+- tachyarrythmias (concentrations exceeding 20-30 mg/L)
+- caffeine-like side effects (>15 mg/L)
+  - nausea/vomiting/diarrhea
+  - insomnia
+  - nervousness
+  - headache
+- ventricular arrhythmias or seizures (>40 mg/L)
 * dialysis :l:
 ** Hemodialysis
 Hemodialysis uses a machine that perfuses blood across a semi-permeable membrane to remove water, solutes and wastes /by diffusion/
@@ -94,15 +375,38 @@ ultrafiltration process with a large pore membrane Filters both water and solute
 Peritoneal dialysis is a method of dialyzing a patient using his/her own peritoneal cavity as a reservoir and the peritoneal membrane as a filter
 * lithium
 ** adverse drug reactions
-- Hypothyroidism with or without goiter formation
-- Electrocardiographic abnormalities
-- Weight gain
+- hand tremors
+- Hypothyroidism
 - Drug-induced diabetes insipidus
-** toxicity
+- Weight gain
+- Electrocardiographic abnormalities
+- impaired fine motor performance
+- muscle weakness
+- lethargy and confusion
+- polyuria
+** [#A] toxicity
 - Renal toxicity (glomerulosclerosis, renal tubular atrophy, interstitial nephritis, urinary casts)
-** bioavailability
-** clearance
-** salt form
+- diabetes insipidus
+** [#B] bioavailability
+F=1 oral
+** [#A] clearance
+- renal (>95%)
+- filtered at glomerulus; then 60-80% of filtrate is reabsorbed by the proximal tubule
+- influenced by
+  - sodium balance
+  - hydration
+  - caffeine or ethanol intake
+** drug interactions
+- thiazide diuretics; sodium and water depletion
+- NSAIDs; decrease clearance
+- ACEIs, ARBs
+- theophylline; increase clearance
+** [#B] salt form
+- lithium carbonate
+- lithium citrate
+** [#A] monitoring
+- starting:
+- maintenance:
 * methotrexate
 ** dosing
 *** oral
@@ -113,11 +417,13 @@ Oral doses of 30 g/m^2 is 100% bioavailable (F)
 *** indication
 - Concentrations of 1 X 10-6 molar (1 micromolar) at 48 hours are associated with an increased incidence of MTX toxicity
 - moderate to high dose methotrexate regimens
-** clearance
-renally
-** MOA
+** [#A] clearance
+- renally excreted, primarily
+- can cause renal damage by precipitating in urine
+** [#A] MOA
 - inhibits dihydrofolic acid reductase
 - interferes with DNA synthesis, repair, and cellular replication
+- methotrexate impairs cancer growth without irreversible damage to normal tissues
 ** indications
 - Neoplastic Diseases
   - Including bone marrow transplant – Acute lymphoblastic leukemia
@@ -162,11 +468,56 @@ renally
 *** food
 Administration of single doses of carbamazepine with grapefruit juice increases both the AUC and C_max by about 40%
 * digoxin
-** durg interactions
+** [#A] toxicity
+- visual---halos
+- cardiovascular
+- CNS
+- gastrointesstinal
+** [#B] pharmacokinetic parameters :l:
+*** bioavailability
+- 0.7 for tablets
+- 0.8 for elixir
+- 1.0 for soft gelatin capsules
+*** half life
+- 36 hours
+- 4-6 days in renal failure
+** factors that predispose one to digoxin toxicity
+– Hypokalemia
+– Uncorrected hypothyroidism
+– Hypomagnesaemia
+– Coronary artery disease
+– Renal dysfunction
+** factors that predispose one to suboptimal clincical response
+- hyperkalemia
+- hyperthyroidism
+** [#A] monitoring
+- digoxin serum level
+- BUN and SCr
+- weight
+- urine output
+- apical pulse
+*** when starting
+obtain digoxin level within 24 hours of digitalization; then weekly until stable
+** [#A] drug interactions
 *** drugs increasing clearance
+...and thus decrease digoxin toxicity
+- antacids
+- kaolin-pectin
+- cholestyramine
+- metoclopramide
+- sulfasalazine
+*** drugs decreasing clearance
+...and thus increase digoxin toxicity
+- amiodarone
 - quinidine
 - spironolactone
-- verapamil
+- verapamil or diltiazem
+- anticholinergic drugs
+- propafenone
+** loading dose
+- IV: 0.01mg/kg LBW; give 50% initially then 25% in divided doses q6h x2
+- PO: IV loading dose divided by 0.7
+- volume of distribution: 3.8 L/kg * weight + 3.1*CrCl
 ** TODO [#A] loading dose calculation
 11:59am 2019 Feb 6
 * immunosuppressives
@@ -183,7 +534,7 @@ Administration of single doses of carbamazepine with grapefruit juice increases 
   - psoriasis
   - rheumatoid arthritis
 - transplant rejection
-*** adverse drug reactions
+*** [#B] adverse drug reactions
 - Hirsutism and gingival hyperplasia
 - Hypertension
 - Nephrotoxicity
@@ -192,10 +543,19 @@ Administration of single doses of carbamazepine with grapefruit juice increases 
 - Gastrointestinal side effects (nausea, vomiting, diarrhea)
 - Headache
 - Hepatotoxicity, hyperglycemia, acne, leukopenia, hyperkalemia, and hypomagnesemia
-*** elimination
+*** [#A] elimination
 - hepatic (>99%)
 - CYP3A4
 - <1% renal
+*** [#A] pharmacokinetic parameters
+**** half life
+6-12hr
+**** F
+30% (8-60% range)
+**** V
+4-5 L/kg
+**** f_u
+<0.1
 *** bioavailability
 - Absorption rate and bioavailability for original dosage form (Sandimmune, Novartis), a microemulsion version of the drug (Neoral, Novartis) was marketed to help reduce absorption variability
 - The fat content of meals has an influence on the absorption of oral cyclosporine
@@ -222,7 +582,7 @@ blocking of production of IL-2 and other cytokines from T-cells
 *** indication
 - heart, liver, kidney transplants
 - graft-versus-host disease
-*** adverse drug reactions
+*** [#B] adverse drug reactions
 - Hypertension
 - Nephrotoxicity
 - Hyperlipidemia
@@ -230,24 +590,84 @@ blocking of production of IL-2 and other cytokines from T-cells
 - Headache
 - Hepatotoxicity, hyperglycemia, acne, leukopenia, hyperkalemia, and hypomagnesemia.
 - Gastrointestinal side effects (nausea, vomiting, diarrhea)
-**** not shared with cyclosporine
+**** [#A] not shared with cyclosporine
 - hirsute
 - gingival hyperplasia
 *** toxicity
 - nephrotoxicity
+*** [#A] pharmacokinetic parameters
+**** F
+25%
+**** V
+1 L/kg
+**** half life
+8-12 hr
+**** f_u
+0.01
 ** Sirolimus and everolimus
 - MTOR inhibitors
 - Trough monitoring applicable
 - Everolimus also approved for salvage treatment of renal cell CA
+* valproic acid
+** MOA
+increase brain concentrations of GABA
+** elimination
+hepatic (95%)
+** protein binding
+Valproic acid follows nonlinear pharmacokinetics due to concentration-dependent plasma protein binding. As the dose or concentration of valproic acid increases, the clearance rate (Cl) increases because more unbound drug is available to be metabolism
+** pharmacokinetic parameters
+*** F
+- ER tablets: 0.8-0.9
+- other forms: 1.0
+* carbamazepine
+** indication
+- tonic-clonic (grand mal)
+- partial or secondarily generalized seizures
+- Used primarily as a prophylactic agent in the chronic therapy of epilepsy; usually second line
+- other
+  - trigeminal neuralgia
+  - migraine headaches
+  - pain syndromes
+  - schizophrenia
+  - bipolar
+** elimination
+- autoinducer; induces own metabolism
+- CYP3A4
+- maximal autoinduction occurs 2-3 weeks after dosing starts
+** pharmacokinetic parameters
+*** F
+80%
+*** f_u
+0.2-0.3
 * phenytoin
-** maximum rate of administration
-50 mg/min
-** adverse effects
+** [#A] brand
+Dilantin
+** [#A] maximum rate of administration (of IV loading dose)
+phenytoin: 50 mg/min
+** drug interactions
+*** increasing phenytoin concentrations
+- cimetidine
+- valproic acid
+- amiodarone
+- chloramphenicol
+- isoniazid
+- disulfiram
+- omeprazole
+** [#A] therapeutic usage
+- tonic-clonic (grand mal) seizures
+- partial seizures
+- trigeminal neuralgia
+- type 1b antiarrhythmic
+** [#B] pharmacokinetic properties
+- plasma concentration: 10-20 mg/L
+- F = 1
+- f_u = 0.1
+** [#A] adverse effects
 *** chronic
 - gingival hyperplasia & hirsuitism
 - folate deficiency
 - peripheral neuropathy
-*** high serum concentrations
+*** high serum concentrations (toxicities)
 - ataxia
 - decreased mental capacity
 - nystagmus
