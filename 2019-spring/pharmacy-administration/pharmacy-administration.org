@@ -1,0 +1,14 @@
+* financial performance measures
+Solvency,Method of Computation,Use,
+
+Working Capital,Current Assets - Current Liabilites,To indicate the ability to meet curently maturing obligations,
+,
+Current Ratio,Current Assets/Current Liabilites,To indicate the ability to meet currently maturing obligations,
+,
+Acid -Test Ratio,Quick Assets/Current Liabilites,To indicate instant debt-paying ability,
+Inventory Turnover,Cost of Goods Sold/Average Inventory,To assess the efficiency in the management of inventory,
+,
+Number of Days' Sales in Inventory,Inventory (EOY)/Average Daily Cost of Goods Sold,To assess the efficency in the management of inventory,
+,
+"Ratio of Fixed Assets to
+Long-term Liabilities",Net Fixed Assets/Long-term Liabilities,To indicate the margin of safety to long-term creditors,

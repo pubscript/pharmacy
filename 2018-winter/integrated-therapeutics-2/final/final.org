@@ -88,6 +88,11 @@ identify the name of a steroid
 **** TODO compare the anti-inflammatory effects of steroids, 5-lipoxygenase inhibitors, leukotriene receptor antagonists and PDE inhibitors
 pro-inflammatory
 arachidonic acid
+** drug classes :l:
+*** Na channel blockers
+** effect of pH on ionization
+ionization---weak bases with pKa values in the 8.5-11 range; at pH=7.4 most will be ionized.
+** 
 * heart failure
 ** TODO NYHA functional classification
 ** TODO drugs reducing mortality in heart failure

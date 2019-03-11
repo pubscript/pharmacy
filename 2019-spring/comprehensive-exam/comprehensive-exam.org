@@ -1,0 +1,26 @@
+* TODO pharmaceutics
+** special handling
+*** volatile
+*** eutectic mixtures
+*** hygroscopic
+*** deliquescent
+*** efflorescent
+** drug particle size
+*** definition
+*** USP classification
+*** effect on physical and chemical properties of dosage forms
+** solubility
+*** intermolecular forces
+*** polarity
+- like-dissolves-like
+**** polar solvents
+**** semipolar solvents
+**** nonpolar solvents
+*** factors affecting solubility
+* Biochemistry and Medicinal Chemistry
+* Pharmacology
+** Pharmacogenomics
+*** genetic variation :l:
+**** copy number variants (CNVs)
+**** insertion/deletion variants (InDels)
+**** single nucleotide polymorphisms (SNPs)
