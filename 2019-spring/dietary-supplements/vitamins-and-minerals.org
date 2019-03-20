@@ -1,0 +1,12 @@
+* water soluble
+** B12
+*** deficiency
+**** [#B] relationship with folate
+administering folate can mask B12 deficiency
+** folate
+** vitamin C
+*** deficiency
+scurvy
+*** [#A] population at risk
+smokers need more vitamin C because they have more oxidative stress
+* fat soluble
