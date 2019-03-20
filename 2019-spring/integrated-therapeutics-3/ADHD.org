@@ -1,0 +1,12 @@
+* questions
+- /Patient A is diagnosed with ADHD with predominant symptoms of hyperactivity occurring in the late afternoon/
+  - IR around 12 nooon
+  - second dose later in the day
+- /Patient B has been diagnosed with ADHD for 2 years. They take Ritalin 10 mg AM, however their symptoms of inattention and hyperactivity begin to resurface after school time (4 pm)/
+  - change IR to extended release
+  - Ritalin LA during the day then IR at noon
+  - goal is to have patient on one medication
+- /Patient C is an adult being treated with Adderall 10 mg (8am/12noon). It is somewhat effective for their symptoms but causes significant increases in their blood pressure/
+  - try extended release Adderall
+  - switch to methylphenidate
+
