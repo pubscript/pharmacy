@@ -1,0 +1,11 @@
+* dopamine receptor antagonists
+** receptor
+D2
+** low potency agents
+*** [#B] ideal receptor occupancy
+60-70%
+** high potency agents
+* side effects of typical anti-psychotics
+** [#A] akathisia
+- motor restlessness; /not anxiety or agitation/
+- treatment---reduce dose or change drug; antiparkinsonian agents, propranolol, or benzodiazepines may help

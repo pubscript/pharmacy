@@ -1,0 +1,13 @@
+* medicinal chemistry
+- [ ] Describe mechanism of action of drugs discussed
+- [ ] Recognize structure of agents emphasized in lectures
+  - [ ] Clomipramine
+  - [ ] Fluoxetine
+  - [ ] Paroxetine
+  - [ ] Sertraline
+  - [ ] Bupropion
+  - [ ] Iproniazid
+- [ ] Describe the structural changes following metabolism of Clomipramine, Bupropion
+- [ ] SAR, mechanism of action of Arylpiperazines, Fluoxetine.
+- [ ] Describe biosynthesis and metabolism of serotonin, dopamine and key enzymes involved
+- [ ] Stereochemistry of antidepressants
