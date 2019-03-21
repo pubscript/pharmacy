@@ -1,0 +1,26 @@
+* questions
+** Which of the following patients have an increased risk of getting influenza but not having symptoms?
+young person
+* incubation period
+[-1, 5] days
+* signs and symptoms
+- fever
+- exhaustion
+- fatigue
+- headache
+- aches and pain
+- cough
+* complications
+** conditions
+- pneumonia, primary influenza or secondary bacterial
+- exacerbations of underlying diseases
+  - CHF
+  - COPD
+  - asthma
+** high risk populations
+- children <5; esp. <2 or receiving aspirin
+- adults ≥65; nursing home residents
+- pregnant women
+- immunosuppression
+- chronic diseases
+- Amerindians

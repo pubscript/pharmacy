@@ -1,0 +1,44 @@
+* pathophysiology
+** organ systems affected
+- respiratory
+- digestive
+- reproductive
+** [#A] common mutations
+mutations in the CFTR protein (Cystic Fibrosis Transmembrane conductance Regulator)
+1. ΔF508 (most common)
+2. G551D
+** mechanisms
+- low lung volume
+  1. ↑ absorption of Na, Cl, and fluid
+  2. dehydrated airways
+  3. defective mucociliary transport
+- high salt theory
+** signs and symptoms
+*** [#A] classic
+- Bacterial infections are late in onset
+- Chronic sinusitis
+- Hepatobiliary disease
+- Adequate pancreatic function
+- Meconium ileum at birth
+- Obstructive azospermia
+- Sweat chloride level > 90
+*** [#A] non-classic
+- a typically later onset of and less severe pulmonary infections
+- a sweat chloride level <90
+- less likely to have...
+  - hepatobiliary disease
+  - pancreatic insufficiency
+  - meconium ileus at birth
+** risk factors for bone disease
+- malabsorption of vitamin D
+- glucocorticoid therapy
+- chronic infections
+* diagnosis
+** immunoreactive trypsinogen (IRT)
+chemical produced by the pancreas
+** quantitative pilocarpine iontophoresis sweat test (QPIT)
+1. stimulate sweat secretion
+2. measure sweat content
+   - normal: ≤39
+   - intermediate: 40-59
+   - abnormal: ≥60

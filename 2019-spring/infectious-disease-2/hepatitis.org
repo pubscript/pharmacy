@@ -1,0 +1,30 @@
+* hepatitis A (HAV)
+** type of virus
+RNA
+** transmission
+fecal-oral
+* hepatitis B (HBV)
+** type of virus
+DNA
+** transmission
+bloodborne
+** chronic infection treatment
+- nucleo[s|t]ide analogs
+- PegIfN
+** vaccination
+*** monovalent
+- Energix-B
+- Recombivax HB
+- Heplisav-B
+*** bivalent
+Twinrix
+* hepatitis C (HCV)
+** unique properties
+- reinfection possible
+- no vaccine
+** type of virus
+RNA
+** transmission
+bloodborne
+** chronic infection treatment
+direct-acting antivirals

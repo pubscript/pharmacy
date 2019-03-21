@@ -1,0 +1,4 @@
+* absolute neutrophil count
+ANC = (segs + bands) * WBC
+where segs and bands are expressed as percentages
+e.g., segs=4%, bands=2%, then ANC = .06 WBC
