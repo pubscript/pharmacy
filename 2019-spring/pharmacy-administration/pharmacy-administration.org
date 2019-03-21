@@ -21,3 +21,10 @@ where average inventory is (inventory_beg + inventory_end) / 2
 * budgeting
 ** [#B] most controllable expense
 payroll
+* Medication Therapy Management
+** billing
+*** TODO [#A] CPT codes
+- 99605: initial meeting with patient
+- 99606:
+- 99607:
+* 
