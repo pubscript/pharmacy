@@ -8,9 +8,6 @@ fecal-oral
 DNA
 ** transmission
 bloodborne
-** chronic infection treatment
-- nucleo[s|t]ide analogs
-- PegIfN
 ** vaccination
 *** monovalent
 - Energix-B
@@ -18,6 +15,52 @@ bloodborne
 - Heplisav-B
 *** bivalent
 Twinrix
+** treatments :l:
+*** Pegylated Inteferon Alfa (PegIFN)
+**** brand
+Pegasys
+*** Nucleo[st]ide Reverse Transcriptase Inhibitors (NRTIs)
+**** agents :l:
+***** Tenofovir disoproxil fumarate (TDF)
+****** brand
+Viread®
+****** black box warning
+severe acute HBV exacerbations upon discontinuation
+***** Tenofovir alafenamide fumarate (TAF)
+****** brand
+Vemlidy®
+****** black box warning
+severe acute HBV exacerbations upon discontinuation
+***** Entecavir (ETV)
+****** brand
+Baraclude®
+***** Lamivudine
+****** brand
+Epivir HBV®
+***** Adefovir
+****** brand
+Hepsera®
+** choosing therapy
+*** patient-specific factors that need to be considered
+1. Family planning
+2. Medication cost
+3. Previous history of lamivudine resistance
+4. Anticipated tolerability of treatment side effects
+5. Comorbidities
+*** no comorbidities
+- ETV
+- TAF
+- TDF
+*** comorbidities
+**** bone or renal disease
+Choose {ETV, TAF} over TDF
+***** TAF > ETV
+- HIV coinfection
+- previous nucleoside exposure
+- CrCl ≥ 15; thus needing no dose adjustment
+***** ETV > TAF
+- CrCl < 15
+- cost
 * hepatitis C (HCV)
 ** unique properties
 - reinfection possible
@@ -28,3 +71,51 @@ RNA
 bloodborne
 ** chronic infection treatment
 direct-acting antivirals
+** testing sequence for identifying current HCV infection
+*** HCV antibody test
+**** positive; reactive
+***** detected HCV RNA
+current HCV infection, so apply care
+***** not detected HCV RNA
+additional testing as appropriate
+**** negative; non-reactive
+nonreactive ⇒ no HCV antibody detected
+** treatment
+*** drug acting antivirals (DAA)
+**** NS3/4A Protease Inhibitor :l:
+***** Simeprevir (SMV)
+****** brand
+Olysio
+***** Paritaprevir (PTR)
+***** Grazoprevir (GZR)
+***** Glecaprevir (GLE)
+***** Voxilaprevir (VOX)
+**** NS5A Inhibitor :l:
+***** Ledipasvir (LDV)
+***** Ombitasvir (OBV)
+***** Daclatasvir (DCV)
+****** brand
+Daklinza®
+***** Elbasvir (EBR)
+***** Velpatasvir (VEL)
+***** Pibrentasvir (PIB)
+**** NS5B Polymerase Inhibitor :l:
+***** Sofosbuvir (SOF)
+****** brand
+Sovaldi
+***** Dasabuvir (DSV)
+**** combinations
+***** Harvoni®
+- Ledipasvir (LDV)
+- Sofosbuvir (SOF)
+***** Viekira Pak®
+- OBV-PTR-ritonavir
+- DSV
+***** Zepatier®
+EBR-GZR
+***** Epclusa®
+SOF-VEL
+***** Mavyret®
+GLE-PIB
+***** Vosevi®
+SOF-VEL-VOX
