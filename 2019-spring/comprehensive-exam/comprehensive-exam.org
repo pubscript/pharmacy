@@ -1,4 +1,4 @@
-* TODO pharmaceutics
+* Pharmaceutics
 ** special handling
 *** volatile
 *** eutectic mixtures
@@ -17,10 +17,266 @@
 **** semipolar solvents
 **** nonpolar solvents
 *** factors affecting solubility
+* Immunology
+** types of immunity
+*** innate
+- macrophages
+- neutrophils
+- mast cells
+- eosinophils
+*** adaptive
+- T
+- B
+*** cell-mediated
+T-cell mediated
+*** humoral
+antibody mediated
+** sequence of immune responses
+1. skin, mucus
+2. innate immune cells ∧ complement
+3. adaptive: antibodies, T & Bcells
+** MHC
+*** function
+antigen presentation to T cells
+*** class I
+recognized by CD8 T cells
+**** processing
+Transporter Associated with Presentation---TAP
+*** class II
+recognized by CD4 T cells; aka helper T cells
+**** processing
+- HLADM
+- invariant chain
+** lymphoid organs
+*** primary
+- bone marrow
+- thymus
+*** secondary
+- lymph node
+- spleen
+- Peyer’s patch
+** cytokines
+*** TNF-α
+septic shock
+** hypersensitivity
+*** Type 1: IgE-mediated
+**** mediated by
+mast cells
+**** drug
+antihistamines
+*** Type 2: Antibody-mediated
+**** mediated by
+antibodies
+**** diseases
+- erythroblastosis fetalis
+- anemia
+*** Type 3: Immune complex
+**** mediated by
+immune complex
+**** diseases
+lupus
+*** Type 4: T cell mediated
+**** aka
+- cell-mediated hypersensitivity
+- delayed type hypersensitivity
+**** diseases
+- contact dermatitis
+- rheumatoid arthritis
+- Ibd (?)
+** autoimmune disorders
+- rheumatoid arthritis; /not osteoarthritis/
+- lupus
+- psoriasis
+- type 1 diabetes
+- spondylitis
+** therapies to boost anti-tumor immunity
+- DC therapy; peptide pulsing
+- monoclonal antibody therapy
+- gene therapy or cell based therapy
+** HIV
+*** proteins
+- integrase
+- protease
+- reverse transcriptase
+* Anatomy
+** body systems
+1. integumentary
+2. skeletal
+3. muscular
+4. cardiovasuclar
+5. urinary
+6. digestive
+7. nervous
+8. endocrine
+9. reproductive
+** ECG
+* Physiology
+** anemia
+*** microcytic anemia
+iron deficiency
+*** B12
+pernicious anemia
+*** macrocytic anemia
+- B12
+- folic acid
+** platelets
+- functions  hemostasis
+- produced by megakaryocytes
+** [#A] DVT risk factors
+venous stasis; e.g., a truck driver is at higher risk than a football player
+** kidneys
+*** sodium reabsorption
+- thick loop of Henle
+- DCT
+*** site of action
+**** loop diuretics
+thick ascending loop of Henle
+**** thiazides
+distal convoluted tubule
+**** aldosterone antagonists
+collecting duct
+*** prerenal azotemia
+- hemorrhage
+- blood loss
+*** intrinsic renal damage
+glomerular nephritis
+*** postrenal damage
+- kidney stones
+- bladder obstructions
+*** adrenal medulla
+catecholamines
+** endocrine
+*** PTH
+- mobilize calcium
+- ↑ Ca absorption from intestine
+- ↑ vitamin D synthesis at kidneys
+*** pancreas
+**** α cells
+glucagon
+**** β cells
+insulin
+**** acinar cells
+bicarbonate
+** digestive
+*** regulation of acid release
+**** mnemonic
+General Electric Power Company
+**** secretory cells → secretory product :l:
+***** G cells
+gastrin: a hormone that goes into endocrine circulation
+***** ECL
+histamine: a paracrine hormone; works on parietal cells
+***** [#A] Parietal cells
+HCl; stimulates chief cells
+***** Chief cells
+pepsinogen: stimulates pepsin, which metabolizes protein
+*** nausea vomiting
+**** [#A] neurotransmitters
+1. /serotonin/ (most important; drug target)
+2. ACh
+3. dopamine
+4. histamine
+5. substance P
+*** [#A] irritable bowel syndrome
+- not about inflammation
+- sensitive to food movement in GI tract
+** nervous
+*** neurotransmitters
+**** monoamines
+***** catecholamines
+- dopamine
+- norepinephrine
+- epinephrine
+***** indoleamine
+- serotonin (5-HT)
+**** diamines
+***** imidazoleamine
+histamine
+*** autonomic
+**** preganglionic
+***** [#A] neurotransmitter
+acetylcholine
+***** receptor
+nicotinic
+**** postganglionic
+***** neurotransmitter
+****** parasympathetic nervous system
+acetylcholine
+****** sympathetic nervous system
+- epinephrine
+- norepinephrine
+***** receptor
+****** parasympathetic nervous system
+muscarinic
+****** sympathetic nervous system
+adrenergic; β-{1,2}, α-{1,2}
+** respiratory
+*** emphysema
+the main reason for air trapping  emphysema is destruction of elastic fibers
+*** renin
+enzymatically cleaves angiotensinogen into angiotensin I
+** reproductive
+*** cells → secretory product
+**** sertoli cells
+inhibin
+**** Leydig cells
+testosterone
+**** granulosa cells of the follicle
+estrogen
+**** corpus luteum
+progesterone
+*** HCG
+first 3 months
+*** parturition
+inducing labor
+- oxytocin
+- prostaglandins: PGE_2, PGF_2α
+*** menopause
+less production of estrogen
+*** eicosanoids that induce labor
+- PGE_2
+- PGF_2α
+*** ovulation
+coincides with LH surge ∧ thus estrogen
+*** menstruation
+triggered by regression of corpus luteum
 * Biochemistry and Medicinal Chemistry
 * Pharmacology
-** Pharmacogenomics
-*** genetic variation :l:
-**** copy number variants (CNVs)
-**** insertion/deletion variants (InDels)
-**** single nucleotide polymorphisms (SNPs)
+* Pharmacogenomics
+** genetic variation :l:
+*** copy number variants (CNVs)
+*** insertion/deletion variants (InDels)
+*** single nucleotide polymorphisms (SNPs)
+* post-mortem
+This is what was actually on the test (brain dump)...
+- cardiovascular
+  - mechanism of action
+    - diltiazem/verapamil
+    - amiodarone
+    - digoxin
+  - peripheral vascular resistance is caused by...arterioles (?)
+  - pulse pressure = systolic - diastolic
+  - ECG
+    - node responsible for PR interval---AV node (?)
+    - node responsible for initiating ECG wave---sinoatrial node (?)
+- infectious disease
+  - vancomycin---Gram-(+) only; “red man syndrome” as an adverse effect
+  - MRSA drugs
+  - agents that cause nosocomial pneumonia
+  - mechanism of action
+    - carbapenems
+    - tetracyclines
+- pharmaceutics
+  - stability is measured by shelf life
+  - define bioavailability
+- pharmacokinetics
+  - time to steady state after multiple dosing is determined by...
+    - time to max concentration?
+    - max concentration?
+    - elimination half life?
+    - AUC?
+  - first order kinetics has a constant half life
+- immunology
+  - drug to treat Type 1 hypersensitivity is an antihistamine
+  - primary lymphoid organs
+  - bone marrow is the origin of B cells
