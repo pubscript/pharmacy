@@ -9,3 +9,23 @@ D2
 ** [#A] akathisia
 - motor restlessness; /not anxiety or agitation/
 - treatment---reduce dose or change drug; antiparkinsonian agents, propranolol, or benzodiazepines may help
+* prediction of therapeutic dosing
+- D2 antagonism
+- the basis of the therapeutic benefit of antipsychotics is blocking D2
+- preferential binding to D2---D2:D1 = 5:1 receptor occupancy
+* schizophrenia
+** pathophysiology
+*** [#B] mesocortical
+- hypoactive / hypofunctional
+- negative symptoms
+*** [#B] mesolimbic
+- hyperactive / hyperfunctional
+- positive symptoms
+* bipolar
+** lithium
+*** [#A] mechanism of action
+depletion of intracellular inositol
+*** [#A] therapeutic range
+0.6-1.2 mEq/L
+*** TODO toxicity
+*** TODO signs and symptoms (?)
