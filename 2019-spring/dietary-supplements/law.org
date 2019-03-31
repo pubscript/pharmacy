@@ -1,0 +1,18 @@
+* [#A] definition of dietary supplements
+1. a vitamin
+2. a mineral
+3. an herb or other botanical
+4. an amino acid
+5. a dietary substance for use by man to supplement the diet by increasing the total dietary intake
+6. a concentrate, metabolite, constituent, extract, or combination of such ingredients
+* monitoring
+** reporting
+- overseen by FDA
+- reported by individuals or professionals via Medwatch
+** [#B] common warnings
+- kava causes hepatotoxicity
+- black cohosh causes hepatotoxicity
+** key points
+- safety
+- use
+- effectiveness
