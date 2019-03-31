@@ -21,6 +21,72 @@ D2
 *** [#B] mesolimbic
 - hyperactive / hyperfunctional
 - positive symptoms
+** therapeutics
+*** acute
+**** [#B] do not combine
+IM Lorazepam + Olanzapine
+*** drug classes
+**** first generation antipsycotics
+**** second generation antipsychotics
+***** Abilify
+****** brand
+aripiprazole
+****** black box warning
+agranulocytosis
+***** Saphris
+****** brand
+asenapine
+***** Clozaril
+****** brand
+clozapine
+****** [#A] monitoring
+ANC...
+- general population ≥ 1500 μL
+- benign ethnic neutropenia ≥ 1000 μL
+***** Fanapt
+****** brand
+iloperidone
+***** Latuda
+****** brand
+lurasidone
+***** Rexulti
+****** brand
+brexpiprazole
+***** Zyprexa
+****** brand
+olanzapine
+***** Seroquel
+****** brand
+quetiapine
+****** [#B] adverse effects
+- weight gain / metabolic syndrome
+- sedation
+****** monitoring
+- increases LFTs
+- requires hepatic dose adjustments
+***** Invega
+****** brand
+paliperidone
+****** counseling
+tablet shell may appear in stool
+****** [#B] pharmacology
+active metabolite of risperidone; therefore, failure of risperidone may indicate failure of paliperidone
+***** Risperdal
+****** brand
+risperidone
+***** Geodon
+****** [#B] therapeutic use
+- *greatest risk of QT prolongation*
+- weight neutral
+- must use with 500 calories
+****** brand
+ziprasidone
+***** Vraylar
+****** brand
+cariprazine
+**** injectable antipsychotics
+***** aripiprazole
+***** risperidone
 * bipolar
 ** lithium
 *** [#A] mechanism of action
