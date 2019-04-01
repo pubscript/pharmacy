@@ -47,12 +47,12 @@ Hepsera®
 3. Previous history of lamivudine resistance
 4. Anticipated tolerability of treatment side effects
 5. Comorbidities
-*** no comorbidities
+*** [#A] no comorbidities
 - ETV
 - TAF
 - TDF
 *** comorbidities
-**** bone or renal disease
+**** [#A] bone or renal disease
 Choose {ETV, TAF} over TDF
 ***** TAF > ETV
 - HIV coinfection
@@ -69,6 +69,12 @@ Choose {ETV, TAF} over TDF
 RNA
 ** transmission
 bloodborne
+** [#A] types of people to screen
+- baby boomers
+- IV drug users
+- prisoners
+- healthcare workers
+- HIV infected persons
 ** chronic infection treatment
 direct-acting antivirals
 ** testing sequence for identifying current HCV infection
@@ -103,8 +109,10 @@ Daklinza®
 ***** Sofosbuvir (SOF)
 ****** brand
 Sovaldi
+****** adverse drug reactions
+serious symptomatic bradycardia when coadministered with amiodarone
 ***** Dasabuvir (DSV)
-**** combinations
+**** combinations :l:
 ***** Harvoni®
 - Ledipasvir (LDV)
 - Sofosbuvir (SOF)
@@ -112,10 +120,15 @@ Sovaldi
 - OBV-PTR-ritonavir
 - DSV
 ***** Zepatier®
-EBR-GZR
+- elbasavir
+- grazoprevir
 ***** Epclusa®
-SOF-VEL
+- sofosbuvir
+- velpatasvir
 ***** Mavyret®
-GLE-PIB
-***** Vosevi®
-SOF-VEL-VOX
+- glecaprevir
+- pibrentasvir
+***** Vosevi® :l:
+- sofosbuvir
+- velpatasvir
+- voxilaprevir

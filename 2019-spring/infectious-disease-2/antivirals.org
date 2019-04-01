@@ -4,23 +4,47 @@
 DNA virus
 *** drug classes
 **** nucleoside/nucleotide analogues
+***** [#A] mechanism of resistance
+multiple mutations in the viral polymerase
 **** [#B] immunoglobulins
-PEG interferon α-2a
-(PEG means polyethylene glycol)
+- PEG interferon α-2a (PEG means polyethylene glycol)
+- interferon α2b
+***** adverse drug reactions
+- abortifacient
+- flu-like symptoms
+- transient hepatic elevations
+- neurotoxicities
+- cardiotoxicity
+- exacerbation of autoimmune diseases
 **** viral RNA synthesis inhibitors
 *** recommendations
 **** first line
 entacavir/tenofovir + Peg-interferon α-2a
 **** second line
 Lamivudine (3TC), telbivudine, and adefovir
+** HBV
+*** nucleo[st]ide inhibitors :l:
+**** entecavir
+**** tenofovir
+one of the most potent anti-HBV drugs
+***** [#A] adverse drug reactions
+- /nephrotoxicity/; do not combine with other nephrotoxic agents like aminoglycosides
+- headache
+- diarrhea
+- asthenia
+- abdominal pain
+- lactic acidosis
+- rebound hepatitis
 ** HCV
 *** direct acting antivirals :l:
 **** NS3-4A protease inhibitors
-***** brand
+***** suffix
 “previr”
 ***** Simeprevir
 ****** [#A] brand
 Olysio
+***** [#A] mechanism of action
+inhibit serine protease involved in post-translational processing
 **** NS-5B RNA polymerase inhibitors
 ***** suffix
 “buvir”
@@ -35,36 +59,89 @@ Sovaldi
 ******* [#A] brand
 Zepatier
 * HIV
-** CCR5 receptor antagonists (2007) :l:
-*** Maraviroc
-**** MOA
+** drug classes
+*** CCR5 receptor antagonists (2007) :l:
+**** Maraviroc
+***** MOA
 - Binds selectively and specifically to chemokine receptor CCR5 necessary for entrance of HIV into CD4+ cells
 - Prevents interaction between host cell CCR5 and viral gp120
 - inhibits the coreceptor, which causes the adverse drug reactions 
-** Fusion Inhibitors (FIs) (2003) :l:
-*** Enfuvirtide
-** Nucleos(t)ide Reverse Transcriptase Inhibitors (NRTI) (1987)
-*** Zidovudine
-*** Lamivudine & Emtricitabine
-*** Tenofovoir
-*** Abacavir
-*** Didanosine
-*** Zalcitabine
-*** Stavudine
-** Non-nucleoside Reverse Transcriptase Inhibitors (NNRTI) (1996) :l:
-*** Nevirapine
-*** Efavirenz
-*** Doravirine
-**** [#B] brand
+*** Fusion Inhibitors (FIs) (2003) :l:
+**** Enfuvirtide
+*** Nucleos(t)ide Reverse Transcriptase Inhibitors (NRTI) (1987)
+**** Zidovudine (AZT)
+***** structure
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Zidovudine.svg/1200px-Zidovudine.svg.png"/>
+***** chemical class
+azidothymidine
+***** mechanism of action
+- chain terminator
+- reverse transcriptase inhibitor
+**** Lamivudine & Emtricitabine
+**** Tenofovoir
+**** Abacavir
+**** Didanosine
+**** Zalcitabine
+**** Stavudine
+*** Non-nucleo[st]ide Reverse Transcriptase Inhibitors (NNRTI) (1996) :l:
+**** Nevirapine
+**** Efavirenz
+***** brand
+Sustiva
+***** structure
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Efavirenz.svg/1200px-Efavirenz.svg.png"/>
+**** Doravirine
+***** [#B] brand
 Pifeltro
-** Integrase inhibitors (INSTIs) (2007) :l:
-*** Raltegravir
-** Protease Inhibitors (PI) (1995)
-*** drugs
-**** Saquinavir
-**** Atazanavir
-**** Darunavir
-**** Cobicistat/Ritonavir
-*** [#B] complete regimens
-**** TODO ARV Combinations slide 62/67; 2019 Mar 7 toward the end
-- Juluca: dolutegravir + rilpivirine
+*** Integrase inhibitors (INSTIs) (2007) :l:
+**** Raltegravir
+works against HIV-1 only
+*** Protease Inhibitors (PI) (1995)
+**** drugs :l:
+***** Saquinavir
+***** Atazanavir
+***** Darunavir
+****** [#A] adverse drug reactions
+use cautiously in patients with sulfa allergies
+***** Cobicistat/Ritonavir
+***** Indinavir
+****** structure
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Indinavir_structure.svg/1024px-Indinavir_structure.svg.png"/>
+**** [#B] complete regimens :l:
+***** Symtuza
+darunavir, cobicistat, emtricitabine, and tenofovir  alafenamide tablets
+***** Symfi and Symfi Lo
+efavirenz, lamivudine and tenofovir disoproxil fumarate
+***** Delstrigo
+doravirine, lamivudine, and tenofovir disoproxil fumarate
+***** Atripla 
+emtricitabine + tenofovir + efavirenz
+***** Complera
+emtricitabine + tenofovir + rilpivirine
+***** [#A] Stribild
+elvitegravir + emtricitabine + tenofovir + cobicistat
+***** Juluca 
+dolutegravir + rilpivirine
+***** Biktarvy 
+bictegravir + tenofovir alafenamide fumarate + emtricitabine
+***** Trogarzo
+ibalizumab-uiyk
+** drug targets → drug
+*** binding
+Maraviroc
+*** Fusion and uncoating
+Enfuviritide
+*** [#A] reverse transcription
+- tenofovir
+- lamivudine
+- emtricitabine
+- nevirapine
+- efavirenz
+*** [#A] integration
+raltegravir
+*** [#A] binding and maturation
+- atazanavir
+- darunavir
+- fosamprenavir
+- lopinavir
+

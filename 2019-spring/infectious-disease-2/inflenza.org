@@ -10,6 +10,12 @@ young person
 - headache
 - aches and pain
 - cough
+* antigenic shift vs. antigenic drift
+** antigenic drift
+- small changes in the influenza viruses via point mutation in the surface antigen
+- reason for changing the influenza vaccine annually
+** antigenic drift
+influenza virus acquires new hemagglutinin or neuramidinase via genetic reassortment
 * complications
 ** conditions
 - pneumonia, primary influenza or secondary bacterial
@@ -24,3 +30,39 @@ young person
 - immunosuppression
 - chronic diseases
 - Amerindians
+* [#A] contraindications
+- HIV; low CD4 count
+- pregnant women
+* drug classes :l:
+** M2 inhibitors---amantadines
+- amantadine
+- rimantadine
+*** indication
+influenza A only
+*** mechanism of resistance
+mutation or absence of M2 receptor
+** neuraminidase inhibitors
+- Zanamivir
+- Oseltamivir
+- Peramivir
+*** mechanism of resistance
+mutation in neuraminidase
+** cap-dependent endonuclease inhibitors
+Baloxavir Marboxil
+*** mechanism of resistance
+variants of polymerase
+** nucleoside inhibitors
+Ribavarin
+*** mechanism of resistance
+mutation of the RNA polymerase
+* [#A] target → drugs
+** uncoating
+- Amantadine (Symmetrel, Mantadix, Amantan)
+- Rimantadine
+** viral release
+- Zanamivir (Relenza)
+- Oseltamivir (Tamiflu)
+** mRNA transcription
+Baloxavir Marboxil (Xofluza)
+** RNA synthesis
+Ribavarin

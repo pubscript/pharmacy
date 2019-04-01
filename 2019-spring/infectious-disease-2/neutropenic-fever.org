@@ -2,3 +2,36 @@
 ANC = (segs + bands) * WBC
 where segs and bands are expressed as percentages
 e.g., segs=4%, bands=2%, then ANC = .06 WBC
+* treatment
+** [#B] empiric
+- ceftazidime
+- cefepime
+- piperacillin-tazobactam
+- carbapenems
+** prophylaxis
+colony stimulating factors
+** [#A] hemodynamic instability
+vancomycin
+* definitions
+** neutropenia
+low neutrophil count; ANC <500 cells/mm^3
+** fever
+- ≥ 38.3 °C
+- ≥ 101 °F
+** febrile neutropenia
+- neutropenic (ANC <500 cells/mm^3)
+- fever
+* causes
+- cancer
+- heredity
+- immunosuppression
+* common organisms
+- Gram-(+)
+  - S. aureus
+  - coagulase negative Staphylococcus
+  - Viridians Streptococci
+  - Enterococcus species
+- Gram-(-)
+  - Enterobactericiae
+  - P. aeruginosa
+- Fungi, parasites, viruses
