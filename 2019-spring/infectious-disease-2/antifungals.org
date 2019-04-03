@@ -1,0 +1,119 @@
+* drug classes
+** polyene macrolides
+*** nystatin
+**** chemistry
+polyene macrolide
+**** mechanism of action
+*** amphotericin B
+**** brands
+- Fungizone
+- Abelcet
+- AmBsome
+**** mechanism of action
+- directly binds to ergosterol to cause osmotic shock
+- oxidatively damages fungus; reactive oxygen species
+** ergosterol synthesis inhibitors (azoles)
+*** imidiazoles
+**** mechanism of action
+inhibits fungal cytochrome P450 3A dependent enzyme 14-α-demethylase---which synthesizes ergosterol from lanosterol in the fungal cell membrane, thereby destabilizing the membrane
+**** drugs :l:
+***** Ketoconazole
+****** brand
+Nizoral
+****** adverse drug reactions
+- inhibits human P450 enzymes
+- altered steroidogenesis
+  - Menstrual irregularities
+  - Loss of libido
+  - Impotence
+  - Gynecomastia in males
+***** Miconazole
+****** brand
+Monistat
+***** Clotrimazole
+****** brand
+Lotrimin
+*** triazoles :l:
+**** Fluconazole
+***** brand
+Diflucan
+**** Itraconazole
+***** brand
+Sporanox
+**** Voriconazole
+***** brand
+Vfend
+**** Posaconazole
+***** brand
+Noxafil
+** cell wall inhibitors
+*** echinocandins
+**** mechanism of action
+non-competitively inhibits β-(1,3) glucan synthase---which synthesizes β-(1,3) glucan, a major component of the fungal cell wall
+**** drugs :l:
+***** Caspofungin
+****** brand
+Cancidas
+***** Anidulafungin
+****** brand
+Eraxis
+***** Micafungin
+****** brand
+Mycamine
+**** [#B] adverse drug reactions
+flushing; release of histamine
+** nucleic acid synthesis inhibitors
+*** drugs :l:
+**** flucytosine
+***** brand
+Ancobon
+*** mechanism of action
+- competes with uracil and thymidine in synthesis of RNA and DNA, respectively
+  - deaminates to 5-fluorouracil via cytosine deaminases
+  - as a pyrimidine analogue, it competes with uracil in the synthesis of RNA
+  - competes with thymidine during the synthesis of DNA
+- highly selective for fungus; humans cannot deaminate 5-fluorocytosine
+*** adverse drug reactions
+affects metabolism---fluorouracil is antineoplastic and toxic to intestinal flora
+** mitosis inhibitors
+*** mechanism of action
+- targets microtubules
+- disrupts mitotic spindle to inhibit mitosis
+*** drugs :l:
+**** griseofulvin
+** allylamines
+*** drugs :l:
+**** terbinafine
+*** mechanism of action
+inhibits squalene oxidase---ergosterol’s synthesis pathway
+* antifungal targets :l:
+** protein synthesis
+*** drugs
+- sordarins
+- azasordarins
+** cell wall synthesis
+*** glycan synthesis
+- echinocandins
+*** chitin synthesis
+- nikkomycin
+** nucleic acid synthesis
+*** drugs
+- flucytosine
+** cell membrane synthesis
+*** drugs
+- azoles
+- allylamines
+** mitosis and microtubules
+*** drugs
+griseofulvin
+** membrane integrity
+*** drugs
+- polyenes
+* fungal resistance
+1. Enzyme targeted by antifungal is overproduced
+2. Antifungal is pumped out by an efflux pump
+3. Target of antifungal is altered so that the antifungal no longer binds
+4. Antifungal entry into the fungus is prevented
+5. Fungus uses an alternate (“bypass”) pathway not inhibited by the antifungal
+6. Fungal enzymes that activate antifungals are inhibited
+7. Fungus secretes an enzyme which degrades antifungal
