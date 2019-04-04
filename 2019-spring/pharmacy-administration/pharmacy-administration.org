@@ -22,9 +22,39 @@ where average inventory is (inventory_beg + inventory_end) / 2
 ** [#B] most controllable expense
 payroll
 * Medication Therapy Management
+** group project :ignore:
+- if we say we made an ad, we have to create and show and example of the ad
 ** billing
 *** TODO [#A] CPT codes
 - 99605: initial meeting with patient
 - 99606:
 - 99607:
-* 
+* marketing
+** being remarkable---how to make your customers happy
+consistently…
+- solve their problems
+- make them feel good
+** role of marketing :l:
+*** production
+*** product
+*** selling
+*** market/customer
+** marketing mix variables---4 Ps :l:
+*** product
+- pharmacy as a tangible product vs. as a service
+- bottle of pills vs. pharmaceutical care service
+- brand vs. generic
+*** place
+*** price
+**** total price, breakdown
+total price = cost of goods sold + cost to dispense + profit
+**** considerations
+- demand, inelastic vs. elastic
+- product vs. service
+**** strategies
+- loss-leader pricing
+- psychological pricing
+- promotional pricing
+- bundling and couponing
+*** promotion
+
