@@ -16,3 +16,39 @@
 - safety
 - use
 - effectiveness
+* [#B] specific culprits :l:
+** products for weight loss (25%)
+- weight loss or energy products caused 71.8% of adverse events
+- sympathomimetics causing cardiovascular events
+** increased energy (10%)
+* demographics
+** people in their twenties
+** elderly (≥ 65)
+- choking or pill-induced dysphagia
+- vitamins and minerals implicated in 83% of these visits
+* complementary alternative medicine (CAM)
+** stress reduction techniques :l:
+*** meditation
+**** benefits according to NCCAM
+- hypertension
+- anxiety
+- depression
+- insomnia
+**** unclear evidence according to NCCAM
+- pain
+- smoking cessation
+*** music therapy
+** demographics
+In a study of patients with leukemia (n = 533)
+- 57% admitted to using CAM
+- Only 4% admitted to telling their physicians
+* nutrition
+** [#B] caloric contribution
+*** carbohydrates
+4 kcal/g
+*** protein
+4 kcal/g
+*** fats
+9 kcal/g
+** [#B] average person’s weight
+70 kg
