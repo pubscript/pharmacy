@@ -12,6 +12,18 @@ Number of Days' Sales in Inventory,Inventory (EOY)/Average Daily Cost of Goods S
 ,
 "Ratio of Fixed Assets to
 Long-term Liabilities",Net Fixed Assets/Long-term Liabilities,To indicate the margin of safety to long-term creditors,
+** “5 Rights”
+** TODO 6 something
+** inventory calculation formula
+** why monitor inventory
+if infentory gets too low, ...
+impacts..
+- customer relationships
+- patient care
+** gross profit
+a raw number
+** gross margin
+a percentage
 * inventory turnover
 ** calculation
 cost of goods sold / average inventory
@@ -57,4 +69,17 @@ total price = cost of goods sold + cost to dispense + profit
 - promotional pricing
 - bundling and couponing
 *** promotion
+** old vs new “P”s of pharmaceutical marketing
+*** old “P”s
+- Brand-focused
+- Capital intense
+- Technology-enabled
+- Longer development
+- Slower to modify
+*** new “P”s
+- Customer-focused
+- Budget conscious
+- Technology-powered
+- Quickly deployed
+- Highly optimized
 
