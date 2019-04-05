@@ -108,7 +108,7 @@ use cautiously in patients with sulfa allergies
 ****** structure
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Indinavir_structure.svg/1024px-Indinavir_structure.svg.png"/>
 **** [#B] complete regimens :l:
-***** Symtuza
+***** [#A] Symtuza
 darunavir, cobicistat, emtricitabine, and tenofovir  alafenamide tablets
 ***** Symfi and Symfi Lo
 efavirenz, lamivudine and tenofovir disoproxil fumarate

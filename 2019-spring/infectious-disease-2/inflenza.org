@@ -14,7 +14,7 @@ young person
 ** antigenic drift
 - small changes in the influenza viruses via point mutation in the surface antigen
 - reason for changing the influenza vaccine annually
-** antigenic drift
+** antigenic shift
 influenza virus acquires new hemagglutinin or neuramidinase via genetic reassortment
 * complications
 ** conditions
@@ -30,7 +30,8 @@ influenza virus acquires new hemagglutinin or neuramidinase via genetic reassort
 - immunosuppression
 - chronic diseases
 - Amerindians
-* [#A] contraindications
+* influenza vaccine
+** [#A] contraindications
 - HIV; low CD4 count
 - pregnant women
 * drug classes :l:
