@@ -1,0 +1,125 @@
+* Parkinson’s disease
+** symptoms
+*** classical clinical features
+- tremor-resting
+- rigidity
+- akinesia/bradykinesia
+- posture and gait
+** causes
+*** genetics
+- parkin
+- α-synuclein
+*** environment :l:
+**** oxidative stress
+- dopamine neurons are acutely sensitive to oxidative damage
+- In Parkinson’s disease, iron content is increased in the substantia nigra, which promotes ROS formation from H2O2 in the oxidation (via MAO) of dopamine. The Fe pathway is in opposition to the reductive pathway via glutathione/glutathione peroxidase.
+**** neuroleptic-induced Parkinsonism
+- phenothiazines
+- bytrophenones
+- resperine
+** drug classes :l:
+*** dopaminergic agents :l:
+**** L-DOPA
+***** efficacy
+- most effective drug for Parkinsonian symptoms
+- Virtually all patients with confirmed PD experience clinically significant benefit.
+*** dopamine agonists
+**** drug classes
+***** ergot derivatives :l:
+****** bromocriptine
+******* brand
+Parlodel
+******* indications
+- Parkinsonism
+- neuroleptic malignant syndrome
+- diabetes
+******* adverse drug reactions
+Erythromelalgia and Raynaud’s phenomena
+****** cabergoline
+****** pergolide
+******* brand
+Permax
+***** non-ergot derivatives :l:
+****** pramipexole
+******* brand
+Requip
+****** ropinirole
+******* brand
+Mirapex
+****** rotigotine
+******* brand
+Neupro
+**** adverse drug reactions
+- not as effective as L-DOPA
+- Erythromelalgia and Raynaud’s phenomena
+*** DA metabolism inhibitors :l:
+**** decarboxylase inhibitors :l:
+***** Carbidopa
+**** MAO-B inhibitors :l:
+***** Selegiline
+****** mechanism of action
+- irreversible MAO-B inhibitor
+- dose-dependent selectivity
+****** therapeutics
+adjunctive therapy with L-DOPA
+****** brand :l:
+******* Eldepryl
+metabolized by CYP enzymes to (meth)amphetamine
+******* Zelapar
+ODT
+- bypasses first-pass metabolism
+- doesn’t metabolize to amphetamine or methamphetamine metabolites
+- fewer side effects
+****** Rasagiline
+******* brand
+Azilect
+******* mechanism of action
+selective irreversible MAO-B inhibitor; can be used as monotherapy
+******* benefits
+- Decreases “off” time for patients on stable doses of carbidopa/levodopa
+- No amphetamine like metabolites, so improved tolerability
+****** Salfinamide
+******* brand
+Xadago
+******* contraindications
+severe hepatic impairment
+**** COMT inhibitors :l:
+***** Entacapone
+****** brand
+Comtan
+***** Tolcapone
+****** brand
+Tasmar
+*** antimuscarinic agents :l:
+**** benztropine
+***** brand
+Cogentin
+**** trihexyphenidyl
+***** brand
+Artane
+*** amantadine
+* Alzheimer’s
+** cholinesterase inhibitors
+*** drugs :l:
+**** donepezil
+***** mechanism of action
+non-competitive inhibitor of AChE
+***** brand
+Aricept
+**** rivastigmine
+***** brand
+Exelon
+***** mechanism of action
+non-competitive (pseudo-irreversible) inhibitor of AChE
+**** galantamine
+***** brand
+Razadyne
+***** mechanism of action
+Competitive, reversible centrally-acting cholinesterase inhibitor AND nAChR agonist
+**** tacrine
+** memantine
+*** mechanism of action
+Memantine binds to the magnesium biding site, and functions as an effective receptor blocker under conditions of excessive stimulation
+*** therapeutics
+- moderate-to-severe dementia/Alzheimer’s
+- in combination with donepezil or monotherapy 
