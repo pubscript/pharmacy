@@ -21,77 +21,164 @@ D2
 *** [#B] mesolimbic
 - hyperactive / hyperfunctional
 - positive symptoms
+** drug classes
+*** first generation antipsycotics
+*** second generation antipsychotics
+**** Abilify
+***** brand
+aripiprazole
+***** black box warning
+agranulocytosis
+**** Saphris
+***** brand
+asenapine
+**** Clozaril
+***** brand
+clozapine
+***** [#A] monitoring
+ANC...
+- general population ≥ 1500 μL
+- benign ethnic neutropenia ≥ 1000 μL
+**** Fanapt
+***** brand
+iloperidone
+**** Latuda
+***** brand
+lurasidone
+**** Rexulti
+***** brand
+brexpiprazole
+**** Zyprexa
+***** brand
+olanzapine
+**** Seroquel
+***** brand
+quetiapine
+***** [#B] adverse effects
+- weight gain / metabolic syndrome
+- sedation
+***** monitoring
+- increases LFTs
+- requires hepatic dose adjustments
+**** Invega
+***** brand
+paliperidone
+***** counseling
+tablet shell may appear in stool
+***** [#B] pharmacology
+active metabolite of risperidone; therefore, failure of risperidone may indicate failure of paliperidone
+**** Risperdal
+***** brand
+risperidone
+**** Geodon
+***** [#B] therapeutic use
+- *greatest risk of QT prolongation*
+- weight neutral
+- must use with 500 calories
+***** brand
+ziprasidone
+**** Vraylar
+***** brand
+cariprazine
+*** injectable antipsychotics
+**** aripiprazole
+***** brand :l:
+****** Abilify Maintena
+****** Aristada
+prodrug of aripiprazole
+**** risperidone
+**** olanzapine
+***** brand
+Zyprexa Relprevv
+**** paliperidone palmitate
+***** brand
+- Invega Sustenna
+- Invega Trinza
+***** usage notes
+sustain 4 months of Invega Sustenna before starting Invega Trinza
 ** therapeutics
 *** acute
 **** [#B] do not combine
 IM Lorazepam + Olanzapine
-*** drug classes
-**** first generation antipsycotics
-**** second generation antipsychotics
-***** Abilify
-****** brand
-aripiprazole
-****** black box warning
-agranulocytosis
-***** Saphris
-****** brand
-asenapine
-***** Clozaril
-****** brand
-clozapine
-****** [#A] monitoring
-ANC...
-- general population ≥ 1500 μL
-- benign ethnic neutropenia ≥ 1000 μL
-***** Fanapt
-****** brand
-iloperidone
-***** Latuda
-****** brand
-lurasidone
-***** Rexulti
-****** brand
-brexpiprazole
-***** Zyprexa
-****** brand
-olanzapine
-***** Seroquel
-****** brand
-quetiapine
-****** [#B] adverse effects
-- weight gain / metabolic syndrome
-- sedation
-****** monitoring
-- increases LFTs
-- requires hepatic dose adjustments
-***** Invega
-****** brand
-paliperidone
-****** counseling
-tablet shell may appear in stool
-****** [#B] pharmacology
-active metabolite of risperidone; therefore, failure of risperidone may indicate failure of paliperidone
-***** Risperdal
-****** brand
-risperidone
-***** Geodon
-****** [#B] therapeutic use
-- *greatest risk of QT prolongation*
-- weight neutral
-- must use with 500 calories
-****** brand
-ziprasidone
-***** Vraylar
-****** brand
-cariprazine
-**** injectable antipsychotics
-***** aripiprazole
-***** risperidone
+*** movement disorders
+**** dystonia
+- anticholinergics…
+  - diphenydramine
+  - benztropine (Cogentin)
+- lower the dose of antipsychotic or switch to another agent
+**** [#A] akathisia
+- β-blockers
+- benzodiazepines
+- propranolol
+- *do not use anticholinergics*
+**** pseudoparkinsonism
+- anticholinergic agents …
+  - diphenydramine
+  - benztropine (Cogentin)
+  - trihexyphenidyl (Artane)
+- amantadine---an antiviral, not an anticholinergic, but also increases dopamine
+**** tardive dyskinesia
+***** clinical presentation
+- stereotypical involuntary movements; twitches
+- latent onset after starting a drug
+*** highest risk for metabolic syndrome
+- clozapine
+- olanzapine
+- quetiapine
+* delirium
+** treatment
+- antipsychotics
+  - haloperidol
+  - second generation antipsychotics
+- benzodiazepines
+- *do not use cholinesterase inhibitors*
 * bipolar
 ** lithium
 *** [#A] mechanism of action
 depletion of intracellular inositol
 *** [#A] therapeutic range
-0.6-1.2 mEq/L
-*** TODO toxicity
+0.6-1.5 mEq/L
+*** pharmacodynamics
+- ↓ Na
+*** pharmacokinetics
+**** interactions
+- caffeine
+- diuretics
+- NSAIDs
+- ACE/ARBs
+**** [#A] monitoring
+obtain trough 10-12 hours after administration
 *** TODO signs and symptoms (?)
+*** [#A] contraindications
+- pregnancy category D---do not use in the 1st trimester
+- renal impairment
+- severe thyroid disorders
+- cardiac disorders
+** divalproex sodium aka valproic acid
+*** brand
+Depakote
+*** pharmacokinetics
+**** metabolism
+divalproex sodium metabolizes to valproic acid
+*** [#A] serum concentration
+50-100 mcg/mL
+*** contraindications
+pregnancy category D---do not use in the 1st trimester
+** carbamazepine
+*** [#B] pharmacokinetics
+- autoinducer---induces own metabolism
+- CYP3A4 inducer
+*** contraindications
+pregnancy category D---do not use in the 1st trimester
+** lamotrigine
+*** adverse drug reactions
+rash; if rash
+** therapeutics
+*** manic or mixed episode
+- lithium
+- divalproex sodium
+- antipsychotic
+*** depressive episode
+- lithium
+- lamotrigine
+- for severe cases: antidepressants
