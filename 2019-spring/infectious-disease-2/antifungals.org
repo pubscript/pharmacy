@@ -12,44 +12,52 @@ polyene macrolide
 **** mechanism of action
 - directly binds to ergosterol to cause osmotic shock
 - oxidatively damages fungus; reactive oxygen species
-** ergosterol synthesis inhibitors (azoles)
-*** imidiazoles
-**** mechanism of action
+** ergosterol synthesis inhibitors
+*** azoles
+**** classes :l:
+***** imidiazoles
+****** mechanism of action
 inhibits fungal cytochrome P450 3A dependent enzyme 14-α-demethylase---which synthesizes ergosterol from lanosterol in the fungal cell membrane, thereby destabilizing the membrane
-**** drugs :l:
-***** Ketoconazole
-****** brand
+****** drugs :l:
+******* Ketoconazole
+******** brand
 Nizoral
-****** adverse drug reactions
+******** adverse drug reactions
 - inhibits human P450 enzymes
 - altered steroidogenesis
   - Menstrual irregularities
   - Loss of libido
   - Impotence
   - Gynecomastia in males
-***** Miconazole
-****** brand
+******* Miconazole
+******** brand
 Monistat
-***** Clotrimazole
-****** brand
+******* Clotrimazole
+******** brand
 Lotrimin
-*** triazoles :l:
-**** Fluconazole
-***** brand
+***** triazoles :l:
+****** Fluconazole
+******* brand
 Diflucan
-**** Itraconazole
-***** brand
+****** Itraconazole
+******* brand
 Sporanox
-**** Voriconazole
-***** brand
+****** Voriconazole
+******* brand
 Vfend
-**** Posaconazole
-***** brand
+****** Posaconazole
+******* brand
 Noxafil
+**** [#A] mechanism of action
+Inhibit ergosterol biosynthesis through inhibition of 14α- demethylase
+**** TODO [#B] structure
+*** allylamines
+**** mechanism of action
+inhibits squalene epoxidase
 ** cell wall inhibitors
 *** echinocandins
 **** mechanism of action
-non-competitively inhibits β-(1,3) glucan synthase---which synthesizes β-(1,3) glucan, a major component of the fungal cell wall
+non-competitively inhibits β-(1,3)-D-glucan synthase---which synthesizes β-(1,3) glucan, a major component of the fungal cell wall
 **** drugs :l:
 ***** Caspofungin
 ****** brand
@@ -67,13 +75,14 @@ flushing; release of histamine
 **** flucytosine
 ***** brand
 Ancobon
-*** mechanism of action
+***** TODO [#B] structure
+***** mechanism of action
 - competes with uracil and thymidine in synthesis of RNA and DNA, respectively
   - deaminates to 5-fluorouracil via cytosine deaminases
   - as a pyrimidine analogue, it competes with uracil in the synthesis of RNA
   - competes with thymidine during the synthesis of DNA
 - highly selective for fungus; humans cannot deaminate 5-fluorocytosine
-*** adverse drug reactions
+***** adverse drug reactions
 affects metabolism---fluorouracil is antineoplastic and toxic to intestinal flora
 ** mitosis inhibitors
 *** mechanism of action
@@ -81,6 +90,13 @@ affects metabolism---fluorouracil is antineoplastic and toxic to intestinal flor
 - disrupts mitotic spindle to inhibit mitosis
 *** drugs :l:
 **** griseofulvin
+***** mechanism of action
+- binds to fungal RNA
+- inhibits cell wall biosynthesis
+***** structure activity relationship
+- -OCH3 methoxy group on the cyclohexene confers lipophillicity to penetrate into fungal cells
+- larger substituents would dininish fungal cell penetration
+
 ** allylamines
 *** drugs :l:
 **** terbinafine
@@ -91,23 +107,20 @@ inhibits squalene oxidase---ergosterol’s synthesis pathway
 *** drugs
 - sordarins
 - azasordarins
-** cell wall synthesis
-*** glycan synthesis
-- echinocandins
-*** chitin synthesis
-- nikkomycin
 ** nucleic acid synthesis
 *** drugs
 - flucytosine
 ** cell membrane synthesis
-*** drugs
+*** ergosterol synthesis inhibitors
 - azoles
 - allylamines
+*** glycan synthesis
+- echinocandins
+*** chitin synthesis
+- nikkomycin
 ** mitosis and microtubules
-*** drugs
-griseofulvin
+- griseofulvin
 ** membrane integrity
-*** drugs
 - polyenes
 * fungal resistance
 1. Enzyme targeted by antifungal is overproduced
@@ -117,3 +130,182 @@ griseofulvin
 5. Fungus uses an alternate (“bypass”) pathway not inhibited by the antifungal
 6. Fungal enzymes that activate antifungals are inhibited
 7. Fungus secretes an enzyme which degrades antifungal
+* medicinal chemistry
+** squalene synthesis
+*** enzymes
+- squalene epoxidase
+- 14α-demethylase
+- Δ14-reductase
+- Δ8-, Δ7-isomerase
+* superficial fungal infections
+** skin
+*** types :l:
+**** tinea capitis
+***** location
+- scalp
+- hair follicles
+***** treatment
+****** [#A] strategy
+oral therapy + topical therapy
+****** [#B] oral therapy
+Terbinafine (Lamisil) 250 mg PO daily
+****** topical therapy
+- ketoconazole daily x4-8 weeks
+- selenium sulfide
+- povidone-iodine
+**** tinea cruris
+***** synonym
+jock itch
+***** location
+- proximal thighs
+- buttocks
+***** risk factors
+- obesity
+- diabetes
+- immunodeficiency
+***** treatment
+- topical steroids---hydrocortisone 2.5%
+- drying powder---miconazole nitrate (Zeasorb-AF®)
+**** tinea ungunium
+***** synonym
+onychomycosis
+***** location
+nails
+***** treatment
+****** topical
+******* [#A] duration
+48 weeks
+******* agents :l:
+******** Ciclopirox 8%
+********* [#A] indication
+- fingernails
+- toenails
+********* brand
+Penlac®
+********* [#A] formulation
+lacquer
+******** Efinaconazole 10%
+********* brand
+Jublia®
+********* formulation
+solution
+********* indication
+toenails
+******** Tavaborole 5%
+********* brand
+Kerydin ®
+********* formulation
+solution
+********* indication
+toenails
+****** oral
+******* terbinafine
+******** [#B] duration
+********* finger
+6 weeks
+********* toe
+12-16 weeks (longer duration than for fingers because toenails are harder to treat)
+******* itraconazole
+******** [#B] duration
+********* toe
+12 weeks
+********* finger
+6 weeks
+******* fluconazole
+******** [#B] duration
+********* finger
+≥ 6 months
+********* toe
+12 months
+**** tinea pedis
+***** synonym
+athlete’s foot
+***** location
+feet
+***** treatment
+****** topical
+******* agents :l:
+******** Butenafine
+********* brand
+Lotrimin Ultra®
+******** Sertaconazole
+********* brand
+Ertaczo®
+******** Luliconazole
+********* brand
+Luzu®
+********* [#B] duration
+2 weeks
+******** Naftifine
+********* brand
+Naftin®
+******* dose
+1%
+**** tinea corporis
+***** location
+anywhere on the body /except/...
+- scalp
+- beard
+- hands
+- feet
+*** most common skin infection
+tinea pedis aka athlete’s foot
+** vulvovaginal candidiasis (VVC)
+*** [#B] common pathogens
+- Candida albicans
+- C. glabrata
+*** signs and symptoms
+**** signs
+- Non-odorous vaginal discharge---Watery to curd-like
+- Yellow to yellow-green discharge
+- Erythema and edema of the labiaand vulva
+- Fissures
+- Pustulopapular lesions
+- Normal cervix
+**** symptoms
+- Dyspareunia
+- Vaginal itching
+- Vaginal soreness
+- Vaginal burning
+- Irritation
+- Extended dysuria
+*** classification
+**** sporadic / uncomplicated
+***** [#A] definition
+≤ 3 episodes/year
+**** recurrent / complicated
+***** [#A] definition
+≥ 4 episodes/year with or without symptoms
+***** organism
+non-albicans; usually C. glabrata
+*** treatment
+**** TODO uncomplicated
+**** complicated
+***** pregnant women
+- topical imdiazole x7d
+- avoid PO therapy; fluconazole linked to birth defects
+***** [#A] recurrent
+1. induction phase
+   - topical
+   - azole
+   - 10-14 days---14 if it’s their first time
+2. suppressive therapy---fluconazole 150 mg PO once weekly ≥6 months
+***** antifungal resistance
+- boric acid
+  - induction: 600 mg intravaginal capsule QD x14d
+  - maintenance: intravaginally twice a week
+- 5-flucytosine 1000 mg cream intravaginally qHS x7d
+** oropharyngeal candidiasis
+*** epidemiology
+50-90% of HIV patients
+*** treatment
+**** non-systemic :l:
+***** clotrimazole troche
+****** frequency and duration
+5 times daily for 7-14 days
+****** usage
+more frequent relapses because it’s inconvenient and uncomfortable to use
+***** nystatin
+**** [#B] systemic
+fluconazole 100-200 mg PO daily x7-14 days
+** esophageal candidiasis
