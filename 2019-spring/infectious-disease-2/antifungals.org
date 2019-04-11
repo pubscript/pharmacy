@@ -122,7 +122,7 @@ inhibits squalene oxidase---ergosterol’s synthesis pathway
 - griseofulvin
 ** membrane integrity
 - polyenes
-* fungal resistance
+* [#A] fungal resistance
 1. Enzyme targeted by antifungal is overproduced
 2. Antifungal is pumped out by an efflux pump
 3. Target of antifungal is altered so that the antifungal no longer binds
@@ -164,8 +164,11 @@ jock itch
 - diabetes
 - immunodeficiency
 ***** treatment
+****** drugs
 - topical steroids---hydrocortisone 2.5%
 - drying powder---miconazole nitrate (Zeasorb-AF®)
+****** [#A] strategy
+topical steroids + drying powder (non-pharmacologic)
 **** tinea ungunium
 ***** synonym
 onychomycosis
@@ -241,6 +244,9 @@ Luzu®
 Naftin®
 ******* dose
 1%
+****** [#B] strategy
+- severe: topical + non-pharmacologic
+- most commonly: just topical
 **** tinea corporis
 ***** location
 anywhere on the body /except/...
@@ -251,9 +257,11 @@ anywhere on the body /except/...
 *** most common skin infection
 tinea pedis aka athlete’s foot
 ** vulvovaginal candidiasis (VVC)
-*** [#B] common pathogens
-- Candida albicans
-- C. glabrata
+*** [#B] common pathogens :l:
+**** Candida albicans
+has the most resistance
+***** TODO specific treatment
+**** C. glabrata
 *** signs and symptoms
 **** signs
 - Non-odorous vaginal discharge---Watery to curd-like
@@ -279,9 +287,9 @@ tinea pedis aka athlete’s foot
 ***** organism
 non-albicans; usually C. glabrata
 *** treatment
-**** TODO uncomplicated
+**** TODO [#A] uncomplicated
 **** complicated
-***** pregnant women
+***** [#A] pregnant women
 - topical imdiazole x7d
 - avoid PO therapy; fluconazole linked to birth defects
 ***** [#A] recurrent
@@ -295,6 +303,7 @@ non-albicans; usually C. glabrata
   - induction: 600 mg intravaginal capsule QD x14d
   - maintenance: intravaginally twice a week
 - 5-flucytosine 1000 mg cream intravaginally qHS x7d
+*** TODO [#A] difference between uncomplicated and complicated
 ** oropharyngeal candidiasis
 *** epidemiology
 50-90% of HIV patients
@@ -309,3 +318,106 @@ more frequent relapses because it’s inconvenient and uncomfortable to use
 **** [#B] systemic
 fluconazole 100-200 mg PO daily x7-14 days
 ** esophageal candidiasis
+* systemic fungal infections
+** opportunistic infections
+*** invasive candidiasis :l:
+**** candidemia
+***** neutropenic
+****** definition
+- ANC >500
+- ANC trending upward
+***** non-neutropenic
+****** treatment
+echinocandins x5-7d
+- caspofungin
+- micafungin
+- anidalufungin
+***** TODO [#A] spread; how it affects other organisms
+**** endophthalmitis
+***** treatment
+**** candiduria
+**** respiratory
+***** aspergillosis
+****** allergic aspergillosis / sinusitis
+****** allergic bronchopulmonary aspergillosis
+****** chronic aspergillosis: aspergilloma
+****** invasive pulmonary aspergillosis
+******* treatment
+******** strategy
+early initiation of antifungal therapy during diagnostic evaluation
+******** preferred
+voriconazole
+- IV: 6 mg/kg q12h x2 then 4 mg/kg IV q12h
+- oral: 400 mg PO q12h x2 then 200 mg PO q12h
+******** [#B] salvage
+- other azole antifungals
+  - posaconazole
+  - itraconazole
+  - /not fluconazole/
+- echinocandins
+  - caspofungin
+  - micafungin
+  - anidulafungin
+- combinations
+**** osteoarticular
+***** diagnosis
+culture
+***** [#B] treatment
+fluconazole 400 mg IV QD x6wks
+**** mucormycosis
+***** treatment
+****** preferred
+liposomal amphotericin B 5-10 mg/kg/day IV
+****** [#A] salvage
+- posaconazole 400 mg PO BID with food
+- posacaonazole 200 mg PO QID without food
+***** goals of therapy
+early diagnosis is important
+**** CNS
+**** cardiovascular system
+** endemic fungal infections
+*** histoplasmosis
+**** [#C] organism
+Histoplasmosis capsulatum
+**** [#B] acute pulmonary infection
+***** mild-moderate
+when symptoms >4 weeks: itraconazole 6-12 weeks
+***** moderate-severe
+- amphotericin x2 weeks then itraconazole x12 weeks
+- add methylprednisolone for respiratory conditionss
+***** dosing
+****** [#A] itraconazole
+Load 200 mg Q8h x 3 days; followed by 200 mg BID x 12 weeks
+****** [#A] amphtericin
+3-5 mg/kg x 2 weeks
+**** [#A] HIV
+- mild-to-moderate: itraconazole x12 months
+- moderate-to-severe: amphotericin x2 weeks followed by itraconazole x12 months
+- lifelong suppressive therapy post-12 months of therapy
+  - AND
+    - OR
+      - severe disseminated histoplasmosis
+      - CNS infections
+    - relapse despite appropriate initial therapy
+- itraconazole 200 mg daily
+*** blastomycosis
+*** coccidomycosis
+**** treatment
+***** respiratory
+Azoles x 3-6 mo; Amphotericin followed by Azoles x 1 year (if diffuse pneumonia)
+***** extrapulmonary
+****** non-meningeal disease
+****** meningeal disease
+1. fluconazole 400 mg PO daily (drug of choice)
+2. itraconazole
+3. intrathecal amphotericin
+* TODO [#A] lifelong suppressive therapy
+** what makes this patient population unique
+** what are the unique qualifying characteristics
+** what are they most likely going to be---immunocompromised
+* TODO PPIs, H2RAs, antacids
+* Cates exam tips :ignore:
+- read the whole case
+- look at the disease states first
+- look at the labs
+- look for drug-drug interactions
