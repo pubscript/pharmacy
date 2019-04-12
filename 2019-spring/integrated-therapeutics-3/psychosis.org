@@ -171,8 +171,13 @@ pregnancy category D---do not use in the 1st trimester
 *** contraindications
 pregnancy category D---do not use in the 1st trimester
 ** lamotrigine
-*** adverse drug reactions
-rash; if rash
+*** [#A] adverse drug reactions
+- Steven Johnson’s Syndrome
+- rash; most likely develops in first month of therapy
+*** dose
+- 25 mg daily for 2 weeks
+- increase until maintenance at 400 mg/day
+- /titrate/ up
 ** therapeutics
 *** manic or mixed episode
 - lithium
@@ -182,3 +187,6 @@ rash; if rash
 - lithium
 - lamotrigine
 - for severe cases: antidepressants
+*** special cases
+**** [#A] manic patient on antidepressants
+discontinue the antidepressants because they overstimulate neurotransmitters already elevated

@@ -5,6 +5,13 @@
 - rigidity
 - akinesia/bradykinesia
 - posture and gait
+*** cardinal symptoms
+- bradykinesia
+- tremor
+- rigidity
+- postural instability
+*** [#B] similarity to side effects of which medication class?
+antipsychotics
 ** causes
 *** genetics
 - parkin
@@ -17,12 +24,89 @@
 - phenothiazines
 - bytrophenones
 - resperine
+** therapeutics
+*** psychosis in late stage Parkinsonism
+- low dose antipsychotics
+  - Clozapine 25 – 50 mg/day 
+  - Quetiapine 25 – 100 mg/day 
+  - Pimavanserin (Nuplazid) 34 mg/day
+*** rating scales
+Unified Parkinson’s Disease Rating Scale
+*** non-pharmacologic
+- deep brain stimulation (preferred)
+- exercise and diet
+- PT, OT, speech therapy
 ** drug classes :l:
 *** dopaminergic agents :l:
 **** L-DOPA
 ***** efficacy
 - most effective drug for Parkinsonian symptoms
 - Virtually all patients with confirmed PD experience clinically significant benefit.
+***** therapeutics
+***** [#B] dosing strategy
+- always use with Carbidopa
+  - Carbidopa ≥ 65 mg
+  - L-DOPA is always dosed with carbidopa---or else L-DOPA gets broken down in the periphery and never crosses the blood-brain-barrier
+- nausea and vomiting signals that L-DOPA is being broken down; increase Carbidopa dose
+***** adverse drug reactions
+- end of dose wearing off due to short half-life
+- peak dose dyskinesia
+*** DA metabolism inhibitors :l:
+**** decarboxylase inhibitors :l:
+***** Carbidopa
+**** MAO-B inhibitors :l:
+***** Selegiline
+****** mechanism of action
+- irreversible MAO-B inhibitor
+- dose-dependent selectivity
+****** therapeutics
+adjunctive therapy with L-DOPA
+****** brand :l:
+******* Eldepryl
+metabolized by CYP enzymes to l-amphetamine and l-methamphetamine
+******* Zelapar
+ODT
+- bypasses first-pass metabolism
+- doesn’t metabolize to amphetamine or methamphetamine metabolites
+- fewer side effects
+***** Rasagiline
+****** brand
+Azilect
+****** mechanism of action
+selective irreversible MAO-B inhibitor; can be used as monotherapy
+****** benefits
+- Decreases “off” time for patients on stable doses of carbidopa/levodopa
+- No amphetamine like metabolites, so improved tolerability
+***** Salfinamide
+****** brand
+Xadago
+****** contraindications
+severe hepatic impairment
+****** adverse drug reactions
+- involuntary movements
+- falls
+- nausea
+- insomnia
+**** COMT inhibitors
+***** drugs :l:
+****** Entacapone
+******* brand
+Comtan
+****** Tolcapone
+******* brand
+Tasmar
+******* toxicity
+hepatotoxicity
+***** therapeutics
+- not effective as monotherapy
+- always use COMT inhibitors with L-DOPA-Carbidopa
+***** adverse drug reactions
+- urinary discoloration
+- delayed onset diarrhea
+***** [#B] first line
+entacapone
+***** mechanism of action
+inhibits peripheral breakdown of L-DOPA
 *** dopamine agonists
 **** drug classes
 ***** ergot derivatives :l:
@@ -52,52 +136,27 @@ Neupro
 **** adverse drug reactions
 - not as effective as L-DOPA
 - Erythromelalgia and Raynaud’s phenomena
-*** DA metabolism inhibitors :l:
-**** decarboxylase inhibitors :l:
-***** Carbidopa
-**** MAO-B inhibitors :l:
-***** Selegiline
-****** mechanism of action
-- irreversible MAO-B inhibitor
-- dose-dependent selectivity
-****** therapeutics
-adjunctive therapy with L-DOPA
-****** brand :l:
-******* Eldepryl
-metabolized by CYP enzymes to (meth)amphetamine
-******* Zelapar
-ODT
-- bypasses first-pass metabolism
-- doesn’t metabolize to amphetamine or methamphetamine metabolites
-- fewer side effects
-****** Rasagiline
-******* brand
-Azilect
-******* mechanism of action
-selective irreversible MAO-B inhibitor; can be used as monotherapy
-******* benefits
-- Decreases “off” time for patients on stable doses of carbidopa/levodopa
-- No amphetamine like metabolites, so improved tolerability
-****** Salfinamide
-******* brand
-Xadago
-******* contraindications
-severe hepatic impairment
-**** COMT inhibitors :l:
-***** Entacapone
+*** antimuscarinic / anticholinergic agents
+**** agents :l:
+***** benztropine
 ****** brand
-Comtan
-***** Tolcapone
-****** brand
-Tasmar
-*** antimuscarinic agents :l:
-**** benztropine
-***** brand
 Cogentin
-**** trihexyphenidyl
-***** brand
+***** trihexyphenidyl
+****** brand
 Artane
+**** [#B] indications
+tremors
+**** therapeutics
+- younger patients ≤ 65 with temors (but intact cognitive function)
+- caution in patients with cognitive decline
+- monotherapy or adjunct to address tremors
+**** [#A] contraindications
+acute delirium
 *** amantadine
+**** indications
+- tremor
+- rigidty
+- bradykinesia
 * Alzheimer’s
 ** cholinesterase inhibitors
 *** drugs :l:
