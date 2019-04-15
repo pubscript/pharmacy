@@ -3,10 +3,94 @@
 *** deficiency
 **** [#B] relationship with folate
 administering folate can mask B12 deficiency
+** thiamine
+*** synonym
+B1
+*** forms & sources
+- Thiamine diphosphate (TDP)
+- Diet
+  - legumes
+  - pork
+  - rice
+- Endogenous: intestinal bacteria
+*** biologic role
+Coenzyme for energy metabolism and conduction of nerve impulses
+*** therapeutic use
+- Cataract prevention
+- Diabetic neuropathy
+- Dysmenorrhea
+- Alzheimer’s disease treatment and prevention
+*** requirements
+*** safety/toxicity
+*** deficiency
+*** treatment
 ** folate
+*** forms & sources
+*** biologic role
+*** therapeutic use
+*** requirements
+*** safety/toxicity
+*** deficiency
+*** treatment
 ** vitamin C
 *** deficiency
 scurvy
 *** [#A] population at risk
 smokers need more vitamin C because they have more oxidative stress
+** riboflavin
+*** synonym
+B2
+*** forms & sources
+*** biologic role
+*** therapeutic use
+*** requirements
+*** safety/toxicity
+*** deficiency
+*** treatment
+** niacin
+*** synonym
+B3
+*** forms & sources
+*** biologic role
+*** therapeutic use
+*** requirements
+*** safety/toxicity
+*** deficiency
+*** treatment
+** pyridoxine
+*** forms & sources
+*** biologic role
+*** therapeutic use
+*** requirements
+*** safety/toxicity
+*** deficiency
+*** treatment
+** biotin
+*** synonym
+B7
+*** forms & sources
+*** biologic role
+*** therapeutic use
+*** requirements
+*** safety/toxicity
+*** deficiency
+*** treatment
+** folate
+*** synonym
+B9
+*** forms & sources
+*** biologic role
+*** therapeutic use
+*** requirements
+*** safety/toxicity
+*** deficiency
+*** treatment
+** cyanocobalamin
+*** forms & sources
+*** biologic role
+*** therapeutic use
+*** requirements
+*** safety/toxicity
+*** deficiency
+*** treatment
 * fat soluble
