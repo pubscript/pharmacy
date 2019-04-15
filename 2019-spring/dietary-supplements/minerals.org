@@ -1,0 +1,124 @@
+* calcium
+** biological role
+** uses
+** safety
+*** [#B] high doses
+- increased risk of clots
+- CV events
+- renal impairment
+** toxicity
+** deficiency
+*** [#B] at risk
+- pregnancy
+- postmenopausal
+** supplement
+* magnesium
+** biological role
+** RDA
+men: 420 mg
+women: 320 mg
+** uses
+** safety
+** toxicity
+** deficiency
+*** [#B] at risk
+- alcoholism
+- long-term PPIs
+- diuretics
+- amphotericin B
+** supplement
+*** [#A] highest bioavailability
+- gluconate
+- lactate
+- aspartate
+* iron
+** RDA
+*** adults
+18 mg
+*** [#B] pregnancy
+27 mg
+** biological role
+** uses
+** safety
+*** adverse drug reactions
+- constipation
+- abdominal pain
+- diarrhea
+- nausea
+- vomiting
+counseling...
+- less severe at loser doses
+- take with good
+** toxicity
+*** [#B] lethal dose
+200-250 mg/kg
+*** [#B] overdose
+**** signs and symptoms
+Begins within 6 hours of ingestion with vomiting, hematemesis, diarrhea, irritability, abdominal pain and lethargy; shock and liver failure
+**** treatment
+deferoxamine
+** deficiency
+*** [#B] at risk
+- pregnancy
+- heavy menstrual bleeding
+** supplement
+*** [#B] counseling
+iron absorption increased with vitamin C
+*** most common salts
+- ferrous fumarate (highest absorption)
+- sulfate
+- gluconate
+*** dose
+150-200 mg elemental iron PO daily
+* zinc
+** biological role
+** [#B] uses
+Wilson disease
+** [#B] safety
+chronic doses >40 mg/day lead to copper deficiency and associated anemia
+** toxicity
+** deficiency
+*** [#B] at risk
+burns
+** supplement
+* copper
+** biological role
+** uses
+** safety
+** toxicity
+*** [#B] symptoms
+
+** [#B] deficiency
+*** causes
+can be caused by excessive zinc intake
+** supplement
+*** [#B] Wilson disease
+- zinc salts
+- copper chelating agents
+  - penicillamine trientene
+* selenium
+** biological role
+** uses
+** safety
+** toxicity
+** deficiency
+** supplement
+*** [#B] burn patients
+Daily IV administration of selenium+copper+zinc (Selenium 315-380mcg) 
+* chromium
+** biological role
+** [#B] uses
+maintain normal glycemic control (questionable efficacy)
+** safety
+** toxicity
+** deficiency
+** supplement
+*** [#B] diabetes mellitus
+inconclusive evidence
+* manganese
+** biological role
+** uses
+** safety
+** toxicity
+** deficiency
+** supplement

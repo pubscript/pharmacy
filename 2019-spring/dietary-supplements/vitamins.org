@@ -275,7 +275,7 @@ B9
 - methotrexate toxicity
 *** requirements
 **** [#B] pregnancy
-600 mg; 400-800 mcg recommended to prevent neural tube defects
+600 mcg; 400-800 mcg recommended to prevent neural tube defects
 **** males and females
 400 mcg
 *** safety/toxicity
@@ -372,28 +372,19 @@ provitamin A carotenoids
   - retinol
   - retinolic acid
 - RBC development
-*** [#B] therapeutic use
-- skin
-  - /acne/
-  - wrinkles
-- cataracts; lowers risk at high diet intake
+*** therapeutic use
+**** high diet intake
+cataract prevention
+**** [#B] synthetic retinoids
+- /acne/
+- wrinkles
 - leukemia
 *** requirements
-Retinol - 1 mcg
-retinol = 1 mcg
-RAE;
-Beta-Carotene
-(from
-supplement) - 2
-mcg BC = 1 mcg
-RAE;
-Beta-Carotene
-(from food) - 12
-mcg BC = 1 mcg
-RAE
-*RAE – retinol
-activity
-equivalent
+- Retinol - 1 mcg retinol = 1 mcg RAE
+- Beta-Carotene (from supplement) - 2 mcg BC = 1 mcg RAE
+- Beta-Carotene  (from food) - 12 mcg BC = 1 mcg RAE
+
+RAE ≡ retinol activity equivalent 
 *** [#B] safety/toxicity
 - /teratogenicity---synthetic retinoids contraindicated in pregnancy/
 - hepatotoxicity---with chronic use of 10x RDA but reversible on cessation
@@ -404,17 +395,72 @@ equivalent
   - increased risk of lung cancer in smokers
 *** deficiency
 **** [#B] severe
-xerophthalmia
+xerophthalmia---may lead to blindness
 *** treatment
+**** mild-moderate
+100 000 IU PO daily x3 days, then 50 000 IU daily x2 weeks
+**** xerophthalmia
+200 000 IU PO on day 1, 2, and 14, then maintenance dose
 ** vitamin D
 *** forms
+**** [#B] bioactive
+calcitriol
+**** [#B] precursors
+- D3
+- D2
 *** sources
-*** biologic role
-*** therapeutic use
+**** endogenous
+- sun exposure (major)
+**** [#B] diet
+- D3
+  - fatty fish
+  - fortified products (has higher affinity for D receptors)
+- D2
+  - plant sterols
+  - mushroom
+  - yeasts
+**** 2 step activation
+1. calcidiol in the liver
+2. calcitriol in the kidney
+*** [#B] biologic role
+- /calcium homeostasis/
+- /immune function/
+- bone remodeling
+- muscle strength, balance, and gait
+*** [#B] therapeutic use
+- /osteomalacia/ and osteoporosis prevention
+- psoriasis and CKD secondary treatment
+- CV disease
 *** requirements
+**** [#B] adults
+70-800 IU
+**** [#B] sunlight
+5-15 min/day
+**** infants and children
+- infants: 400 IU
+- children: 600 IU
 *** safety/toxicity
-*** deficiency
+**** [#B] symptoms
+- hypercalcemia
+  - confusion
+  - vomiting
+  - muscle weakness
+- GI upset
+**** dose
+10000 IU/day
+*** [#A] deficiency
+- one of the more common nutritional deficiencies in the US
+- at risk
+  - /breastfed infants/
+  - malabsorption disease
+  - gastric bypass surgery
+  - elderly
+  - CKD
+- diseases
+  - rickets in children---skeletal deformities
+  - osteomalacia in adults---bone loss and osteoporosis risk
 *** treatment
+General txt: 50,000 IU PO once weekly x 6-8 weeks, Followed by maintenance dose of 800 IU PO daily from supplements or diet 
 ** vitamin A
 *** forms
 *** sources
@@ -426,20 +472,59 @@ xerophthalmia
 *** treatment
 ** vitamin E
 *** forms
+α-tocopherol
 *** sources
-*** biologic role
-*** therapeutic use
+- Diet: oils (olive, canola), meat, eggs, leafy vegetables;
+- Synthetic: 50% activity of the natural vitamin
+*** [#B] biologic role
+- Antioxidant
+- Enhances immune function
+- Increases antiplatelet activity
+*** [#B] therapeutic use
+- Decreased risk of CV-related deaths in women
+- Inconclusive evidence of effect on prostate cancer.
+- Slows cognitive decline of Alzheimer’s disease
 *** requirements
-*** safety/toxicity
+Adults and pregnancy – 15mg;
+Max daily dose – 400 IU/day 
+*** [#B] safety/toxicity
+- /Hemorrhage risk in liver failure/
+- bleeding disorders
+- hx of stroke
+- Long-term – increase risk of stroke;
 *** deficiency
+very uncommon
+**** at risk
+- malabsorption disease
+- genetic disorder (ataxia with vitamin E-deficiency AVED)
 *** treatment
+800-1200 mg/day to prevent neurologic deterioration in AVED
 ** vitamin K
 *** forms
+Active form – reduced vitamin K1
 *** sources
-*** biologic role
-*** therapeutic use
+**** [#B] K1 (phytonadione)
+green leafy vegetables
+**** K2 (menaquinone) 
+- fermented foods
+- animal liver
+*** [#B] biologic role
+- Coagulation – required for activation of Prothrombin, VII, IX, X, proteins C & S
+- Bone metabolism 
+*** [#B] therapeutic use
+Dietary and pharmacologic vitamin K used as reversal agent in warfarin therapy 
 *** requirements
+- Males > 19y - 120 mcg
+- Females > 19y & Pregnancy - 90 mcg 
 *** safety/toxicity
+**** [#B] drug interactions
+warfarin
+**** IV K1
+anaphylaxis (rare)
 *** deficiency
-*** treatment
-
+**** [#B] at risk
+- /neonates/
+- liver disease
+- malabsorption disease
+*** [#B] treatment
+Vitamin K shot at birth 
