@@ -1,0 +1,160 @@
+* types
+** HIV-1
+- fast transmission
+- found everywhere
+** HIV-2
+- Mostly found in West Africa
+- Slow rate of transmission & progression
+- Many subtypes (strains)
+* AIDS
+** diagnosis
+- OR
+  - OR
+    - HIV-(+) with a CD4 count currently
+    - has ever had <200 cells/mm^3
+  - AND
+    - HIV-(+)
+    - currently or has ever had an AIDS-defining illness
+** AIDS-defining illnesses
+- toxoplasmosis
+- MAC
+- Kaposi’s sarcoma
+- PCP
+* diagnosis
+** TODO [#A] OTC :l:
+*** Home Access Express HIV-1 Test System
+- fingerstick blood sample
+- requires shipping
+- results next business day
+- disadvantages
+  - time
+  - needles
+*** [#B] OraQuick In-Home HIV test
+- oral swab
+- results in 20-40 minutes
+- after 40 minutes, test is invalid; must be read
+- disadvantages
+  - harder to read
+** labs :l:
+*** genotype
+**** mutations
+***** [#A] M184V
+good---causes virus to replicate slower
+****** drugs resistant
+- emtricitabine
+- lamivudine
+****** hypersusceptible
+- stavudine
+- zidovudine
+- tenofovir
+***** [#A] K103
+bad---causes drug resistance
+****** drugs resistant
+- nevirapine
+- efavirenz
+- delaviridine
+*** HLA-B*5701
+*** trofile testing
+** CD4 count
+** viral load
+*** definition
+amount of HIV RNA in blood
+*** goal
+- VL as low as possible
+- CD4 count as high as possible
+* resistance
+** types :l:
+*** treatment-emergent; adherence
+suboptimal antiretroviral therapy
+*** transmitted
+transmission of a resistant virus
+* [#A] HIV replication cycle :l:
+** 1. binding/attachment
+*** drugs that target
+- CCR5 antagonist
+- monoclonal antibodies
+** 2. fusion
+*** drugs that target
+fusion inhibitors
+** 3. reverse transcription
+*** drugs that target
+- NRTIs
+- NNRTIs
+** 4. integration
+*** drugs that target
+INSTIs
+** 5. replication
+** 6. assembly
+** 7. budding and maturation
+*** drugs that target
+PIs
+* drug classes
+** TODO brand and generics
+** TODO individual agents of coformulations
+** TODO distinguish complete vs. incomplete antiretroviral regimens
+** TODO for each antiretroviral agent...
+- [ ] black box warning
+- [ ] contraindication
+- [ ] most common side effects
+- [ ] significant drug-drug interactions
+- [ ] significant drug-food itneractions
+** Nucleo[st]ide Reverese Transcriptase Inhibitors (NRTIs) (“the nukes”)
+*** by nucleic acid derivative
+**** adenosine derivatives :l:
+***** didanosine
+***** tenofovir
+****** salts :l:
+******* tenofovir disoproxil fumarate (TDF)
+******** brand
+Viread®
+******** [#B] activity
+activity against HBV
+******** adverse effects
+- Fanconi’s syndrome; renal insufficiency
+- bone density loss
+  - osteomalacia
+  - osteoporosis
+******* tenofovir alafenamide fumarate (TAF)
+**** cytosine derivatives :l:
+***** emitricitabine
+***** lamivudine
+**** thymidine derivatives :l:
+***** stavudine
+***** zidovudine
+****** [#B] indication
+only for pregnant women giving birth---literally during labor
+**** guanine derivatives :l:
+***** abacavir
+*** adverse drug reactions
+GI related
+*** dose adjustments
+renal dose adjustment; for all except abacavir
+* TODO therapeutics
+** NRTIs
+*** [#A] combination treatments
+do not pick 2 derivatives of the same nucleic acid
+*** which to use
+*** [#A] thymidine derivatives
+do not use except in pregnancy
+*** clean vs. dirty
+**** [#B] clean
+- tenofovir disoproxil
+- tenofovir alafenamide
+- emtricabine
+- abacavir
+- lamivudine
+**** dirty
+- stavudine
+- didanosine
+- zidovudine
+*** black box warning
+- hepatomegaly with steatosis
+- lactic acidosis
+** TODO treatment-naive patient
+*** [#A] never use
+- nevirapine
+- efavirenz
+- delaviridine
+** TODO treatment-naive pregnant patient
+* 
+
