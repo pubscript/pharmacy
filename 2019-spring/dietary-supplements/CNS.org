@@ -1,0 +1,115 @@
+* yohimbe
+** mechanism of action
+selective presynaptic α-2 adrenergic blocking
+** indication
+erectile dysfunction
+** drug interactions
+- Adrenergic/antiadrenergic agent
+- linezolid
+- MAO inhibitors
+- sildenafil
+- sympathomimetics
+* coenzyme Q10
+** indication
+Parkinson’s
+** mechanism of action
+serves as a cofactor in oxidative respiration for the Krebs cycle and the electron transport chain
+* ginkgo
+** indication
+Alzheimer’s
+** adverse effects
+- bleeding
+- may lower seizure threshold
+- Stevens-Johnson syndrome and allergic skin reaction
+** drug interactions
+- anticoagulants - severe but delayed
+- anticonvulsants - severe but delayed
+- antiplatelet - severe rapid onset
+- buspirone - severe delayed
+- risperdone - priapisim 
+- CYP 3A4 / 2C9 induction - talk about examples
+- SSRI - serotonin syndrome
+- sedative / hypnotics - excessive sedation
+* kava
+** mechanism of action
+- Interaction with dopaminergic transmission
+- Inhibition of central monoamine oxidase-B
+- Modulation of gamma-amino butyric acid-B (GABAb) receptors
+- Inhibition of uptake of noradrenaline 
+- Antithrombotic activity
+** indication
+- mild anxiety
+- sleep
+** adverse effects
+- hepatotoxicity
+- GI
+- dermatological
+** toxicity
+hepatotoxicity
+* valerian
+** indication
+- insomnia
+- anxiety
+** toxicity
+carcinogenic
+** therapeutics
+- avoid synergy with drugs that duplicate therapy
+  - sedative drugs
+    - hypnotics
+    - barbituates
+  - anticholinergics
+* melatonin
+** adverse effects
+rare risk of seizures
+** drug interactions
+drugs that deplete vitamin B6...
+1. oral contraceptives
+2. estrogen
+3. hydralazine
+4. loop diuretics
+* butterbur
+** [#B] indication
+migraine prophylaxis
+** contraindications
+- stroke
+- veno-occlusive disease
+** [#B] toxicity
+hepatotoxicity
+* feverfew
+** adverse effects
+- withdrawal (probably because it’s contaminated with benzos)
+** indication
+migraine
+** mechanism of action
+- inhibits synthesis of leukotrienes, prostaglandins, and thromboxane
+- inhibits platelet aggregation
+- induces smooth muscle relaxation
+** [#A] contraindications
+- pregnancy; because it inhibits prostaglandins
+- duodenal ulcers; NSAID use
+* St. John’s Wort
+** mechanism of action
+*** neurotransmitters
+- serotonin
+- dopamine
+- norepinephrine
+- GABA
+*** equivalent to
+tricyclic antidepressants
+** indication
+- depression
+- anxiety
+- insomnia
+** adverse effects
+many because it is a “dirty binding” drug---i.e., it non-selectively targets many CNS drug targets
+** [#A] drug interactions
+- oral contraceptives (decreased effectiveness)
+- it’s a CYP450 inducer
+* hyperzine
+** mechanism of action
+reversible chollinesterase inhibitor
+** indication
+- Alzheimer’s
+- protection from neurotoxic agents like organophosphate nerve gases
+** [#A] drug interactions
+memantine
