@@ -59,8 +59,8 @@ bad---causes drug resistance
 ** viral load
 *** definition
 amount of HIV RNA in blood
-*** goal
-- VL as low as possible
+*** [#B] goal
+- VL as low as possible; <20 or <50
 - CD4 count as high as possible
 * resistance
 ** types :l:
@@ -102,34 +102,294 @@ PIs
 *** by nucleic acid derivative
 **** adenosine derivatives :l:
 ***** didanosine
+****** brand
+Videx EC
 ***** tenofovir
 ****** salts :l:
 ******* tenofovir disoproxil fumarate (TDF)
 ******** brand
-Viread®
+Viread
 ******** [#B] activity
 activity against HBV
-******** adverse effects
+******** [#B] adverse effects
 - Fanconi’s syndrome; renal insufficiency
 - bone density loss
   - osteomalacia
   - osteoporosis
+******** dose adjustment 
+CrCl < 15
 ******* tenofovir alafenamide fumarate (TAF)
+******** brand
+Vemlidy
+****** comparison between TAF and TDF
+TAF is generally better because it is more well-tolerated with less side effects
 **** cytosine derivatives :l:
 ***** emitricitabine
+****** brand
+Emtriva
 ***** lamivudine
+****** brand
+Epivir
+****** dosing
+- 150 mg BID
+- 300 mg daily
+- no food restrictions
+****** activity
+- has activity against hepatitis B
+- Epivir-HBV 100mg tab is for HBV only
+****** adverse drug reactions
+very well tolerated
 **** thymidine derivatives :l:
 ***** stavudine
+****** brand
+Zerit
 ***** zidovudine
+****** brand
+Retrovir
+****** [#B] black box warning
+- hematologic toxicities
+- myopathy/myositis with prolonged use
+****** adverse drug reactions
+- skin/nail hyperpigmentation
+- nausea/vomiting
 ****** [#B] indication
 only for pregnant women giving birth---literally during labor
 **** guanine derivatives :l:
 ***** abacavir
+****** [#A] black box warning
+fatal hypersensitivity requirement
+****** dose adjustment
+- no renal
+- hepatic dosing for Child Pugh A ⇒ 200 mg BID
+****** hypersensitivity
+******* [#B] test
+- HLA-B*5701 required prior to initiating therapy
+- if positive, do not use abacavir
+******* [#B] symptoms
+- fever
+- rash
+- GI symptoms
+- general illness, fatigue, achy
+- SOB, cough, or sore throat
+*** combinations
+**** dose adjustment
+- do not use combination products CrCl <50 ml/min
+- except Descovy with CrCl ≥ 30 mL/min
+**** clean :l:
+***** tenofovir alafenamide /emtricitabine
+****** brand
+Descovy
+****** dosing
+- 200 mg emtricitabine / 25 mg tenofovir alafenamide daily
+- no food restrictions
+****** indication
+Hep B
+***** tenofovir disoproxil / emtricitabine
+****** brand
+Truvada
+****** [#B] indications
+Pre-Exposure Prophylaxis (PrEP); only drug approved for this
+****** dose
+300 mg tenofovir disoproxil fumarate / 200 mg emtricabine
+****** requirements
+- CrCl > 70 mL/min to start
+- if CrCl falls below 50, switch
+- if CrCl falls below 70, monitor
+***** abacavir / lamivudine
+****** brand
+Epzicom
+****** dose
+600 mg abacavir / 300 mg lamivudine
+****** requirements
+patients must be HLA-B*5701 negative
+***** lamivudine / tenofovir disoproxil
+****** brand
+Cimduo
+****** requirements
+CrCl ≥ 70 mL/min
+**** TODO dirty dogs :l:
 *** adverse drug reactions
 GI related
 *** dose adjustments
 renal dose adjustment; for all except abacavir
-* TODO therapeutics
+** Integrase Inhibitors
+*** common suffix
+-tegravir
+*** mnemonics
+BRED
+- Bictegravir
+- Raltegravir
+- Elvitegravir
+- Dolutegravir
+*** drugs
+**** single agents :l:
+***** bictegravir
+***** raltegravir
+***** elvitegravir
+****** food requirement
+requires food
+***** dolutegravir
+****** brand
+Tivicay
+****** TODO 3A4 dosing
+**** combinations :l:
+***** Bictegravir / tenofovir alafenamide / emtricitabine
+****** brand
+Biktarvy
+***** Raltegravir
+****** brand
+Isentress
+*** food requirements
+only elvitegravir needs to be taken with food
+*** [#A] drug interactions
+**** in general
+many interactions with antacids and polyvalent cations
+**** TODO memorize slide 172
+** Non-Nucleotide Reverse Transcriptase Inhibitors (NNRTIs)
+*** single agents :l:
+**** Nevirapine
+***** brand
+Viramune®
+**** Evavirenz
+***** brand
+Sustiva®
+***** warnings
+- pregnancy category D---causes neural tube defects
+- false positive cannabinoid or benzodiazepine drug test results
+***** pharmacokinetics
+- strong CYP3A4 inducer
+- moderate 2C9/19 inhibitor
+***** adverse effects
+- CNS side effects
+- hypertriglyceridemia
+***** counseling
+take on an empty stomach
+**** Delaviridine
+***** brand
+Rescriptor®
+**** Etravirine
+***** brand
+Intelence®
+**** Rilpivirine
+***** brand
+Edurant®
+***** contraindications
+- PPIs
+- strong 3A4 inducers; i.e., rifampin
+*** combinations :l:
+**** Efavirenz / emtricitabine / tenofovir disoproxil
+***** brand
+Atripla®
+**** Rilpivirine / emtricitabine / tenofovir disoproxil
+***** brand
+Complera®
+**** Rilpivirine / emtricitabine / tenofovir alafenamide
+***** brand
+Odefsey®
+**** Rilpivirine / dolutegravir
+***** brand
+Juluca®
+***** components
+- 50 mg dolutegravir
+- 25 mg rilpivirine
+***** requirements
++ CrCl ≥ 30 mL/min
++ AND
+  - virologically suppressed on stable antiretroviral regimen for ≥ 6 months
+  - no history of treatment failure
+  - no resistance to dolutegravir or rilpivirine
+***** formulation
+single tablet regimen
+***** pharmacokinetics
+****** coadministration with rifambutin
+**** Efavirenz/Lamivudine/ Tenofovir disoproxil fumarate
+***** brand
+Symfi®
+**** Doravirine / lamivudine / tenofovir disoproxil
+***** brand
+Delstrigo®
+** Fusion Inhibitors :l:
+*** Enfuvirtide
+**** brand
+Fuzeon®
+**** usage
+salvage therapy
+** CCR5 antagonists
+*** indication
+acute early infections
+*** requirements
+trophism assay returning CCR5 result
+*** agents :l:
+**** Maraviroc
+***** brand
+Selzentry
+***** indications
+- HIV-1
+- CCR5-tropic viral infections
+***** black box warning
+hepatotixicity preceded by systemic allergic rash with eosinophilia
+** Protease Inhibitors
+*** drugs
+**** single agents :l:
+***** Atazanavir
+****** brand
+Reyataz®
+***** Darunavir
+****** brand
+Prezista®
+***** Lopinavir/ritonavir
+****** brand
+Kaletra®
+***** Fosamprenavir
+****** brand
+Lexiva®
+***** Saquinavir
+****** brand
+Invirase®
+***** Nelfinavir
+****** brand
+Viracept®
+***** Indinavir
+****** brand
+Crixivan®
+***** Tipranavir
+****** brand
+Aptivus®
+**** combinations :l:
+***** Darunavir / cobicistat
+****** brand
+Prezcobix®
+***** Atazanavir / cobicistat
+****** brand
+Evotaz®
+***** Lopinavir / ritonavir
+****** brand
+Kaletra®
+***** Darunavir / cobicistat / emtricitabine / TAF
+****** brand
+Symtuza®
+*** therapeutics
+**** preferred agents
+- atazanavir
+- darunavir
+**** adverse effects
+- lipodystrophy
+- metabolic
+  - insulin resistance
+  - lipid abnormalities
+- LFT elevations
+** Monoclonal Antibody
+*** Ibalizumab-uiyk
+**** brand
+Trogarzo®
+**** [#B] dosing
+***** initial
+2,000 mg into a 250 mL bag of NS infused as a single dose over >30 mins
+***** maintenance
+800 mg into a 250 mL bag of NS infused over >15 mins then observe >15 mins
+***** [#A] missed maintenance dose
+If missed maintenance dose by >3 days past originally scheduled day, must re-do initial dose
+* therapeutics
 ** NRTIs
 *** [#A] combination treatments
 do not pick 2 derivatives of the same nucleic acid
@@ -150,11 +410,55 @@ do not use except in pregnancy
 *** black box warning
 - hepatomegaly with steatosis
 - lactic acidosis
-** TODO treatment-naive patient
+** treatment-naive patient
 *** [#A] never use
 - nevirapine
 - efavirenz
 - delaviridine
-** TODO treatment-naive pregnant patient
+*** initial regimens :l:
+**** Bictegravir / tenofovir alafenamide / emtricitabine
+***** brand
+Biktarvy®
+**** Dolutegravir / abacavir / lamivudine
+***** brand
+Triumeq®
+**** Dolutegravir + tenofovir alafenamide / emtricitabine
+***** brand
+Tivicay® + Descovy®
+**** Dolutegravir + tenofovir disoproxil / emtricitabine
+***** brand
+Tivicay® + Truvada®
+**** Raltegravir + tenofovir alafenamide / emtricitabine
+***** brand
+Isentress® + Descovy®
+**** Raltegravir + tenofovir disoproxil / emtricitabine
+***** brand
+Isentress® + Truvada®
+**  [#A] treatment-naive pregnant patient
+- BOTH
+  + 2 NRTIs
+    + abacavir/lamivudine
+    + emtricitabine/ tenofovir disoproxil fumarate
+    + lamivudine/ tenofovir disoproxil fumarate
+  + OR
+    + boosted PI
+      + darunavir/ritonavir
+      + atazanavir/ritonavir
+    + INSTI: raltegravir
+** [#A] perinatal prophylaxis
+zidovudine during intrapartum
+** coinfection with hepatitis B
+*** mnemonic
+LET it B
+L = Lamivudine
+E = Emtricitabine
+T = Tenofovir disoproxil fumarate or Tenofovir alafenamide
+B = Hepatitis B
+*** potency
+1. Entecavir 
+2. Tenofovir 
+3. Lamivudine 
+4. Adefovir 
+5. Emtricitabine
 * 
 
