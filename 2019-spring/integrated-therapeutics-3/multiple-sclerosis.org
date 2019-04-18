@@ -1,0 +1,15 @@
+* drugs :l:
+** mitoxantrone
+*** [#A] dosing
+- 12 mg/m^2 @ 3 months IV infusion
+- lifetime max dose 140 mg/m^2
+*** adverse drug reactions
+- Nausea
+- alopecia
+- menstrual irregularities
+- UTI
+- URTI
+*** warnings
+pregnancy category D
+** 
+
