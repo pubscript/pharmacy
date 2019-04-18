@@ -158,27 +158,64 @@ acute delirium
 - rigidty
 - bradykinesia
 * Alzheimer’s
-** cholinesterase inhibitors
-*** drugs :l:
-**** donepezil
-***** mechanism of action
+** drug classes
+*** cholinesterase inhibitors
+**** drugs :l:
+***** donepezil
+****** mechanism of action
 non-competitive inhibitor of AChE
-***** brand
+****** brand
 Aricept
-**** rivastigmine
-***** brand
+***** rivastigmine
+****** brand
 Exelon
-***** mechanism of action
+****** mechanism of action
 non-competitive (pseudo-irreversible) inhibitor of AChE
-**** galantamine
-***** brand
+***** galantamine
+****** brand
 Razadyne
-***** mechanism of action
+****** mechanism of action
 Competitive, reversible centrally-acting cholinesterase inhibitor AND nAChR agonist
-**** tacrine
-** memantine
-*** mechanism of action
+***** tacrine
+****** [#C] brand
+Cognex
+****** significance
+removed from the market due to hepatotoxicity
+*** NMDA antagonists :l:
+**** memantine
+***** mechanism of action
 Memantine binds to the magnesium biding site, and functions as an effective receptor blocker under conditions of excessive stimulation
-*** therapeutics
+***** therapeutics
 - moderate-to-severe dementia/Alzheimer’s
 - in combination with donepezil or monotherapy 
+*** combination therapy :l:
+**** donepezil + memantine
+***** brand
+Namzaric
+*** other treatment options (not recommended)
+- estrogen
+- anti-inflammatory agents
+  - NSAIDs
+  - steroids
+- lipid lowering agents; statins
+- dietary/food supplements
+  - Ginkgo biloba
+  - vitamin E
+  - huperzine A
+  - polyphenols
+  - AC1202 (Axona ®)
+** therapeutics
+*** contraindications
+**** [#B] drugs
+- anticholinergics
+*** treatment strategy
+**** mild-moderate
+cholinesterase inhibitors
+**** severe
++ memantine
++ donepezil
+*** evaluation test
+MMSE
+** pathophysiology
+*** risk factors
+- older age
