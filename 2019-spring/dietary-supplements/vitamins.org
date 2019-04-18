@@ -1,0 +1,530 @@
+* water soluble
+** thiamine
+*** synonym
+B1
+*** forms & sources
+- Thiamine diphosphate (TDP)
+- Diet
+  - legumes
+  - pork
+  - rice
+- Endogenous: intestinal bacteria
+*** biologic role
+Coenzyme for energy metabolism and conduction of nerve impulses
+*** [#B] therapeutic use
+- /Cataract prevention/
+- Diabetic neuropathy
+- Dysmenorrhea
+- Alzheimer’s disease treatment and prevention
+*** requirements
+- Males – 1.2 mg
+- Females – 1.2 mg
+- Pregnancy – 1.4 mg
+*** safety/toxicity
+*** deficiency
+**** [#B] high risk
+- Alcoholics
+- high carb diet
+- folate deficiency
+**** diseases
+- Beriberi disease---Dry vs Wet
+- Wernicke-Korsakoff---syndrome Life-threatening
+*** treatment
+- Beriberi: 50mg IM
+- WKS: 100-500mg IV TID, taper; Must be infused with glucose
+** vitamin C
+*** forms
+ascorbic acid
+*** sources
+**** absorption
+- dose-dependent
+- >1g only half is absorbed
+**** diet
+- citrus fruits
+- tomatoes
+- potatoes
+- broccoli
+*** [#B] biologic role
+- /collagen synthesis/
+- /increases bioavailability and absorption of iron/
+- dopamine → norepinephrine conversion
+- antioxicant
+*** therapeutic use
+- atherosclerosis; slow progression
+- decreases cold duration
+- topically can improve wrinkles
+*** requirements
+**** males
+90 mg
+**** females
+75 mg
+**** pregnancy
+85 mg
+**** [#B] smokers
+additional 35 mg/day
+*** [#B] safety/toxicity
+- /CV mortality risk in postmenopausal women with diabetes >300 mg/day/
+- /kidney stones >1 g/
+- GI upset, diarrhea >2 g/day
+*** deficiency
+**** [#A] symptoms
+scurvy...
+- hemorrhagic manifestations
+- abnormal dentin formation
+**** [#A] population at risk
+smokers need more vitamin C because they have more oxidative stress
+*** treatment
+**** [#B] scurvy
+300-1000 mg daily for 1 month
+** riboflavin
+*** synonym
+B2
+*** forms
+- Flavin mononucleotide (FMN)
+- Flavin adenine dinucleotide (FAD)
+*** sources
+**** diet
+- eggs
+- milk
+- green veggies
+**** endogenous
+intestinal bacteria
+*** [#B] biologic role
+- antioxidant
+- coenzymes for energy and metabolism
+*** therapeutic use
+- cataract prevention
+- migraine prophylaxis
+*** requirements
+- Males – 1.3 mg
+- Females – 1.1 mg
+- Pregnancy – 1.4 mg
+*** safety/toxicity
+- >400 mg/day
+- minor
+*** deficiency
+**** [#B] at risk
+- alcoholics
+- liver disease
+- veganism
+*** treatment
+5-30 mg PO daily
+** niacin
+*** synonym
+B3
+*** [#B] forms
+- nicotine adenine dinucleotide (NAD)
+- NAD phosphate (NADP)
+*** sources
+**** diet
+- meat
+- fish
+- beans
+**** endogenous
+tryptophan converted to niacin in the liver
+*** biologic role
+- substrate in DNA repair enzymes
+- coenzyme in energy and metabolism
+*** [#B] therapeutic use
+- /hyperlipidemia/
+- osteoarthritis prophylaxis
+- Alzheimer’s prevention
+*** requirements
+- Males – 16mg
+- Females – 14mg
+- Pregnancy – 18mg
+**** ratio of conversion from tryptophan
+1mg = 60mg dietary tryptophan
+*** safety/toxicity
+**** [#B] nicotinic acid
+- flushing
+- hepatotoxicity
+- itching
+- GI upset
+**** nicotinamide
+- hepatotoxicity
+- headache, nausea
+*** nicotinic acid vs. nicotinamide
+**** nicotinic acid
+Rx and OTC
+**** nicotinamide
+- no flushing
+- no lipid lowering effects
+*** deficiency
+**** symptoms
+- pellagra
+  - dermatitis
+  - diarrhea
+  - dementia
+*** treatment
+- Mild deficiency: 50-100mg PO daily
+- Pellagra: 50-100mg PO q6-8h, NTE 500mg/day
+** pantothenic acid
+*** synonym
+B5
+*** sources
+**** diet
+- organ meats
+- fish/shellfish
+- milk and eggs
+**** endogenous
+bacteria in colon
+*** biologic role
+- synthesis of CoA
+- energy
+*** therapeutic use
+*** requirements
+- 5 mg
+- pregnancy: 6 mg
+*** safety/toxicity
+*** deficiency
+*** treatment
+** pyridoxine
+*** synonym
+B6
+*** forms
+- Pyridoxal phosphate (PLP)
+- pyridoxamine phosphate (PMP)
+*** sources
+**** diet
+- fish
+- organ meats
+- potatoes
+- fruit
+- plant (50% bioavailable)
+*** biologic role
+- metabolism of protein, carbs, and lipids
+- hemoglobin formation
+- cognitive development
+- immune function
+*** [#B] therapeutic use
+- morning sickness in pregnancy
+- premenstrual syndrome
+- carpal tunnel syndrome
+*** requirements
+- Males & Females – 1.3mg
+- Pregnancy – 1.9mg
+- higher in adults over 51
+*** safety/toxicity
+**** dose
+>1000 mg/day
+**** symptoms
+- neuropathy
+- dermatitis
+**** drug interactions
+- phenytoin
+- levodopa alone (but not levodopa/carbidopa)
+*** deficiency
+**** At risk
+alcoholics, autoimmune disorders, pyridoxine-inactivating drugs
+**** [#B] Mod-severe deficiency
+- microcytic anemia
+- depression
+*** treatment
+- Mild: 2.5-10mg PO daily
+- Mod-severe: 10-100mg IV/IM daily
+** biotin
+*** synonym
+B7
+*** sources
+**** diet
+- liver
+- egg yolks
+- soy
+**** endogenous
+gut bacteria
+*** biologic role
+- metabolism of carbohydrates and lipids
+- protein synthesis
+- DNA synthesis
+- cell replication
+*** therapeutic use
+*** requirements
+30 mcg
+*** safety/toxicity
+*** deficiency
+**** [#B] at risk
+- /prolonged consumption of raw egg whites/
+- genetic metabolism disorder
+**** symptoms
+- alopecia
+- rash
+- hallucinations
+*** treatment
+5-10 mg/day
+** folate
+*** synonym
+B9
+*** forms
+*** sources
+**** diet
+- spinach
+- liver
+- yeast
+- asparagus
+- brussel sprouts (50% bioavailable)
+**** [#B] synthetic
+- folic acid as dietary supplements
+- fortified foods
+*** [#B] biologic role
+- cofactor in homocysteine conversion to methionine (with B12 as a cofactor)
+- DNA methylation
+*** [#B] therapeutic use
+- /neural tube birth defect prevention/
+- methanol toxicity
+- methotrexate toxicity
+*** requirements
+**** [#B] pregnancy
+600 mcg; 400-800 mcg recommended to prevent neural tube defects
+**** males and females
+400 mcg
+*** safety/toxicity
+- Folic acid >15 mg/day – abdominal cramps, diarrhea, rash;
+- Increased risk of cancer and CV adverse effects at UL
+- may mask B12 deficiency
+*** deficiency
+**** [#B] at risk
+- alcoholism
+- pregnancy
+- anticonvulsant use
+- cancer
+**** symptoms
+***** mild
+- mouth ulcers
+- changes in skin
+- hair and nail pigmentation
+***** severe
+Hyperhomocystinemia: increased risk of VTE and stroke
+*** treatment
+**** deficiency
+0.4 - 1 mg daily
+**** [#B] megaloblastic anemia
+3-5 mg PO daily
+** cyanocobalamin
+*** forms
+- methylcobalamin
+- adenosylcobalamin
+*** sources
+**** diet
+- requires gastric acid and intrinsic factor to be absorbed from food
+- fish
+- meat
+- poultry
+- eggs and milk
+**** exogenous
+- synthetic forms in fortified foods and supplements
+*** [#B] biologic role
+- /cofactor in homocysteine conversion (with folate as a cofactor)/
+- succinyl CoA conversion
+  - energy production
+  - hemoglobin synthesis
+*** therapeutic use
+- antidote for cyanide poisoning
+- supplement for Alzheimer’s
+*** requirements
+- 2.4 mcg
+- pregnancy: 2.6 mcg
+*** safety/toxicity
+generally safe
+*** deficiency
+** B12
+*** deficiency
+**** [#B] relationship with folate
+administering folate can mask B12 deficiency
+**** [#B] at risk
+- vegetarians
+- bariatric surgery
+- PPI use
+- older adults
+- alcoholics
+**** [#B] symptoms
+- /megaloblastic anemia (may have folate deficiency also)/
+- GI
+- increased risk of ASVCD
+- neurologic disorders which may be permanent
+*** treatment
+**** mild-moderate deficiency
+100-1000 mcg IM or QOD then every 1-3 months
+**** [#B] severe deficiency or neurologic symptoms
+IM
+**** [#B] megaloblastic anemia
+- 1000mcg daily x 7days, then weekly x4, then monthly
+- do not treat with folic acid only, may mask B12 deficiency; supplement with folic acid if needed
+* fat soluble
+** vitamin A
+*** forms
+**** [#B] bioactive forms
+retinoids → retinol
+**** precursor
+provitamin A carotenoids
+*** sources
+- liver
+- eggs
+- dairy
+- carotenoids
+  - orange & yellow
+  - vegetables/fruits
+  - dark greens
+*** [#B] biologic role
+- /vision (retinal)/
+- /immune function/
+- gene expression
+  - retinol
+  - retinolic acid
+- RBC development
+*** therapeutic use
+**** high diet intake
+cataract prevention
+**** [#B] synthetic retinoids
+- /acne/
+- wrinkles
+- leukemia
+*** requirements
+- Retinol - 1 mcg retinol = 1 mcg RAE
+- Beta-Carotene (from supplement) - 2 mcg BC = 1 mcg RAE
+- Beta-Carotene  (from food) - 12 mcg BC = 1 mcg RAE
+
+RAE ≡ retinol activity equivalent 
+*** [#B] safety/toxicity
+- /teratogenicity---synthetic retinoids contraindicated in pregnancy/
+- hepatotoxicity---with chronic use of 10x RDA but reversible on cessation
+- common adverse drug reactions
+  - dry skin
+  - hair loss
+- high doses
+  - increased risk of lung cancer in smokers
+*** deficiency
+**** [#B] severe
+xerophthalmia---may lead to blindness
+*** treatment
+**** mild-moderate
+100 000 IU PO daily x3 days, then 50 000 IU daily x2 weeks
+**** xerophthalmia
+200 000 IU PO on day 1, 2, and 14, then maintenance dose
+** vitamin D
+*** forms
+**** [#B] bioactive
+calcitriol
+**** [#B] precursors
+- D3
+- D2
+*** sources
+**** endogenous
+- sun exposure (major)
+**** [#B] diet
+- D3
+  - fatty fish
+  - fortified products (has higher affinity for D receptors)
+- D2
+  - plant sterols
+  - mushroom
+  - yeasts
+**** 2 step activation
+1. calcidiol in the liver
+2. calcitriol in the kidney
+*** [#B] biologic role
+- /calcium homeostasis/
+- /immune function/
+- bone remodeling
+- muscle strength, balance, and gait
+*** [#B] therapeutic use
+- /osteomalacia/ and osteoporosis prevention
+- psoriasis and CKD secondary treatment
+- CV disease
+*** requirements
+**** [#B] adults
+70-800 IU
+**** [#B] sunlight
+5-15 min/day
+**** infants and children
+- infants: 400 IU
+- children: 600 IU
+*** safety/toxicity
+**** [#B] symptoms
+- hypercalcemia
+  - confusion
+  - vomiting
+  - muscle weakness
+- GI upset
+**** dose
+10000 IU/day
+*** [#A] deficiency
+- one of the more common nutritional deficiencies in the US
+- at risk
+  - /breastfed infants/
+  - malabsorption disease
+  - gastric bypass surgery
+  - elderly
+  - CKD
+- diseases
+  - rickets in children---skeletal deformities
+  - osteomalacia in adults---bone loss and osteoporosis risk
+*** treatment
+General txt: 50,000 IU PO once weekly x 6-8 weeks, Followed by maintenance dose of 800 IU PO daily from supplements or diet 
+** vitamin A
+*** forms
+*** sources
+*** biologic role
+*** therapeutic use
+*** requirements
+*** safety/toxicity
+*** deficiency
+*** treatment
+** vitamin E
+*** forms
+α-tocopherol
+*** sources
+- Diet: oils (olive, canola), meat, eggs, leafy vegetables;
+- Synthetic: 50% activity of the natural vitamin
+*** [#B] biologic role
+- Antioxidant
+- Enhances immune function
+- Increases antiplatelet activity
+*** [#B] therapeutic use
+- Decreased risk of CV-related deaths in women
+- Inconclusive evidence of effect on prostate cancer.
+- Slows cognitive decline of Alzheimer’s disease
+*** requirements
+Adults and pregnancy – 15mg;
+Max daily dose – 400 IU/day 
+*** [#B] safety/toxicity
+- /Hemorrhage risk in liver failure/
+- bleeding disorders
+- hx of stroke
+- Long-term – increase risk of stroke;
+*** deficiency
+very uncommon
+**** at risk
+- malabsorption disease
+- genetic disorder (ataxia with vitamin E-deficiency AVED)
+*** treatment
+800-1200 mg/day to prevent neurologic deterioration in AVED
+** vitamin K
+*** forms
+Active form – reduced vitamin K1
+*** sources
+**** [#B] K1 (phytonadione)
+green leafy vegetables
+**** K2 (menaquinone) 
+- fermented foods
+- animal liver
+*** [#B] biologic role
+- Coagulation – required for activation of Prothrombin, VII, IX, X, proteins C & S
+- Bone metabolism 
+*** [#B] therapeutic use
+Dietary and pharmacologic vitamin K used as reversal agent in warfarin therapy 
+*** requirements
+- Males > 19y - 120 mcg
+- Females > 19y & Pregnancy - 90 mcg 
+*** safety/toxicity
+**** [#B] drug interactions
+warfarin
+**** IV K1
+anaphylaxis (rare)
+*** deficiency
+**** [#B] at risk
+- /neonates/
+- liver disease
+- malabsorption disease
+*** [#B] treatment
+Vitamin K shot at birth 
