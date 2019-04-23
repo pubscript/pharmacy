@@ -121,8 +121,10 @@ CrCl < 15
 ******* tenofovir alafenamide fumarate (TAF)
 ******** brand
 Vemlidy
-****** comparison between TAF and TDF
-TAF is generally better because it is more well-tolerated with less side effects
+****** [#B] comparison between TAF and TDF
+- TAF is generally better because it is more well-tolerated with less side effects
+  - bone loss
+  - renal insufficiency
 **** cytosine derivatives :l:
 ***** emitricitabine
 ****** brand
@@ -179,13 +181,15 @@ fatal hypersensitivity requirement
 ***** tenofovir alafenamide /emtricitabine
 ****** brand
 Descovy
+****** unique
+this is new
 ****** dosing
 - 200 mg emtricitabine / 25 mg tenofovir alafenamide daily
 - no food restrictions
 ****** indication
 Hep B
 ***** tenofovir disoproxil / emtricitabine
-****** brand
+****** [#A] brand
 Truvada
 ****** [#B] indications
 Pre-Exposure Prophylaxis (PrEP); only drug approved for this
@@ -225,20 +229,27 @@ BRED
 **** single agents :l:
 ***** bictegravir
 ***** raltegravir
-***** elvitegravir
+***** TODO elvitegravir
 ****** food requirement
 requires food
 ***** dolutegravir
-****** brand
+****** [#B] brand
 Tivicay
+****** [#B] drug interactions
+- metformin; max dose is 250 mg; decrease by .25x
+- rifampin
 ****** TODO 3A4 dosing
 **** combinations :l:
 ***** Bictegravir / tenofovir alafenamide / emtricitabine
-****** brand
+****** [#B] brand
 Biktarvy
+****** TODO pluses vs slashes in the generic names
 ***** Raltegravir
-****** brand
+****** [#B] brand
 Isentress
+****** TODO indication
+- post-exposure prophylaxis
+- [ ] there is one other
 *** food requirements
 only elvitegravir needs to be taken with food
 *** [#A] drug interactions
@@ -460,5 +471,172 @@ B = Hepatitis B
 3. Lamivudine 
 4. Adefovir 
 5. Emtricitabine
-* 
+** TODO prophylaxis
+*** types
+**** PEP
+**** NPEP
+*** drugs
+- raltegravir
+- Truvada
+* opportunistic infections in HIV
+** CD4 count correlations
+*** ≤ 200
+- candidiasis
+- Pneumocystis jirovecii pneumonia
+*** ≤ 100
+- Toxoplasmosis
+- Cytomegalovirus
+- Cryptococcus
+*** ≤ 50
+Mycobacterium avium complex
+** infections
+*** Candidiasis
+**** oropharyngeal
+***** [#A] treatment
+fluconazole 100 mg PO daily x7-14d
+***** CD4
+≤ 200 cells/mm^3
+**** esophageal
+***** risk factors
+- CD4 <100 cells/mm^3
+- oropharyngeal candidiasis
+***** treatment
+****** [#A] preferred
+- /Fluconazole 100 mg (up to 400 mg) PO/IV daily x 14–21 days/
+- Itraconazole solution 200 mg PO daily x 14–21 days
+****** time to resolution
+48-72 hours
+*** Pneumocystis jirovecii pneumonia (PCP)
+**** etiology
+- 2nd most common opportunistic infection in HIV-(+) patients
+- accounts for a lot of initial AIDS diagnoses
+**** therapeutics
+***** primary prophylaxis
+****** [#B] CD4 cutoff
+≤ 200 cells/mm^3
+****** indications
+- OR
+  - CD4 <200
+  - CD4 <14%
+  - CD4 (200, 250) if antitretroviral therapy must be delayed
+***** secondary prophylaxis
+****** indication
+- AND
+  - history of PCP
+  - CD4 <200
+****** discontinue when
+CD4 >200 for ≥ 3 months with antiretrovirals
+**** treatment
+***** prophylaxis
+****** hierarchy
+1. TMP/SMX
+2. Dapsone
+3. Dapsone + Pyrimethamine + Leucovorin
+4. Aerosolized pentamidine
+5. Atovaquone
+****** preferred
+TMP/SMX
+****** drugs :l:
+******* TMP/SMX
+******** brand
+- Bactrim
+- Septra
+******** dose
+1 DS tab PO daily
+******** adverse effects
+photosensitivity
+******* Dapsone
+******** indication
+Bactrim or sulfa allergy
+******** [#A] requirement
+G6PD deficiency test
+******** [#B] G6PD test
+- glucose-6-dehydrogenase test
+- if deficient, don’t administer...
+  - primaquine
+  - dapsone
+******* Dapsone + Pyrimethamine + Leucovorin
+******* pentamidine (aerosolized)
+******** brand
+Pentam
+******* Atovaquone
+******** brand
+Mepron
+***** treatment
+****** mild to moderate
+******* formulation
+PO
+******* drugs :l:
+******** TMP/SMX
+********* [#B] dose
+- TMP: 15–20 mg/kg/d in 3 to 4 divided doses (q 6 – 8h) x 21 days
+- SMX: 75–100 mg/kg/d in 3 to 4 divided doses (q 6 – 8h) x 21 days
+******** TMP/Dapsone
+******** Clindamycin/Primaquine
+********* requirement
+G6PD test for deficiency
+******** Atovaquone
+****** moderate to severe
+******* formulation
+IV
+******* drugs :l:
+******** TMP/SMX (IV)
+******** Pentamidine (IV)
+********* contraindications
+cardiovascular issues
+******** corticosteroid adjuvant treatment
+********* [#A] dose
+********** conversion
+5:4 prednisone (PO) : methylprednisone (IV)
+********** 21-day prednisone treatment
+- Days 1 – 5: 40 mg PO twice daily
+- Days 6 – 10: 40 mg PO daily
+- Days 11 – 21: 20 mg PO daily
+********* indications
+- PaO2 <70 mm Hg
 
+*** Cryptococcosis
+**** prophylaxis
+***** secondary
+**** treatment
+***** [#A] preferred
+- Amphotericin B 3–4 mg/kg IV daily + Flucytosine 25 mg/kg PO QID x 2 weeks
+- THEN Fluconazole 400 mg PO/IV daily x 8 weeks
+- THEN Fluconazole 200 mg PO bid x 1 year
+*** Cytomegalovirus (CMV)
+**** treatment
+***** preferred
+****** drugs
+- ganciclovir (IV)
+- valganciclovir (PO)
+****** [#B] frequency/schedule
+- induction period: BID x14-21d
+- maintenance daily
+*** Toxoplasmosis
+**** CD4
+<100
+**** therapeutics
+***** prophylaxis
+****** primary
++ AND
+  + CD4 <100 cells/mm3
+  + Toxoplasma IgG-(+)
+****** conditions to stop or restart
+- May d/c when CD4 >200 cells/mm3 for >3 months
+- Restart if CD4 <100 to 200 cells/mm3
+**** treatment
+***** preferred
+****** strategy
+3 agents for 6 weeks
+****** [#A] weight <60 kg
++ Pyrimethamine 200 mg PO LD, THEN 50 mg PO daily
++ Sulfadiazine 1000 mg PO QID
++ Leucovorin 10–25 mg PO daily
+****** [#A] weight >60 kg
++ Pyrimethamine 200 mg PO LD, THEN 75 mg PO daily
++ Sulfadiazine 1500 mg PO QID
++ Leucovorin 10–25 mg PO daily
+**** leucovorin
+***** [#A] rationale
+prevent drug-induced myelopsuppression from pyrimethamine
+*** Mycobacterium avium complex (MAC)
