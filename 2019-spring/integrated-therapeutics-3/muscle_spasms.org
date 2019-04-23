@@ -1,0 +1,61 @@
+* antispastic agents :l:
+** dantrolene
+*** black box warning
+hepatotoxicity
+*** [#A] off-label
+neurolepic malignant syndrome (NMS)
+*** brand
+Dantrium
+** baclofen
+*** brand
+- Lioresal
+- Gablofen
+*** dose
+5 mg TID
+*** monitoring
+LFTs
+** botulism toxin A
+* antispasmodic agents :l:
+** cyclobenzaprine
+*** brand
+Flexeril
+*** adverse effects
+- anticholinergic side effects
+- QT prolongation
+*** contraindications
+elderly
+** carisoprodol
+*** brand
+Soma
+*** dose
+350 mg QID
+*** disadvantages
+- Schedule IV
+- active metabolite is addictive
+- abuse and physical dependence
+** metaxalone
+*** brand
+Skelaxin
+*** advantages
+- less sedation
+- less abuse potential than Soma
+** methocarbamol
+*** brand
+methocarbamol
+*** brand
+1500 mg QID x2-3d then 750 mg QID
+** orophenadrine
+*** brand
+Norflex
+*** dose
+100 mg BID
+*** adverse effects
+anticholinergic side effects
+* antispasmodic and antispastic agents :l:
+** diazepam
+** tizanadine
+*** brand
+Zanaflex
+*** mechanism of action
+α-2 adrenergic angonist
+

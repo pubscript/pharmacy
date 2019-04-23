@@ -132,6 +132,13 @@ IM Lorazepam + Olanzapine
   - second generation antipsychotics
 - benzodiazepines
 - *do not use cholinesterase inhibitors*
+* neuroleptic malignant syndrome
+** [#A] symptoms
+- high fever
+- confusion
+- rigidity
+** [#A] treatment
+dantrolene
 * bipolar
 ** lithium
 *** [#A] mechanism of action

@@ -11,5 +11,7 @@
 - URTI
 *** warnings
 pregnancy category D
-** 
+* therapeutics
+** [#A] depression
+duloxetine
 

@@ -1,0 +1,28 @@
+* diagnosis
+** labs
+- blood gases
+- urine toxicology
+- electrolytes
+** Glasgow coma scale
+- pulse
+- breathing
+* treatment
+** [#A] initial treatment to keep SBP > 90
+- liquids---saline or lactated ringer’s
+- vasopressors
+- inotropics agents
+** pharmacologic
+- barbituates
+  - phenobarbital 25 mg/kg IV loading dose then 1-2 mg/kg/hr
+** not recommended
+corticosteroids
+* complications
+** [#A] supportive care
+- /DVT prophylaxis/
+- fluid and electrolyte management
+- hyperthermia
+- infections
+** seizures
+- diazepam or lorazepam to terminate seizures
+- phenytoin to prevent or to serve as maintenance
+
