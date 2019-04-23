@@ -35,6 +35,9 @@ asenapine
 **** Clozaril
 ***** brand
 clozapine
+***** TODO review
+***** [#B] requirements
+ANC > 1500 μL
 ***** [#A] monitoring
 ANC...
 - general population ≥ 1500 μL
@@ -45,6 +48,7 @@ iloperidone
 **** Latuda
 ***** brand
 lurasidone
+***** TODO review
 **** Rexulti
 ***** brand
 brexpiprazole
@@ -75,6 +79,8 @@ risperidone
 - *greatest risk of QT prolongation*
 - weight neutral
 - must use with 500 calories
+***** TODO indication
+***** TODO review
 ***** brand
 ziprasidone
 **** Vraylar
