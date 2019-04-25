@@ -1,0 +1,33 @@
+* proanthocyandins
+** uses
+prophylaxis of recurrent urinary tract infections
+** adverse effects
+blood dyscrasia; antiplatelet effects
+** drug interactions
+- clopidogrel
+- aspirin
+** monitoring
+CBC
+* saw palmetto
+** efficacy
+uncertain
+** drug interactions
+- α-1-adrenergic blockers
+- 5-α reductase inhibitors
+- androgens
+- anticoagulants/antiplatelets or aspirin
+** adverse effects
+- hypotension
+- blood dyscrasia; hematologic
+- GU/GI
+  - pancreatitis
+  - acute hepatitis
+** monitoring
+- CBC
+- LFT
+* African plum (Pygeum africanum)
+** mechanism of action
+- 5-alpha reductase inhibition
+- anti-inflammatory; interferes with the formation of pro-inflammatory prostaglandins
+** [#B] drug interactions
+5-α reductase inhibitors---positive synergistic interaction
