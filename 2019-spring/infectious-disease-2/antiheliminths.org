@@ -1,0 +1,26 @@
+* drug classes
+** microtubule inhibitors :l:
+*** albendazole
+**** mechanism of action
+inhibits microtubule synthesis by binding to β-tubulin
+*** mebendazole
+**** mechanism of action
+- inhibits microtubule synthesis
+- kills eggs of hookworm, ascaris, trichuris
+** anticholinergics :l:
+*** diethylcarbamazine citrate
+**** mechanism of action
+- immobilizes microfilariae
+- anti-cholinergic effect at neuromuscular junctions
+*** metrifonate or trichlorfon
+**** mechanism of action
+- cholinesterase inhibitor
+- paralyzes the adult worms
+- dead worms cleared by the immune system
+** misc
+*** ivermectin
+**** mechanism of action
+- intensifying GABA-mediated transmission in peripheral nerves
+*** niclosamide
+**** mechanism of action
+inhibits oxidative phosphorylation
