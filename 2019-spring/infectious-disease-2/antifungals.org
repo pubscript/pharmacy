@@ -3,20 +3,20 @@
 *** nystatin
 **** chemistry
 polyene macrolide
-**** mechanism of action
+**** TODO [#A] mechanism of action
 *** amphotericin B
 **** brands
 - Fungizone
 - Abelcet
 - AmBsome
-**** mechanism of action
+**** [#A] mechanism of action
 - directly binds to ergosterol to cause osmotic shock
 - oxidatively damages fungus; reactive oxygen species
 ** ergosterol synthesis inhibitors
 *** azoles
 **** classes :l:
 ***** imidiazoles
-****** mechanism of action
+****** [#A] mechanism of action
 inhibits fungal cytochrome P450 3A dependent enzyme 14-α-demethylase---which synthesizes ergosterol from lanosterol in the fungal cell membrane, thereby destabilizing the membrane
 ****** drugs :l:
 ******* Ketoconazole
@@ -35,28 +35,34 @@ Monistat
 ******* Clotrimazole
 ******** brand
 Lotrimin
-***** triazoles :l:
-****** Fluconazole
-******* brand
+****** TODO [#A] adverse effects 
+***** triazoles
+****** TODO [#A] mechanism of action
+****** drugs :l:
+******* Fluconazole
+******** brand
 Diflucan
-****** Itraconazole
-******* brand
+******* Itraconazole
+******** brand
 Sporanox
-****** Voriconazole
-******* brand
+******* Voriconazole
+******** brand
 Vfend
-****** Posaconazole
-******* brand
+******* Posaconazole
+******** brand
 Noxafil
+****** TODO [#A] adverse effects 
 **** [#A] mechanism of action
 Inhibit ergosterol biosynthesis through inhibition of 14α- demethylase
+**** TODO [#A] imidiazoles vs. triazoles
+in terms of their antifungal activity profile
 **** TODO [#B] structure
 *** allylamines
-**** mechanism of action
+**** [#A] mechanism of action
 inhibits squalene epoxidase
 ** cell wall inhibitors
 *** echinocandins
-**** mechanism of action
+**** [#A] mechanism of action
 non-competitively inhibits β-(1,3)-D-glucan synthase---which synthesizes β-(1,3) glucan, a major component of the fungal cell wall
 **** drugs :l:
 ***** Caspofungin
@@ -68,7 +74,7 @@ Eraxis
 ***** Micafungin
 ****** brand
 Mycamine
-**** [#B] adverse drug reactions
+**** [#A] adverse drug reactions
 flushing; release of histamine
 ** nucleic acid synthesis inhibitors
 *** drugs :l:
@@ -76,13 +82,13 @@ flushing; release of histamine
 ***** brand
 Ancobon
 ***** TODO [#B] structure
-***** mechanism of action
+***** [#A] mechanism of action
 - competes with uracil and thymidine in synthesis of RNA and DNA, respectively
   - deaminates to 5-fluorouracil via cytosine deaminases
   - as a pyrimidine analogue, it competes with uracil in the synthesis of RNA
   - competes with thymidine during the synthesis of DNA
 - highly selective for fungus; humans cannot deaminate 5-fluorocytosine
-***** adverse drug reactions
+***** TODO [#A] adverse drug reactions
 affects metabolism---fluorouracil is antineoplastic and toxic to intestinal flora
 ** mitosis inhibitors
 *** mechanism of action
@@ -90,13 +96,12 @@ affects metabolism---fluorouracil is antineoplastic and toxic to intestinal flor
 - disrupts mitotic spindle to inhibit mitosis
 *** drugs :l:
 **** griseofulvin
-***** mechanism of action
+***** [#A] mechanism of action
 - binds to fungal RNA
 - inhibits cell wall biosynthesis
 ***** structure activity relationship
 - -OCH3 methoxy group on the cyclohexene confers lipophillicity to penetrate into fungal cells
 - larger substituents would dininish fungal cell penetration
-
 ** allylamines
 *** drugs :l:
 **** terbinafine
