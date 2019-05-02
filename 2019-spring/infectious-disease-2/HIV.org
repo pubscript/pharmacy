@@ -243,13 +243,16 @@ Tivicay
 ***** Bictegravir / tenofovir alafenamide / emtricitabine
 ****** [#B] brand
 Biktarvy
+****** [#B] formulation
+single tablet regimen
 ****** TODO pluses vs slashes in the generic names
 ***** Raltegravir
 ****** [#B] brand
 Isentress
-****** TODO indication
-- post-exposure prophylaxis
-- [ ] there is one other
+****** [#B] indication
+post-exposure prophylaxis (PEP) in combination with tenofovir disoproxil / emtricitabine (Truvada)
+****** food requirements
+none
 *** food requirements
 only elvitegravir needs to be taken with food
 *** [#A] drug interactions
