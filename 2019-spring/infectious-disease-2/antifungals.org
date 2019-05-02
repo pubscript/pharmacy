@@ -1,4 +1,18 @@
-* TODO reductase..armophalane
+* [#A] structure → drug name
+** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Naftifine.svg/1200px-Naftifine.svg.png"/>
+nafitine
+** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Amphotericin_B_new.svg/1200px-Amphotericin_B_new.svg.png"/>
+amphotericin B
+** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/5-Fluorocytosine.svg/220px-5-Fluorocytosine.svg.png"/>
+5-fluorocytosine
+** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Amorolfin_Structural_Formula_V1.svg/1200px-Amorolfin_Structural_Formula_V1.svg.png"/>
+armolofine
+** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Cholesterol.svg/1200px-Cholesterol.svg.png"/>
+cholesterol
+** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Ergosterol_structure.svg/1200px-Ergosterol_structure.svg.png"/>
+ergosterol
+** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Clotrimazole.svg/1200px-Clotrimazole.svg.png"/>
+clotrimazole
 * drug classes
 ** polyene macrolides
 *** nystatin
