@@ -91,7 +91,10 @@ cariprazine
 ***** brand :l:
 ****** Abilify Maintena
 ****** Aristada
+******* identity
 prodrug of aripiprazole
+******* generic
+aripiprazole lauroxil
 **** risperidone
 **** olanzapine
 ***** brand
