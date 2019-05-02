@@ -1,14 +1,18 @@
+* TODO reductase..armophalane
 * drug classes
 ** polyene macrolides
 *** nystatin
 **** chemistry
 polyene macrolide
 **** TODO [#A] mechanism of action
+leads to death of fungal wall
 *** amphotericin B
 **** brands
 - Fungizone
 - Abelcet
 - AmBsome
+**** TODO [#B] effectiveness
+more effective agent
 **** [#A] mechanism of action
 - directly binds to ergosterol to cause osmotic shock
 - oxidatively damages fungus; reactive oxygen species
@@ -53,13 +57,18 @@ Vfend
 Noxafil
 ****** TODO [#A] adverse effects 
 **** [#A] mechanism of action
-Inhibit ergosterol biosynthesis through inhibition of 14α- demethylase
+- Inhibit ergosterol biosynthesis through inhibition of 14α- demethylase
+- 14-α-demethylase uses Fe-O: moiety to demethylate
+**** [#A] 14-α-demethylase pharmacology
+- N-1 azole binds to the apoprotein of the enzyme
+- N-3 binds to the ferric atom
 **** TODO [#A] imidiazoles vs. triazoles
 in terms of their antifungal activity profile
 **** TODO [#B] structure
 *** allylamines
 **** [#A] mechanism of action
 inhibits squalene epoxidase
+**** TODO [#A] structure
 ** cell wall inhibitors
 *** echinocandins
 **** [#A] mechanism of action
@@ -81,7 +90,12 @@ flushing; release of histamine
 **** flucytosine
 ***** brand
 Ancobon
-***** TODO [#B] structure
+***** TODO [#A] structure
+***** [#A] metabolism
+- flucytosine → 5-fluorouracil → 5-FdUMP
+- flucytosine is a prodrug
+***** [#A] active metabolite
+5-FdUMP
 ***** [#A] mechanism of action
 - competes with uracil and thymidine in synthesis of RNA and DNA, respectively
   - deaminates to 5-fluorouracil via cytosine deaminases
@@ -137,11 +151,14 @@ inhibits squalene oxidase---ergosterol’s synthesis pathway
 7. Fungus secretes an enzyme which degrades antifungal
 * medicinal chemistry
 ** squalene synthesis
-*** enzymes
+*** [#A] enzymes
 - squalene epoxidase
 - 14α-demethylase
 - Δ14-reductase
 - Δ8-, Δ7-isomerase
+** TODO [#A] structures
+*** TODO cholesterol
+*** TODO ergosterol
 * superficial fungal infections
 ** skin
 *** types :l:
