@@ -51,6 +51,8 @@ Unified Parkinson’s Disease Rating Scale
 ***** adverse drug reactions
 - end of dose wearing off due to short half-life
 - peak dose dyskinesia
+- nausea and vomiting (>80% on initiation); DA triggers emetic centers in CNS
+- dyskinesias and motor fluctuations
 *** DA metabolism inhibitors :l:
 **** decarboxylase inhibitors :l:
 ***** Carbidopa
@@ -126,10 +128,10 @@ Permax
 ***** non-ergot derivatives :l:
 ****** pramipexole
 ******* brand
-Requip
+Mirapex
 ****** ropinirole
 ******* brand
-Mirapex
+Requip
 ****** rotigotine
 ******* brand
 Neupro
@@ -155,8 +157,21 @@ acute delirium
 *** amantadine
 **** indications
 - tremor
-- rigidty
+- rigidity
 - bradykinesia
+**** mechanism of action
+- releases dopamine
+- inhibits dopamine reuptake
+- weak, non-competitive NMDA receptor antagonist
+** structure → drug
+*** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/3%2C4-Dihydroxy-L-phenylalanin_%28Levodopa%29.svg/1200px-3%2C4-Dihydroxy-L-phenylalanin_%28Levodopa%29.svg.png"/>
+levodopa
+*** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Tolcapone.svg/1200px-Tolcapone.svg.png"/>
+tolcapone
+*** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Amantadine.svg/1200px-Amantadine.svg.png"/>
+amantadine
+*** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Benzatropine.svg/1200px-Benzatropine.svg.png"/>
+benztropine
 * Alzheimer’s
 ** drug classes
 *** cholinesterase inhibitors
@@ -219,3 +234,8 @@ MMSE
 ** pathophysiology
 *** risk factors
 - older age
+** structure → drug
+*** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Tacrine2DACS.svg/1200px-Tacrine2DACS.svg.png"/>
+tacrine
+*** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Rivastigmine_Structural_Formulae.png/1280px-Rivastigmine_Structural_Formulae.png"/>
+rivastigmine

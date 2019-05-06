@@ -23,18 +23,33 @@ D2
 - positive symptoms
 ** drug classes
 *** first generation antipsycotics
-*** second generation antipsychotics
-**** Abilify
+**** chlorpromazine
 ***** brand
-aripiprazole
+Thorazine
+**** fluphenazine
+***** brand
+Prolixin
+**** haloperidol
+**** loxapine
+***** brand
+Adasuve
+**** perphenazine
+**** pimozide
+**** thioridazine
+**** thiothixene
+**** trifuloperazine
+*** second generation antipsychotics
+**** aripiprazole
+***** brand
+Abilify
 ***** black box warning
 agranulocytosis
-**** Saphris
+**** asenapine
 ***** brand
-asenapine
-**** Clozaril
+Saphris
+**** clozapine
 ***** brand
-clozapine
+Clozaril
 ***** TODO review
 ***** [#B] requirements
 ANC > 1500 μL
@@ -42,39 +57,41 @@ ANC > 1500 μL
 ANC...
 - general population ≥ 1500 μL
 - benign ethnic neutropenia ≥ 1000 μL
-**** Fanapt
+***** [#A] adverse effects
+~granulocytosis
+**** iloperidone
 ***** brand
-iloperidone
-**** Latuda
+Fanapt
+**** lurasidone
 ***** brand
-lurasidone
+Latuda
 ***** TODO review
-**** Rexulti
+**** brexpiprazole
 ***** brand
-brexpiprazole
-**** Zyprexa
+Rexulti
+**** olanzapine
 ***** brand
-olanzapine
-**** Seroquel
+Zyprexa
+**** quetiapine
 ***** brand
-quetiapine
+Seroquel
 ***** [#B] adverse effects
 - weight gain / metabolic syndrome
 - sedation
 ***** monitoring
 - increases LFTs
 - requires hepatic dose adjustments
-**** Invega
+**** paliperidone
 ***** brand
-paliperidone
+Invega
 ***** counseling
 tablet shell may appear in stool
 ***** [#B] pharmacology
 active metabolite of risperidone; therefore, failure of risperidone may indicate failure of paliperidone
-**** Risperdal
+**** risperidone
 ***** brand
-risperidone
-**** Geodon
+Risperdal
+**** ziprasidone
 ***** [#B] therapeutic use
 - *greatest risk of QT prolongation*
 - weight neutral
@@ -82,10 +99,12 @@ risperidone
 ***** TODO indication
 ***** TODO review
 ***** brand
-ziprasidone
-**** Vraylar
+Geodon
+***** [#A] adverse effects
+QT prolongation
+**** cariprazine
 ***** brand
-cariprazine
+Vraylar
 *** injectable antipsychotics
 **** aripiprazole
 ***** brand :l:
@@ -111,7 +130,7 @@ sustain 4 months of Invega Sustenna before starting Invega Trinza
 IM Lorazepam + Olanzapine
 *** movement disorders
 **** dystonia
-- anticholinergics…
+- anticholinergics… 
   - diphenydramine
   - benztropine (Cogentin)
 - lower the dose of antipsychotic or switch to another agent
@@ -134,6 +153,10 @@ IM Lorazepam + Olanzapine
 - clozapine
 - olanzapine
 - quetiapine
+*** drugs that cause QTc prolongation
+- pimozide
+- thioridazine
+- haldol
 * delirium
 ** treatment
 - antipsychotics
@@ -206,3 +229,9 @@ pregnancy category D---do not use in the 1st trimester
 *** special cases
 **** [#A] manic patient on antidepressants
 discontinue the antidepressants because they overstimulate neurotransmitters already elevated
+* structure → drug
+** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Chlorpromazine.svg/1200px-Chlorpromazine.svg.png"/>
+chlorpromazine
+** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Haloperidol.svg/1200px-Haloperidol.svg.png"/>
+haloperidol
+
