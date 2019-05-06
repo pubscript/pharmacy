@@ -128,7 +128,7 @@ affects metabolism---fluorouracil is antineoplastic and toxic to intestinal flor
 - binds to fungal RNA
 - inhibits cell wall biosynthesis
 ***** structure activity relationship
-- -OCH3 methoxy group on the cyclohexene confers lipophillicity to penetrate into fungal cells
+- -OCH3 methoxy group on the cyclohexene confers lipophillicity to penetrate into fungal 
 - larger substituents would dininish fungal cell penetration
 ** allylamines
 *** drugs :l:
@@ -237,7 +237,7 @@ Kerydin ®
 solution
 ********* indication
 toenails
-****** oral
+****** oral :l:
 ******* terbinafine
 ******** [#B] duration
 ********* finger
@@ -354,6 +354,8 @@ more frequent relapses because it’s inconvenient and uncomfortable to use
 **** [#B] systemic
 fluconazole 100-200 mg PO daily x7-14 days
 ** esophageal candidiasis
+*** [#B] treatment
+fluconazole 200-400 mg PO daily x14-21d
 * systemic fungal infections
 ** opportunistic infections
 *** invasive candidiasis :l:
@@ -424,7 +426,7 @@ when symptoms >4 weeks: itraconazole 6-12 weeks
 ***** dosing
 ****** [#A] itraconazole
 Load 200 mg Q8h x 3 days; followed by 200 mg BID x 12 weeks
-****** [#A] amphtericin
+****** [#A] amphotericin
 3-5 mg/kg x 2 weeks
 **** [#A] HIV
 - mild-to-moderate: itraconazole x12 months
@@ -437,7 +439,7 @@ Load 200 mg Q8h x 3 days; followed by 200 mg BID x 12 weeks
     - relapse despite appropriate initial therapy
 - itraconazole 200 mg daily
 *** blastomycosis
-*** coccidomycosis
+*** coccidomycosis 
 **** treatment
 ***** respiratory
 Azoles x 3-6 mo; Amphotericin followed by Azoles x 1 year (if diffuse pneumonia)

@@ -219,7 +219,15 @@ patients must be HLA-B*5701 negative
 Cimduo
 ****** requirements
 CrCl ≥ 70 mL/min
-**** TODO dirty dogs :l:
+**** dirty dogs
+***** drugs
+- stavudine
+- zidovudine
+***** black box warnings
+- pancreatitis
+- peripheral neuropathy
+- lactic acidosis
+- hepatic steatosis
 *** adverse drug reactions
 GI related
 *** dose adjustments
