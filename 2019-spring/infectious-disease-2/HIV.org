@@ -129,6 +129,10 @@ Vemlidy
 ***** emitricitabine
 ****** brand
 Emtriva
+****** resistance
+presence of M184V genotype
+****** adverse effects
+hyperpigmentation
 ***** lamivudine
 ****** brand
 Epivir
@@ -159,10 +163,14 @@ only for pregnant women giving birth---literally during labor
 **** guanine derivatives :l:
 ***** abacavir
 ****** [#A] black box warning
-fatal hypersensitivity requirement
+fatal hypersensitivity
 ****** dose adjustment
 - no renal
 - hepatic dosing for Child Pugh A ⇒ 200 mg BID
+****** food requirement
+none
+****** brand
+Ziagen
 ****** hypersensitivity
 ******* [#B] test
 - HLA-B*5701 required prior to initiating therapy
