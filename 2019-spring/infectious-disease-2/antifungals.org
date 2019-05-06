@@ -1,22 +1,40 @@
+* [#A] structure → drug name
+** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Naftifine.svg/1200px-Naftifine.svg.png"/>
+nafitine
+** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Amphotericin_B_new.svg/1200px-Amphotericin_B_new.svg.png"/>
+amphotericin B
+** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/5-Fluorocytosine.svg/220px-5-Fluorocytosine.svg.png"/>
+5-fluorocytosine
+** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Amorolfin_Structural_Formula_V1.svg/1200px-Amorolfin_Structural_Formula_V1.svg.png"/>
+armolofine
+** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Cholesterol.svg/1200px-Cholesterol.svg.png"/>
+cholesterol
+** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Ergosterol_structure.svg/1200px-Ergosterol_structure.svg.png"/>
+ergosterol
+** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Clotrimazole.svg/1200px-Clotrimazole.svg.png"/>
+clotrimazole
 * drug classes
 ** polyene macrolides
 *** nystatin
 **** chemistry
 polyene macrolide
-**** mechanism of action
+**** TODO [#A] mechanism of action
+leads to death of fungal wall
 *** amphotericin B
 **** brands
 - Fungizone
 - Abelcet
 - AmBsome
-**** mechanism of action
+**** TODO [#B] effectiveness
+more effective agent
+**** [#A] mechanism of action
 - directly binds to ergosterol to cause osmotic shock
 - oxidatively damages fungus; reactive oxygen species
 ** ergosterol synthesis inhibitors
 *** azoles
 **** classes :l:
 ***** imidiazoles
-****** mechanism of action
+****** [#A] mechanism of action
 inhibits fungal cytochrome P450 3A dependent enzyme 14-α-demethylase---which synthesizes ergosterol from lanosterol in the fungal cell membrane, thereby destabilizing the membrane
 ****** drugs :l:
 ******* Ketoconazole
@@ -35,28 +53,39 @@ Monistat
 ******* Clotrimazole
 ******** brand
 Lotrimin
-***** triazoles :l:
-****** Fluconazole
-******* brand
+****** TODO [#A] adverse effects 
+***** triazoles
+****** TODO [#A] mechanism of action
+****** drugs :l:
+******* Fluconazole
+******** brand
 Diflucan
-****** Itraconazole
-******* brand
+******* Itraconazole
+******** brand
 Sporanox
-****** Voriconazole
-******* brand
+******* Voriconazole
+******** brand
 Vfend
-****** Posaconazole
-******* brand
+******* Posaconazole
+******** brand
 Noxafil
+****** TODO [#A] adverse effects 
 **** [#A] mechanism of action
-Inhibit ergosterol biosynthesis through inhibition of 14α- demethylase
+- Inhibit ergosterol biosynthesis through inhibition of 14α- demethylase
+- 14-α-demethylase uses Fe-O: moiety to demethylate
+**** [#A] 14-α-demethylase pharmacology
+- N-1 azole binds to the apoprotein of the enzyme
+- N-3 binds to the ferric atom
+**** TODO [#A] imidiazoles vs. triazoles
+in terms of their antifungal activity profile
 **** TODO [#B] structure
 *** allylamines
-**** mechanism of action
+**** [#A] mechanism of action
 inhibits squalene epoxidase
+**** TODO [#A] structure
 ** cell wall inhibitors
 *** echinocandins
-**** mechanism of action
+**** [#A] mechanism of action
 non-competitively inhibits β-(1,3)-D-glucan synthase---which synthesizes β-(1,3) glucan, a major component of the fungal cell wall
 **** drugs :l:
 ***** Caspofungin
@@ -68,21 +97,26 @@ Eraxis
 ***** Micafungin
 ****** brand
 Mycamine
-**** [#B] adverse drug reactions
+**** [#A] adverse drug reactions
 flushing; release of histamine
 ** nucleic acid synthesis inhibitors
 *** drugs :l:
 **** flucytosine
 ***** brand
 Ancobon
-***** TODO [#B] structure
-***** mechanism of action
+***** TODO [#A] structure
+***** [#A] metabolism
+- flucytosine → 5-fluorouracil → 5-FdUMP
+- flucytosine is a prodrug
+***** [#A] active metabolite
+5-FdUMP
+***** [#A] mechanism of action
 - competes with uracil and thymidine in synthesis of RNA and DNA, respectively
   - deaminates to 5-fluorouracil via cytosine deaminases
   - as a pyrimidine analogue, it competes with uracil in the synthesis of RNA
   - competes with thymidine during the synthesis of DNA
 - highly selective for fungus; humans cannot deaminate 5-fluorocytosine
-***** adverse drug reactions
+***** TODO [#A] adverse drug reactions
 affects metabolism---fluorouracil is antineoplastic and toxic to intestinal flora
 ** mitosis inhibitors
 *** mechanism of action
@@ -90,13 +124,12 @@ affects metabolism---fluorouracil is antineoplastic and toxic to intestinal flor
 - disrupts mitotic spindle to inhibit mitosis
 *** drugs :l:
 **** griseofulvin
-***** mechanism of action
+***** [#A] mechanism of action
 - binds to fungal RNA
 - inhibits cell wall biosynthesis
 ***** structure activity relationship
 - -OCH3 methoxy group on the cyclohexene confers lipophillicity to penetrate into fungal cells
 - larger substituents would dininish fungal cell penetration
-
 ** allylamines
 *** drugs :l:
 **** terbinafine
@@ -132,11 +165,14 @@ inhibits squalene oxidase---ergosterol’s synthesis pathway
 7. Fungus secretes an enzyme which degrades antifungal
 * medicinal chemistry
 ** squalene synthesis
-*** enzymes
+*** [#A] enzymes
 - squalene epoxidase
 - 14α-demethylase
 - Δ14-reductase
 - Δ8-, Δ7-isomerase
+** TODO [#A] structures
+*** TODO cholesterol
+*** TODO ergosterol
 * superficial fungal infections
 ** skin
 *** types :l:

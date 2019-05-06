@@ -1,0 +1,43 @@
+* elderberry
+** uses
+- influenza
+- sinusitis
+** safety
+- cyanide toxicity
+** effective
+*** influenza
+ineffective
+*** sinusitis
+ineffective
+* ginseng
+** use
+** safety
+** effective
+* garlic
+** use
+** safety
+** effective
+* goldenseal
+** use
+** safety
+** effective
+* echinacea
+** use
+** safety
+** effective
+* probiotics
+** use
+- diarrhea
+- C. dificile-associated gastroenteritis
+- allergic reactions
+- inflammatory bowel disease
+- adjunct to clindamycin; i.e., with a dentist’s prescription
+** safety
+** mechanism of action
+modulate immune response
+** [#A] importance
+- adjunct to clindamycin from a dentist’s prescription
+- adjunct to Augmentin---or any other broad spectrum
+** effective
+*** ventilator-associated pneumonia
+effective
