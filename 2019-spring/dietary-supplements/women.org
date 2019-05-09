@@ -1,0 +1,42 @@
+* prenatal vitamins
+** folate
+*** [#A] dose
+0.4 - 0.8 mg folate daily 1 month preconception to 12 weeks gestation
+*** [#A] history of neural tube defects
+4 mg folate daily
+** vitamin A
+pregnancy category X at doses exceeding RDA
+** pyridoxine
+*** [#A] use
+first line treatment for pregnancy related nausea
+*** [#C] dose
+10 - 25 mg PO TID-QID
+*** frequency
+- scheduled, not as needed
+- multiple times a day
+** magnesium
+*** use
+- pre-eclampsia in pregnancy; as IV
+- leg cramps
+*** safety
+monitor Mg levels
+** calcium
+*** safety
+safe
+*** use
+- pre-eclampsia prevention
+- leg cramps
+* ginger
+** safety
+bleeding
+** adverse effects
+- ↓ platelet aggregation
+- ↓ TxA2 production
+** drug interactions
+- anticoagulants
+- antiplatelets
+** use
+nausea in pregnancy
+** effectiveness
+not first line
+
