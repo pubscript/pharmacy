@@ -1,0 +1,6 @@
+* Infectious Disease 2
+** quiz
+*** TODO Bhave---4 questions on antimycobacterial [0/3]
+**** TODO first line vs second line
+**** TODO mechanism of action 
+**** TODO TB vs leprosy
