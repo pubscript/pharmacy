@@ -24,3 +24,58 @@ inhibits microtubule synthesis by binding to β-tubulin
 *** niclosamide
 **** mechanism of action
 inhibits oxidative phosphorylation
+* example cases
+** therapeutics
+TG is a 45 year old man traveling to Kenya in 6 mo. According to the CDC yellow book the relative risk for malaria is moderate an dchloroquine-resitant P. falcpairum is prevalnet. His current medications include lisinopril, duloxietine, and zolpidem as needed for insomnia. A recommended malaria chemoprophylaxis reigmen is:
+
+Doxycycline 100 mg po once daily ✅
+Primaquine 30 mg base po once daily ❌ incorrect, worng dosing
+Mefloquine 228 mg base po once weekly ❌ ← wrong because he is taking duloxetine
+Hydroxychlorouine 310 mb gase po once weekly ❌
+Atovaquone/proquanil 62.5 mg / 25 mg po once weekly ❌
+* parasitic infections, therapeutics
+** malaria
+** protozoa
+*** amebiasis
+**** treatment
+1. Metronidazole 500-750 mg PO TID x 7-10 days
+2. Paromomycin 25-30 mg/kg/day PO in three divided doses x 7 days
+*** giardiasis
+**** [#A] treatment
+Metronidazole 250 mg PO TID x 5-7 days
+**** [#A] frequency
+TID
+*** cryptosporidiosis
+*** Chagas disease
+*** Trypanosoma
+**** acute infection
+***** treatment 
+- benzidazol
+- nifurtimox
+**** T. brucei rhodesiense
+***** treatment
+****** early
+Suramin
+****** late (CNS infection)
+Melarsoprol
+**** T. brucei gambiense
+***** treatment
+****** early
+pentamidine
+****** late (CNS infection)
+eflornithine
+** helminths
+*** Strongylodiasis
+**** treatment
+ivermectin
+*** Cysticercosis
+- albendazole
+- praziquantel
+*** Toxocarosis
+** ectoparasites
+*** Head and body lice
+**** treatment
+permethrin topical liquid
+*** Scabies
+**** treatment
+permethrin topical cream (Elimite)
