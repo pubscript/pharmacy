@@ -1,0 +1,80 @@
+* drugs
+** isoniazid
+*** mechanism of action
+Block synthesis of mycolic acids
+*** adverse effects
+peripheral neuropathy
+*** counseling
+administer with vitamin B6 / pyridoxine
+*** pharmacokinetics
+- acetylated in liver
+- slow acetylators (a small population in the USA) will have higher drug levels
+** INH, Ethionamide
+*** mechanism of action
+Block synthesis of mycolic acids
+*** target
+acyl carrier protein, b-keto acyl carrier protein, FAS II
+** Pyrazinamide
+*** mechanism of action
+Inhibit cell membrane metabolism and transport functions
+*** target
+Fatty acid synthetase I (FAS I)??
+** Rifampin/rifapentin
+*** mechanism of action
+Inhibit RNA synthesis
+*** target
+RNA polymerase
+** Ethambutol
+*** mechanism of action
+Inhibit cell wall synthesis (arabinogalactan)
+*** target
+Arabynosyl transferase
+** Streptomycin/kanamycin, Capreomycin, Amikacin
+*** mechanism of action
+Inhibit protein synthesis
+*** target
+30s ribosomal subunit
+** Fluoroquinolones
+*** mechanism of action
+Inhibit DNA replication
+*** target
+Topoisomerase II and IV
+** PAS, Dapsone
+*** mechanism of action
+Inhibit folate synthesis
+*** target
+Dihydropteroate synthase
+** Clofazimine
+*** mechanism of action
+Inhibit transcription
+*** target
+DNA template
+** Cycloserine
+*** mechanism of action
+Inhibit peptidoglycan synthesis
+*** target
+Alanine racemase (L-alanine to D-alanine)
+** Bedaquiline
+*** mechanism of action
+Inhibits ATP synthesis
+*** target
+Proton pump 
+* tuberculosis
+** drug-sensitive
+*** treatment
+- isoniazid
+- rifampin
+- pyrazinamide
+- ethambutol
+* prodrugs :l:
+** pyrazinamide
+* drugs with toxicity
+** hepatotoxicity
+** nephrotoxicity
+** neuropathy
+*** mitigation
+supplementation with vitamin B6
+*** [#B] drugs
+- isoniazid
+- cycloserine
+- ethionamide
