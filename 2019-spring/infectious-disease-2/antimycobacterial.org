@@ -2,8 +2,21 @@
 ** isoniazid
 *** mechanism of action
 Block synthesis of mycolic acids
-*** adverse effects
+*** [#B] adverse effects
 peripheral neuropathy
+*** warnings
+- hepatotoxicity
+- hypersensitivity
+  - rash
+  - drug fever
+*** pharmacokinetics
+- inhibitor of 2C9
+- inhibitor of 2C19
+*** [#B] drug interactions
+warfarin
+*** indications
+- active TB
+- latent TB
 *** counseling
 administer with vitamin B6 / pyridoxine
 *** pharmacokinetics
@@ -16,19 +29,49 @@ Block synthesis of mycolic acids
 acyl carrier protein, b-keto acyl carrier protein, FAS II
 ** Pyrazinamide
 *** mechanism of action
-Inhibit cell membrane metabolism and transport functions
+- Inhibit cell membrane metabolism and transport functions
+- bactericidal
+- prodrug activated by acidic conditions
 *** target
 Fatty acid synthetase I (FAS I)??
+*** drug interactions
+- PPIs
+- H2RAs
+*** warnings
+- hepatotoxicity
+- hyperuricemia
+- arthralgias
+*** advantages
+shortens duration of therapy from 9 months to 6 months
+*** indication
+only for initial 2 months of active disease
 ** Rifampin/rifapentin
 *** mechanism of action
 Inhibit RNA synthesis
 *** target
 RNA polymerase
+*** indication
+- latent TB
+- active TB
+*** warnings
+- hepatotoxicity
+- thrombocytopenia (at high dose)
+*** pharmacokinetics
+- CYP450 3A4 inducer
 ** Ethambutol
 *** mechanism of action
-Inhibit cell wall synthesis (arabinogalactan)
+- Inhibit cell wall synthesis (arabinogalactan)
+- bacteriostatic
+*** warnings
+- optic neuritis---unable to differentiate red from green
+- hypersensitivity
+  - rash
+  - drug fever
 *** target
 Arabynosyl transferase
+*** unique
+- renal dose adjustment
+- bacteriostatic
 ** Streptomycin/kanamycin, Capreomycin, Amikacin
 *** mechanism of action
 Inhibit protein synthesis
@@ -59,18 +102,67 @@ Alanine racemase (L-alanine to D-alanine)
 Inhibits ATP synthesis
 *** target
 Proton pump 
+*** indication
+- MDR pulmonary TB
+- only if no other effective treatment regimen is available
+- use with ≥ 3 active TB drugs
+*** black box warning
+increased risk of death
 * tuberculosis
 ** drug-sensitive
-*** treatment
+*** first line treatment
 - isoniazid
 - rifampin
-- pyrazinamide
 - ethambutol
-* prodrugs :l:
-** pyrazinamide
+- pyrazinamide
+*** second-line
+- Aminoglycosides
+  - Amikacin
+  - Kanamycin
+- Polypeptides: Capreomycin, Viomycin, Enviomycin
+- Fluroquinolones: Ciprofloxacin, levofloxacin, moxifloxacin
+- Thioamides: Ethionamide, prothionamide
+- Rifamycin: Rifabutin (Ansamycin), Rifapentine
+- Aminosalicyclic Acid (PAS)
+- Cycloserine
+** special populations
+*** HIV/AIDS
+- substitute rifabutin instead of rifampin
+- don’t use highly intermittent regimens
+*** hepatic failure
+**** symptoms
+- transaminases >5x ULN
+  - ALT
+  - AST
+- total billirubin >3
+- nausea, vomiting, jaundice
+**** liver sparing regimen
+- streptomycin
+- levofloxacin
+- ethambutol
+**** strategy
+Sequential reintroduction with frequent testing of liver enzymes to identify the offending agent
+*** pregnancy
+**** not recommended
+pyrazinamide
+**** recommended
+for 9 months...
+- rifampin
+- isoniazid
+- ethambutol
+*** renal insufficiency
+- ethambutol
+- pyrazinamide
+- aminoglycoside
+* prodrugs
+- pyrazinamide
 * drugs with toxicity
 ** hepatotoxicity
+- rifampin
+- isoniazid
+- pyrazinamide
 ** nephrotoxicity
+- ethambutol
 ** neuropathy
 *** mitigation
 supplementation with vitamin B6
@@ -78,3 +170,4 @@ supplementation with vitamin B6
 - isoniazid
 - cycloserine
 - ethionamide
+* TODO memorize slide 21/46 Tuberculosis Cates
