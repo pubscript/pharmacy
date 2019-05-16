@@ -26,27 +26,76 @@ safe
 *** use
 - pre-eclampsia prevention
 - leg cramps
-* ginger
-** safety
+* pregnancy
+** ginger
+*** safety
 bleeding
-** adverse effects
+*** adverse effects
 - ↓ platelet aggregation
 - ↓ TxA2 production
-** drug interactions
+*** drug interactions
 - anticoagulants
 - antiplatelets
-** use
+*** use
 nausea in pregnancy
-** effectiveness
+*** effectiveness
 not first line
-* black cohosh
-* blue cohosh
-* evening primrose oil (EPO)
-** use
+** black cohosh
+** blue cohosh
+** evening primrose oil (EPO)
+*** use
 labor induction---cervical ripening
-* fenugreek
-** use
+** fenugreek
+*** use
 increasing milk production
-** safety
+*** safety
 cross-allergy with soy, peanuts, chickpeas, green peas
-
+* menopause
+** phytoestrogens
+*** soy
+**** use
+menopause
+**** effectiveness
+ineffective
+**** [#A] safety
+contraindicated in cancer or family history of cancer
+**** drug interactions
+antagonistic effects on...
+- tamoxifen
+- anastrazole
+**** effectiveness
+soy is effective
+*** calcium and vitamin D
+**** use
+osteoporosis in post-menopausal females
+*** red clover
+**** safety
+drug interaction with anticoagulants/antiplatelets; contains coumarins
+*** alfalfa
+**** safety
+- lupus-like effect
+- decrease effect of warfarin because it contains vitamin K
+**** effectiveness
+ineffective
+**** use
+menopause
+*** flaxseed
+**** drug interactions
+synergistic effect with anticoagulants/antiplatelets
+**** use
+- menopause
+- total cholesterol; hyperlipidemia
+** non-phytoestrogens
+*** black cohosh
+**** safety
+hepatotoxicity
+**** effectiveness
+effective
+**** monitoring
+LFTs
+*** ginseng
+**** use
+**** safety
+possibly safe
+**** effectiveness
+ineffective for vasomotor symptoms in menopause
