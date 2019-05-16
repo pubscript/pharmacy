@@ -99,3 +99,19 @@ LFTs
 possibly safe
 **** effectiveness
 ineffective for vasomotor symptoms in menopause
+* premenstrual syndrome (PMS)
+** vitamins and minerals :l:
+*** calcium
+**** dose
+1200 mg elemental Ca daily
+*** vitamin D
+**** effectiveness
+effective for prevention of PMS
+*** magnesium
+**** effectiveness
+ineffective
+**** adverse effects
+diarrhea
+*** pyridoxine
+*** vitamin E
+** herbals
