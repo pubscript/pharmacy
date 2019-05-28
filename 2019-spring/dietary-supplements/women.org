@@ -1,0 +1,117 @@
+* prenatal vitamins
+** folate
+*** [#A] dose
+0.4 - 0.8 mg folate daily 1 month preconception to 12 weeks gestation
+*** [#A] history of neural tube defects
+4 mg folate daily
+** vitamin A
+pregnancy category X at doses exceeding RDA
+** pyridoxine
+*** [#A] use
+first line treatment for pregnancy related nausea
+*** [#C] dose
+10 - 25 mg PO TID-QID
+*** frequency
+- scheduled, not as needed
+- multiple times a day
+** magnesium
+*** use
+- pre-eclampsia in pregnancy; as IV
+- leg cramps
+*** safety
+monitor Mg levels
+** calcium
+*** safety
+safe
+*** use
+- pre-eclampsia prevention
+- leg cramps
+* pregnancy
+** ginger
+*** safety
+bleeding
+*** adverse effects
+- ↓ platelet aggregation
+- ↓ TxA2 production
+*** drug interactions
+- anticoagulants
+- antiplatelets
+*** use
+nausea in pregnancy
+*** effectiveness
+not first line
+** black cohosh
+** blue cohosh
+** evening primrose oil (EPO)
+*** use
+labor induction---cervical ripening
+** fenugreek
+*** use
+increasing milk production
+*** safety
+cross-allergy with soy, peanuts, chickpeas, green peas
+* menopause
+** phytoestrogens
+*** soy
+**** use
+menopause
+**** effectiveness
+ineffective
+**** [#A] safety
+contraindicated in cancer or family history of cancer
+**** drug interactions
+antagonistic effects on...
+- tamoxifen
+- anastrazole
+**** effectiveness
+soy is effective
+*** calcium and vitamin D
+**** use
+osteoporosis in post-menopausal females
+*** red clover
+**** safety
+drug interaction with anticoagulants/antiplatelets; contains coumarins
+*** alfalfa
+**** safety
+- lupus-like effect
+- decrease effect of warfarin because it contains vitamin K
+**** effectiveness
+ineffective
+**** use
+menopause
+*** flaxseed
+**** drug interactions
+synergistic effect with anticoagulants/antiplatelets
+**** use
+- menopause
+- total cholesterol; hyperlipidemia
+** non-phytoestrogens
+*** black cohosh
+**** safety
+hepatotoxicity
+**** effectiveness
+effective
+**** monitoring
+LFTs
+*** ginseng
+**** use
+**** safety
+possibly safe
+**** effectiveness
+ineffective for vasomotor symptoms in menopause
+* premenstrual syndrome (PMS)
+** vitamins and minerals :l:
+*** calcium
+**** dose
+1200 mg elemental Ca daily
+*** vitamin D
+**** effectiveness
+effective for prevention of PMS
+*** magnesium
+**** effectiveness
+ineffective
+**** adverse effects
+diarrhea
+*** pyridoxine
+*** vitamin E
+** herbals
