@@ -154,6 +154,10 @@ for 9 months...
 - ethambutol
 - pyrazinamide
 - aminoglycoside
+* [#A] drugs to supplement with pyridoxine
+- isoniazid
+- cycloserine
+- ethambutol
 * prodrugs
 - pyrazinamide
 * drugs with toxicity

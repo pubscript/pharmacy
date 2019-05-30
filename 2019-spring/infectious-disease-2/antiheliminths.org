@@ -1,29 +1,36 @@
 * drug classes
 ** microtubule inhibitors :l:
 *** albendazole
-**** mechanism of action
+**** [#A] mechanism of action
 inhibits microtubule synthesis by binding to β-tubulin
 *** mebendazole
-**** mechanism of action
+**** [#A] mechanism of action
 - inhibits microtubule synthesis
 - kills eggs of hookworm, ascaris, trichuris
 ** anticholinergics :l:
 *** diethylcarbamazine citrate
-**** mechanism of action
+**** [#A] mechanism of action
 - immobilizes microfilariae
 - anti-cholinergic effect at neuromuscular junctions
 *** metrifonate or trichlorfon
-**** mechanism of action
+**** [#A] mechanism of action
 - cholinesterase inhibitor
 - paralyzes the adult worms
 - dead worms cleared by the immune system
 ** misc
 *** ivermectin
-**** mechanism of action
-- intensifying GABA-mediated transmission in peripheral nerves
+**** [#A] mechanism of action
+intensifying GABA-mediated transmission in peripheral nerves
 *** niclosamide
 **** mechanism of action
 inhibits oxidative phosphorylation
+*** piperazine
+**** mechanism of action
+- blocks acetylcholine
+- GABA agonism
+*** praziquantel
+**** [#A] mechanism of action 
+increases cell membrane permeability to calcium
 * example cases
 ** therapeutics
 TG is a 45 year old man traveling to Kenya in 6 mo. According to the CDC yellow book the relative risk for malaria is moderate an dchloroquine-resitant P. falcpairum is prevalnet. His current medications include lisinopril, duloxietine, and zolpidem as needed for insomnia. A recommended malaria chemoprophylaxis reigmen is:
