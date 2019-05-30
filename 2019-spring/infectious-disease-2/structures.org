@@ -1,0 +1,23 @@
+* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Quinine-2D-skeletal.png/220px-Quinine-2D-skeletal.png"/>
+quinine
+* <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjjgaesm8PiAhXowosKHSrOBJAQjRx6BAgBEAU&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FChloroquine&psig=AOvVaw1wEvgzw6mRZ8II-1s-PQoU&ust=1559304306888737"/>
+chloroquine
+* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Artemisinin.svg/1200px-Artemisinin.svg.png"/>
+artemisinin
+* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Primaquine.svg/1200px-Primaquine.svg.png"/>
+primaquine
+* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Atovaquone_Structural_Formula_V.1.svg/1200px-Atovaquone_Structural_Formula_V.1.svg.png"/>
+atovaquone
+* <img src="https://www.zellbio.eu/wp-content/uploads/2018/06/2375.jpg"/>
+sulfadoxine
+* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Pyrimethamine2DACS.svg/1200px-Pyrimethamine2DACS.svg.png"/>
+pyrimethamine
+* <img src="https://www.researchgate.net/profile/Peter_Dios/publication/299388511/figure/fig6/AS:613913007775745@1523379675079/Chemical-structure-of-metronidazole-1-Hydroxyethyl-2-methyl-5-nitroimidazole-CAS.png"/>
+metronidazole
+* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/%28RS%29-Oxamniquin_Structural_Formula_V1.svg/1200px-%28RS%29-Oxamniquin_Structural_Formula_V1.svg.png"/>
+oxaminquin
+* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Valaciclovir_structure.svg/1200px-Valaciclovir_structure.svg.png"/>
+valacyclovir
+* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Isoniazid_skeletal.svg/1200px-Isoniazid_skeletal.svg.png"/>
+isoniazid
+
